@@ -218,7 +218,10 @@
             background: #fff; color: #1e293b; border: 1px solid #cbd5e1; border-radius: 6px; cursor: pointer;
         }
         .tools button:hover { background: #f8fafc; border-color: #94a3b8; }
-        .tools .hint { color: #64748b; font-size: 0.85rem; margin-right: auto; padding-left: 0.3rem; }
+        .tools { flex-wrap: nowrap; }
+        .tools .button { font-size: 0.85rem; padding: 0.3rem 0.7rem; margin: 0; white-space: nowrap; }
+        .tools button { font-size: 0.85rem; min-width: 1.9rem; padding: 0.25rem 0.55rem; }
+        .tools .hint { color: #64748b; font-size: 0.8rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; margin-right: auto; padding-left: 0.3rem; }
         .stage {
             overflow: hidden; border: 1px solid #e2e8f0; border-radius: 6px; background: #fff;
             cursor: grab; touch-action: none; position: relative;
