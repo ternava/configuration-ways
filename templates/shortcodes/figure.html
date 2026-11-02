@@ -3,41 +3,50 @@
     <button type="button" data-zoom="in" title="Zoom in">+</button>
     <button type="button" data-zoom="out" title="Zoom out">&minus;</button>
     <button type="button" data-zoom="reset" title="Fit">Fit</button>
-    <span class="hint">Scroll to zoom, drag to move</span>
+    <span class="hint">Scroll to zoom, drag to move, hover a mark for details</span>
     <a class="button" href="{{ get_url(path='history.svg') }}" download="configuration-ways-history.svg">Download SVG</a>
     <a class="button secondary" href="{{ get_url(path='history.svg') }}" target="_blank" rel="noopener">Open full size</a>
   </div>
-  <div class="stage" id="stage">
-    <img id="fig" src="{{ get_url(path='history.svg') }}" alt="Timeline of 220 ways of configuring software, by year and binding time" draggable="false">
+  <div class="stage" id="stage" role="img" aria-label="Timeline of ways to configure software, by year and binding time">
+    <div id="fig"></div>
   </div>
 </div>
 <script>
 (function () {
-  var stage = document.getElementById('stage'), img = document.getElementById('fig');
-  var s = 1, x = 0, y = 0, fit = 1, drag = null;
-  function apply() { img.style.transform = 'translate(' + x + 'px,' + y + 'px) scale(' + s + ')'; }
+  var stage = document.getElementById('stage'), fig = document.getElementById('fig');
+  var W = 1, H = 1, s = 1, x = 0, y = 0, fit = 1, drag = null, moved = false;
+  function apply() { fig.style.transform = 'translate(' + x + 'px,' + y + 'px) scale(' + s + ')'; }
   function reset() {
-    fit = stage.clientWidth / img.naturalWidth; s = fit; x = 0; y = 0;
-    stage.style.height = Math.min(img.naturalHeight * fit, window.innerHeight * 0.8) + 'px'; apply();
+    fit = stage.clientWidth / W; s = fit; x = 0; y = 0;
+    stage.style.height = Math.min(H * fit, window.innerHeight * 0.8) + 'px'; apply();
   }
   function zoom(f, cx, cy) {
     var n = Math.min(Math.max(s * f, fit), 6);
     x = cx - (cx - x) * n / s; y = cy - (cy - y) * n / s; s = n; apply();
   }
+  fetch('{{ get_url(path="history.svg") }}').then(function (r) { return r.text(); }).then(function (t) {
+    fig.innerHTML = t;
+    var svg = fig.querySelector('svg');
+    W = parseFloat(svg.getAttribute('width')); H = parseFloat(svg.getAttribute('height'));
+    fig.style.width = W + 'px'; fig.style.height = H + 'px';
+    reset();
+  });
   stage.addEventListener('wheel', function (e) {
     e.preventDefault(); var r = stage.getBoundingClientRect();
     zoom(e.deltaY < 0 ? 1.2 : 1 / 1.2, e.clientX - r.left, e.clientY - r.top);
   }, { passive: false });
-  stage.addEventListener('pointerdown', function (e) { drag = [e.clientX - x, e.clientY - y]; stage.setPointerCapture(e.pointerId); });
-  stage.addEventListener('pointermove', function (e) { if (drag) { x = e.clientX - drag[0]; y = e.clientY - drag[1]; apply(); } });
-  stage.addEventListener('pointerup', function () { drag = null; });
+  stage.addEventListener('pointerdown', function (e) { drag = [e.clientX - x, e.clientY - y]; moved = false; });
+  window.addEventListener('pointermove', function (e) {
+    if (!drag) return;
+    moved = true; x = e.clientX - drag[0]; y = e.clientY - drag[1]; apply();
+  });
+  window.addEventListener('pointerup', function () { drag = null; });
   document.querySelectorAll('[data-zoom]').forEach(function (b) {
     b.addEventListener('click', function () {
       var k = b.dataset.zoom, w = stage.clientWidth / 2, h = stage.clientHeight / 2;
       if (k === 'reset') reset(); else zoom(k === 'in' ? 1.4 : 1 / 1.4, w, h);
     });
   });
-  if (img.complete) reset(); else img.addEventListener('load', reset);
   window.addEventListener('resize', reset);
 })();
 </script>

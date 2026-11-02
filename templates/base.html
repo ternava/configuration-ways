@@ -224,7 +224,8 @@
             cursor: grab; touch-action: none; position: relative;
         }
         .stage:active { cursor: grabbing; }
-        .stage img { transform-origin: 0 0; display: block; max-width: none; user-select: none; }
+        #fig { transform-origin: 0 0; user-select: none; }
+        #fig svg { display: block; }
 
         @media (max-width: 600px) {
             body {

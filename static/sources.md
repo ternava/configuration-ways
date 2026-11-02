@@ -9,10 +9,12 @@ The figure was generated with Claude Opus 5.5 from the model's own knowledge, wi
 | JCL DD statements | 1964 | <https://en.wikipedia.org/wiki/Job_Control_Language> |
 | OS/360 SYSGEN | 1966 | <https://en.wikipedia.org/wiki/OS/360_and_successors> |
 | PL/I preprocessor | 1966 | <https://en.wikipedia.org/wiki/PL/I_preprocessor> |
+| Inheritance and subclassing | 1967 | <https://en.wikipedia.org/wiki/Simula> |
 | CLI options | 1971 | <https://en.wikipedia.org/wiki/Command-line_interface> |
 | C preprocessor | 1973 | <https://en.wikipedia.org/wiki/C_preprocessor> |
 | make variables | 1976 | <https://en.wikipedia.org/wiki/Make_(software)> |
 | m4 | 1977 | <https://en.wikipedia.org/wiki/M4_(computer_language)> |
+| crontab | 1979 | <https://en.wikipedia.org/wiki/Cron> |
 | Environment variables | 1979 | <https://en.wikipedia.org/wiki/Environment_variable> |
 | Shell rc files | 1979 | <https://en.wikipedia.org/wiki/Bourne_shell> |
 | vi .exrc | 1979 | <https://en.wikipedia.org/wiki/Vi_(text_editor)> |
@@ -26,6 +28,7 @@ The figure was generated with Claude Opus 5.5 from the model's own knowledge, wi
 | INI files | 1985 | <https://en.wikipedia.org/wiki/INI_file> |
 | inetd.conf | 1986 | <https://en.wikipedia.org/wiki/Inetd> |
 | Frame technology | 1987 | <https://en.wikipedia.org/wiki/Frame_technology_(software_engineering)> |
+| VHDL generics | 1987 | <https://en.wikipedia.org/wiki/VHDL> |
 | X resources | 1987 | <https://en.wikipedia.org/wiki/X_resources> |
 | Dynamic plugins (dlopen) | 1988 | <https://en.wikipedia.org/wiki/Dynamic_loading> |
 | POSIX locale variables | 1988 | <https://en.wikipedia.org/wiki/Locale_(computer_software)> |
@@ -34,22 +37,34 @@ The figure was generated with Claude Opus 5.5 from the model's own knowledge, wi
 | Property lists | 1989 | <https://en.wikipedia.org/wiki/Property_list> |
 | Feature models (FODA) | 1990 | <https://insights.sei.cmu.edu/library/feature-oriented-domain-analysis-foda-feasibility-study/> |
 | Fortran NAMELIST | 1990 | <https://en.wikipedia.org/wiki/Fortran> |
+| Haskell type classes | 1990 | <https://en.wikipedia.org/wiki/Type_class> |
 | Autoconf | 1991 | <https://en.wikipedia.org/wiki/Autoconf> |
+| C++ templates | 1991 | <https://en.wikipedia.org/wiki/Template_(C%2B%2B)> |
 | Kernel command line | 1992 | <https://docs.kernel.org/admin-guide/kernel-parameters.html> |
 | Linux make config (CML1) | 1992 | <https://en.wikipedia.org/wiki/Kconfig> |
 | Windows Registry | 1992 | <https://en.wikipedia.org/wiki/Windows_Registry> |
 | CFEngine | 1993 | <https://en.wikipedia.org/wiki/CFEngine> |
 | Lua as config language | 1993 | <https://www.lua.org/history.html> |
 | sysctl | 1993 | <https://en.wikipedia.org/wiki/Sysctl> |
+| Abstract Factory pattern | 1994 | <https://en.wikipedia.org/wiki/Abstract_factory_pattern> |
 | Automake | 1994 | <https://en.wikipedia.org/wiki/Automake> |
+| Bridge pattern | 1994 | <https://en.wikipedia.org/wiki/Bridge_pattern> |
+| Decorator pattern | 1994 | <https://en.wikipedia.org/wiki/Decorator_pattern> |
 | Device tree | 1994 | <https://en.wikipedia.org/wiki/Devicetree> |
 | robots.txt | 1994 | <https://en.wikipedia.org/wiki/Robots.txt> |
+| Strategy pattern | 1994 | <https://en.wikipedia.org/wiki/Strategy_pattern> |
+| Template Method pattern | 1994 | <https://en.wikipedia.org/wiki/Template_method_pattern> |
 | Apache httpd.conf | 1995 | <https://httpd.apache.org/docs/current/configuring.html> |
+| gettext message catalogs | 1995 | <https://en.wikipedia.org/wiki/Gettext> |
+| PAM configuration | 1995 | <https://en.wikipedia.org/wiki/Pluggable_authentication_module> |
+| Ruby open classes | 1995 | <https://en.wikipedia.org/wiki/Monkey_patch> |
+| Verilog parameters and `ifdef | 1995 | <https://en.wikipedia.org/wiki/Verilog> |
 | Database server config | 1996 | <https://www.postgresql.org/docs/current/config-setting.html> |
 | HTTP content negotiation | 1996 | <https://www.rfc-editor.org/rfc/rfc1945> |
 | Java .properties | 1996 | <https://en.wikipedia.org/wiki/.properties> |
 | Java system properties | 1996 | <https://docs.oracle.com/javase/tutorial/essential/environment/sysprop.html> |
 | Quake console variables | 1996 | <https://en.wikipedia.org/wiki/Quake_engine> |
+| Java ResourceBundle | 1997 | <https://docs.oracle.com/javase/8/docs/api/java/util/ResourceBundle.html> |
 | php.ini | 1998 | <https://www.php.net/manual/en/configuration.file.php> |
 | XML as config format | 1998 | <https://www.w3.org/TR/1998/REC-xml-19980210> |
 | eCos CDL | 1999 | <https://en.wikipedia.org/wiki/ECos> |
@@ -62,8 +77,10 @@ The figure was generated with Claude Opus 5.5 from the model's own knowledge, wi
 | Group Policy | 2000 | <https://en.wikipedia.org/wiki/Group_Policy> |
 | JMX MBeans | 2000 | <https://en.wikipedia.org/wiki/Java_Management_Extensions> |
 | OSGi bundles | 2000 | <https://en.wikipedia.org/wiki/OSGi> |
+| SELinux policy | 2000 | <https://en.wikipedia.org/wiki/Security-Enhanced_Linux> |
 | AspectJ | 2001 | <https://en.wikipedia.org/wiki/AspectJ> |
 | Eclipse extension points | 2001 | <https://en.wikipedia.org/wiki/Eclipse_(software)> |
+| log4j configuration | 2001 | <https://en.wikipedia.org/wiki/Log4j> |
 | SCons | 2001 | <https://en.wikipedia.org/wiki/SCons> |
 | XML Schema (XSD) | 2001 | <https://en.wikipedia.org/wiki/XML_Schema_(W3C)> |
 | YAML | 2001 | <https://en.wikipedia.org/wiki/YAML> |
@@ -76,17 +93,22 @@ The figure was generated with Claude Opus 5.5 from the model's own knowledge, wi
 | Mozilla preferences (about:config) | 2002 | <https://support.mozilla.org/en-US/kb/about-config-editor-firefox> |
 | AHEAD feature modules | 2003 | <https://en.wikipedia.org/wiki/Feature-oriented_programming> |
 | Nix expressions | 2003 | <https://en.wikipedia.org/wiki/Nix_(package_manager)> |
+| udev rules | 2003 | <https://en.wikipedia.org/wiki/Udev> |
 | XDG Base Directory | 2003 | <https://specifications.freedesktop.org/basedir-spec/latest/> |
 | BitBake / OpenEmbedded | 2004 | <https://en.wikipedia.org/wiki/BitBake> |
+| Java generics | 2004 | <https://en.wikipedia.org/wiki/Generics_in_Java> |
 | nginx.conf | 2004 | <https://nginx.org/en/docs/beginners_guide.html> |
 | Rails environments | 2004 | <https://guides.rubyonrails.org/configuring.html> |
+| Scala traits and mixins | 2004 | <https://en.wikipedia.org/wiki/Trait_(computer_programming)> |
 | Spring DI container | 2004 | <https://en.wikipedia.org/wiki/Spring_Framework> |
 | AUTOSAR ECU configuration | 2005 | <https://en.wikipedia.org/wiki/AUTOSAR> |
 | Django settings module | 2005 | <https://docs.djangoproject.com/en/stable/topics/settings/> |
+| FeatureC++ | 2005 | <https://doi.org/10.1007/11561347_10> |
 | FeatureIDE | 2005 | <https://featureide.github.io/> |
 | git config | 2005 | <https://git-scm.com/docs/git-config> |
 | launchd plists | 2005 | <https://en.wikipedia.org/wiki/Launchd> |
 | Maven profiles | 2005 | <https://maven.apache.org/guides/introduction/introduction-to-profiles.html> |
+| Maven settings.xml | 2005 | <https://maven.apache.org/settings.html> |
 | MSBuild conditions | 2005 | <https://learn.microsoft.com/en-us/visualstudio/msbuild/msbuild-conditions> |
 | Orthogonal variability model | 2005 | <https://link.springer.com/book/10.1007/3-540-28901-1> |
 | Puppet manifests | 2005 | <https://en.wikipedia.org/wiki/Puppet_(software)> |
@@ -100,9 +122,11 @@ The figure was generated with Claude Opus 5.5 from the model's own knowledge, wi
 | Upstart jobs | 2006 | <https://en.wikipedia.org/wiki/Upstart_(software)> |
 | Guice modules | 2007 | <https://en.wikipedia.org/wiki/Google_Guice> |
 | Android resource qualifiers | 2008 | <https://developer.android.com/guide/topics/resources/providing-resources> |
+| Android system properties | 2008 | <https://source.android.com/docs/core/architecture/configuration/sysprops-apis> |
 | App Engine app.yaml | 2008 | <https://cloud.google.com/appengine/docs/standard/reference/app-yaml> |
 | App manifests (Android / iOS) | 2008 | <https://developer.android.com/guide/topics/manifest/manifest-intro> |
 | CIDE colored annotations | 2008 | <https://doi.org/10.1145/1368088.1368131> |
+| Jinja2 templates | 2008 | <https://jinja.palletsprojects.com/> |
 | ZooKeeper | 2008 | <https://en.wikipedia.org/wiki/Apache_ZooKeeper> |
 | Chef | 2009 | <https://en.wikipedia.org/wiki/Progress_Chef> |
 | cloud-init | 2009 | <https://cloudinit.readthedocs.io/en/latest/> |
@@ -152,20 +176,24 @@ The figure was generated with Claude Opus 5.5 from the model's own knowledge, wi
 | Docker Compose | 2014 | <https://docs.docker.com/compose/> |
 | Feature flag services | 2014 | <https://launchdarkly.com/> |
 | Jsonnet | 2014 | <https://jsonnet.org/> |
+| nftables rules | 2014 | <https://en.wikipedia.org/wiki/Nftables> |
 | pre-commit config | 2014 | <https://pre-commit.com/> |
 | Spring Boot auto-configuration | 2014 | <https://docs.spring.io/spring-boot/reference/using/auto-configuration.html> |
 | Spring Cloud Config | 2014 | <https://spring.io/projects/spring-cloud-config> |
 | Swift conditional compilation | 2014 | <https://docs.swift.org/swift-book/documentation/the-swift-programming-language/statements/> |
 | Terraform (HCL) | 2014 | <https://en.wikipedia.org/wiki/Terraform_(software)> |
+| .bazelrc | 2015 | <https://bazel.build/run/bazelrc> |
 | Babel config | 2015 | <https://babeljs.io/docs/configuration> |
 | Bazel select() | 2015 | <https://bazel.build/docs/configurable-attributes> |
 | browserslist | 2015 | <https://github.com/browserslist/browserslist> |
 | Cargo features | 2015 | <https://doc.rust-lang.org/cargo/reference/features.html> |
+| CSS custom properties | 2015 | <https://www.w3.org/TR/css-variables-1/> |
 | GitLab CI pipelines | 2015 | <https://docs.gitlab.com/ci/yaml/> |
 | HashiCorp Vault | 2015 | <https://developer.hashicorp.com/vault/docs> |
 | Helm values | 2015 | <https://en.wikipedia.org/wiki/Helm_(package_manager)> |
 | Kubernetes Secrets | 2015 | <https://kubernetes.io/docs/concepts/configuration/secret/> |
 | Rust cfg attributes | 2015 | <https://doc.rust-lang.org/reference/conditional-compilation.html> |
+| Rust traits and generics | 2015 | <https://doc.rust-lang.org/book/ch10-00-generics.html> |
 | Serverless Framework | 2015 | <https://en.wikipedia.org/wiki/Serverless_Framework> |
 | SOPS | 2015 | <https://github.com/getsops/sops> |
 | Spack variants | 2015 | <https://spack.readthedocs.io/en/latest/> |
@@ -180,6 +208,7 @@ The figure was generated with Claude Opus 5.5 from the model's own knowledge, wi
 | Open Policy Agent (Rego) | 2016 | <https://www.openpolicyagent.org/docs/> |
 | pyproject.toml | 2016 | <https://peps.python.org/pep-0518/> |
 | AWS SSM Parameter Store | 2017 | <https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-parameter-store.html> |
+| C++ if constexpr | 2017 | <https://en.cppreference.com/w/cpp/language/if> |
 | Dhall | 2017 | <https://dhall-lang.org/> |
 | Docker multi-stage targets | 2017 | <https://docs.docker.com/build/building/multi-stage/> |
 | Envoy xDS | 2017 | <https://www.envoyproxy.io/docs/envoy/latest/api-docs/xds_protocol> |
@@ -199,11 +228,14 @@ The figure was generated with Claude Opus 5.5 from the model's own knowledge, wi
 | Hydra | 2019 | <https://hydra.cc/> |
 | Node conditional exports | 2019 | <https://nodejs.org/api/packages.html#conditional-exports> |
 | Bicep | 2020 | <https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview> |
+| LLM sampling parameters | 2020 | <https://github.com/openai/openai-python> |
 | Vite config | 2020 | <https://vite.dev/config/> |
 | Nix flakes | 2021 | <https://nix.dev/concepts/flakes> |
 | UVL | 2021 | <https://universal-variability-language.github.io/> |
 | KCL | 2022 | <https://www.kcl-lang.io/> |
 | OpenFeature | 2022 | <https://openfeature.dev/> |
+| Prompt templates | 2022 | <https://python.langchain.com/docs/concepts/prompt_templates/> |
+| LLM system prompts | 2023 | <https://platform.openai.com/docs/guides/text> |
 | Nickel | 2023 | <https://nickel-lang.org/> |
 | .clinerules | 2024 | <https://docs.cline.bot/> |
 | .cursorrules | 2024 | <https://docs.cursor.com/context/rules> |
@@ -218,12 +250,26 @@ The figure was generated with Claude Opus 5.5 from the model's own knowledge, wi
 | CLAUDE.md | 2025 | <https://docs.anthropic.com/en/docs/claude-code/memory> |
 | Custom agents and prompt files | 2025 | <https://code.visualstudio.com/docs/copilot/customization/prompt-files> |
 | GEMINI.md | 2025 | <https://github.com/google-gemini/gemini-cli> |
+| Apple configuration profiles | — | <https://support.apple.com/guide/deployment/intro-to-device-management-profiles-depc0aadd3fe/web> |
+| Browser enterprise policies | — | <https://chromeenterprise.google/policies/> |
 | Clone-and-own variants | — | <https://doi.org/10.1109/CSMR.2013.13> |
+| Gears | — | <https://biglever.com/> |
+| GN build arguments | — | <https://gn.googlesource.com/gn/+/main/docs/reference.md> |
+| GRUB configuration | — | <https://en.wikipedia.org/wiki/GNU_GRUB> |
+| Java static final flags | — | <https://docs.oracle.com/javase/specs/jls/se8/html/jls-13.html> |
+| Linux kernel module parameters | — | <https://docs.kernel.org/admin-guide/kernel-parameters.html> |
 | Network device running/startup config | — | <https://en.wikipedia.org/wiki/Cisco_IOS> |
+| papermill notebook parameters | — | <https://papermill.readthedocs.io/> |
 | Preferences dialogs | — | <https://en.wikipedia.org/wiki/Dialog_box> |
+| Program parameters (variables and constants) | — | <https://en.wikipedia.org/wiki/Parameter_(computer_programming)> |
+| pure::variants | — | <https://www.pure-systems.com/> |
+| Python optimize flag (-O, __debug__) | — | <https://en.wikipedia.org/wiki/Python_(programming_language)> |
 | Reload on SIGHUP | — | <https://en.wikipedia.org/wiki/SIGHUP> |
 | Request parameters and cookies | — | <https://en.wikipedia.org/wiki/Query_string> |
 | Settings stored in an app database | — | <https://en.wikipedia.org/wiki/WordPress> |
+| Snakemake config | — | <https://snakemake.readthedocs.io/en/stable/snakefiles/configuration.html> |
+| syslog.conf | — | <https://en.wikipedia.org/wiki/Syslog> |
+| U-Boot environment | — | <https://en.wikipedia.org/wiki/Das_U-Boot> |
 
 ## Events
 
