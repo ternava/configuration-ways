@@ -1,0 +1,4460 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2490" height="2246" font-family="Helvetica, Arial, sans-serif" font-size="11">
+<defs><marker id="arr" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#333"/></marker><marker id="arr2" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#999"/></marker></defs>
+<rect width="2490" height="2246" fill="white"/>
+<text x="110" y="30" font-size="18" font-weight="bold">A timeline of ways to configure software</text>
+<text x="110" y="50" fill="#555">220 ways by year of appearance and binding time. Hover a mark for all its fields.</text>
+<rect x="110" y="66" width="11" height="11" fill="#4e79a7"/><text x="125" y="76">systems</text>
+<rect x="175.4" y="66" width="11" height="11" fill="#a0cbe8"/><text x="190.4" y="76">desktop &amp; user</text>
+<rect x="284.2" y="66" width="11" height="11" fill="#f28e2b"/><text x="299.2" y="76">build &amp; packaging</text>
+<rect x="411.6" y="66" width="11" height="11" fill="#59a14f"/><text x="426.6" y="76">app runtime</text>
+<rect x="501.8" y="66" width="11" height="11" fill="#8cd17d"/><text x="516.8" y="76">formats &amp; languages</text>
+<rect x="641.6" y="66" width="11" height="11" fill="#b6992d"/><text x="656.6" y="76">servers &amp; ops</text>
+<rect x="744.2" y="66" width="11" height="11" fill="#499894"/><text x="759.2" y="76">cloud &amp; containers</text>
+<rect x="877.8000000000001" y="66" width="11" height="11" fill="#86bcb6"/><text x="892.8000000000001" y="76">network &amp; web</text>
+<rect x="980.4000000000001" y="66" width="11" height="11" fill="#e15759"/><text x="995.4000000000001" y="76">flags &amp; experiments</text>
+<rect x="1120.2" y="66" width="11" height="11" fill="#79706e"/><text x="1135.2" y="76">dev tools</text>
+<rect x="1198.0" y="66" width="11" height="11" fill="#7b3294"/><text x="1213.0" y="76">agents</text>
+<rect x="1257.2" y="66" width="11" height="11" fill="#f1ce63"/><text x="1272.2" y="76">product lines</text>
+<circle cx="115" cy="96" r="4.5" fill="#888" stroke="#555" stroke-width="1.4"><title>open-source</title></circle><text x="125" y="100">open-source</text>
+<rect x="208.7" y="91.5" width="9.0" height="9.0" fill="#888" stroke="#555" stroke-width="1.4"><title>vendor</title></rect><text x="223.2" y="100">vendor</text>
+<polygon points="280.4,90.5 285.9,100.5 274.9,100.5" fill="#888" stroke="#555" stroke-width="1.4"><title>research</title></polygon><text x="290.4" y="100">research</text>
+<polygon points="360.0,90.0 366.0,96 360.0,102.0 354.0,96" fill="#888" stroke="#555" stroke-width="1.4"><title>standard</title></polygon><text x="370.0" y="100">standard</text>
+<polygon points="434.1,91.5 445.1,91.5 439.6,101.5" fill="#888" stroke="#555" stroke-width="1.4"><title>community</title></polygon><text x="449.6" y="100">community</text>
+<line x1="540.4000000000001" y1="96" x2="570.4000000000001" y2="96" stroke="#333" stroke-width="1.3" marker-end="url(#arr)"/><text x="578.4000000000001" y="100">replaces</text>
+<line x1="656.0000000000001" y1="96" x2="686.0000000000001" y2="96" stroke="#999" stroke-width="1.2" stroke-dasharray="3 2" marker-end="url(#arr2)"/><text x="694.0000000000001" y="100">inspired by</text>
+<line x1="790.2" y1="96" x2="820.2" y2="96" stroke="#e15759" stroke-width="5" opacity="0.35"/><text x="820.2" y="100" text-anchor="middle" font-weight="bold" fill="#555">x</text><text x="832.2" y="100">lifetime until it ended</text>
+<circle cx="1007.8000000000001" cy="96" r="4.5" fill="white" stroke="#4e79a7" stroke-width="1.4"/><text x="1017.8000000000001" y="100">legacy or dead</text>
+<line x1="1137.6000000000001" y1="86" x2="1137.6000000000001" y2="106" stroke="#aaa" stroke-dasharray="2 2"/><text x="1147.6000000000001" y="100">same way, several binding times</text>
+<text x="1367.8000000000002" y="100" font-style="italic">italic label: effect not deterministic</text>
+<text x="1631.4" y="100" fill="#888">(compile)</text><text x="1687.4" y="100">build or load sub-phase</text>
+<rect x="0" y="150" width="2490" height="54" fill="#f4f5f8"/>
+<text x="12" y="170" font-weight="bold">design</text>
+<text x="12" y="224" font-weight="bold">authoring</text>
+<rect x="0" y="411" width="2490" height="445" fill="#f4f5f8"/>
+<text x="12" y="431" font-weight="bold">build</text>
+<text x="12" y="876" font-weight="bold">install</text>
+<rect x="0" y="944" width="2490" height="207" fill="#f4f5f8"/>
+<text x="12" y="964" font-weight="bold">deploy</text>
+<text x="12" y="1171" font-weight="bold">boot</text>
+<rect x="0" y="1256" width="2490" height="105" fill="#f4f5f8"/>
+<text x="12" y="1276" font-weight="bold">session</text>
+<text x="12" y="1381" font-weight="bold">startup</text>
+<rect x="0" y="1636" width="2490" height="156" fill="#f4f5f8"/>
+<text x="12" y="1656" font-weight="bold">runtime</text>
+<text x="12" y="1812" font-weight="bold">request</text>
+<line x1="170" y1="150" x2="170" y2="1880" stroke="#d0d4dc"/><text x="170" y="1896" text-anchor="middle">1960</text>
+<line x1="470" y1="150" x2="470" y2="1880" stroke="#d0d4dc"/><text x="470" y="1896" text-anchor="middle">1970</text>
+<line x1="770" y1="150" x2="770" y2="1880" stroke="#d0d4dc"/><text x="770" y="1896" text-anchor="middle">1980</text>
+<line x1="1070" y1="150" x2="1070" y2="1880" stroke="#d0d4dc"/><text x="1070" y="1896" text-anchor="middle">1990</text>
+<line x1="1370" y1="150" x2="1370" y2="1880" stroke="#d0d4dc"/><text x="1370" y="1896" text-anchor="middle">2000</text>
+<line x1="1670" y1="150" x2="1670" y2="1880" stroke="#d0d4dc"/><text x="1670" y="1896" text-anchor="middle">2010</text>
+<line x1="1970" y1="150" x2="1970" y2="1880" stroke="#d0d4dc"/><text x="1970" y="1896" text-anchor="middle">2020</text>
+<line x1="290" y1="142" x2="290" y2="1880" stroke="#c44" stroke-width="1" stroke-dasharray="1 4" opacity="0.7"/><text x="290" y="138" text-anchor="middle" fill="#b33" font-size="10.5">IBM System/360 (1964)</text>
+<line x1="500" y1="142" x2="500" y2="1880" stroke="#c44" stroke-width="1" stroke-dasharray="1 4" opacity="0.7"/><text x="500" y="138" text-anchor="middle" fill="#b33" font-size="10.5">Unix (1971)</text>
+<line x1="800" y1="142" x2="800" y2="1880" stroke="#c44" stroke-width="1" stroke-dasharray="1 4" opacity="0.7"/><text x="800" y="138" text-anchor="middle" fill="#b33" font-size="10.5">IBM PC (1981)</text>
+<line x1="1100" y1="142" x2="1100" y2="1880" stroke="#c44" stroke-width="1" stroke-dasharray="1 4" opacity="0.7"/><text x="1100" y="138" text-anchor="middle" fill="#b33" font-size="10.5">Web and Linux (1991)</text>
+<line x1="1490" y1="142" x2="1490" y2="1880" stroke="#c44" stroke-width="1" stroke-dasharray="1 4" opacity="0.7"/><text x="1490" y="138" text-anchor="middle" fill="#b33" font-size="10.5">Rails: convention over configuration (2004)</text>
+<line x1="1550" y1="128" x2="1550" y2="1880" stroke="#c44" stroke-width="1" stroke-dasharray="1 4" opacity="0.7"/><text x="1550" y="124" text-anchor="middle" fill="#b33" font-size="10.5">AWS EC2 (2006)</text>
+<line x1="1700" y1="142" x2="1700" y2="1880" stroke="#c44" stroke-width="1" stroke-dasharray="1 4" opacity="0.7"/><text x="1700" y="138" text-anchor="middle" fill="#b33" font-size="10.5">Twelve-Factor App (2011)</text>
+<line x1="1760" y1="128" x2="1760" y2="1880" stroke="#c44" stroke-width="1" stroke-dasharray="1 4" opacity="0.7"/><text x="1760" y="124" text-anchor="middle" fill="#b33" font-size="10.5">Docker (2013)</text>
+<line x1="1790" y1="114" x2="1790" y2="1880" stroke="#c44" stroke-width="1" stroke-dasharray="1 4" opacity="0.7"/><text x="1790" y="110" text-anchor="middle" fill="#b33" font-size="10.5">Kubernetes (2014)</text>
+<line x1="1880" y1="142" x2="1880" y2="1880" stroke="#c44" stroke-width="1" stroke-dasharray="1 4" opacity="0.7"/><text x="1880" y="138" text-anchor="middle" fill="#b33" font-size="10.5">GitOps (2017)</text>
+<line x1="2030" y1="142" x2="2030" y2="1880" stroke="#c44" stroke-width="1" stroke-dasharray="1 4" opacity="0.7"/><text x="2030" y="138" text-anchor="middle" fill="#b33" font-size="10.5">ChatGPT (2022)</text>
+<line x1="1010" y1="1411" x2="1010" y2="1669" stroke="#aaa" stroke-width="1" stroke-dasharray="2 2"/>
+<line x1="1130" y1="1445" x2="1130" y2="1669" stroke="#aaa" stroke-width="1" stroke-dasharray="2 2"/>
+<line x1="1250" y1="1428" x2="1250" y2="1652" stroke="#aaa" stroke-width="1" stroke-dasharray="2 2"/>
+<line x1="1250" y1="1496" x2="1250" y2="1669" stroke="#aaa" stroke-width="1" stroke-dasharray="2 2"/>
+<line x1="1310" y1="1513" x2="1310" y2="1652" stroke="#aaa" stroke-width="1" stroke-dasharray="2 2"/>
+<line x1="1370" y1="1272" x2="1370" y2="1669" stroke="#aaa" stroke-width="1" stroke-dasharray="2 2"/>
+<line x1="1370" y1="1377" x2="1370" y2="1686" stroke="#aaa" stroke-width="1" stroke-dasharray="2 2"/>
+<line x1="1400" y1="977" x2="1400" y2="1462" stroke="#aaa" stroke-width="1" stroke-dasharray="2 2"/>
+<line x1="1430" y1="1479" x2="1430" y2="1703" stroke="#aaa" stroke-width="1" stroke-dasharray="2 2"/>
+<line x1="1460" y1="529" x2="1460" y2="872" stroke="#aaa" stroke-width="1" stroke-dasharray="2 2"/>
+<line x1="1550" y1="478" x2="1550" y2="1615" stroke="#aaa" stroke-width="1" stroke-dasharray="2 2"/>
+<line x1="1640" y1="994" x2="1640" y2="1411" stroke="#aaa" stroke-width="1" stroke-dasharray="2 2"/>
+<line x1="1670" y1="580" x2="1670" y2="906" stroke="#aaa" stroke-width="1" stroke-dasharray="2 2"/>
+<line x1="1700" y1="1062" x2="1700" y2="1445" stroke="#aaa" stroke-width="1" stroke-dasharray="2 2"/>
+<line x1="1730" y1="461" x2="1730" y2="923" stroke="#aaa" stroke-width="1" stroke-dasharray="2 2"/>
+<line x1="1760" y1="597" x2="1760" y2="1462" stroke="#aaa" stroke-width="1" stroke-dasharray="2 2"/>
+<line x1="1760" y1="271" x2="1760" y2="682" stroke="#aaa" stroke-width="1" stroke-dasharray="2 2"/>
+<line x1="1760" y1="665" x2="1760" y2="1496" stroke="#aaa" stroke-width="1" stroke-dasharray="2 2"/>
+<line x1="1790" y1="1652" x2="1790" y2="1859" stroke="#aaa" stroke-width="1" stroke-dasharray="2 2"/>
+<line x1="1790" y1="1411" x2="1790" y2="1703" stroke="#aaa" stroke-width="1" stroke-dasharray="2 2"/>
+<line x1="1820" y1="1096" x2="1820" y2="1737" stroke="#aaa" stroke-width="1" stroke-dasharray="2 2"/>
+<line x1="1820" y1="767" x2="1820" y2="889" stroke="#aaa" stroke-width="1" stroke-dasharray="2 2"/>
+<line x1="1820" y1="1720" x2="1820" y2="1808" stroke="#aaa" stroke-width="1" stroke-dasharray="2 2"/>
+<line x1="1850" y1="1669" x2="1850" y2="1808" stroke="#aaa" stroke-width="1" stroke-dasharray="2 2"/>
+<line x1="1850" y1="960" x2="1850" y2="1754" stroke="#aaa" stroke-width="1" stroke-dasharray="2 2"/>
+<line x1="1850" y1="1737" x2="1850" y2="1825" stroke="#aaa" stroke-width="1" stroke-dasharray="2 2"/>
+<line x1="1880" y1="1428" x2="1880" y2="1754" stroke="#aaa" stroke-width="1" stroke-dasharray="2 2"/>
+<line x1="1880" y1="1130" x2="1880" y2="1771" stroke="#aaa" stroke-width="1" stroke-dasharray="2 2"/>
+<line x1="1940" y1="461" x2="1940" y2="1496" stroke="#aaa" stroke-width="1" stroke-dasharray="2 2"/>
+<line x1="2000" y1="444" x2="2000" y2="872" stroke="#aaa" stroke-width="1" stroke-dasharray="2 2"/>
+<line x1="2030" y1="1686" x2="2030" y2="1808" stroke="#aaa" stroke-width="1" stroke-dasharray="2 2"/>
+<line x1="2090" y1="220" x2="2090" y2="1272" stroke="#aaa" stroke-width="1" stroke-dasharray="2 2"/>
+<line x1="2090" y1="237" x2="2090" y2="1289" stroke="#aaa" stroke-width="1" stroke-dasharray="2 2"/>
+<line x1="2090" y1="254" x2="2090" y2="1306" stroke="#aaa" stroke-width="1" stroke-dasharray="2 2"/>
+<line x1="2090" y1="271" x2="2090" y2="1323" stroke="#aaa" stroke-width="1" stroke-dasharray="2 2"/>
+<line x1="2090" y1="288" x2="2090" y2="1340" stroke="#aaa" stroke-width="1" stroke-dasharray="2 2"/>
+<line x1="2090" y1="977" x2="2090" y2="1377" stroke="#aaa" stroke-width="1" stroke-dasharray="2 2"/>
+<line x1="2120" y1="305" x2="2120" y2="1272" stroke="#aaa" stroke-width="1" stroke-dasharray="2 2"/>
+<line x1="2120" y1="322" x2="2120" y2="1825" stroke="#aaa" stroke-width="1" stroke-dasharray="2 2"/>
+<line x1="2120" y1="339" x2="2120" y2="1289" stroke="#aaa" stroke-width="1" stroke-dasharray="2 2"/>
+<line x1="2120" y1="356" x2="2120" y2="1306" stroke="#aaa" stroke-width="1" stroke-dasharray="2 2"/>
+<line x1="2120" y1="373" x2="2120" y2="1323" stroke="#aaa" stroke-width="1" stroke-dasharray="2 2"/>
+<line x1="2120" y1="390" x2="2120" y2="1340" stroke="#aaa" stroke-width="1" stroke-dasharray="2 2"/>
+<line x1="800" y1="1167" x2="1400" y2="1167" stroke="#4e79a7" stroke-width="5" opacity="0.35"/><text x="1400" y="1171" text-anchor="middle" font-weight="bold" fill="#555">x</text>
+<line x1="860" y1="1184" x2="1400" y2="1184" stroke="#4e79a7" stroke-width="5" opacity="0.35"/><text x="1400" y="1188" text-anchor="middle" font-weight="bold" fill="#555">x</text>
+<line x1="860" y1="1201" x2="1820" y2="1201" stroke="#4e79a7" stroke-width="5" opacity="0.35"/><text x="1820" y="1205" text-anchor="middle" font-weight="bold" fill="#555">x</text>
+<line x1="1130" y1="461" x2="1430" y2="461" stroke="#4e79a7" stroke-width="5" opacity="0.35"/><text x="1430" y="465" text-anchor="middle" font-weight="bold" fill="#555">x</text>
+<line x1="1370" y1="495" x2="1430" y2="495" stroke="#4e79a7" stroke-width="5" opacity="0.35"/><text x="1430" y="499" text-anchor="middle" font-weight="bold" fill="#555">x</text>
+<line x1="1430" y1="1669" x2="1700" y2="1669" stroke="#a0cbe8" stroke-width="5" opacity="0.35"/><text x="1700" y="1673" text-anchor="middle" font-weight="bold" fill="#555">x</text>
+<line x1="1550" y1="1598" x2="1820" y2="1598" stroke="#4e79a7" stroke-width="5" opacity="0.35"/><text x="1820" y="1602" text-anchor="middle" font-weight="bold" fill="#555">x</text>
+<line x1="1640" y1="872" x2="1940" y2="872" stroke="#f28e2b" stroke-width="5" opacity="0.35"/><text x="1940" y="876" text-anchor="middle" font-weight="bold" fill="#555">x</text>
+<line x1="1880" y1="1028" x2="1940" y2="1028" stroke="#499894" stroke-width="5" opacity="0.35"/><text x="1940" y="1032" text-anchor="middle" font-weight="bold" fill="#555">x</text>
+<line x1="2090" y1="237" x2="2120" y2="237" stroke="#7b3294" stroke-width="5" opacity="0.35"/><text x="2120" y="241" text-anchor="middle" font-weight="bold" fill="#555">x</text>
+<path d="M920,1411 C1025.0,1411 1025.0,1445 1124,1445" fill="none" stroke="#333" stroke-width="1.3" marker-end="url(#arr)" opacity="0.8"/>
+<path d="M1100,427 C1145.0,427 1145.0,444 1184,444" fill="none" stroke="#999" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#arr2)" opacity="0.8"/>
+<path d="M1130,461 C1250.0,461 1250.0,495 1364,495" fill="none" stroke="#333" stroke-width="1.3" marker-end="url(#arr)" opacity="0.8"/>
+<path d="M560,427 C995.0,427 995.0,546 1424,546" fill="none" stroke="#999" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#arr2)" opacity="0.8"/>
+<path d="M1130,461 C1280.0,461 1280.0,563 1424,563" fill="none" stroke="#333" stroke-width="1.3" marker-end="url(#arr)" opacity="0.8"/>
+<path d="M1370,495 C1410,495 1390,563 1424,563" fill="none" stroke="#999" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#arr2)" opacity="0.8"/>
+<path d="M1070,166 C1295.0,166 1295.0,166 1514,166" fill="none" stroke="#999" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#arr2)" opacity="0.8"/>
+<path d="M950,1394 C1235.0,1394 1235.0,1513 1514,1513" fill="none" stroke="#333" stroke-width="1.3" marker-end="url(#arr)" opacity="0.8"/>
+<path d="M1070,166 C1295.0,166 1295.0,183 1514,183" fill="none" stroke="#999" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#arr2)" opacity="0.8"/>
+<path d="M1160,960 C1340.0,960 1340.0,960 1514,960" fill="none" stroke="#999" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#arr2)" opacity="0.8"/>
+<path d="M1340,960 C1445.0,960 1445.0,478 1544,478" fill="none" stroke="#333" stroke-width="1.3" marker-end="url(#arr)" opacity="0.8"/>
+<path d="M860,1201 C1205.0,1201 1205.0,1598 1544,1598" fill="none" stroke="#333" stroke-width="1.3" marker-end="url(#arr)" opacity="0.8"/>
+<path d="M560,427 C1085.0,427 1085.0,512 1604,512" fill="none" stroke="#999" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#arr2)" opacity="0.8"/>
+<path d="M1520,960 C1580.0,960 1580.0,960 1634,960" fill="none" stroke="#999" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#arr2)" opacity="0.8"/>
+<path d="M1460,461 C1550.0,461 1550.0,563 1634,563" fill="none" stroke="#999" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#arr2)" opacity="0.8"/>
+<path d="M1400,1445 C1520.0,1445 1520.0,1377 1634,1377" fill="none" stroke="#999" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#arr2)" opacity="0.8"/>
+<path d="M1070,166 C1370.0,166 1370.0,166 1664,166" fill="none" stroke="#999" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#arr2)" opacity="0.8"/>
+<path d="M1460,461 C1565.0,461 1565.0,427 1664,427" fill="none" stroke="#999" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#arr2)" opacity="0.8"/>
+<path d="M1430,1669 C1550.0,1669 1550.0,1720 1664,1720" fill="none" stroke="#333" stroke-width="1.3" marker-end="url(#arr)" opacity="0.8"/>
+<path d="M860,1201 C1265.0,1201 1265.0,1411 1664,1411" fill="none" stroke="#333" stroke-width="1.3" marker-end="url(#arr)" opacity="0.8"/>
+<path d="M1550,1598 C1610.0,1598 1610.0,1411 1664,1411" fill="none" stroke="#333" stroke-width="1.3" marker-end="url(#arr)" opacity="0.8"/>
+<path d="M950,1394 C1310.0,1394 1310.0,1411 1664,1411" fill="none" stroke="#333" stroke-width="1.3" marker-end="url(#arr)" opacity="0.8"/>
+<path d="M1520,1513 C1595.0,1513 1595.0,1411 1664,1411" fill="none" stroke="#999" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#arr2)" opacity="0.8"/>
+<path d="M740,1377 C1220.0,1377 1220.0,1062 1694,1062" fill="none" stroke="#999" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#arr2)" opacity="0.8"/>
+<path d="M1070,166 C1400.0,166 1400.0,166 1724,166" fill="none" stroke="#999" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#arr2)" opacity="0.8"/>
+<path d="M1520,183 C1625.0,183 1625.0,166 1724,166" fill="none" stroke="#999" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#arr2)" opacity="0.8"/>
+<path d="M1460,529 C1595.0,529 1595.0,461 1724,461" fill="none" stroke="#999" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#arr2)" opacity="0.8"/>
+<path d="M1550,1496 C1640.0,1496 1640.0,1377 1724,1377" fill="none" stroke="#999" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#arr2)" opacity="0.8"/>
+<path d="M1550,1496 C1640.0,1496 1640.0,1428 1724,1428" fill="none" stroke="#999" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#arr2)" opacity="0.8"/>
+<path d="M920,1411 C1340.0,1411 1340.0,665 1754,665" fill="none" stroke="#999" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#arr2)" opacity="0.8"/>
+<path d="M1640,1703 C1715.0,1703 1715.0,1652 1784,1652" fill="none" stroke="#999" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#arr2)" opacity="0.8"/>
+<path d="M1760,1445 C1800,1445 1750,1377 1784,1377" fill="none" stroke="#999" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#arr2)" opacity="0.8"/>
+<path d="M560,427 C1175.0,427 1175.0,682 1784,682" fill="none" stroke="#999" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#arr2)" opacity="0.8"/>
+<path d="M1700,960 C1745.0,960 1745.0,1045 1784,1045" fill="none" stroke="#999" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#arr2)" opacity="0.8"/>
+<path d="M1700,444 C1760.0,444 1760.0,733 1814,733" fill="none" stroke="#999" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#arr2)" opacity="0.8"/>
+<path d="M1460,529 C1640.0,529 1640.0,767 1814,767" fill="none" stroke="#999" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#arr2)" opacity="0.8"/>
+<path d="M1640,872 C1730.0,872 1730.0,767 1814,767" fill="none" stroke="#999" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#arr2)" opacity="0.8"/>
+<path d="M1790,1652 C1830,1652 1780,1720 1814,1720" fill="none" stroke="#999" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#arr2)" opacity="0.8"/>
+<path d="M1430,1462 C1640.0,1462 1640.0,1394 1844,1394" fill="none" stroke="#333" stroke-width="1.3" marker-end="url(#arr)" opacity="0.8"/>
+<path d="M1640,1703 C1745.0,1703 1745.0,1669 1844,1669" fill="none" stroke="#999" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#arr2)" opacity="0.8"/>
+<path d="M1760,665 C1805.0,665 1805.0,835 1844,835" fill="none" stroke="#999" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#arr2)" opacity="0.8"/>
+<path d="M1790,1028 C1835.0,1028 1835.0,1028 1874,1028" fill="none" stroke="#999" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#arr2)" opacity="0.8"/>
+<path d="M1790,1045 C1850.0,1045 1850.0,1011 1904,1011" fill="none" stroke="#999" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#arr2)" opacity="0.8"/>
+<path d="M1700,960 C1820.0,960 1820.0,994 1934,994" fill="none" stroke="#999" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#arr2)" opacity="0.8"/>
+<path d="M1790,1028 C1865.0,1028 1865.0,1045 1934,1045" fill="none" stroke="#999" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#arr2)" opacity="0.8"/>
+<path d="M1670,1011 C1805.0,1011 1805.0,237 1934,237" fill="none" stroke="#999" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#arr2)" opacity="0.8"/>
+<path d="M1700,444 C1820.0,444 1820.0,427 1934,427" fill="none" stroke="#999" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#arr2)" opacity="0.8"/>
+<path d="M1790,977 C1880.0,977 1880.0,1011 1964,1011" fill="none" stroke="#333" stroke-width="1.3" marker-end="url(#arr)" opacity="0.8"/>
+<path d="M1460,529 C1730.0,529 1730.0,444 1994,444" fill="none" stroke="#999" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#arr2)" opacity="0.8"/>
+<path d="M1070,166 C1535.0,166 1535.0,166 1994,166" fill="none" stroke="#999" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#arr2)" opacity="0.8"/>
+<path d="M1520,166 C1760.0,166 1760.0,166 1994,166" fill="none" stroke="#999" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#arr2)" opacity="0.8"/>
+<path d="M1790,1652 C1910.0,1652 1910.0,1686 2024,1686" fill="none" stroke="#999" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#arr2)" opacity="0.8"/>
+<path d="M1460,529 C1760.0,529 1760.0,994 2054,994" fill="none" stroke="#999" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#arr2)" opacity="0.8"/>
+<path d="M2090,237 C2130,237 2050,220 2084,220" fill="none" stroke="#999" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#arr2)" opacity="0.8"/>
+<path d="M2090,237 C2130,237 2050,254 2084,254" fill="none" stroke="#999" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#arr2)" opacity="0.8"/>
+<path d="M1190,1808 C1640.0,1808 1640.0,1808 2084,1808" fill="none" stroke="#999" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#arr2)" opacity="0.8"/>
+<path d="M2090,237 C2130,237 2080,339 2114,339" fill="none" stroke="#999" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#arr2)" opacity="0.8"/>
+<path d="M2120,356 C2160,356 2080,339 2114,339" fill="none" stroke="#999" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#arr2)" opacity="0.8"/>
+<path d="M2090,271 C2130,271 2080,373 2114,373" fill="none" stroke="#999" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#arr2)" opacity="0.8"/>
+<path d="M2120,356 C2160,356 2080,390 2114,390" fill="none" stroke="#999" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#arr2)" opacity="0.8"/>
+<polygon points="1070,160.5 1075.5,170.5 1064.5,170.5" fill="#f1ce63" stroke="#333" stroke-width="1.4"><title>Feature models (FODA) (1990, SEI)
+binding: design
+binding_detail: 
+carrier: model
+expressiveness: nested
+constraints: dependencies
+set_by: dev
+effect: none
+status: research
+domain: product lines
+origin_type: research
+versioned: in-repo
+reload: n/a
+layering: none
+determinism: deterministic</title></polygon>
+<text x="1079" y="170" fill="#222">Feature models (FODA)</text>
+<polygon points="1520,160.5 1525.5,170.5 1514.5,170.5" fill="#f1ce63" stroke="#333" stroke-width="1.4"><title>FeatureIDE (2005, Univ. of Magdeburg)
+binding: design
+binding_detail: 
+carrier: model
+expressiveness: nested
+constraints: constraints
+set_by: dev
+effect: select-files
+status: research
+domain: product lines
+origin_type: research
+versioned: in-repo
+reload: n/a
+layering: none
+determinism: deterministic</title></polygon>
+<text x="1529" y="170" fill="#222">FeatureIDE</text>
+<polygon points="1520,177.5 1525.5,187.5 1514.5,187.5" fill="#f1ce63" stroke="#333" stroke-width="1.4"><title>Orthogonal variability model (2005, Pohl et al.)
+binding: design
+binding_detail: 
+carrier: model
+expressiveness: nested
+constraints: dependencies
+set_by: dev
+effect: none
+status: research
+domain: product lines
+origin_type: research
+versioned: in-repo
+reload: n/a
+layering: none
+determinism: deterministic</title></polygon>
+<text x="1529" y="187" fill="#222">Orthogonal variability model</text>
+<polygon points="1670,160.5 1675.5,170.5 1664.5,170.5" fill="#f1ce63" stroke="#333" stroke-width="1.4"><title>Clafer (2010, Univ. of Waterloo)
+binding: design
+binding_detail: 
+carrier: model
+expressiveness: computed
+constraints: constraints
+set_by: dev
+effect: none
+status: research
+domain: product lines
+origin_type: research
+versioned: in-repo
+reload: n/a
+layering: none
+determinism: deterministic</title></polygon>
+<text x="1679" y="170" fill="#222">Clafer</text>
+<polygon points="1730,160.0 1736.0,166 1730,172.0 1724.0,166" fill="white" stroke="#f1ce63" stroke-width="1.4"><title>CVL (2012, OMG (proposed))
+binding: design
+binding_detail: 
+carrier: model
+expressiveness: nested
+constraints: constraints
+set_by: dev
+effect: patch
+status: dead
+domain: product lines
+origin_type: standard
+versioned: in-repo
+reload: n/a
+layering: none
+determinism: deterministic</title></polygon>
+<text x="1739" y="170" fill="#222">CVL</text>
+<polygon points="2000,160.5 2005.5,170.5 1994.5,170.5" fill="#f1ce63" stroke="#333" stroke-width="1.4"><title>UVL (2021, MODEVAR initiative)
+binding: design
+binding_detail: 
+carrier: model
+expressiveness: nested
+constraints: constraints
+set_by: dev
+effect: none
+status: research
+domain: product lines
+origin_type: research
+versioned: in-repo
+reload: n/a
+layering: none
+determinism: deterministic</title></polygon>
+<text x="2009" y="170" fill="#222">UVL</text>
+<circle cx="1520" cy="220" r="4.5" fill="#79706e" stroke="#333" stroke-width="1.4"><title>git config (2005, Git)
+binding: authoring
+binding_detail: 
+carrier: file
+expressiveness: flat
+constraints: none
+set_by: dev
+effect: steer-tool
+status: active
+domain: dev tools
+origin_type: open-source
+versioned: external
+reload: n/a
+layering: levels
+determinism: deterministic</title></circle>
+<text x="1529" y="224" fill="#222">git config</text>
+<circle cx="1730" cy="220" r="4.5" fill="#79706e" stroke="#333" stroke-width="1.4"><title>EditorConfig (2012, EditorConfig)
+binding: authoring
+binding_detail: 
+carrier: file
+expressiveness: flat
+constraints: none
+set_by: dev
+effect: steer-tool
+status: active
+domain: dev tools
+origin_type: open-source
+versioned: in-repo
+reload: n/a
+layering: levels
+determinism: deterministic</title></circle>
+<text x="1739" y="224" fill="#222">EditorConfig</text>
+<circle cx="1730" cy="237" r="4.5" fill="#79706e" stroke="#333" stroke-width="1.4"><title>Yeoman generators (2012, Yeoman)
+binding: authoring
+binding_detail: 
+carrier: cli
+expressiveness: flat
+constraints: none
+set_by: dev
+effect: select-files
+status: active
+domain: dev tools
+origin_type: open-source
+versioned: external
+reload: n/a
+layering: none
+determinism: deterministic</title></circle>
+<text x="1739" y="241" fill="#222">Yeoman generators</text>
+<circle cx="1760" cy="254" r="4.5" fill="#79706e" stroke="#333" stroke-width="1.4"><title>Cookiecutter templates (2013, Cookiecutter)
+binding: authoring
+binding_detail: 
+carrier: file
+expressiveness: nested
+constraints: none
+set_by: dev
+effect: select-files
+status: active
+domain: dev tools
+origin_type: open-source
+versioned: in-repo
+reload: n/a
+layering: none
+determinism: deterministic</title></circle>
+<text x="1769" y="258" fill="#222">Cookiecutter templates</text>
+<circle cx="1760" cy="271" r="4.5" fill="#79706e" stroke="#333" stroke-width="1.4"><title>ESLint config (2013, ESLint)
+binding: authoring;build
+binding_detail: 
+carrier: file
+expressiveness: nested
+constraints: schema
+set_by: dev
+effect: steer-tool
+status: active
+domain: dev tools
+origin_type: open-source
+versioned: in-repo
+reload: rebuild
+layering: levels
+determinism: deterministic</title></circle>
+<text x="1769" y="275" fill="#222">ESLint config  [authoring + build]</text>
+<circle cx="1790" cy="288" r="4.5" fill="#79706e" stroke="#333" stroke-width="1.4"><title>pre-commit config (2014, pre-commit)
+binding: authoring
+binding_detail: 
+carrier: file
+expressiveness: nested
+constraints: none
+set_by: dev
+effect: steer-tool
+status: active
+domain: dev tools
+origin_type: open-source
+versioned: in-repo
+reload: n/a
+layering: none
+determinism: deterministic</title></circle>
+<text x="1799" y="292" fill="#222">pre-commit config</text>
+<rect x="1815.5" y="300.5" width="9.0" height="9.0" fill="#79706e" stroke="#333" stroke-width="1.4"><title>VS Code settings (2015, Visual Studio Code)
+binding: authoring
+binding_detail: 
+carrier: file
+expressiveness: nested
+constraints: schema
+set_by: dev
+effect: steer-tool
+status: active
+domain: dev tools
+origin_type: vendor
+versioned: both
+reload: n/a
+layering: levels
+determinism: deterministic</title></rect>
+<text x="1829" y="309" fill="#222">VS Code settings</text>
+<circle cx="1880" cy="220" r="4.5" fill="#79706e" stroke="#333" stroke-width="1.4"><title>Prettier config (2017, Prettier)
+binding: authoring
+binding_detail: 
+carrier: file
+expressiveness: flat
+constraints: none
+set_by: dev
+effect: steer-tool
+status: active
+domain: dev tools
+origin_type: open-source
+versioned: in-repo
+reload: n/a
+layering: none
+determinism: deterministic</title></circle>
+<text x="1889" y="224" fill="#222">Prettier config</text>
+<rect x="1935.5" y="232.5" width="9.0" height="9.0" fill="#79706e" stroke="#333" stroke-width="1.4"><title>Dev containers (2019, VS Code)
+binding: authoring
+binding_detail: 
+carrier: file
+expressiveness: nested
+constraints: schema
+set_by: dev
+effect: provision
+status: active
+domain: dev tools
+origin_type: vendor
+versioned: in-repo
+reload: n/a
+layering: none
+determinism: deterministic</title></rect>
+<text x="1949" y="241" fill="#222">Dev containers</text>
+<circle cx="2090" cy="220" r="4.5" fill="#7b3294" stroke="#333" stroke-width="1.4"><title>.clinerules (2024, Cline)
+binding: authoring;session
+binding_detail: 
+carrier: file
+expressiveness: prose
+constraints: none
+set_by: dev
+effect: steer-agent
+status: active
+domain: agents
+origin_type: open-source
+versioned: in-repo
+reload: new-session
+layering: none
+determinism: interpreted</title></circle>
+<text x="2099" y="224" fill="#222" font-style="italic">.clinerules  [authoring + session]</text>
+<rect x="2085.5" y="232.5" width="9.0" height="9.0" fill="white" stroke="#7b3294" stroke-width="1.4"><title>.cursorrules (2024-2025, Cursor)
+binding: authoring;session
+binding_detail: 
+carrier: file
+expressiveness: prose
+constraints: none
+set_by: dev
+effect: steer-agent
+status: legacy
+domain: agents
+origin_type: vendor
+versioned: in-repo
+reload: new-session
+layering: none
+determinism: interpreted</title></rect>
+<text x="2099" y="241" fill="#222" font-style="italic">.cursorrules  [authoring + session]</text>
+<rect x="2085.5" y="249.5" width="9.0" height="9.0" fill="#7b3294" stroke="#333" stroke-width="1.4"><title>.windsurfrules (2024, Windsurf)
+binding: authoring;session
+binding_detail: 
+carrier: file
+expressiveness: prose
+constraints: none
+set_by: dev
+effect: steer-agent
+status: active
+domain: agents
+origin_type: vendor
+versioned: in-repo
+reload: new-session
+layering: none
+determinism: interpreted</title></rect>
+<text x="2099" y="258" fill="#222" font-style="italic">.windsurfrules  [authoring + session]</text>
+<rect x="2085.5" y="266.5" width="9.0" height="9.0" fill="#7b3294" stroke="#333" stroke-width="1.4"><title>copilot-instructions.md (2024, GitHub Copilot)
+binding: authoring;session
+binding_detail: 
+carrier: file
+expressiveness: prose
+constraints: none
+set_by: dev
+effect: steer-agent
+status: active
+domain: agents
+origin_type: vendor
+versioned: in-repo
+reload: new-session
+layering: levels
+determinism: interpreted</title></rect>
+<text x="2099" y="275" fill="#222" font-style="italic">copilot-instructions.md  [authoring + session]</text>
+<polygon points="2090,282.0 2096.0,288 2090,294.0 2084.0,288" fill="#7b3294" stroke="#333" stroke-width="1.4"><title>MCP server config (2024, Model Context Protocol)
+binding: authoring;session
+binding_detail: 
+carrier: file
+expressiveness: nested
+constraints: none
+set_by: dev
+effect: load-code
+status: active
+domain: agents
+origin_type: standard
+versioned: both
+reload: new-session
+layering: none
+determinism: deterministic</title></polygon>
+<text x="2099" y="292" fill="#222">MCP server config  [authoring + session]</text>
+<rect x="2115.5" y="300.5" width="9.0" height="9.0" fill="#7b3294" stroke="#333" stroke-width="1.4"><title>Agent settings and hooks (2025, Claude Code)
+binding: authoring;session
+binding_detail: 
+carrier: file
+expressiveness: nested
+constraints: none
+set_by: dev
+effect: steer-tool
+status: active
+domain: agents
+origin_type: vendor
+versioned: both
+reload: new-session
+layering: levels
+determinism: deterministic</title></rect>
+<text x="2129" y="309" fill="#222">Agent settings and hooks  [authoring + session]</text>
+<rect x="2115.5" y="317.5" width="9.0" height="9.0" fill="#7b3294" stroke="#333" stroke-width="1.4"><title>Agent skills (SKILL.md) (2025, Anthropic)
+binding: authoring;request
+binding_detail: 
+carrier: file
+expressiveness: prose
+constraints: none
+set_by: dev
+effect: steer-agent
+status: active
+domain: agents
+origin_type: vendor
+versioned: in-repo
+reload: live
+layering: levels
+determinism: interpreted</title></rect>
+<text x="2129" y="326" fill="#222" font-style="italic">Agent skills (SKILL.md)  [authoring + request]</text>
+<rect x="2115.5" y="334.5" width="9.0" height="9.0" fill="#7b3294" stroke="#333" stroke-width="1.4"><title>AGENTS.md (2025, OpenAI Codex)
+binding: authoring;session
+binding_detail: 
+carrier: file
+expressiveness: prose
+constraints: none
+set_by: dev
+effect: steer-agent
+status: active
+domain: agents
+origin_type: vendor
+versioned: in-repo
+reload: new-session
+layering: levels
+determinism: interpreted</title></rect>
+<text x="2129" y="343" fill="#222" font-style="italic">AGENTS.md  [authoring + session]</text>
+<rect x="2115.5" y="351.5" width="9.0" height="9.0" fill="#7b3294" stroke="#333" stroke-width="1.4"><title>CLAUDE.md (2025, Claude Code)
+binding: authoring;session
+binding_detail: 
+carrier: file
+expressiveness: prose
+constraints: none
+set_by: dev
+effect: steer-agent
+status: active
+domain: agents
+origin_type: vendor
+versioned: both
+reload: new-session
+layering: levels
+determinism: interpreted</title></rect>
+<text x="2129" y="360" fill="#222" font-style="italic">CLAUDE.md  [authoring + session]</text>
+<rect x="2115.5" y="368.5" width="9.0" height="9.0" fill="#7b3294" stroke="#333" stroke-width="1.4"><title>Custom agents and prompt files (2025, VS Code / GitHub Copilot)
+binding: authoring;session
+binding_detail: 
+carrier: file
+expressiveness: prose
+constraints: none
+set_by: dev
+effect: steer-agent
+status: active
+domain: agents
+origin_type: vendor
+versioned: in-repo
+reload: new-session
+layering: levels
+determinism: interpreted</title></rect>
+<text x="2129" y="377" fill="#222" font-style="italic">Custom agents and prompt files  [authoring + session]</text>
+<rect x="2115.5" y="385.5" width="9.0" height="9.0" fill="#7b3294" stroke="#333" stroke-width="1.4"><title>GEMINI.md (2025, Gemini CLI)
+binding: authoring;session
+binding_detail: 
+carrier: file
+expressiveness: prose
+constraints: none
+set_by: dev
+effect: steer-agent
+status: active
+domain: agents
+origin_type: vendor
+versioned: both
+reload: new-session
+layering: levels
+determinism: interpreted</title></rect>
+<text x="2129" y="394" fill="#222" font-style="italic">GEMINI.md  [authoring + session]</text>
+<polygon points="170,421.0 176.0,427 170,433.0 164.0,427" fill="#f28e2b" stroke="#333" stroke-width="1.4"><title>COBOL CONFIGURATION SECTION (1960, COBOL-60)
+binding: build
+binding_detail: compile
+carrier: code
+expressiveness: flat
+constraints: none
+set_by: dev
+effect: set-value
+status: active
+domain: build &amp; packaging
+origin_type: standard
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></polygon>
+<text x="179" y="431" fill="#222">COBOL CONFIGURATION SECTION<tspan fill="#888"> (compile)</tspan></text>
+<rect x="285.5" y="439.5" width="9.0" height="9.0" fill="#f28e2b" stroke="#333" stroke-width="1.4"><title>Conditional assembly (1964, IBM System/360 assembler)
+binding: build
+binding_detail: preprocess
+carrier: code
+expressiveness: computed
+constraints: none
+set_by: dev
+effect: exclude-code
+status: active
+domain: build &amp; packaging
+origin_type: vendor
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></rect>
+<text x="299" y="448" fill="#222">Conditional assembly<tspan fill="#888"> (preprocess)</tspan></text>
+<rect x="345.5" y="456.5" width="9.0" height="9.0" fill="white" stroke="#4e79a7" stroke-width="1.4"><title>OS/360 SYSGEN (1966, IBM OS/360)
+binding: build
+binding_detail: configure
+carrier: file
+expressiveness: flat
+constraints: none
+set_by: integrator
+effect: select-files
+status: legacy
+domain: systems
+origin_type: vendor
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></rect>
+<text x="359" y="465" fill="#222">OS/360 SYSGEN<tspan fill="#888"> (configure)</tspan></text>
+<rect x="345.5" y="473.5" width="9.0" height="9.0" fill="#f28e2b" stroke="#333" stroke-width="1.4"><title>PL/I preprocessor (1966, IBM PL/I)
+binding: build
+binding_detail: preprocess
+carrier: code
+expressiveness: program
+constraints: none
+set_by: dev
+effect: exclude-code
+status: active
+domain: build &amp; packaging
+origin_type: vendor
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></rect>
+<text x="359" y="482" fill="#222">PL/I preprocessor<tspan fill="#888"> (preprocess)</tspan></text>
+<polygon points="560,421.5 565.5,431.5 554.5,431.5" fill="#f28e2b" stroke="#333" stroke-width="1.4"><title>C preprocessor (1973, Bell Labs C)
+binding: build
+binding_detail: preprocess
+carrier: code
+expressiveness: computed
+constraints: none
+set_by: dev
+effect: exclude-code
+status: active
+domain: build &amp; packaging
+origin_type: research
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></polygon>
+<text x="569" y="431" fill="#222">C preprocessor<tspan fill="#888"> (preprocess)</tspan></text>
+<polygon points="650,438.5 655.5,448.5 644.5,448.5" fill="#f28e2b" stroke="#333" stroke-width="1.4"><title>make variables (1976, Unix)
+binding: build
+binding_detail: 
+carrier: build-script
+expressiveness: computed
+constraints: none
+set_by: integrator
+effect: select-files
+status: active
+domain: build &amp; packaging
+origin_type: research
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></polygon>
+<text x="659" y="448" fill="#222">make variables</text>
+<polygon points="680,455.5 685.5,465.5 674.5,465.5" fill="#f28e2b" stroke="#333" stroke-width="1.4"><title>m4 (1977, Bell Labs)
+binding: build
+binding_detail: preprocess
+carrier: file
+expressiveness: program
+constraints: none
+set_by: dev
+effect: exclude-code
+status: active
+domain: build &amp; packaging
+origin_type: research
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></polygon>
+<text x="689" y="465" fill="#222">m4<tspan fill="#888"> (preprocess)</tspan></text>
+<polygon points="770,421.5 775.5,431.5 764.5,431.5" fill="#4e79a7" stroke="#333" stroke-width="1.4"><title>BSD kernel config(8) (1980, 4BSD)
+binding: build
+binding_detail: configure
+carrier: file
+expressiveness: flat
+constraints: none
+set_by: integrator
+effect: select-files
+status: active
+domain: systems
+origin_type: research
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></polygon>
+<text x="779" y="431" fill="#222">BSD kernel config(8)<tspan fill="#888"> (configure)</tspan></text>
+<rect x="975.5" y="439.5" width="9.0" height="9.0" fill="white" stroke="#f1ce63" stroke-width="1.4"><title>Frame technology (1987, Netron (Bassett))
+binding: build
+binding_detail: preprocess
+carrier: code
+expressiveness: computed
+constraints: none
+set_by: dev
+effect: patch
+status: legacy
+domain: product lines
+origin_type: vendor
+versioned: in-repo
+reload: rebuild
+layering: overlays
+determinism: deterministic</title></rect>
+<text x="989" y="448" fill="#222">Frame technology<tspan fill="#888"> (preprocess)</tspan></text>
+<circle cx="1100" cy="427" r="4.5" fill="#f28e2b" stroke="#333" stroke-width="1.4"><title>Autoconf (1991, GNU)
+binding: build
+binding_detail: configure
+carrier: build-script
+expressiveness: program
+constraints: none
+set_by: integrator
+effect: exclude-code
+status: active
+domain: build &amp; packaging
+origin_type: open-source
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<text x="1109" y="431" fill="#222">Autoconf<tspan fill="#888"> (configure)</tspan></text>
+<circle cx="1130" cy="461" r="4.5" fill="white" stroke="#4e79a7" stroke-width="1.4"><title>Linux make config (CML1) (1992-2002, Linux)
+binding: build
+binding_detail: configure
+carrier: file
+expressiveness: flat
+constraints: dependencies
+set_by: user
+effect: exclude-code
+status: legacy
+domain: systems
+origin_type: open-source
+versioned: both
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<text x="1139" y="465" fill="#222">Linux make config (CML1)<tspan fill="#888"> (configure)</tspan></text>
+<circle cx="1190" cy="444" r="4.5" fill="#f28e2b" stroke="#333" stroke-width="1.4"><title>Automake (1994, GNU)
+binding: build
+binding_detail: configure
+carrier: build-script
+expressiveness: computed
+constraints: none
+set_by: integrator
+effect: select-files
+status: active
+domain: build &amp; packaging
+origin_type: open-source
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<text x="1199" y="448" fill="#222">Automake<tspan fill="#888"> (configure)</tspan></text>
+<circle cx="1340" cy="427" r="4.5" fill="#4e79a7" stroke="#333" stroke-width="1.4"><title>eCos CDL (1999, Cygnus / Red Hat)
+binding: build
+binding_detail: configure
+carrier: file
+expressiveness: computed
+constraints: dependencies
+set_by: integrator
+effect: exclude-code
+status: active
+domain: systems
+origin_type: open-source
+versioned: both
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<text x="1349" y="431" fill="#222">eCos CDL<tspan fill="#888"> (configure)</tspan></text>
+<circle cx="1370" cy="444" r="4.5" fill="#f28e2b" stroke="#333" stroke-width="1.4"><title>Apache Ant properties (2000, Apache Ant)
+binding: build
+binding_detail: 
+carrier: build-script
+expressiveness: flat
+constraints: none
+set_by: dev
+effect: select-files
+status: active
+domain: build &amp; packaging
+origin_type: open-source
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<text x="1379" y="448" fill="#222">Apache Ant properties</text>
+<circle cx="1370" cy="478" r="4.5" fill="#f28e2b" stroke="#333" stroke-width="1.4"><title>CMake options (2000, Kitware)
+binding: build
+binding_detail: configure
+carrier: build-script
+expressiveness: computed
+constraints: none
+set_by: integrator
+effect: exclude-code
+status: active
+domain: build &amp; packaging
+origin_type: open-source
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<text x="1379" y="482" fill="#222">CMake options<tspan fill="#888"> (configure)</tspan></text>
+<circle cx="1370" cy="495" r="4.5" fill="white" stroke="#4e79a7" stroke-width="1.4"><title>CML2 (2000-2002, Eric S. Raymond)
+binding: build
+binding_detail: configure
+carrier: file
+expressiveness: computed
+constraints: constraints
+set_by: user
+effect: exclude-code
+status: dead
+domain: systems
+origin_type: open-source
+versioned: both
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<text x="1379" y="499" fill="#222">CML2<tspan fill="#888"> (configure)</tspan></text>
+<polygon points="1400,506.5 1405.5,516.5 1394.5,516.5" fill="#f1ce63" stroke="#333" stroke-width="1.4"><title>AspectJ (2001, Xerox PARC)
+binding: build
+binding_detail: compile
+carrier: code
+expressiveness: program
+constraints: none
+set_by: dev
+effect: patch
+status: active
+domain: product lines
+origin_type: research
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></polygon>
+<text x="1409" y="516" fill="#222">AspectJ<tspan fill="#888"> (compile)</tspan></text>
+<circle cx="1400" cy="529" r="4.5" fill="#f28e2b" stroke="#333" stroke-width="1.4"><title>SCons (2001, SCons)
+binding: build
+binding_detail: 
+carrier: build-script
+expressiveness: program
+constraints: none
+set_by: integrator
+effect: select-files
+status: active
+domain: build &amp; packaging
+origin_type: open-source
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<text x="1409" y="533" fill="#222">SCons</text>
+<rect x="1425.5" y="541.5" width="9.0" height="9.0" fill="#f28e2b" stroke="#333" stroke-width="1.4"><title>C# conditional compilation (2002, C# 1.0)
+binding: build
+binding_detail: preprocess
+carrier: code
+expressiveness: computed
+constraints: none
+set_by: dev
+effect: exclude-code
+status: active
+domain: build &amp; packaging
+origin_type: vendor
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></rect>
+<text x="1439" y="550" fill="#222">C# conditional compilation<tspan fill="#888"> (preprocess)</tspan></text>
+<circle cx="1430" cy="563" r="4.5" fill="#4e79a7" stroke="#333" stroke-width="1.4"><title>Kconfig (2002, Linux 2.5.45)
+binding: build
+binding_detail: configure
+carrier: file
+expressiveness: computed
+constraints: dependencies
+set_by: user;integrator
+effect: exclude-code
+status: active
+domain: systems
+origin_type: open-source
+versioned: both
+reload: rebuild
+layering: overlays
+determinism: deterministic</title></circle>
+<text x="1439" y="567" fill="#222">Kconfig<tspan fill="#888"> (configure)</tspan></text>
+<polygon points="1460,455.5 1465.5,465.5 1454.5,465.5" fill="#f1ce63" stroke="#333" stroke-width="1.4"><title>AHEAD feature modules (2003, UT Austin)
+binding: build
+binding_detail: preprocess
+carrier: code
+expressiveness: program
+constraints: none
+set_by: dev
+effect: patch
+status: research
+domain: product lines
+origin_type: research
+versioned: in-repo
+reload: rebuild
+layering: overlays
+determinism: deterministic</title></polygon>
+<text x="1469" y="465" fill="#222">AHEAD feature modules<tspan fill="#888"> (preprocess)</tspan></text>
+<polygon points="1460,523.5 1465.5,533.5 1454.5,533.5" fill="#f28e2b" stroke="#333" stroke-width="1.4"><title>Nix expressions (2003, Utrecht University)
+binding: build;install
+binding_detail: 
+carrier: file
+expressiveness: program
+constraints: none
+set_by: integrator
+effect: select-deps
+status: active
+domain: build &amp; packaging
+origin_type: research
+versioned: in-repo
+reload: reinstall
+layering: overlays
+determinism: deterministic</title></polygon>
+<text x="1469" y="533" fill="#222">Nix expressions  [build + install]</text>
+<circle cx="1490" cy="427" r="4.5" fill="#4e79a7" stroke="#333" stroke-width="1.4"><title>BitBake / OpenEmbedded (2004, OpenEmbedded)
+binding: build
+binding_detail: 
+carrier: file
+expressiveness: computed
+constraints: dependencies
+set_by: integrator
+effect: select-deps
+status: active
+domain: systems
+origin_type: open-source
+versioned: in-repo
+reload: rebuild
+layering: overlays
+determinism: deterministic</title></circle>
+<text x="1499" y="431" fill="#222">BitBake / OpenEmbedded</text>
+<polygon points="1520,438.0 1526.0,444 1520,450.0 1514.0,444" fill="#4e79a7" stroke="#333" stroke-width="1.4"><title>AUTOSAR ECU configuration (2005, AUTOSAR R1)
+binding: build
+binding_detail: 
+carrier: file
+expressiveness: nested
+constraints: schema
+set_by: integrator
+effect: set-value
+status: active
+domain: systems
+origin_type: standard
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></polygon>
+<text x="1529" y="448" fill="#222">AUTOSAR ECU configuration</text>
+<circle cx="1520" cy="495" r="4.5" fill="#f28e2b" stroke="#333" stroke-width="1.4"><title>Maven profiles (2005, Maven 2)
+binding: build
+binding_detail: configure
+carrier: build-script
+expressiveness: nested
+constraints: none
+set_by: dev
+effect: select-deps
+status: active
+domain: build &amp; packaging
+origin_type: open-source
+versioned: in-repo
+reload: rebuild
+layering: levels
+determinism: deterministic</title></circle>
+<text x="1529" y="499" fill="#222">Maven profiles<tspan fill="#888"> (configure)</tspan></text>
+<rect x="1515.5" y="575.5" width="9.0" height="9.0" fill="#f28e2b" stroke="#333" stroke-width="1.4"><title>MSBuild conditions (2005, Visual Studio 2005)
+binding: build
+binding_detail: 
+carrier: build-script
+expressiveness: computed
+constraints: none
+set_by: dev
+effect: select-files
+status: active
+domain: build &amp; packaging
+origin_type: vendor
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></rect>
+<text x="1529" y="584" fill="#222">MSBuild conditions</text>
+<rect x="1515.5" y="592.5" width="9.0" height="9.0" fill="#f28e2b" stroke="#333" stroke-width="1.4"><title>Xcode build configurations (2005, Xcode)
+binding: build
+binding_detail: 
+carrier: build-script
+expressiveness: flat
+constraints: none
+set_by: dev
+effect: set-value
+status: active
+domain: build &amp; packaging
+origin_type: vendor
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></rect>
+<text x="1529" y="601" fill="#222">Xcode build configurations</text>
+<rect x="1545.5" y="473.5" width="9.0" height="9.0" fill="#59a14f" stroke="#333" stroke-width="1.4"><title>Annotation-based configuration (2006, Java EE 5)
+binding: build;startup
+binding_detail: 
+carrier: code
+expressiveness: nested
+constraints: none
+set_by: dev
+effect: wire-components
+status: active
+domain: app runtime
+origin_type: vendor
+versioned: in-repo
+reload: restart
+layering: none
+determinism: deterministic</title></rect>
+<text x="1559" y="482" fill="#222">Annotation-based configuration  [build + startup]</text>
+<polygon points="1610,506.5 1615.5,516.5 1604.5,516.5" fill="#f1ce63" stroke="#333" stroke-width="1.4"><title>CIDE colored annotations (2008, Kästner et al.)
+binding: build
+binding_detail: preprocess
+carrier: code
+expressiveness: flat
+constraints: dependencies
+set_by: dev
+effect: exclude-code
+status: research
+domain: product lines
+origin_type: research
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></polygon>
+<text x="1619" y="516" fill="#222">CIDE colored annotations<tspan fill="#888"> (preprocess)</tspan></text>
+<polygon points="1640,557.5 1645.5,567.5 1634.5,567.5" fill="#f1ce63" stroke="#333" stroke-width="1.4"><title>FeatureHouse (2009, Apel et al.)
+binding: build
+binding_detail: preprocess
+carrier: code
+expressiveness: program
+constraints: none
+set_by: dev
+effect: patch
+status: research
+domain: product lines
+origin_type: research
+versioned: in-repo
+reload: rebuild
+layering: overlays
+determinism: deterministic</title></polygon>
+<text x="1649" y="567" fill="#222">FeatureHouse<tspan fill="#888"> (preprocess)</tspan></text>
+<polygon points="1670,421.5 1675.5,431.5 1664.5,431.5" fill="#f1ce63" stroke="#333" stroke-width="1.4"><title>Delta-oriented programming (2010, Schaefer et al.)
+binding: build
+binding_detail: preprocess
+carrier: code
+expressiveness: program
+constraints: dependencies
+set_by: dev
+effect: patch
+status: research
+domain: product lines
+origin_type: research
+versioned: in-repo
+reload: rebuild
+layering: overlays
+determinism: deterministic</title></polygon>
+<text x="1679" y="431" fill="#222">Delta-oriented programming<tspan fill="#888"> (preprocess)</tspan></text>
+<circle cx="1670" cy="580" r="4.5" fill="#f28e2b" stroke="#333" stroke-width="1.4"><title>package.json and .npmrc (2010, npm)
+binding: build;install
+binding_detail: 
+carrier: file
+expressiveness: nested
+constraints: schema
+set_by: dev
+effect: select-deps
+status: active
+domain: build &amp; packaging
+origin_type: open-source
+versioned: in-repo
+reload: reinstall
+layering: levels
+determinism: deterministic</title></circle>
+<text x="1679" y="584" fill="#222">package.json and .npmrc  [build + install]</text>
+<circle cx="1670" cy="614" r="4.5" fill="#79706e" stroke="#333" stroke-width="1.4"><title>tox environments (2010, tox)
+binding: build
+binding_detail: 
+carrier: file
+expressiveness: nested
+constraints: none
+set_by: dev
+effect: build-variants
+status: active
+domain: dev tools
+origin_type: open-source
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<text x="1679" y="618" fill="#222">tox environments</text>
+<rect x="1695.5" y="439.5" width="9.0" height="9.0" fill="#f28e2b" stroke="#333" stroke-width="1.4"><title>CI build matrix (2011, Travis CI)
+binding: build
+binding_detail: 
+carrier: file
+expressiveness: nested
+constraints: none
+set_by: dev
+effect: build-variants
+status: active
+domain: build &amp; packaging
+origin_type: vendor
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></rect>
+<text x="1709" y="448" fill="#222">CI build matrix</text>
+<circle cx="1730" cy="461" r="4.5" fill="#f28e2b" stroke="#333" stroke-width="1.4"><title>GNU Guix (2012, GNU)
+binding: build;install
+binding_detail: 
+carrier: file
+expressiveness: program
+constraints: none
+set_by: integrator
+effect: select-deps
+status: active
+domain: build &amp; packaging
+origin_type: open-source
+versioned: in-repo
+reload: reinstall
+layering: none
+determinism: deterministic</title></circle>
+<text x="1739" y="465" fill="#222">GNU Guix  [build + install]</text>
+<rect x="1725.5" y="490.5" width="9.0" height="9.0" fill="#f28e2b" stroke="#333" stroke-width="1.4"><title>Go build constraints (2012, Go 1)
+binding: build
+binding_detail: compile
+carrier: code
+expressiveness: computed
+constraints: none
+set_by: dev
+effect: exclude-code
+status: active
+domain: build &amp; packaging
+origin_type: vendor
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></rect>
+<text x="1739" y="499" fill="#222">Go build constraints<tspan fill="#888"> (compile)</tspan></text>
+<circle cx="1730" cy="529" r="4.5" fill="#f28e2b" stroke="#333" stroke-width="1.4"><title>Gradle build scripts (2012, Gradle 1.0)
+binding: build
+binding_detail: 
+carrier: build-script
+expressiveness: program
+constraints: none
+set_by: dev
+effect: select-deps
+status: active
+domain: build &amp; packaging
+origin_type: open-source
+versioned: in-repo
+reload: rebuild
+layering: levels
+determinism: deterministic</title></circle>
+<text x="1739" y="533" fill="#222">Gradle build scripts</text>
+<circle cx="1730" cy="546" r="4.5" fill="#f28e2b" stroke="#333" stroke-width="1.4"><title>webpack config (2012, webpack)
+binding: build
+binding_detail: bundle
+carrier: build-script
+expressiveness: program
+constraints: none
+set_by: dev
+effect: select-files
+status: active
+domain: build &amp; packaging
+origin_type: open-source
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<text x="1739" y="550" fill="#222">webpack config<tspan fill="#888"> (bundle)</tspan></text>
+<rect x="1755.5" y="592.5" width="9.0" height="9.0" fill="#f28e2b" stroke="#333" stroke-width="1.4"><title>Dockerfile ENV and ARG (2013, Docker)
+binding: build;startup
+binding_detail: 
+carrier: file
+expressiveness: flat
+constraints: none
+set_by: dev
+effect: set-value
+status: active
+domain: build &amp; packaging
+origin_type: vendor
+versioned: in-repo
+reload: restart
+layering: none
+determinism: deterministic</title></rect>
+<text x="1769" y="601" fill="#222">Dockerfile ENV and ARG  [build + startup]</text>
+<circle cx="1760" cy="682" r="3" fill="#79706e" stroke="#333" stroke-width="1.4"><title>ESLint config (2013, ESLint)
+binding: authoring;build
+binding_detail: 
+carrier: file
+expressiveness: nested
+constraints: schema
+set_by: dev
+effect: steer-tool
+status: active
+domain: dev tools
+origin_type: open-source
+versioned: in-repo
+reload: rebuild
+layering: levels
+determinism: deterministic</title></circle>
+<circle cx="1760" cy="631" r="4.5" fill="#f28e2b" stroke="#333" stroke-width="1.4"><title>Meson options (2013, Meson)
+binding: build
+binding_detail: configure
+carrier: build-script
+expressiveness: typed
+constraints: none
+set_by: integrator
+effect: exclude-code
+status: active
+domain: build &amp; packaging
+origin_type: open-source
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<text x="1769" y="635" fill="#222">Meson options<tspan fill="#888"> (configure)</tspan></text>
+<polygon points="1754.5,643.5 1765.5,643.5 1760,653.5" fill="#f28e2b" stroke="#333" stroke-width="1.4"><title>NODE_ENV dead-code elimination (2013, React / Node ecosystem)
+binding: build
+binding_detail: bundle
+carrier: env
+expressiveness: flat
+constraints: none
+set_by: dev
+effect: exclude-code
+status: active
+domain: build &amp; packaging
+origin_type: community
+versioned: external
+reload: rebuild
+layering: none
+determinism: deterministic</title></polygon>
+<text x="1769" y="652" fill="#222">NODE_ENV dead-code elimination<tspan fill="#888"> (bundle)</tspan></text>
+<polygon points="1754.5,660.5 1765.5,660.5 1760,670.5" fill="#8cd17d" stroke="#333" stroke-width="1.4"><title>TOML (2013, Tom Preston-Werner)
+binding: build;startup
+binding_detail: 
+carrier: file
+expressiveness: typed
+constraints: none
+set_by: dev
+effect: set-value
+status: active
+domain: formats &amp; languages
+origin_type: community
+versioned: both
+reload: restart
+layering: none
+determinism: deterministic</title></polygon>
+<text x="1769" y="669" fill="#222">TOML  [build + startup]</text>
+<rect x="1785.5" y="609.5" width="9.0" height="9.0" fill="#f28e2b" stroke="#333" stroke-width="1.4"><title>Android build variants (2014, Android Gradle plugin)
+binding: build
+binding_detail: 
+carrier: build-script
+expressiveness: computed
+constraints: none
+set_by: dev
+effect: build-variants
+status: active
+domain: build &amp; packaging
+origin_type: vendor
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></rect>
+<text x="1799" y="618" fill="#222">Android build variants</text>
+<rect x="1785.5" y="677.5" width="9.0" height="9.0" fill="#f28e2b" stroke="#333" stroke-width="1.4"><title>Swift conditional compilation (2014, Swift 1.0)
+binding: build
+binding_detail: compile
+carrier: code
+expressiveness: computed
+constraints: none
+set_by: dev
+effect: exclude-code
+status: active
+domain: build &amp; packaging
+origin_type: vendor
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></rect>
+<text x="1799" y="686" fill="#222">Swift conditional compilation<tspan fill="#888"> (compile)</tspan></text>
+<circle cx="1820" cy="444" r="4.5" fill="#79706e" stroke="#333" stroke-width="1.4"><title>Babel config (2015, Babel)
+binding: build
+binding_detail: compile
+carrier: file
+expressiveness: nested
+constraints: none
+set_by: dev
+effect: steer-tool
+status: active
+domain: dev tools
+origin_type: open-source
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<text x="1829" y="448" fill="#222">Babel config<tspan fill="#888"> (compile)</tspan></text>
+<rect x="1815.5" y="558.5" width="9.0" height="9.0" fill="#f28e2b" stroke="#333" stroke-width="1.4"><title>Bazel select() (2015, Bazel)
+binding: build
+binding_detail: configure
+carrier: build-script
+expressiveness: computed
+constraints: none
+set_by: integrator
+effect: select-files
+status: active
+domain: build &amp; packaging
+origin_type: vendor
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></rect>
+<text x="1829" y="567" fill="#222">Bazel select()<tspan fill="#888"> (configure)</tspan></text>
+<circle cx="1820" cy="699" r="4.5" fill="#f28e2b" stroke="#333" stroke-width="1.4"><title>browserslist (2015, browserslist)
+binding: build
+binding_detail: bundle
+carrier: file
+expressiveness: flat
+constraints: none
+set_by: dev
+effect: exclude-code
+status: active
+domain: build &amp; packaging
+origin_type: open-source
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<text x="1829" y="703" fill="#222">browserslist<tspan fill="#888"> (bundle)</tspan></text>
+<circle cx="1820" cy="716" r="4.5" fill="#f28e2b" stroke="#333" stroke-width="1.4"><title>Cargo features (2015, Rust 1.0)
+binding: build
+binding_detail: compile
+carrier: build-script
+expressiveness: flat
+constraints: dependencies
+set_by: dev;integrator
+effect: exclude-code
+status: active
+domain: build &amp; packaging
+origin_type: open-source
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<text x="1829" y="720" fill="#222">Cargo features<tspan fill="#888"> (compile)</tspan></text>
+<rect x="1815.5" y="728.5" width="9.0" height="9.0" fill="#79706e" stroke="#333" stroke-width="1.4"><title>GitLab CI pipelines (2015, GitLab 8.0)
+binding: build
+binding_detail: 
+carrier: file
+expressiveness: nested
+constraints: none
+set_by: dev
+effect: build-variants
+status: active
+domain: dev tools
+origin_type: vendor
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></rect>
+<text x="1829" y="737" fill="#222">GitLab CI pipelines</text>
+<circle cx="1820" cy="750" r="4.5" fill="#f28e2b" stroke="#333" stroke-width="1.4"><title>Rust cfg attributes (2015, Rust 1.0)
+binding: build
+binding_detail: compile
+carrier: code
+expressiveness: computed
+constraints: none
+set_by: dev
+effect: exclude-code
+status: active
+domain: build &amp; packaging
+origin_type: open-source
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<text x="1829" y="754" fill="#222">Rust cfg attributes<tspan fill="#888"> (compile)</tspan></text>
+<polygon points="1820,761.5 1825.5,771.5 1814.5,771.5" fill="#f28e2b" stroke="#333" stroke-width="1.4"><title>Spack variants (2015, LLNL)
+binding: build;install
+binding_detail: 
+carrier: cli;file
+expressiveness: flat
+constraints: dependencies
+set_by: user
+effect: select-deps
+status: active
+domain: build &amp; packaging
+origin_type: research
+versioned: both
+reload: reinstall
+layering: none
+determinism: deterministic</title></polygon>
+<text x="1829" y="771" fill="#222">Spack variants  [build + install]</text>
+<rect x="1815.5" y="779.5" width="9.0" height="9.0" fill="#8cd17d" stroke="#333" stroke-width="1.4"><title>Starlark (2015, Bazel (as Skylark))
+binding: build
+binding_detail: configure
+carrier: build-script
+expressiveness: program
+constraints: none
+set_by: dev
+effect: select-files
+status: active
+domain: formats &amp; languages
+origin_type: vendor
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></rect>
+<text x="1829" y="788" fill="#222">Starlark<tspan fill="#888"> (configure)</tspan></text>
+<rect x="1815.5" y="796.5" width="9.0" height="9.0" fill="#79706e" stroke="#333" stroke-width="1.4"><title>tsconfig.json (2015, TypeScript 1.5)
+binding: build
+binding_detail: compile
+carrier: file
+expressiveness: nested
+constraints: schema
+set_by: dev
+effect: steer-tool
+status: active
+domain: dev tools
+origin_type: vendor
+versioned: in-repo
+reload: rebuild
+layering: overlays
+determinism: deterministic</title></rect>
+<text x="1829" y="805" fill="#222">tsconfig.json<tspan fill="#888"> (compile)</tspan></text>
+<circle cx="1850" cy="818" r="4.5" fill="#79706e" stroke="#333" stroke-width="1.4"><title>Jenkinsfile (2016, Jenkins 2.0)
+binding: build
+binding_detail: 
+carrier: file
+expressiveness: program
+constraints: none
+set_by: dev
+effect: build-variants
+status: active
+domain: dev tools
+origin_type: open-source
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<text x="1859" y="822" fill="#222">Jenkinsfile</text>
+<polygon points="1850,829.0 1856.0,835 1850,841.0 1844.0,835" fill="#79706e" stroke="#333" stroke-width="1.4"><title>pyproject.toml (2016, PEP 518)
+binding: build
+binding_detail: 
+carrier: file
+expressiveness: typed
+constraints: schema
+set_by: dev
+effect: steer-tool
+status: active
+domain: dev tools
+origin_type: standard
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></polygon>
+<text x="1859" y="839" fill="#222">pyproject.toml</text>
+<rect x="1875.5" y="473.5" width="9.0" height="9.0" fill="#f28e2b" stroke="#333" stroke-width="1.4"><title>Docker multi-stage targets (2017, Docker 17.05)
+binding: build
+binding_detail: 
+carrier: file
+expressiveness: flat
+constraints: none
+set_by: dev
+effect: build-variants
+status: active
+domain: build &amp; packaging
+origin_type: vendor
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></rect>
+<text x="1889" y="482" fill="#222">Docker multi-stage targets</text>
+<rect x="1875.5" y="507.5" width="9.0" height="9.0" fill="#f28e2b" stroke="#333" stroke-width="1.4"><title>Kotlin expect/actual (2017, Kotlin 1.2)
+binding: build
+binding_detail: compile
+carrier: code
+expressiveness: flat
+constraints: none
+set_by: dev
+effect: select-files
+status: active
+domain: build &amp; packaging
+origin_type: vendor
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></rect>
+<text x="1889" y="516" fill="#222">Kotlin expect/actual<tspan fill="#888"> (compile)</tspan></text>
+<rect x="1935.5" y="422.5" width="9.0" height="9.0" fill="#79706e" stroke="#333" stroke-width="1.4"><title>GitHub Actions workflows (2019, GitHub)
+binding: build
+binding_detail: 
+carrier: file
+expressiveness: nested
+constraints: schema
+set_by: dev
+effect: build-variants
+status: active
+domain: dev tools
+origin_type: vendor
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></rect>
+<text x="1949" y="431" fill="#222">GitHub Actions workflows</text>
+<circle cx="1940" cy="461" r="4.5" fill="#f28e2b" stroke="#333" stroke-width="1.4"><title>Node conditional exports (2019, Node.js 12)
+binding: build;startup
+binding_detail: 
+carrier: file
+expressiveness: nested
+constraints: none
+set_by: dev
+effect: select-files
+status: active
+domain: build &amp; packaging
+origin_type: open-source
+versioned: in-repo
+reload: restart
+layering: none
+determinism: deterministic</title></circle>
+<text x="1949" y="465" fill="#222">Node conditional exports  [build + startup]</text>
+<circle cx="1970" cy="495" r="4.5" fill="#f28e2b" stroke="#333" stroke-width="1.4"><title>Vite config (2020, Vite)
+binding: build
+binding_detail: bundle
+carrier: build-script
+expressiveness: program
+constraints: none
+set_by: dev
+effect: select-files
+status: active
+domain: build &amp; packaging
+origin_type: open-source
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<text x="1979" y="499" fill="#222">Vite config<tspan fill="#888"> (bundle)</tspan></text>
+<circle cx="2000" cy="444" r="4.5" fill="#f28e2b" stroke="#333" stroke-width="1.4"><title>Nix flakes (2021, Nix 2.4)
+binding: build;install
+binding_detail: 
+carrier: file
+expressiveness: program
+constraints: none
+set_by: integrator
+effect: select-deps
+status: active
+domain: build &amp; packaging
+origin_type: open-source
+versioned: in-repo
+reload: reinstall
+layering: overlays
+determinism: deterministic</title></circle>
+<text x="2009" y="448" fill="#222">Nix flakes  [build + install]</text>
+<circle cx="1370" cy="872" r="4.5" fill="#f28e2b" stroke="#333" stroke-width="1.4"><title>debconf (2000, Debian)
+binding: install
+binding_detail: 
+carrier: ui;store
+expressiveness: flat
+constraints: none
+set_by: user
+effect: set-value
+status: active
+domain: build &amp; packaging
+origin_type: open-source
+versioned: external
+reload: reinstall
+layering: none
+determinism: deterministic</title></circle>
+<text x="1379" y="876" fill="#222">debconf</text>
+<circle cx="1430" cy="889" r="4.5" fill="#f28e2b" stroke="#333" stroke-width="1.4"><title>Gentoo USE flags (2002, Gentoo 1.0)
+binding: install
+binding_detail: 
+carrier: file
+expressiveness: flat
+constraints: dependencies
+set_by: user
+effect: select-deps
+status: active
+domain: build &amp; packaging
+origin_type: open-source
+versioned: both
+reload: reinstall
+layering: none
+determinism: deterministic</title></circle>
+<text x="1439" y="893" fill="#222">Gentoo USE flags</text>
+<polygon points="1460,868 1464,875 1456,875" fill="#f28e2b" stroke="#333" stroke-width="1.4"><title>Nix expressions (2003, Utrecht University)
+binding: build;install
+binding_detail: 
+carrier: file
+expressiveness: program
+constraints: none
+set_by: integrator
+effect: select-deps
+status: active
+domain: build &amp; packaging
+origin_type: research
+versioned: in-repo
+reload: reinstall
+layering: overlays
+determinism: deterministic</title></polygon>
+<circle cx="1520" cy="872" r="4.5" fill="#f28e2b" stroke="#333" stroke-width="1.4"><title>Python extras (2005, setuptools)
+binding: install
+binding_detail: 
+carrier: build-script
+expressiveness: flat
+constraints: dependencies
+set_by: user
+effect: select-deps
+status: active
+domain: build &amp; packaging
+origin_type: open-source
+versioned: in-repo
+reload: reinstall
+layering: none
+determinism: deterministic</title></circle>
+<text x="1529" y="876" fill="#222">Python extras</text>
+<rect x="1605.5" y="884.5" width="9.0" height="9.0" fill="#f28e2b" stroke="#333" stroke-width="1.4"><title>App manifests (Android / iOS) (2008, Android 1.0 / iPhone SDK)
+binding: install
+binding_detail: 
+carrier: file
+expressiveness: nested
+constraints: schema
+set_by: dev
+effect: set-value
+status: active
+domain: build &amp; packaging
+origin_type: vendor
+versioned: in-repo
+reload: reinstall
+layering: none
+determinism: deterministic</title></rect>
+<text x="1619" y="893" fill="#222">App manifests (Android / iOS)</text>
+<circle cx="1640" cy="872" r="4.5" fill="white" stroke="#f28e2b" stroke-width="1.4"><title>Homebrew install options (2009-2019, Homebrew)
+binding: install
+binding_detail: 
+carrier: cli
+expressiveness: flat
+constraints: none
+set_by: user
+effect: select-deps
+status: dead
+domain: build &amp; packaging
+origin_type: open-source
+versioned: external
+reload: reinstall
+layering: none
+determinism: deterministic</title></circle>
+<text x="1649" y="876" fill="#222">Homebrew install options</text>
+<circle cx="1670" cy="906" r="3" fill="#f28e2b" stroke="#333" stroke-width="1.4"><title>package.json and .npmrc (2010, npm)
+binding: build;install
+binding_detail: 
+carrier: file
+expressiveness: nested
+constraints: schema
+set_by: dev
+effect: select-deps
+status: active
+domain: build &amp; packaging
+origin_type: open-source
+versioned: in-repo
+reload: reinstall
+layering: levels
+determinism: deterministic</title></circle>
+<rect x="1725.5" y="901.5" width="9.0" height="9.0" fill="#f28e2b" stroke="#333" stroke-width="1.4"><title>Conda environments (2012, Continuum Analytics)
+binding: install
+binding_detail: 
+carrier: file
+expressiveness: nested
+constraints: none
+set_by: dev
+effect: select-deps
+status: active
+domain: build &amp; packaging
+origin_type: vendor
+versioned: in-repo
+reload: reinstall
+layering: none
+determinism: deterministic</title></rect>
+<text x="1739" y="910" fill="#222">Conda environments</text>
+<circle cx="1730" cy="923" r="3" fill="#f28e2b" stroke="#333" stroke-width="1.4"><title>GNU Guix (2012, GNU)
+binding: build;install
+binding_detail: 
+carrier: file
+expressiveness: program
+constraints: none
+set_by: integrator
+effect: select-deps
+status: active
+domain: build &amp; packaging
+origin_type: open-source
+versioned: in-repo
+reload: reinstall
+layering: none
+determinism: deterministic</title></circle>
+<polygon points="1820,885 1824,892 1816,892" fill="#f28e2b" stroke="#333" stroke-width="1.4"><title>Spack variants (2015, LLNL)
+binding: build;install
+binding_detail: 
+carrier: cli;file
+expressiveness: flat
+constraints: dependencies
+set_by: user
+effect: select-deps
+status: active
+domain: build &amp; packaging
+origin_type: research
+versioned: both
+reload: reinstall
+layering: none
+determinism: deterministic</title></polygon>
+<circle cx="2000" cy="872" r="3" fill="#f28e2b" stroke="#333" stroke-width="1.4"><title>Nix flakes (2021, Nix 2.4)
+binding: build;install
+binding_detail: 
+carrier: file
+expressiveness: program
+constraints: none
+set_by: integrator
+effect: select-deps
+status: active
+domain: build &amp; packaging
+origin_type: open-source
+versioned: in-repo
+reload: reinstall
+layering: overlays
+determinism: deterministic</title></circle>
+<polygon points="1160,954.5 1165.5,964.5 1154.5,964.5" fill="#b6992d" stroke="#333" stroke-width="1.4"><title>CFEngine (1993, Mark Burgess)
+binding: deploy
+binding_detail: 
+carrier: file
+expressiveness: computed
+constraints: none
+set_by: operator
+effect: provision
+status: active
+domain: servers &amp; ops
+origin_type: research
+versioned: in-repo
+reload: redeploy
+layering: none
+determinism: deterministic</title></polygon>
+<text x="1169" y="964" fill="#222">CFEngine</text>
+<rect x="1335.5" y="955.5" width="9.0" height="9.0" fill="white" stroke="#8cd17d" stroke-width="1.4"><title>XML deployment descriptors (1999, Java Servlet 2.2)
+binding: deploy
+binding_detail: 
+carrier: file
+expressiveness: nested
+constraints: schema
+set_by: integrator
+effect: wire-components
+status: legacy
+domain: formats &amp; languages
+origin_type: vendor
+versioned: in-repo
+reload: redeploy
+layering: none
+determinism: deterministic</title></rect>
+<text x="1349" y="964" fill="#222">XML deployment descriptors</text>
+<polygon points="1394.5,972.5 1405.5,972.5 1400,982.5" fill="#8cd17d" stroke="#333" stroke-width="1.4"><title>YAML (2001, yaml.org)
+binding: deploy;startup
+binding_detail: 
+carrier: file
+expressiveness: nested
+constraints: schema
+set_by: operator
+effect: set-value
+status: active
+domain: formats &amp; languages
+origin_type: community
+versioned: both
+reload: restart
+layering: none
+determinism: deterministic</title></polygon>
+<text x="1409" y="981" fill="#222">YAML  [deploy + startup]</text>
+<circle cx="1520" cy="960" r="4.5" fill="#b6992d" stroke="#333" stroke-width="1.4"><title>Puppet manifests (2005, Puppet)
+binding: deploy
+binding_detail: 
+carrier: file
+expressiveness: computed
+constraints: dependencies
+set_by: operator
+effect: provision
+status: active
+domain: servers &amp; ops
+origin_type: open-source
+versioned: in-repo
+reload: redeploy
+layering: levels
+determinism: deterministic</title></circle>
+<text x="1529" y="964" fill="#222">Puppet manifests</text>
+<rect x="1605.5" y="972.5" width="9.0" height="9.0" fill="#499894" stroke="#333" stroke-width="1.4"><title>App Engine app.yaml (2008, Google)
+binding: deploy
+binding_detail: 
+carrier: file
+expressiveness: nested
+constraints: schema
+set_by: dev
+effect: set-value
+status: active
+domain: cloud &amp; containers
+origin_type: vendor
+versioned: in-repo
+reload: redeploy
+layering: none
+determinism: deterministic</title></rect>
+<text x="1619" y="981" fill="#222">App Engine app.yaml</text>
+<circle cx="1640" cy="960" r="4.5" fill="#b6992d" stroke="#333" stroke-width="1.4"><title>Chef (2009, Opscode)
+binding: deploy
+binding_detail: 
+carrier: file
+expressiveness: program
+constraints: dependencies
+set_by: operator
+effect: provision
+status: active
+domain: servers &amp; ops
+origin_type: open-source
+versioned: in-repo
+reload: redeploy
+layering: levels
+determinism: deterministic</title></circle>
+<text x="1649" y="964" fill="#222">Chef</text>
+<rect x="1635.5" y="989.5" width="9.0" height="9.0" fill="#b6992d" stroke="#333" stroke-width="1.4"><title>cloud-init (2009, Canonical)
+binding: deploy;startup
+binding_detail: 
+carrier: file
+expressiveness: nested
+constraints: schema
+set_by: operator
+effect: provision
+status: active
+domain: servers &amp; ops
+origin_type: vendor
+versioned: external
+reload: restart
+layering: none
+determinism: deterministic</title></rect>
+<text x="1649" y="998" fill="#222">cloud-init  [deploy + startup]</text>
+<circle cx="1670" cy="1011" r="4.5" fill="#79706e" stroke="#333" stroke-width="1.4"><title>Vagrantfile (2010, Vagrant)
+binding: deploy
+binding_detail: 
+carrier: file
+expressiveness: program
+constraints: none
+set_by: dev
+effect: provision
+status: active
+domain: dev tools
+origin_type: open-source
+versioned: in-repo
+reload: redeploy
+layering: none
+determinism: deterministic</title></circle>
+<text x="1679" y="1015" fill="#222">Vagrantfile</text>
+<rect x="1695.5" y="955.5" width="9.0" height="9.0" fill="#b6992d" stroke="#333" stroke-width="1.4"><title>AWS CloudFormation (2011, Amazon)
+binding: deploy
+binding_detail: 
+carrier: file
+expressiveness: computed
+constraints: dependencies
+set_by: operator
+effect: provision
+status: active
+domain: servers &amp; ops
+origin_type: vendor
+versioned: in-repo
+reload: redeploy
+layering: none
+determinism: deterministic</title></rect>
+<text x="1709" y="964" fill="#222">AWS CloudFormation</text>
+<rect x="1695.5" y="1023.5" width="9.0" height="9.0" fill="#499894" stroke="#333" stroke-width="1.4"><title>Procfile (2011, Heroku)
+binding: deploy
+binding_detail: 
+carrier: file
+expressiveness: flat
+constraints: none
+set_by: dev
+effect: wire-components
+status: active
+domain: cloud &amp; containers
+origin_type: vendor
+versioned: in-repo
+reload: redeploy
+layering: none
+determinism: deterministic</title></rect>
+<text x="1709" y="1032" fill="#222">Procfile</text>
+<circle cx="1700" cy="1045" r="4.5" fill="#b6992d" stroke="#333" stroke-width="1.4"><title>Salt states (2011, SaltStack)
+binding: deploy
+binding_detail: 
+carrier: file
+expressiveness: computed
+constraints: dependencies
+set_by: operator
+effect: provision
+status: active
+domain: servers &amp; ops
+origin_type: open-source
+versioned: in-repo
+reload: redeploy
+layering: levels
+determinism: deterministic</title></circle>
+<text x="1709" y="1049" fill="#222">Salt states</text>
+<rect x="1695.5" y="1057.5" width="9.0" height="9.0" fill="#499894" stroke="#333" stroke-width="1.4"><title>Twelve-factor env config (2011, Heroku)
+binding: deploy;startup
+binding_detail: 
+carrier: env
+expressiveness: flat
+constraints: none
+set_by: operator
+effect: set-value
+status: active
+domain: cloud &amp; containers
+origin_type: vendor
+versioned: external
+reload: restart
+layering: none
+determinism: deterministic</title></rect>
+<text x="1709" y="1066" fill="#222">Twelve-factor env config  [deploy + startup]</text>
+<circle cx="1730" cy="1079" r="4.5" fill="#b6992d" stroke="#333" stroke-width="1.4"><title>Ansible (2012, Ansible)
+binding: deploy
+binding_detail: 
+carrier: file
+expressiveness: computed
+constraints: none
+set_by: operator
+effect: provision
+status: active
+domain: servers &amp; ops
+origin_type: open-source
+versioned: in-repo
+reload: redeploy
+layering: levels
+determinism: deterministic</title></circle>
+<text x="1739" y="1083" fill="#222">Ansible</text>
+<rect x="1785.5" y="972.5" width="9.0" height="9.0" fill="#b6992d" stroke="#333" stroke-width="1.4"><title>ARM templates (2014, Microsoft Azure)
+binding: deploy
+binding_detail: 
+carrier: file
+expressiveness: computed
+constraints: dependencies
+set_by: operator
+effect: provision
+status: active
+domain: servers &amp; ops
+origin_type: vendor
+versioned: in-repo
+reload: redeploy
+layering: none
+determinism: deterministic</title></rect>
+<text x="1799" y="981" fill="#222">ARM templates</text>
+<rect x="1785.5" y="1006.5" width="9.0" height="9.0" fill="#499894" stroke="#333" stroke-width="1.4"><title>Docker Compose (2014, Docker (Fig))
+binding: deploy
+binding_detail: 
+carrier: file
+expressiveness: nested
+constraints: dependencies
+set_by: operator
+effect: wire-components
+status: active
+domain: cloud &amp; containers
+origin_type: vendor
+versioned: in-repo
+reload: redeploy
+layering: overlays
+determinism: deterministic</title></rect>
+<text x="1799" y="1015" fill="#222">Docker Compose</text>
+<rect x="1785.5" y="1023.5" width="9.0" height="9.0" fill="#8cd17d" stroke="#333" stroke-width="1.4"><title>Jsonnet (2014, Google)
+binding: deploy
+binding_detail: 
+carrier: file
+expressiveness: program
+constraints: none
+set_by: operator
+effect: set-value
+status: active
+domain: formats &amp; languages
+origin_type: vendor
+versioned: in-repo
+reload: redeploy
+layering: none
+determinism: deterministic</title></rect>
+<text x="1799" y="1032" fill="#222">Jsonnet</text>
+<rect x="1785.5" y="1040.5" width="9.0" height="9.0" fill="#b6992d" stroke="#333" stroke-width="1.4"><title>Terraform (HCL) (2014, HashiCorp)
+binding: deploy
+binding_detail: 
+carrier: file
+expressiveness: computed
+constraints: dependencies
+set_by: operator
+effect: provision
+status: active
+domain: servers &amp; ops
+origin_type: vendor
+versioned: in-repo
+reload: redeploy
+layering: levels
+determinism: deterministic</title></rect>
+<text x="1799" y="1049" fill="#222">Terraform (HCL)</text>
+<rect x="1815.5" y="1074.5" width="9.0" height="9.0" fill="#499894" stroke="#333" stroke-width="1.4"><title>Helm values (2015, Deis)
+binding: deploy
+binding_detail: 
+carrier: file
+expressiveness: computed
+constraints: schema
+set_by: operator
+effect: set-value
+status: active
+domain: cloud &amp; containers
+origin_type: vendor
+versioned: both
+reload: redeploy
+layering: overlays
+determinism: deterministic</title></rect>
+<text x="1829" y="1083" fill="#222">Helm values</text>
+<circle cx="1820" cy="1096" r="4.5" fill="#499894" stroke="#333" stroke-width="1.4"><title>Kubernetes Secrets (2015, Kubernetes 1.0)
+binding: deploy;runtime
+binding_detail: 
+carrier: store
+expressiveness: flat
+constraints: none
+set_by: operator
+effect: set-value
+status: active
+domain: cloud &amp; containers
+origin_type: open-source
+versioned: external
+reload: live
+layering: none
+determinism: deterministic</title></circle>
+<text x="1829" y="1100" fill="#222">Kubernetes Secrets  [deploy + runtime]</text>
+<rect x="1815.5" y="1108.5" width="9.0" height="9.0" fill="#499894" stroke="#333" stroke-width="1.4"><title>Serverless Framework (2015, Serverless Inc.)
+binding: deploy
+binding_detail: 
+carrier: file
+expressiveness: computed
+constraints: none
+set_by: dev
+effect: provision
+status: active
+domain: cloud &amp; containers
+origin_type: vendor
+versioned: in-repo
+reload: redeploy
+layering: none
+determinism: deterministic</title></rect>
+<text x="1829" y="1117" fill="#222">Serverless Framework</text>
+<circle cx="1820" cy="1130" r="4.5" fill="#b6992d" stroke="#333" stroke-width="1.4"><title>SOPS (2015, Mozilla)
+binding: deploy
+binding_detail: 
+carrier: file
+expressiveness: nested
+constraints: none
+set_by: operator
+effect: set-value
+status: active
+domain: servers &amp; ops
+origin_type: open-source
+versioned: in-repo
+reload: redeploy
+layering: none
+determinism: deterministic</title></circle>
+<text x="1829" y="1134" fill="#222">SOPS</text>
+<circle cx="1850" cy="960" r="4.5" fill="#499894" stroke="#333" stroke-width="1.4"><title>Kubernetes ConfigMap (2016, Kubernetes 1.2)
+binding: deploy;runtime
+binding_detail: 
+carrier: store
+expressiveness: nested
+constraints: none
+set_by: operator
+effect: set-value
+status: active
+domain: cloud &amp; containers
+origin_type: open-source
+versioned: both
+reload: live
+layering: none
+determinism: deterministic</title></circle>
+<text x="1859" y="964" fill="#222">Kubernetes ConfigMap  [deploy + runtime]</text>
+<circle cx="1880" cy="994" r="4.5" fill="#8cd17d" stroke="#333" stroke-width="1.4"><title>Dhall (2017, Gabriella Gonzalez)
+binding: deploy
+binding_detail: 
+carrier: file
+expressiveness: program
+constraints: schema
+set_by: operator
+effect: set-value
+status: active
+domain: formats &amp; languages
+origin_type: open-source
+versioned: in-repo
+reload: redeploy
+layering: none
+determinism: deterministic</title></circle>
+<text x="1889" y="998" fill="#222">Dhall</text>
+<rect x="1875.5" y="1023.5" width="9.0" height="9.0" fill="white" stroke="#499894" stroke-width="1.4"><title>ksonnet (2017-2019, Heptio)
+binding: deploy
+binding_detail: 
+carrier: file
+expressiveness: program
+constraints: none
+set_by: operator
+effect: set-value
+status: dead
+domain: cloud &amp; containers
+origin_type: vendor
+versioned: in-repo
+reload: redeploy
+layering: none
+determinism: deterministic</title></rect>
+<text x="1889" y="1032" fill="#222">ksonnet</text>
+<circle cx="1880" cy="1130" r="4.5" fill="#499894" stroke="#333" stroke-width="1.4"><title>Kubernetes CRDs and operators (2017, Kubernetes 1.7)
+binding: deploy;runtime
+binding_detail: 
+carrier: store
+expressiveness: nested
+constraints: schema
+set_by: operator
+effect: provision
+status: active
+domain: cloud &amp; containers
+origin_type: open-source
+versioned: external
+reload: live
+layering: none
+determinism: deterministic</title></circle>
+<text x="1889" y="1134" fill="#222">Kubernetes CRDs and operators  [deploy + runtime]</text>
+<circle cx="1910" cy="977" r="4.5" fill="#499894" stroke="#333" stroke-width="1.4"><title>Kustomize (2018, Kubernetes SIG CLI)
+binding: deploy
+binding_detail: 
+carrier: file
+expressiveness: nested
+constraints: none
+set_by: operator
+effect: patch
+status: active
+domain: cloud &amp; containers
+origin_type: open-source
+versioned: in-repo
+reload: redeploy
+layering: overlays
+determinism: deterministic</title></circle>
+<text x="1919" y="981" fill="#222">Kustomize</text>
+<rect x="1905.5" y="1006.5" width="9.0" height="9.0" fill="#b6992d" stroke="#333" stroke-width="1.4"><title>Pulumi (2018, Pulumi)
+binding: deploy
+binding_detail: 
+carrier: code
+expressiveness: program
+constraints: dependencies
+set_by: operator
+effect: provision
+status: active
+domain: servers &amp; ops
+origin_type: vendor
+versioned: in-repo
+reload: redeploy
+layering: none
+determinism: deterministic</title></rect>
+<text x="1919" y="1015" fill="#222">Pulumi</text>
+<rect x="1935.5" y="989.5" width="9.0" height="9.0" fill="#b6992d" stroke="#333" stroke-width="1.4"><title>AWS CDK (2019, Amazon)
+binding: deploy
+binding_detail: 
+carrier: code
+expressiveness: program
+constraints: dependencies
+set_by: operator
+effect: provision
+status: active
+domain: servers &amp; ops
+origin_type: vendor
+versioned: in-repo
+reload: redeploy
+layering: none
+determinism: deterministic</title></rect>
+<text x="1949" y="998" fill="#222">AWS CDK</text>
+<circle cx="1940" cy="1045" r="4.5" fill="#8cd17d" stroke="#333" stroke-width="1.4"><title>CUE (2019, Marcel van Lohuizen)
+binding: deploy
+binding_detail: 
+carrier: file
+expressiveness: computed
+constraints: constraints
+set_by: operator
+effect: set-value
+status: active
+domain: formats &amp; languages
+origin_type: open-source
+versioned: in-repo
+reload: redeploy
+layering: none
+determinism: deterministic</title></circle>
+<text x="1949" y="1049" fill="#222">CUE</text>
+<rect x="1965.5" y="1006.5" width="9.0" height="9.0" fill="#b6992d" stroke="#333" stroke-width="1.4"><title>Bicep (2020, Microsoft Azure)
+binding: deploy
+binding_detail: 
+carrier: file
+expressiveness: computed
+constraints: dependencies
+set_by: operator
+effect: provision
+status: active
+domain: servers &amp; ops
+origin_type: vendor
+versioned: in-repo
+reload: redeploy
+layering: none
+determinism: deterministic</title></rect>
+<text x="1979" y="1015" fill="#222">Bicep</text>
+<circle cx="2030" cy="977" r="4.5" fill="#8cd17d" stroke="#333" stroke-width="1.4"><title>KCL (2022, Ant Group)
+binding: deploy
+binding_detail: 
+carrier: file
+expressiveness: program
+constraints: schema
+set_by: operator
+effect: set-value
+status: active
+domain: formats &amp; languages
+origin_type: open-source
+versioned: in-repo
+reload: redeploy
+layering: none
+determinism: deterministic</title></circle>
+<text x="2039" y="981" fill="#222">KCL</text>
+<circle cx="2060" cy="994" r="4.5" fill="#8cd17d" stroke="#333" stroke-width="1.4"><title>Nickel (2023, Tweag)
+binding: deploy
+binding_detail: 
+carrier: file
+expressiveness: program
+constraints: schema
+set_by: operator
+effect: set-value
+status: active
+domain: formats &amp; languages
+origin_type: open-source
+versioned: in-repo
+reload: redeploy
+layering: none
+determinism: deterministic</title></circle>
+<text x="2069" y="998" fill="#222">Nickel</text>
+<rect x="2085.5" y="972.5" width="9.0" height="9.0" fill="#8cd17d" stroke="#333" stroke-width="1.4"><title>Pkl (2024, Apple)
+binding: deploy;startup
+binding_detail: 
+carrier: file
+expressiveness: program
+constraints: schema
+set_by: dev;operator
+effect: set-value
+status: active
+domain: formats &amp; languages
+origin_type: vendor
+versioned: in-repo
+reload: restart
+layering: none
+determinism: deterministic</title></rect>
+<text x="2099" y="981" fill="#222">Pkl  [deploy + startup]</text>
+<rect x="795.5" y="1162.5" width="9.0" height="9.0" fill="white" stroke="#4e79a7" stroke-width="1.4"><title>AUTOEXEC.BAT (1981-2001, MS-DOS 1.0)
+binding: boot
+binding_detail: 
+carrier: file
+expressiveness: program
+constraints: none
+set_by: user
+effect: set-value
+status: legacy
+domain: systems
+origin_type: vendor
+versioned: external
+reload: reboot
+layering: none
+determinism: deterministic</title></rect>
+<text x="809" y="1171" fill="#222">AUTOEXEC.BAT</text>
+<rect x="855.5" y="1179.5" width="9.0" height="9.0" fill="white" stroke="#4e79a7" stroke-width="1.4"><title>CONFIG.SYS (1983-2001, MS-DOS 2.0)
+binding: boot
+binding_detail: load
+carrier: file
+expressiveness: flat
+constraints: none
+set_by: user
+effect: load-code
+status: legacy
+domain: systems
+origin_type: vendor
+versioned: external
+reload: reboot
+layering: none
+determinism: deterministic</title></rect>
+<text x="869" y="1188" fill="#222">CONFIG.SYS<tspan fill="#888"> (load)</tspan></text>
+<rect x="855.5" y="1196.5" width="9.0" height="9.0" fill="white" stroke="#4e79a7" stroke-width="1.4"><title>SysV inittab (1983-2015, UNIX System V)
+binding: boot
+binding_detail: 
+carrier: file
+expressiveness: flat
+constraints: none
+set_by: operator
+effect: wire-components
+status: legacy
+domain: systems
+origin_type: vendor
+versioned: external
+reload: reboot
+layering: none
+determinism: deterministic</title></rect>
+<text x="869" y="1205" fill="#222">SysV inittab</text>
+<rect x="885.5" y="1213.5" width="9.0" height="9.0" fill="#4e79a7" stroke="#333" stroke-width="1.4"><title>BIOS setup (CMOS) (1984, IBM PC/AT)
+binding: boot
+binding_detail: 
+carrier: store;ui
+expressiveness: flat
+constraints: none
+set_by: user
+effect: set-value
+status: active
+domain: systems
+origin_type: vendor
+versioned: external
+reload: reboot
+layering: none
+determinism: deterministic</title></rect>
+<text x="899" y="1222" fill="#222">BIOS setup (CMOS)</text>
+<circle cx="1130" cy="1218" r="4.5" fill="#4e79a7" stroke="#333" stroke-width="1.4"><title>Kernel command line (1992, LILO / Linux)
+binding: boot
+binding_detail: 
+carrier: cli
+expressiveness: flat
+constraints: none
+set_by: operator
+effect: set-value
+status: active
+domain: systems
+origin_type: open-source
+versioned: external
+reload: reboot
+layering: none
+determinism: deterministic</title></circle>
+<text x="1139" y="1222" fill="#222">Kernel command line</text>
+<polygon points="1190,1229.0 1196.0,1235 1190,1241.0 1184.0,1235" fill="#4e79a7" stroke="#333" stroke-width="1.4"><title>Device tree (1994, Open Firmware (IEEE 1275))
+binding: boot
+binding_detail: 
+carrier: file
+expressiveness: nested
+constraints: schema
+set_by: integrator
+effect: wire-components
+status: active
+domain: systems
+origin_type: standard
+versioned: in-repo
+reload: reboot
+layering: overlays
+determinism: deterministic</title></polygon>
+<text x="1199" y="1239" fill="#222">Device tree</text>
+<polygon points="740,1266.5 745.5,1276.5 734.5,1276.5" fill="#a0cbe8" stroke="#333" stroke-width="1.4"><title>Shell rc files (1979, Bourne shell (Unix V7))
+binding: session
+binding_detail: 
+carrier: file
+expressiveness: program
+constraints: none
+set_by: user
+effect: set-value
+status: active
+domain: desktop &amp; user
+origin_type: research
+versioned: external
+reload: new-session
+layering: levels
+determinism: deterministic</title></polygon>
+<text x="749" y="1276" fill="#222">Shell rc files</text>
+<circle cx="980" cy="1272" r="4.5" fill="#a0cbe8" stroke="#333" stroke-width="1.4"><title>X resources (1987, X11)
+binding: session
+binding_detail: 
+carrier: file;store
+expressiveness: flat
+constraints: none
+set_by: user
+effect: set-value
+status: active
+domain: desktop &amp; user
+origin_type: open-source
+versioned: external
+reload: new-session
+layering: levels
+determinism: deterministic</title></circle>
+<text x="989" y="1276" fill="#222">X resources</text>
+<polygon points="1010,1283.0 1016.0,1289 1010,1295.0 1004.0,1289" fill="#a0cbe8" stroke="#333" stroke-width="1.4"><title>POSIX locale variables (1988, POSIX.1)
+binding: session
+binding_detail: 
+carrier: env
+expressiveness: flat
+constraints: none
+set_by: user
+effect: select-resources
+status: active
+domain: desktop &amp; user
+origin_type: standard
+versioned: external
+reload: new-session
+layering: levels
+determinism: deterministic</title></polygon>
+<text x="1019" y="1293" fill="#222">POSIX locale variables</text>
+<rect x="1365.5" y="1267.5" width="9.0" height="9.0" fill="#a0cbe8" stroke="#333" stroke-width="1.4"><title>Group Policy (2000, Windows 2000)
+binding: session;runtime
+binding_detail: 
+carrier: store
+expressiveness: nested
+constraints: schema
+set_by: operator
+effect: set-value
+status: active
+domain: desktop &amp; user
+origin_type: vendor
+versioned: external
+reload: live
+layering: levels
+determinism: deterministic</title></rect>
+<text x="1379" y="1276" fill="#222">Group Policy  [session + runtime]</text>
+<circle cx="1790" cy="1272" r="4.5" fill="#79706e" stroke="#333" stroke-width="1.4"><title>direnv (2014, direnv)
+binding: session
+binding_detail: 
+carrier: file
+expressiveness: program
+constraints: none
+set_by: dev
+effect: set-value
+status: active
+domain: dev tools
+origin_type: open-source
+versioned: in-repo
+reload: new-session
+layering: none
+determinism: deterministic</title></circle>
+<text x="1799" y="1276" fill="#222">direnv</text>
+<circle cx="2090" cy="1272" r="3" fill="#7b3294" stroke="#333" stroke-width="1.4"><title>.clinerules (2024, Cline)
+binding: authoring;session
+binding_detail: 
+carrier: file
+expressiveness: prose
+constraints: none
+set_by: dev
+effect: steer-agent
+status: active
+domain: agents
+origin_type: open-source
+versioned: in-repo
+reload: new-session
+layering: none
+determinism: interpreted</title></circle>
+<rect x="2087" y="1286" width="6" height="6" fill="white" stroke="#7b3294" stroke-width="1.4"><title>.cursorrules (2024-2025, Cursor)
+binding: authoring;session
+binding_detail: 
+carrier: file
+expressiveness: prose
+constraints: none
+set_by: dev
+effect: steer-agent
+status: legacy
+domain: agents
+origin_type: vendor
+versioned: in-repo
+reload: new-session
+layering: none
+determinism: interpreted</title></rect>
+<rect x="2087" y="1303" width="6" height="6" fill="#7b3294" stroke="#333" stroke-width="1.4"><title>.windsurfrules (2024, Windsurf)
+binding: authoring;session
+binding_detail: 
+carrier: file
+expressiveness: prose
+constraints: none
+set_by: dev
+effect: steer-agent
+status: active
+domain: agents
+origin_type: vendor
+versioned: in-repo
+reload: new-session
+layering: none
+determinism: interpreted</title></rect>
+<rect x="2087" y="1320" width="6" height="6" fill="#7b3294" stroke="#333" stroke-width="1.4"><title>copilot-instructions.md (2024, GitHub Copilot)
+binding: authoring;session
+binding_detail: 
+carrier: file
+expressiveness: prose
+constraints: none
+set_by: dev
+effect: steer-agent
+status: active
+domain: agents
+origin_type: vendor
+versioned: in-repo
+reload: new-session
+layering: levels
+determinism: interpreted</title></rect>
+<polygon points="2090,1335.5 2094.5,1340 2090,1344.5 2085.5,1340" fill="#7b3294" stroke="#333" stroke-width="1.4"><title>MCP server config (2024, Model Context Protocol)
+binding: authoring;session
+binding_detail: 
+carrier: file
+expressiveness: nested
+constraints: none
+set_by: dev
+effect: load-code
+status: active
+domain: agents
+origin_type: standard
+versioned: both
+reload: new-session
+layering: none
+determinism: deterministic</title></polygon>
+<rect x="2117" y="1269" width="6" height="6" fill="#7b3294" stroke="#333" stroke-width="1.4"><title>Agent settings and hooks (2025, Claude Code)
+binding: authoring;session
+binding_detail: 
+carrier: file
+expressiveness: nested
+constraints: none
+set_by: dev
+effect: steer-tool
+status: active
+domain: agents
+origin_type: vendor
+versioned: both
+reload: new-session
+layering: levels
+determinism: deterministic</title></rect>
+<rect x="2117" y="1286" width="6" height="6" fill="#7b3294" stroke="#333" stroke-width="1.4"><title>AGENTS.md (2025, OpenAI Codex)
+binding: authoring;session
+binding_detail: 
+carrier: file
+expressiveness: prose
+constraints: none
+set_by: dev
+effect: steer-agent
+status: active
+domain: agents
+origin_type: vendor
+versioned: in-repo
+reload: new-session
+layering: levels
+determinism: interpreted</title></rect>
+<rect x="2117" y="1303" width="6" height="6" fill="#7b3294" stroke="#333" stroke-width="1.4"><title>CLAUDE.md (2025, Claude Code)
+binding: authoring;session
+binding_detail: 
+carrier: file
+expressiveness: prose
+constraints: none
+set_by: dev
+effect: steer-agent
+status: active
+domain: agents
+origin_type: vendor
+versioned: both
+reload: new-session
+layering: levels
+determinism: interpreted</title></rect>
+<rect x="2117" y="1320" width="6" height="6" fill="#7b3294" stroke="#333" stroke-width="1.4"><title>Custom agents and prompt files (2025, VS Code / GitHub Copilot)
+binding: authoring;session
+binding_detail: 
+carrier: file
+expressiveness: prose
+constraints: none
+set_by: dev
+effect: steer-agent
+status: active
+domain: agents
+origin_type: vendor
+versioned: in-repo
+reload: new-session
+layering: levels
+determinism: interpreted</title></rect>
+<rect x="2117" y="1337" width="6" height="6" fill="#7b3294" stroke="#333" stroke-width="1.4"><title>GEMINI.md (2025, Gemini CLI)
+binding: authoring;session
+binding_detail: 
+carrier: file
+expressiveness: prose
+constraints: none
+set_by: dev
+effect: steer-agent
+status: active
+domain: agents
+origin_type: vendor
+versioned: both
+reload: new-session
+layering: levels
+determinism: interpreted</title></rect>
+<rect x="285.5" y="1372.5" width="9.0" height="9.0" fill="#4e79a7" stroke="#333" stroke-width="1.4"><title>JCL DD statements (1964, IBM OS/360)
+binding: startup
+binding_detail: 
+carrier: file
+expressiveness: flat
+constraints: none
+set_by: operator
+effect: wire-components
+status: active
+domain: systems
+origin_type: vendor
+versioned: external
+reload: restart
+layering: none
+determinism: deterministic</title></rect>
+<text x="299" y="1381" fill="#222">JCL DD statements</text>
+<polygon points="500,1371.5 505.5,1381.5 494.5,1381.5" fill="#59a14f" stroke="#333" stroke-width="1.4"><title>CLI options (1971, Unix)
+binding: startup
+binding_detail: 
+carrier: cli
+expressiveness: flat
+constraints: none
+set_by: user;operator
+effect: set-value
+status: active
+domain: app runtime
+origin_type: research
+versioned: external
+reload: restart
+layering: none
+determinism: deterministic</title></polygon>
+<text x="509" y="1381" fill="#222">CLI options</text>
+<polygon points="740,1371.5 745.5,1381.5 734.5,1381.5" fill="#59a14f" stroke="#333" stroke-width="1.4"><title>Environment variables (1979, Unix V7)
+binding: startup
+binding_detail: 
+carrier: env
+expressiveness: flat
+constraints: none
+set_by: operator
+effect: set-value
+status: active
+domain: app runtime
+origin_type: research
+versioned: external
+reload: restart
+layering: none
+determinism: deterministic</title></polygon>
+<text x="749" y="1381" fill="#222">Environment variables</text>
+<polygon points="740,1388.5 745.5,1398.5 734.5,1398.5" fill="#a0cbe8" stroke="#333" stroke-width="1.4"><title>vi .exrc (1979, BSD vi)
+binding: startup
+binding_detail: 
+carrier: file
+expressiveness: flat
+constraints: none
+set_by: user
+effect: set-value
+status: active
+domain: desktop &amp; user
+origin_type: research
+versioned: external
+reload: restart
+layering: levels
+determinism: deterministic</title></polygon>
+<text x="749" y="1398" fill="#222">vi .exrc</text>
+<polygon points="860,1388.5 865.5,1398.5 854.5,1398.5" fill="#b6992d" stroke="#333" stroke-width="1.4"><title>sendmail.cf (1983, 4.1cBSD sendmail)
+binding: startup
+binding_detail: 
+carrier: file
+expressiveness: program
+constraints: none
+set_by: operator
+effect: set-value
+status: active
+domain: servers &amp; ops
+origin_type: research
+versioned: external
+reload: on-signal
+layering: none
+determinism: deterministic</title></polygon>
+<text x="869" y="1398" fill="#222">sendmail.cf</text>
+<circle cx="920" cy="1377" r="4.5" fill="#a0cbe8" stroke="#333" stroke-width="1.4"><title>GNU Emacs init file (1985, GNU Emacs)
+binding: startup
+binding_detail: 
+carrier: file
+expressiveness: program
+constraints: none
+set_by: user
+effect: load-code
+status: active
+domain: desktop &amp; user
+origin_type: open-source
+versioned: external
+reload: restart
+layering: levels
+determinism: deterministic</title></circle>
+<text x="929" y="1381" fill="#222">GNU Emacs init file</text>
+<rect x="915.5" y="1406.5" width="9.0" height="9.0" fill="#8cd17d" stroke="#333" stroke-width="1.4"><title>INI files (1985, Windows 1.0)
+binding: startup
+binding_detail: 
+carrier: file
+expressiveness: flat
+constraints: none
+set_by: user
+effect: set-value
+status: active
+domain: formats &amp; languages
+origin_type: vendor
+versioned: both
+reload: restart
+layering: none
+determinism: deterministic</title></rect>
+<text x="929" y="1415" fill="#222">INI files</text>
+<polygon points="950,1388.5 955.5,1398.5 944.5,1398.5" fill="white" stroke="#4e79a7" stroke-width="1.4"><title>inetd.conf (1986, 4.3BSD)
+binding: startup
+binding_detail: 
+carrier: file
+expressiveness: flat
+constraints: none
+set_by: operator
+effect: wire-components
+status: legacy
+domain: systems
+origin_type: research
+versioned: external
+reload: on-signal
+layering: none
+determinism: deterministic</title></polygon>
+<text x="959" y="1398" fill="#222">inetd.conf</text>
+<rect x="1005.5" y="1406.5" width="9.0" height="9.0" fill="#59a14f" stroke="#333" stroke-width="1.4"><title>Dynamic plugins (dlopen) (1988, SunOS 4.0)
+binding: startup;runtime
+binding_detail: load
+carrier: code
+expressiveness: flat
+constraints: none
+set_by: integrator
+effect: load-code
+status: active
+domain: app runtime
+origin_type: vendor
+versioned: external
+reload: live
+layering: none
+determinism: deterministic</title></rect>
+<text x="1019" y="1415" fill="#222">Dynamic plugins (dlopen)  [startup + runtime]<tspan fill="#888"> (load)</tspan></text>
+<polygon points="1010,1422.5 1015.5,1432.5 1004.5,1432.5" fill="#59a14f" stroke="#333" stroke-width="1.4"><title>Tcl as embedded config (1988, UC Berkeley)
+binding: startup
+binding_detail: 
+carrier: file
+expressiveness: program
+constraints: none
+set_by: user
+effect: set-value
+status: active
+domain: app runtime
+origin_type: research
+versioned: both
+reload: restart
+layering: none
+determinism: deterministic</title></polygon>
+<text x="1019" y="1432" fill="#222">Tcl as embedded config</text>
+<rect x="1035.5" y="1389.5" width="9.0" height="9.0" fill="#a0cbe8" stroke="#333" stroke-width="1.4"><title>Property lists (1989, NeXTSTEP)
+binding: startup
+binding_detail: 
+carrier: file
+expressiveness: nested
+constraints: none
+set_by: user;dev
+effect: set-value
+status: active
+domain: desktop &amp; user
+origin_type: vendor
+versioned: external
+reload: restart
+layering: none
+determinism: deterministic</title></rect>
+<text x="1049" y="1398" fill="#222">Property lists</text>
+<polygon points="1070,1371.0 1076.0,1377 1070,1383.0 1064.0,1377" fill="#59a14f" stroke="#333" stroke-width="1.4"><title>Fortran NAMELIST (1990, Fortran 90 (IBM extension earlier))
+binding: startup
+binding_detail: 
+carrier: file
+expressiveness: flat
+constraints: none
+set_by: user
+effect: set-value
+status: active
+domain: app runtime
+origin_type: standard
+versioned: external
+reload: restart
+layering: none
+determinism: deterministic</title></polygon>
+<text x="1079" y="1381" fill="#222">Fortran NAMELIST</text>
+<rect x="1125.5" y="1440.5" width="9.0" height="9.0" fill="#a0cbe8" stroke="#333" stroke-width="1.4"><title>Windows Registry (1992, Windows 3.1)
+binding: startup;runtime
+binding_detail: 
+carrier: store
+expressiveness: nested
+constraints: none
+set_by: user;system
+effect: set-value
+status: active
+domain: desktop &amp; user
+origin_type: vendor
+versioned: external
+reload: live
+layering: levels
+determinism: deterministic</title></rect>
+<text x="1139" y="1449" fill="#222">Windows Registry  [startup + runtime]</text>
+<polygon points="1160,1388.5 1165.5,1398.5 1154.5,1398.5" fill="#59a14f" stroke="#333" stroke-width="1.4"><title>Lua as config language (1993, PUC-Rio)
+binding: startup
+binding_detail: 
+carrier: file
+expressiveness: program
+constraints: none
+set_by: user
+effect: set-value
+status: active
+domain: app runtime
+origin_type: research
+versioned: both
+reload: restart
+layering: none
+determinism: deterministic</title></polygon>
+<text x="1169" y="1398" fill="#222">Lua as config language</text>
+<circle cx="1220" cy="1377" r="4.5" fill="#b6992d" stroke="#333" stroke-width="1.4"><title>Apache httpd.conf (1995, Apache HTTP Server)
+binding: startup
+binding_detail: 
+carrier: file
+expressiveness: nested
+constraints: none
+set_by: operator
+effect: set-value
+status: active
+domain: servers &amp; ops
+origin_type: open-source
+versioned: external
+reload: on-signal
+layering: levels
+determinism: deterministic</title></circle>
+<text x="1229" y="1381" fill="#222">Apache httpd.conf</text>
+<circle cx="1250" cy="1428" r="4.5" fill="#b6992d" stroke="#333" stroke-width="1.4"><title>Database server config (1996, PostgreSQL / MySQL)
+binding: startup;runtime
+binding_detail: 
+carrier: file
+expressiveness: flat
+constraints: none
+set_by: operator
+effect: set-value
+status: active
+domain: servers &amp; ops
+origin_type: open-source
+versioned: external
+reload: live
+layering: levels
+determinism: deterministic</title></circle>
+<text x="1259" y="1432" fill="#222">Database server config  [startup + runtime]</text>
+<rect x="1245.5" y="1457.5" width="9.0" height="9.0" fill="#8cd17d" stroke="#333" stroke-width="1.4"><title>Java .properties (1996, JDK 1.0)
+binding: startup
+binding_detail: 
+carrier: file
+expressiveness: flat
+constraints: none
+set_by: operator
+effect: set-value
+status: active
+domain: formats &amp; languages
+origin_type: vendor
+versioned: both
+reload: restart
+layering: none
+determinism: deterministic</title></rect>
+<text x="1259" y="1466" fill="#222">Java .properties</text>
+<rect x="1245.5" y="1474.5" width="9.0" height="9.0" fill="#59a14f" stroke="#333" stroke-width="1.4"><title>Java system properties (1996, JDK 1.0)
+binding: startup
+binding_detail: 
+carrier: cli
+expressiveness: flat
+constraints: none
+set_by: operator
+effect: set-value
+status: active
+domain: app runtime
+origin_type: vendor
+versioned: external
+reload: restart
+layering: none
+determinism: deterministic</title></rect>
+<text x="1259" y="1483" fill="#222">Java system properties</text>
+<rect x="1245.5" y="1491.5" width="9.0" height="9.0" fill="#a0cbe8" stroke="#333" stroke-width="1.4"><title>Quake console variables (1996, Quake)
+binding: startup;runtime
+binding_detail: 
+carrier: file;cli
+expressiveness: flat
+constraints: none
+set_by: user
+effect: set-value
+status: active
+domain: desktop &amp; user
+origin_type: vendor
+versioned: external
+reload: live
+layering: levels
+determinism: deterministic</title></rect>
+<text x="1259" y="1500" fill="#222">Quake console variables  [startup + runtime]</text>
+<circle cx="1310" cy="1513" r="4.5" fill="#59a14f" stroke="#333" stroke-width="1.4"><title>php.ini (1998, PHP 3)
+binding: startup;runtime
+binding_detail: 
+carrier: file
+expressiveness: flat
+constraints: none
+set_by: operator
+effect: set-value
+status: active
+domain: app runtime
+origin_type: open-source
+versioned: external
+reload: live
+layering: levels
+determinism: deterministic</title></circle>
+<text x="1319" y="1517" fill="#222">php.ini  [startup + runtime]</text>
+<polygon points="1310,1524.0 1316.0,1530 1310,1536.0 1304.0,1530" fill="#8cd17d" stroke="#333" stroke-width="1.4"><title>XML as config format (1998, W3C XML 1.0)
+binding: startup
+binding_detail: 
+carrier: file
+expressiveness: nested
+constraints: schema
+set_by: dev;operator
+effect: set-value
+status: active
+domain: formats &amp; languages
+origin_type: standard
+versioned: both
+reload: restart
+layering: none
+determinism: deterministic</title></polygon>
+<text x="1319" y="1534" fill="#222">XML as config format</text>
+<rect x="1335.5" y="1389.5" width="9.0" height="9.0" fill="#59a14f" stroke="#333" stroke-width="1.4"><title>HotSpot -XX flags (1999, Java HotSpot)
+binding: startup
+binding_detail: 
+carrier: cli
+expressiveness: flat
+constraints: none
+set_by: operator
+effect: set-value
+status: active
+domain: app runtime
+origin_type: vendor
+versioned: external
+reload: restart
+layering: none
+determinism: deterministic</title></rect>
+<text x="1349" y="1398" fill="#222">HotSpot -XX flags</text>
+<polygon points="1370,1371.0 1376.0,1377 1370,1383.0 1364.0,1377" fill="#59a14f" stroke="#333" stroke-width="1.4"><title>OSGi bundles (2000, OSGi R1)
+binding: startup;runtime
+binding_detail: load
+carrier: code
+expressiveness: flat
+constraints: dependencies
+set_by: integrator
+effect: load-code
+status: active
+domain: app runtime
+origin_type: standard
+versioned: in-repo
+reload: live
+layering: none
+determinism: deterministic</title></polygon>
+<text x="1379" y="1381" fill="#222">OSGi bundles  [startup + runtime]<tspan fill="#888"> (load)</tspan></text>
+<circle cx="1400" cy="1411" r="4.5" fill="#59a14f" stroke="#333" stroke-width="1.4"><title>Eclipse extension points (2001, Eclipse 1.0)
+binding: startup
+binding_detail: load
+carrier: file
+expressiveness: nested
+constraints: schema
+set_by: dev
+effect: load-code
+status: active
+domain: app runtime
+origin_type: open-source
+versioned: in-repo
+reload: restart
+layering: none
+determinism: deterministic</title></circle>
+<text x="1409" y="1415" fill="#222">Eclipse extension points<tspan fill="#888"> (load)</tspan></text>
+<polygon points="1400,1439.0 1406.0,1445 1400,1451.0 1394.0,1445" fill="#8cd17d" stroke="#333" stroke-width="1.4"><title>XML Schema (XSD) (2001, W3C)
+binding: startup
+binding_detail: 
+carrier: file
+expressiveness: nested
+constraints: schema
+set_by: dev
+effect: validate
+status: active
+domain: formats &amp; languages
+origin_type: standard
+versioned: in-repo
+reload: restart
+layering: none
+determinism: deterministic</title></polygon>
+<text x="1409" y="1449" fill="#222">XML Schema (XSD)</text>
+<polygon points="1396,1459 1404,1459 1400,1466" fill="#8cd17d" stroke="#333" stroke-width="1.4"><title>YAML (2001, yaml.org)
+binding: deploy;startup
+binding_detail: 
+carrier: file
+expressiveness: nested
+constraints: schema
+set_by: operator
+effect: set-value
+status: active
+domain: formats &amp; languages
+origin_type: community
+versioned: both
+reload: restart
+layering: none
+determinism: deterministic</title></polygon>
+<rect x="1425.5" y="1457.5" width="9.0" height="9.0" fill="#8cd17d" stroke="#333" stroke-width="1.4"><title>.NET app.config / web.config (2002, .NET Framework 1.0)
+binding: startup
+binding_detail: 
+carrier: file
+expressiveness: nested
+constraints: schema
+set_by: operator
+effect: set-value
+status: active
+domain: formats &amp; languages
+origin_type: vendor
+versioned: in-repo
+reload: restart
+layering: levels
+determinism: deterministic</title></rect>
+<text x="1439" y="1466" fill="#222">.NET app.config / web.config</text>
+<circle cx="1430" cy="1479" r="4.5" fill="#a0cbe8" stroke="#333" stroke-width="1.4"><title>Mozilla preferences (about:config) (2002, Mozilla 1.0)
+binding: startup;runtime
+binding_detail: 
+carrier: file;ui
+expressiveness: flat
+constraints: none
+set_by: user
+effect: set-value
+status: active
+domain: desktop &amp; user
+origin_type: open-source
+versioned: external
+reload: live
+layering: levels
+determinism: deterministic</title></circle>
+<text x="1439" y="1483" fill="#222">Mozilla preferences (about:config)  [startup + runtime]</text>
+<polygon points="1460,1524.0 1466.0,1530 1460,1536.0 1454.0,1530" fill="#a0cbe8" stroke="#333" stroke-width="1.4"><title>XDG Base Directory (2003, freedesktop.org)
+binding: startup
+binding_detail: 
+carrier: env
+expressiveness: flat
+constraints: none
+set_by: user
+effect: set-value
+status: active
+domain: desktop &amp; user
+origin_type: standard
+versioned: external
+reload: restart
+layering: levels
+determinism: deterministic</title></polygon>
+<text x="1469" y="1534" fill="#222">XDG Base Directory</text>
+<circle cx="1490" cy="1394" r="4.5" fill="#b6992d" stroke="#333" stroke-width="1.4"><title>nginx.conf (2004, nginx)
+binding: startup
+binding_detail: 
+carrier: file
+expressiveness: nested
+constraints: none
+set_by: operator
+effect: set-value
+status: active
+domain: servers &amp; ops
+origin_type: open-source
+versioned: external
+reload: on-signal
+layering: levels
+determinism: deterministic</title></circle>
+<text x="1499" y="1398" fill="#222">nginx.conf</text>
+<circle cx="1490" cy="1547" r="4.5" fill="#59a14f" stroke="#333" stroke-width="1.4"><title>Rails environments (2004, Ruby on Rails)
+binding: startup
+binding_detail: 
+carrier: file;env
+expressiveness: program
+constraints: none
+set_by: operator
+effect: set-value
+status: active
+domain: app runtime
+origin_type: open-source
+versioned: both
+reload: restart
+layering: levels
+determinism: deterministic</title></circle>
+<text x="1499" y="1551" fill="#222">Rails environments</text>
+<circle cx="1490" cy="1564" r="4.5" fill="#59a14f" stroke="#333" stroke-width="1.4"><title>Spring DI container (2004, Spring 1.0)
+binding: startup
+binding_detail: 
+carrier: file;code
+expressiveness: nested
+constraints: none
+set_by: dev
+effect: wire-components
+status: active
+domain: app runtime
+origin_type: open-source
+versioned: in-repo
+reload: restart
+layering: none
+determinism: deterministic</title></circle>
+<text x="1499" y="1568" fill="#222">Spring DI container</text>
+<circle cx="1520" cy="1445" r="4.5" fill="#59a14f" stroke="#333" stroke-width="1.4"><title>Django settings module (2005, Django)
+binding: startup
+binding_detail: 
+carrier: file
+expressiveness: program
+constraints: none
+set_by: dev
+effect: set-value
+status: active
+domain: app runtime
+origin_type: open-source
+versioned: in-repo
+reload: restart
+layering: none
+determinism: deterministic</title></circle>
+<text x="1529" y="1449" fill="#222">Django settings module</text>
+<rect x="1515.5" y="1508.5" width="9.0" height="9.0" fill="#4e79a7" stroke="#333" stroke-width="1.4"><title>launchd plists (2005, Mac OS X 10.4)
+binding: startup
+binding_detail: 
+carrier: file
+expressiveness: nested
+constraints: none
+set_by: operator
+effect: wire-components
+status: active
+domain: systems
+origin_type: vendor
+versioned: external
+reload: on-signal
+layering: none
+determinism: deterministic</title></rect>
+<text x="1529" y="1517" fill="#222">launchd plists</text>
+<circle cx="1520" cy="1581" r="4.5" fill="#59a14f" stroke="#333" stroke-width="1.4"><title>Python entry points (2005, setuptools)
+binding: startup
+binding_detail: load
+carrier: file
+expressiveness: flat
+constraints: none
+set_by: dev
+effect: load-code
+status: active
+domain: app runtime
+origin_type: open-source
+versioned: in-repo
+reload: restart
+layering: none
+determinism: deterministic</title></circle>
+<text x="1529" y="1585" fill="#222">Python entry points<tspan fill="#888"> (load)</tspan></text>
+<rect x="1547" y="1612" width="6" height="6" fill="#59a14f" stroke="#333" stroke-width="1.4"><title>Annotation-based configuration (2006, Java EE 5)
+binding: build;startup
+binding_detail: 
+carrier: code
+expressiveness: nested
+constraints: none
+set_by: dev
+effect: wire-components
+status: active
+domain: app runtime
+origin_type: vendor
+versioned: in-repo
+reload: restart
+layering: none
+determinism: deterministic</title></rect>
+<rect x="1545.5" y="1423.5" width="9.0" height="9.0" fill="#59a14f" stroke="#333" stroke-width="1.4"><title>Java ServiceLoader (2006, Java 6)
+binding: startup
+binding_detail: load
+carrier: file
+expressiveness: flat
+constraints: none
+set_by: dev
+effect: load-code
+status: active
+domain: app runtime
+origin_type: vendor
+versioned: in-repo
+reload: restart
+layering: none
+determinism: deterministic</title></rect>
+<text x="1559" y="1432" fill="#222">Java ServiceLoader<tspan fill="#888"> (load)</tspan></text>
+<polygon points="1550,1490.0 1556.0,1496 1550,1502.0 1544.0,1496" fill="#8cd17d" stroke="#333" stroke-width="1.4"><title>JSON config (2006, RFC 4627)
+binding: startup
+binding_detail: 
+carrier: file
+expressiveness: nested
+constraints: schema
+set_by: dev;operator
+effect: set-value
+status: active
+domain: formats &amp; languages
+origin_type: standard
+versioned: both
+reload: restart
+layering: none
+determinism: deterministic</title></polygon>
+<text x="1559" y="1500" fill="#222">JSON config</text>
+<rect x="1545.5" y="1593.5" width="9.0" height="9.0" fill="white" stroke="#4e79a7" stroke-width="1.4"><title>Upstart jobs (2006-2015, Ubuntu)
+binding: startup
+binding_detail: 
+carrier: file
+expressiveness: flat
+constraints: dependencies
+set_by: operator
+effect: wire-components
+status: legacy
+domain: systems
+origin_type: vendor
+versioned: external
+reload: restart
+layering: none
+determinism: deterministic</title></rect>
+<text x="1559" y="1602" fill="#222">Upstart jobs</text>
+<rect x="1575.5" y="1389.5" width="9.0" height="9.0" fill="#59a14f" stroke="#333" stroke-width="1.4"><title>Guice modules (2007, Google Guice)
+binding: startup
+binding_detail: 
+carrier: code
+expressiveness: program
+constraints: none
+set_by: dev
+effect: wire-components
+status: active
+domain: app runtime
+origin_type: vendor
+versioned: in-repo
+reload: restart
+layering: none
+determinism: deterministic</title></rect>
+<text x="1589" y="1398" fill="#222">Guice modules</text>
+<rect x="1637" y="1408" width="6" height="6" fill="#b6992d" stroke="#333" stroke-width="1.4"><title>cloud-init (2009, Canonical)
+binding: deploy;startup
+binding_detail: 
+carrier: file
+expressiveness: nested
+constraints: schema
+set_by: operator
+effect: provision
+status: active
+domain: servers &amp; ops
+origin_type: vendor
+versioned: external
+reload: restart
+layering: none
+determinism: deterministic</title></rect>
+<polygon points="1634.5,1372.5 1645.5,1372.5 1640,1382.5" fill="#8cd17d" stroke="#333" stroke-width="1.4"><title>JSON Schema (2009, json-schema.org)
+binding: startup
+binding_detail: 
+carrier: file
+expressiveness: nested
+constraints: schema
+set_by: dev
+effect: validate
+status: active
+domain: formats &amp; languages
+origin_type: community
+versioned: in-repo
+reload: restart
+layering: none
+determinism: deterministic</title></polygon>
+<text x="1649" y="1381" fill="#222">JSON Schema</text>
+<circle cx="1670" cy="1411" r="4.5" fill="#4e79a7" stroke="#333" stroke-width="1.4"><title>systemd units (2010, systemd)
+binding: startup
+binding_detail: 
+carrier: file
+expressiveness: flat
+constraints: dependencies
+set_by: operator
+effect: wire-components
+status: active
+domain: systems
+origin_type: open-source
+versioned: external
+reload: on-signal
+layering: overlays
+determinism: deterministic</title></circle>
+<text x="1679" y="1415" fill="#222">systemd units</text>
+<circle cx="1700" cy="1394" r="4.5" fill="#59a14f" stroke="#333" stroke-width="1.4"><title>Spring profiles (2011, Spring 3.1)
+binding: startup
+binding_detail: 
+carrier: code;file;env
+expressiveness: nested
+constraints: none
+set_by: operator
+effect: wire-components
+status: active
+domain: app runtime
+origin_type: open-source
+versioned: both
+reload: restart
+layering: levels
+determinism: deterministic</title></circle>
+<text x="1709" y="1398" fill="#222">Spring profiles</text>
+<rect x="1697" y="1442" width="6" height="6" fill="#499894" stroke="#333" stroke-width="1.4"><title>Twelve-factor env config (2011, Heroku)
+binding: deploy;startup
+binding_detail: 
+carrier: env
+expressiveness: flat
+constraints: none
+set_by: operator
+effect: set-value
+status: active
+domain: cloud &amp; containers
+origin_type: vendor
+versioned: external
+reload: restart
+layering: none
+determinism: deterministic</title></rect>
+<rect x="1725.5" y="1372.5" width="9.0" height="9.0" fill="#8cd17d" stroke="#333" stroke-width="1.4"><title>HOCON (2012, Typesafe Config)
+binding: startup
+binding_detail: 
+carrier: file
+expressiveness: computed
+constraints: none
+set_by: dev
+effect: set-value
+status: active
+domain: formats &amp; languages
+origin_type: vendor
+versioned: both
+reload: restart
+layering: levels
+determinism: deterministic</title></rect>
+<text x="1739" y="1381" fill="#222">HOCON</text>
+<polygon points="1724.5,1423.5 1735.5,1423.5 1730,1433.5" fill="#8cd17d" stroke="#333" stroke-width="1.4"><title>JSON5 (2012, JSON5)
+binding: startup
+binding_detail: 
+carrier: file
+expressiveness: nested
+constraints: none
+set_by: dev
+effect: set-value
+status: active
+domain: formats &amp; languages
+origin_type: community
+versioned: both
+reload: restart
+layering: none
+determinism: deterministic</title></polygon>
+<text x="1739" y="1432" fill="#222">JSON5</text>
+<rect x="1757" y="1459" width="6" height="6" fill="#f28e2b" stroke="#333" stroke-width="1.4"><title>Dockerfile ENV and ARG (2013, Docker)
+binding: build;startup
+binding_detail: 
+carrier: file
+expressiveness: flat
+constraints: none
+set_by: dev
+effect: set-value
+status: active
+domain: build &amp; packaging
+origin_type: vendor
+versioned: in-repo
+reload: restart
+layering: none
+determinism: deterministic</title></rect>
+<circle cx="1760" cy="1445" r="4.5" fill="#59a14f" stroke="#333" stroke-width="1.4"><title>Spring @Conditional (2013, Spring 4.0)
+binding: startup
+binding_detail: 
+carrier: code
+expressiveness: computed
+constraints: none
+set_by: dev
+effect: wire-components
+status: active
+domain: app runtime
+origin_type: open-source
+versioned: in-repo
+reload: restart
+layering: none
+determinism: deterministic</title></circle>
+<text x="1769" y="1449" fill="#222">Spring @Conditional</text>
+<polygon points="1756,1493 1764,1493 1760,1500" fill="#8cd17d" stroke="#333" stroke-width="1.4"><title>TOML (2013, Tom Preston-Werner)
+binding: build;startup
+binding_detail: 
+carrier: file
+expressiveness: typed
+constraints: none
+set_by: dev
+effect: set-value
+status: active
+domain: formats &amp; languages
+origin_type: community
+versioned: both
+reload: restart
+layering: none
+determinism: deterministic</title></polygon>
+<circle cx="1790" cy="1377" r="4.5" fill="#59a14f" stroke="#333" stroke-width="1.4"><title>Spring Boot auto-configuration (2014, Spring Boot 1.0)
+binding: startup
+binding_detail: 
+carrier: code
+expressiveness: computed
+constraints: dependencies
+set_by: system
+effect: wire-components
+status: active
+domain: app runtime
+origin_type: open-source
+versioned: in-repo
+reload: restart
+layering: none
+determinism: deterministic</title></circle>
+<text x="1799" y="1381" fill="#222">Spring Boot auto-configuration</text>
+<rect x="1785.5" y="1406.5" width="9.0" height="9.0" fill="#b6992d" stroke="#333" stroke-width="1.4"><title>Spring Cloud Config (2014, Pivotal)
+binding: startup;runtime
+binding_detail: 
+carrier: store
+expressiveness: nested
+constraints: none
+set_by: operator
+effect: set-value
+status: active
+domain: servers &amp; ops
+origin_type: vendor
+versioned: external
+reload: live
+layering: levels
+determinism: deterministic</title></rect>
+<text x="1799" y="1415" fill="#222">Spring Cloud Config  [startup + runtime]</text>
+<rect x="1845.5" y="1389.5" width="9.0" height="9.0" fill="#8cd17d" stroke="#333" stroke-width="1.4"><title>appsettings.json (2016, .NET Core 1.0)
+binding: startup
+binding_detail: 
+carrier: file;env
+expressiveness: nested
+constraints: none
+set_by: operator
+effect: set-value
+status: active
+domain: formats &amp; languages
+origin_type: vendor
+versioned: both
+reload: restart
+layering: levels
+determinism: deterministic</title></rect>
+<text x="1859" y="1398" fill="#222">appsettings.json</text>
+<rect x="1875.5" y="1423.5" width="9.0" height="9.0" fill="#b6992d" stroke="#333" stroke-width="1.4"><title>AWS SSM Parameter Store (2017, Amazon)
+binding: startup;runtime
+binding_detail: 
+carrier: store
+expressiveness: flat
+constraints: none
+set_by: operator
+effect: set-value
+status: active
+domain: servers &amp; ops
+origin_type: vendor
+versioned: external
+reload: live
+layering: none
+determinism: deterministic</title></rect>
+<text x="1889" y="1432" fill="#222">AWS SSM Parameter Store  [startup + runtime]</text>
+<polygon points="1880,1456.0 1886.0,1462 1880,1468.0 1874.0,1462" fill="#59a14f" stroke="#333" stroke-width="1.4"><title>MicroProfile Config (2017, Eclipse MicroProfile)
+binding: startup
+binding_detail: 
+carrier: env;file
+expressiveness: flat
+constraints: none
+set_by: operator
+effect: set-value
+status: active
+domain: app runtime
+origin_type: standard
+versioned: both
+reload: restart
+layering: levels
+determinism: deterministic</title></polygon>
+<text x="1889" y="1466" fill="#222">MicroProfile Config</text>
+<rect x="1905.5" y="1440.5" width="9.0" height="9.0" fill="#59a14f" stroke="#333" stroke-width="1.4"><title>gin-config (2018, Google)
+binding: startup
+binding_detail: 
+carrier: file
+expressiveness: computed
+constraints: none
+set_by: dev
+effect: wire-components
+status: active
+domain: app runtime
+origin_type: vendor
+versioned: in-repo
+reload: restart
+layering: none
+determinism: deterministic</title></rect>
+<text x="1919" y="1449" fill="#222">gin-config</text>
+<rect x="1935.5" y="1474.5" width="9.0" height="9.0" fill="#59a14f" stroke="#333" stroke-width="1.4"><title>Hydra (2019, Facebook AI)
+binding: startup
+binding_detail: 
+carrier: file;cli
+expressiveness: nested
+constraints: schema
+set_by: user
+effect: wire-components
+status: active
+domain: app runtime
+origin_type: vendor
+versioned: both
+reload: restart
+layering: overlays
+determinism: deterministic</title></rect>
+<text x="1949" y="1483" fill="#222">Hydra</text>
+<circle cx="1940" cy="1496" r="3" fill="#f28e2b" stroke="#333" stroke-width="1.4"><title>Node conditional exports (2019, Node.js 12)
+binding: build;startup
+binding_detail: 
+carrier: file
+expressiveness: nested
+constraints: none
+set_by: dev
+effect: select-files
+status: active
+domain: build &amp; packaging
+origin_type: open-source
+versioned: in-repo
+reload: restart
+layering: none
+determinism: deterministic</title></circle>
+<rect x="2087" y="1374" width="6" height="6" fill="#8cd17d" stroke="#333" stroke-width="1.4"><title>Pkl (2024, Apple)
+binding: deploy;startup
+binding_detail: 
+carrier: file
+expressiveness: program
+constraints: schema
+set_by: dev;operator
+effect: set-value
+status: active
+domain: formats &amp; languages
+origin_type: vendor
+versioned: in-repo
+reload: restart
+layering: none
+determinism: deterministic</title></rect>
+<rect x="1007" y="1666" width="6" height="6" fill="#59a14f" stroke="#333" stroke-width="1.4"><title>Dynamic plugins (dlopen) (1988, SunOS 4.0)
+binding: startup;runtime
+binding_detail: load
+carrier: code
+expressiveness: flat
+constraints: none
+set_by: integrator
+effect: load-code
+status: active
+domain: app runtime
+origin_type: vendor
+versioned: external
+reload: live
+layering: none
+determinism: deterministic</title></rect>
+<polygon points="1010,1646.0 1016.0,1652 1010,1658.0 1004.0,1652" fill="#86bcb6" stroke="#333" stroke-width="1.4"><title>SNMP SET and MIBs (1988, RFC 1067)
+binding: runtime
+binding_detail: 
+carrier: store
+expressiveness: nested
+constraints: schema
+set_by: operator
+effect: set-value
+status: active
+domain: network &amp; web
+origin_type: standard
+versioned: external
+reload: live
+layering: none
+determinism: deterministic</title></polygon>
+<text x="1019" y="1656" fill="#222">SNMP SET and MIBs</text>
+<rect x="1127" y="1666" width="6" height="6" fill="#a0cbe8" stroke="#333" stroke-width="1.4"><title>Windows Registry (1992, Windows 3.1)
+binding: startup;runtime
+binding_detail: 
+carrier: store
+expressiveness: nested
+constraints: none
+set_by: user;system
+effect: set-value
+status: active
+domain: desktop &amp; user
+origin_type: vendor
+versioned: external
+reload: live
+layering: levels
+determinism: deterministic</title></rect>
+<polygon points="1160,1646.5 1165.5,1656.5 1154.5,1656.5" fill="#4e79a7" stroke="#333" stroke-width="1.4"><title>sysctl (1993, 4.4BSD)
+binding: runtime
+binding_detail: 
+carrier: store
+expressiveness: flat
+constraints: none
+set_by: operator
+effect: set-value
+status: active
+domain: systems
+origin_type: research
+versioned: external
+reload: live
+layering: levels
+determinism: deterministic</title></polygon>
+<text x="1169" y="1656" fill="#222">sysctl</text>
+<circle cx="1250" cy="1652" r="3" fill="#b6992d" stroke="#333" stroke-width="1.4"><title>Database server config (1996, PostgreSQL / MySQL)
+binding: startup;runtime
+binding_detail: 
+carrier: file
+expressiveness: flat
+constraints: none
+set_by: operator
+effect: set-value
+status: active
+domain: servers &amp; ops
+origin_type: open-source
+versioned: external
+reload: live
+layering: levels
+determinism: deterministic</title></circle>
+<rect x="1247" y="1666" width="6" height="6" fill="#a0cbe8" stroke="#333" stroke-width="1.4"><title>Quake console variables (1996, Quake)
+binding: startup;runtime
+binding_detail: 
+carrier: file;cli
+expressiveness: flat
+constraints: none
+set_by: user
+effect: set-value
+status: active
+domain: desktop &amp; user
+origin_type: vendor
+versioned: external
+reload: live
+layering: levels
+determinism: deterministic</title></rect>
+<circle cx="1310" cy="1652" r="3" fill="#59a14f" stroke="#333" stroke-width="1.4"><title>php.ini (1998, PHP 3)
+binding: startup;runtime
+binding_detail: 
+carrier: file
+expressiveness: flat
+constraints: none
+set_by: operator
+effect: set-value
+status: active
+domain: app runtime
+origin_type: open-source
+versioned: external
+reload: live
+layering: levels
+determinism: deterministic</title></circle>
+<rect x="1367" y="1666" width="6" height="6" fill="#a0cbe8" stroke="#333" stroke-width="1.4"><title>Group Policy (2000, Windows 2000)
+binding: session;runtime
+binding_detail: 
+carrier: store
+expressiveness: nested
+constraints: schema
+set_by: operator
+effect: set-value
+status: active
+domain: desktop &amp; user
+origin_type: vendor
+versioned: external
+reload: live
+layering: levels
+determinism: deterministic</title></rect>
+<polygon points="1370,1646.0 1376.0,1652 1370,1658.0 1364.0,1652" fill="#59a14f" stroke="#333" stroke-width="1.4"><title>JMX MBeans (2000, JSR 3)
+binding: runtime
+binding_detail: 
+carrier: store
+expressiveness: nested
+constraints: schema
+set_by: operator
+effect: set-value
+status: active
+domain: app runtime
+origin_type: standard
+versioned: external
+reload: live
+layering: none
+determinism: deterministic</title></polygon>
+<text x="1379" y="1656" fill="#222">JMX MBeans</text>
+<polygon points="1370,1681.5 1374.5,1686 1370,1690.5 1365.5,1686" fill="#59a14f" stroke="#333" stroke-width="1.4"><title>OSGi bundles (2000, OSGi R1)
+binding: startup;runtime
+binding_detail: load
+carrier: code
+expressiveness: flat
+constraints: dependencies
+set_by: integrator
+effect: load-code
+status: active
+domain: app runtime
+origin_type: standard
+versioned: in-repo
+reload: live
+layering: none
+determinism: deterministic</title></polygon>
+<circle cx="1430" cy="1669" r="4.5" fill="white" stroke="#a0cbe8" stroke-width="1.4"><title>GConf (2002-2011, GNOME 2)
+binding: runtime
+binding_detail: 
+carrier: store
+expressiveness: nested
+constraints: schema
+set_by: user
+effect: set-value
+status: legacy
+domain: desktop &amp; user
+origin_type: open-source
+versioned: external
+reload: live
+layering: levels
+determinism: deterministic</title></circle>
+<text x="1439" y="1673" fill="#222">GConf</text>
+<rect x="1425.5" y="1681.5" width="9.0" height="9.0" fill="#a0cbe8" stroke="#333" stroke-width="1.4"><title>Java Preferences API (2002, JDK 1.4)
+binding: runtime
+binding_detail: 
+carrier: store
+expressiveness: nested
+constraints: none
+set_by: user
+effect: set-value
+status: active
+domain: desktop &amp; user
+origin_type: vendor
+versioned: external
+reload: live
+layering: none
+determinism: deterministic</title></rect>
+<text x="1439" y="1690" fill="#222">Java Preferences API</text>
+<circle cx="1430" cy="1703" r="3" fill="#a0cbe8" stroke="#333" stroke-width="1.4"><title>Mozilla preferences (about:config) (2002, Mozilla 1.0)
+binding: startup;runtime
+binding_detail: 
+carrier: file;ui
+expressiveness: flat
+constraints: none
+set_by: user
+effect: set-value
+status: active
+domain: desktop &amp; user
+origin_type: open-source
+versioned: external
+reload: live
+layering: levels
+determinism: deterministic</title></circle>
+<polygon points="1550,1646.0 1556.0,1652 1550,1658.0 1544.0,1652" fill="#86bcb6" stroke="#333" stroke-width="1.4"><title>NETCONF / YANG (2006, RFC 4741)
+binding: runtime
+binding_detail: 
+carrier: store
+expressiveness: nested
+constraints: schema
+set_by: operator
+effect: set-value
+status: active
+domain: network &amp; web
+origin_type: standard
+versioned: external
+reload: live
+layering: none
+determinism: deterministic</title></polygon>
+<text x="1559" y="1656" fill="#222">NETCONF / YANG</text>
+<rect x="1605.5" y="1681.5" width="9.0" height="9.0" fill="#b6992d" stroke="#333" stroke-width="1.4"><title>ZooKeeper (2008, Yahoo!)
+binding: runtime
+binding_detail: 
+carrier: store
+expressiveness: nested
+constraints: none
+set_by: operator
+effect: set-value
+status: active
+domain: servers &amp; ops
+origin_type: vendor
+versioned: external
+reload: live
+layering: none
+determinism: deterministic</title></rect>
+<text x="1619" y="1690" fill="#222">ZooKeeper</text>
+<rect x="1635.5" y="1698.5" width="9.0" height="9.0" fill="#e15759" stroke="#333" stroke-width="1.4"><title>Feature toggles (2009, Flickr)
+binding: runtime
+binding_detail: 
+carrier: code
+expressiveness: flat
+constraints: none
+set_by: dev
+effect: switch-path
+status: active
+domain: flags &amp; experiments
+origin_type: vendor
+versioned: in-repo
+reload: live
+layering: none
+determinism: deterministic</title></rect>
+<text x="1649" y="1707" fill="#222">Feature toggles</text>
+<rect x="1665.5" y="1647.5" width="9.0" height="9.0" fill="#a0cbe8" stroke="#333" stroke-width="1.4"><title>Chrome flags (2010, Google Chrome)
+binding: runtime
+binding_detail: 
+carrier: ui
+expressiveness: flat
+constraints: none
+set_by: user
+effect: switch-path
+status: active
+domain: desktop &amp; user
+origin_type: vendor
+versioned: external
+reload: live
+layering: none
+determinism: deterministic</title></rect>
+<text x="1679" y="1656" fill="#222">Chrome flags</text>
+<circle cx="1670" cy="1720" r="4.5" fill="#a0cbe8" stroke="#333" stroke-width="1.4"><title>GSettings / dconf (2010, GNOME 3)
+binding: runtime
+binding_detail: 
+carrier: store
+expressiveness: typed
+constraints: schema
+set_by: user
+effect: set-value
+status: active
+domain: desktop &amp; user
+origin_type: open-source
+versioned: external
+reload: live
+layering: levels
+determinism: deterministic</title></circle>
+<text x="1679" y="1724" fill="#222">GSettings / dconf</text>
+<rect x="1725.5" y="1664.5" width="9.0" height="9.0" fill="#b6992d" stroke="#333" stroke-width="1.4"><title>Netflix Archaius (2012, Netflix)
+binding: runtime
+binding_detail: 
+carrier: store
+expressiveness: flat
+constraints: none
+set_by: operator
+effect: set-value
+status: active
+domain: servers &amp; ops
+origin_type: vendor
+versioned: external
+reload: live
+layering: none
+determinism: deterministic</title></rect>
+<text x="1739" y="1673" fill="#222">Netflix Archaius</text>
+<circle cx="1760" cy="1686" r="4.5" fill="#b6992d" stroke="#333" stroke-width="1.4"><title>etcd / Consul KV (2013, CoreOS)
+binding: runtime
+binding_detail: 
+carrier: store
+expressiveness: nested
+constraints: none
+set_by: operator;system
+effect: set-value
+status: active
+domain: servers &amp; ops
+origin_type: open-source
+versioned: external
+reload: live
+layering: none
+determinism: deterministic</title></circle>
+<text x="1769" y="1690" fill="#222">etcd / Consul KV</text>
+<rect x="1785.5" y="1647.5" width="9.0" height="9.0" fill="#e15759" stroke="#333" stroke-width="1.4"><title>Feature flag services (2014, LaunchDarkly)
+binding: runtime;request
+binding_detail: 
+carrier: store
+expressiveness: nested
+constraints: none
+set_by: operator
+effect: switch-path
+status: active
+domain: flags &amp; experiments
+origin_type: vendor
+versioned: external
+reload: live
+layering: none
+determinism: randomized</title></rect>
+<text x="1799" y="1656" fill="#222" font-style="italic">Feature flag services  [runtime + request]</text>
+<rect x="1787" y="1700" width="6" height="6" fill="#b6992d" stroke="#333" stroke-width="1.4"><title>Spring Cloud Config (2014, Pivotal)
+binding: startup;runtime
+binding_detail: 
+carrier: store
+expressiveness: nested
+constraints: none
+set_by: operator
+effect: set-value
+status: active
+domain: servers &amp; ops
+origin_type: vendor
+versioned: external
+reload: live
+layering: levels
+determinism: deterministic</title></rect>
+<rect x="1815.5" y="1698.5" width="9.0" height="9.0" fill="#b6992d" stroke="#333" stroke-width="1.4"><title>HashiCorp Vault (2015, HashiCorp)
+binding: runtime
+binding_detail: 
+carrier: store
+expressiveness: nested
+constraints: none
+set_by: operator
+effect: set-value
+status: active
+domain: servers &amp; ops
+origin_type: vendor
+versioned: external
+reload: live
+layering: none
+determinism: deterministic</title></rect>
+<text x="1829" y="1707" fill="#222">HashiCorp Vault</text>
+<circle cx="1820" cy="1737" r="3" fill="#499894" stroke="#333" stroke-width="1.4"><title>Kubernetes Secrets (2015, Kubernetes 1.0)
+binding: deploy;runtime
+binding_detail: 
+carrier: store
+expressiveness: flat
+constraints: none
+set_by: operator
+effect: set-value
+status: active
+domain: cloud &amp; containers
+origin_type: open-source
+versioned: external
+reload: live
+layering: none
+determinism: deterministic</title></circle>
+<circle cx="1820" cy="1720" r="4.5" fill="#e15759" stroke="#333" stroke-width="1.4"><title>Unleash (2015, FINN.no)
+binding: runtime;request
+binding_detail: 
+carrier: store
+expressiveness: nested
+constraints: none
+set_by: operator
+effect: switch-path
+status: active
+domain: flags &amp; experiments
+origin_type: open-source
+versioned: external
+reload: live
+layering: none
+determinism: randomized</title></circle>
+<text x="1829" y="1724" fill="#222" font-style="italic">Unleash  [runtime + request]</text>
+<rect x="1845.5" y="1664.5" width="9.0" height="9.0" fill="#e15759" stroke="#333" stroke-width="1.4"><title>Firebase Remote Config (2016, Google Firebase)
+binding: runtime;request
+binding_detail: 
+carrier: store
+expressiveness: nested
+constraints: none
+set_by: operator
+effect: switch-path
+status: active
+domain: flags &amp; experiments
+origin_type: vendor
+versioned: external
+reload: live
+layering: none
+determinism: randomized</title></rect>
+<text x="1859" y="1673" fill="#222" font-style="italic">Firebase Remote Config  [runtime + request]</text>
+<circle cx="1850" cy="1754" r="3" fill="#499894" stroke="#333" stroke-width="1.4"><title>Kubernetes ConfigMap (2016, Kubernetes 1.2)
+binding: deploy;runtime
+binding_detail: 
+carrier: store
+expressiveness: nested
+constraints: none
+set_by: operator
+effect: set-value
+status: active
+domain: cloud &amp; containers
+origin_type: open-source
+versioned: both
+reload: live
+layering: none
+determinism: deterministic</title></circle>
+<rect x="1845.5" y="1732.5" width="9.0" height="9.0" fill="#b6992d" stroke="#333" stroke-width="1.4"><title>Open Policy Agent (Rego) (2016, Styra)
+binding: runtime;request
+binding_detail: 
+carrier: file
+expressiveness: program
+constraints: none
+set_by: operator
+effect: validate
+status: active
+domain: servers &amp; ops
+origin_type: vendor
+versioned: in-repo
+reload: live
+layering: none
+determinism: deterministic</title></rect>
+<text x="1859" y="1741" fill="#222">Open Policy Agent (Rego)  [runtime + request]</text>
+<rect x="1877" y="1751" width="6" height="6" fill="#b6992d" stroke="#333" stroke-width="1.4"><title>AWS SSM Parameter Store (2017, Amazon)
+binding: startup;runtime
+binding_detail: 
+carrier: store
+expressiveness: flat
+constraints: none
+set_by: operator
+effect: set-value
+status: active
+domain: servers &amp; ops
+origin_type: vendor
+versioned: external
+reload: live
+layering: none
+determinism: deterministic</title></rect>
+<circle cx="1880" cy="1686" r="4.5" fill="#499894" stroke="#333" stroke-width="1.4"><title>Envoy xDS (2017, Envoy)
+binding: runtime
+binding_detail: 
+carrier: store
+expressiveness: nested
+constraints: schema
+set_by: system
+effect: set-value
+status: active
+domain: cloud &amp; containers
+origin_type: open-source
+versioned: external
+reload: live
+layering: none
+determinism: deterministic</title></circle>
+<text x="1889" y="1690" fill="#222">Envoy xDS</text>
+<circle cx="1880" cy="1771" r="3" fill="#499894" stroke="#333" stroke-width="1.4"><title>Kubernetes CRDs and operators (2017, Kubernetes 1.7)
+binding: deploy;runtime
+binding_detail: 
+carrier: store
+expressiveness: nested
+constraints: schema
+set_by: operator
+effect: provision
+status: active
+domain: cloud &amp; containers
+origin_type: open-source
+versioned: external
+reload: live
+layering: none
+determinism: deterministic</title></circle>
+<rect x="1935.5" y="1698.5" width="9.0" height="9.0" fill="#b6992d" stroke="#333" stroke-width="1.4"><title>AWS AppConfig (2019, Amazon)
+binding: runtime
+binding_detail: 
+carrier: store
+expressiveness: nested
+constraints: schema
+set_by: operator
+effect: set-value
+status: active
+domain: servers &amp; ops
+origin_type: vendor
+versioned: external
+reload: live
+layering: none
+determinism: deterministic</title></rect>
+<text x="1949" y="1707" fill="#222">AWS AppConfig</text>
+<polygon points="2030,1680.0 2036.0,1686 2030,1692.0 2024.0,1686" fill="#e15759" stroke="#333" stroke-width="1.4"><title>OpenFeature (2022, CNCF)
+binding: runtime;request
+binding_detail: 
+carrier: code
+expressiveness: flat
+constraints: none
+set_by: dev
+effect: switch-path
+status: active
+domain: flags &amp; experiments
+origin_type: standard
+versioned: in-repo
+reload: live
+layering: none
+determinism: randomized</title></polygon>
+<text x="2039" y="1690" fill="#222" font-style="italic">OpenFeature  [runtime + request]</text>
+<polygon points="1184.5,1803.5 1195.5,1803.5 1190,1813.5" fill="#86bcb6" stroke="#333" stroke-width="1.4"><title>robots.txt (1994, Martijn Koster)
+binding: request
+binding_detail: 
+carrier: file
+expressiveness: flat
+constraints: none
+set_by: operator
+effect: steer-agent
+status: active
+domain: network &amp; web
+origin_type: community
+versioned: in-repo
+reload: live
+layering: none
+determinism: advisory</title></polygon>
+<text x="1199" y="1812" fill="#222" font-style="italic">robots.txt</text>
+<polygon points="1250,1819.0 1256.0,1825 1250,1831.0 1244.0,1825" fill="#86bcb6" stroke="#333" stroke-width="1.4"><title>HTTP content negotiation (1996, HTTP/1.0)
+binding: request
+binding_detail: 
+carrier: request
+expressiveness: flat
+constraints: none
+set_by: user
+effect: select-resources
+status: active
+domain: network &amp; web
+origin_type: standard
+versioned: external
+reload: live
+layering: none
+determinism: deterministic</title></polygon>
+<text x="1259" y="1829" fill="#222">HTTP content negotiation</text>
+<rect x="1605.5" y="1803.5" width="9.0" height="9.0" fill="#86bcb6" stroke="#333" stroke-width="1.4"><title>Android resource qualifiers (2008, Android 1.0)
+binding: request
+binding_detail: 
+carrier: file
+expressiveness: flat
+constraints: none
+set_by: system
+effect: select-resources
+status: active
+domain: network &amp; web
+origin_type: vendor
+versioned: in-repo
+reload: live
+layering: levels
+determinism: deterministic</title></rect>
+<text x="1619" y="1812" fill="#222">Android resource qualifiers</text>
+<rect x="1665.5" y="1820.5" width="9.0" height="9.0" fill="#e15759" stroke="#333" stroke-width="1.4"><title>A/B testing platforms (2010, Optimizely)
+binding: request
+binding_detail: 
+carrier: store
+expressiveness: nested
+constraints: none
+set_by: operator
+effect: switch-path
+status: active
+domain: flags &amp; experiments
+origin_type: vendor
+versioned: external
+reload: live
+layering: none
+determinism: randomized</title></rect>
+<text x="1679" y="1829" fill="#222" font-style="italic">A/B testing platforms</text>
+<polygon points="1730,1836.0 1736.0,1842 1730,1848.0 1724.0,1842" fill="#86bcb6" stroke="#333" stroke-width="1.4"><title>CSS media queries (2012, W3C)
+binding: request
+binding_detail: 
+carrier: code
+expressiveness: computed
+constraints: none
+set_by: system
+effect: select-resources
+status: active
+domain: network &amp; web
+origin_type: standard
+versioned: in-repo
+reload: live
+layering: none
+determinism: deterministic</title></polygon>
+<text x="1739" y="1846" fill="#222">CSS media queries</text>
+<rect x="1787" y="1856" width="6" height="6" fill="#e15759" stroke="#333" stroke-width="1.4"><title>Feature flag services (2014, LaunchDarkly)
+binding: runtime;request
+binding_detail: 
+carrier: store
+expressiveness: nested
+constraints: none
+set_by: operator
+effect: switch-path
+status: active
+domain: flags &amp; experiments
+origin_type: vendor
+versioned: external
+reload: live
+layering: none
+determinism: randomized</title></rect>
+<circle cx="1820" cy="1808" r="3" fill="#e15759" stroke="#333" stroke-width="1.4"><title>Unleash (2015, FINN.no)
+binding: runtime;request
+binding_detail: 
+carrier: store
+expressiveness: nested
+constraints: none
+set_by: operator
+effect: switch-path
+status: active
+domain: flags &amp; experiments
+origin_type: open-source
+versioned: external
+reload: live
+layering: none
+determinism: randomized</title></circle>
+<rect x="1847" y="1805" width="6" height="6" fill="#e15759" stroke="#333" stroke-width="1.4"><title>Firebase Remote Config (2016, Google Firebase)
+binding: runtime;request
+binding_detail: 
+carrier: store
+expressiveness: nested
+constraints: none
+set_by: operator
+effect: switch-path
+status: active
+domain: flags &amp; experiments
+origin_type: vendor
+versioned: external
+reload: live
+layering: none
+determinism: randomized</title></rect>
+<rect x="1847" y="1822" width="6" height="6" fill="#b6992d" stroke="#333" stroke-width="1.4"><title>Open Policy Agent (Rego) (2016, Styra)
+binding: runtime;request
+binding_detail: 
+carrier: file
+expressiveness: program
+constraints: none
+set_by: operator
+effect: validate
+status: active
+domain: servers &amp; ops
+origin_type: vendor
+versioned: in-repo
+reload: live
+layering: none
+determinism: deterministic</title></rect>
+<polygon points="2030,1803.5 2034.5,1808 2030,1812.5 2025.5,1808" fill="#e15759" stroke="#333" stroke-width="1.4"><title>OpenFeature (2022, CNCF)
+binding: runtime;request
+binding_detail: 
+carrier: code
+expressiveness: flat
+constraints: none
+set_by: dev
+effect: switch-path
+status: active
+domain: flags &amp; experiments
+origin_type: standard
+versioned: in-repo
+reload: live
+layering: none
+determinism: randomized</title></polygon>
+<polygon points="2084.5,1803.5 2095.5,1803.5 2090,1813.5" fill="#7b3294" stroke="#333" stroke-width="1.4"><title>llms.txt (2024, Jeremy Howard)
+binding: request
+binding_detail: 
+carrier: file
+expressiveness: prose
+constraints: none
+set_by: operator
+effect: steer-agent
+status: active
+domain: agents
+origin_type: community
+versioned: in-repo
+reload: live
+layering: none
+determinism: interpreted</title></polygon>
+<text x="2099" y="1812" fill="#222" font-style="italic">llms.txt</text>
+<rect x="2117" y="1822" width="6" height="6" fill="#7b3294" stroke="#333" stroke-width="1.4"><title>Agent skills (SKILL.md) (2025, Anthropic)
+binding: authoring;request
+binding_detail: 
+carrier: file
+expressiveness: prose
+constraints: none
+set_by: dev
+effect: steer-agent
+status: active
+domain: agents
+origin_type: vendor
+versioned: in-repo
+reload: live
+layering: levels
+determinism: interpreted</title></rect>
+<text x="110" y="1916" fill="#666">No clear first year, not drawn: Clone-and-own variants, Network device running/startup config, Preferences dialogs, Reload on SIGHUP, Request parameters and cookies, Settings stored in an app database</text>
+<text x="110" y="1960" font-size="15" font-weight="bold">How ways changed, by decade of appearance</text><text x="110" y="1978" fill="#555">Share of ways that appeared in each decade. Bar label is the number of ways.</text>
+<text x="110" y="2004" font-weight="bold">Origin</text>
+<text x="104" y="2026" text-anchor="end" fill="#555">1960s</text>
+<rect x="110.0" y="2014" width="60.0" height="16" fill="#4e79a7"><title>1960s, standard: 1 of 5</title></rect>
+<rect x="170.0" y="2014" width="240.0" height="16" fill="#e15759"><title>1960s, vendor: 4 of 5</title></rect>
+<text x="414" y="2026" fill="#777" font-size="10">5</text>
+<text x="104" y="2046" text-anchor="end" fill="#555">1970s</text>
+<rect x="110.0" y="2034" width="300.0" height="16" fill="#9c755f"><title>1970s, research: 7 of 7</title></rect>
+<text x="414" y="2046" fill="#777" font-size="10">7</text>
+<text x="104" y="2066" text-anchor="end" fill="#555">1980s</text>
+<rect x="110.0" y="2054" width="75.0" height="16" fill="#9c755f"><title>1980s, research: 4 of 16</title></rect>
+<rect x="185.0" y="2054" width="37.5" height="16" fill="#4e79a7"><title>1980s, standard: 2 of 16</title></rect>
+<rect x="222.5" y="2054" width="150.0" height="16" fill="#e15759"><title>1980s, vendor: 8 of 16</title></rect>
+<rect x="372.5" y="2054" width="37.5" height="16" fill="#59a14f"><title>1980s, open-source: 2 of 16</title></rect>
+<text x="414" y="2066" fill="#777" font-size="10">16</text>
+<text x="104" y="2086" text-anchor="end" fill="#555">1990s</text>
+<rect x="110.0" y="2074" width="52.2" height="16" fill="#9c755f"><title>1990s, research: 4 of 23</title></rect>
+<rect x="162.2" y="2074" width="52.2" height="16" fill="#4e79a7"><title>1990s, standard: 4 of 23</title></rect>
+<rect x="214.3" y="2074" width="78.3" height="16" fill="#e15759"><title>1990s, vendor: 6 of 23</title></rect>
+<rect x="292.6" y="2074" width="104.3" height="16" fill="#59a14f"><title>1990s, open-source: 8 of 23</title></rect>
+<rect x="397.0" y="2074" width="13.0" height="16" fill="#bab0ac"><title>1990s, community: 1 of 23</title></rect>
+<text x="414" y="2086" fill="#777" font-size="10">23</text>
+<text x="104" y="2106" text-anchor="end" fill="#555">2000s</text>
+<rect x="110.0" y="2094" width="38.2" height="16" fill="#9c755f"><title>2000s, research: 7 of 55</title></rect>
+<rect x="148.2" y="2094" width="38.2" height="16" fill="#4e79a7"><title>2000s, standard: 7 of 55</title></rect>
+<rect x="186.4" y="2094" width="92.7" height="16" fill="#e15759"><title>2000s, vendor: 17 of 55</title></rect>
+<rect x="279.1" y="2094" width="120.0" height="16" fill="#59a14f"><title>2000s, open-source: 22 of 55</title></rect>
+<rect x="399.1" y="2094" width="10.9" height="16" fill="#bab0ac"><title>2000s, community: 2 of 55</title></rect>
+<text x="414" y="2106" fill="#777" font-size="10">55</text>
+<text x="104" y="2126" text-anchor="end" fill="#555">2010s</text>
+<rect x="110.0" y="2114" width="10.2" height="16" fill="#9c755f"><title>2010s, research: 3 of 88</title></rect>
+<rect x="120.2" y="2114" width="13.6" height="16" fill="#4e79a7"><title>2010s, standard: 4 of 88</title></rect>
+<rect x="133.9" y="2114" width="139.8" height="16" fill="#e15759"><title>2010s, vendor: 41 of 88</title></rect>
+<rect x="273.6" y="2114" width="126.1" height="16" fill="#59a14f"><title>2010s, open-source: 37 of 88</title></rect>
+<rect x="399.8" y="2114" width="10.2" height="16" fill="#bab0ac"><title>2010s, community: 3 of 88</title></rect>
+<text x="414" y="2126" fill="#777" font-size="10">88</text>
+<text x="104" y="2146" text-anchor="end" fill="#555">2020s</text>
+<rect x="110.0" y="2134" width="15.0" height="16" fill="#9c755f"><title>2020s, research: 1 of 20</title></rect>
+<rect x="125.0" y="2134" width="30.0" height="16" fill="#4e79a7"><title>2020s, standard: 2 of 20</title></rect>
+<rect x="155.0" y="2134" width="165.0" height="16" fill="#e15759"><title>2020s, vendor: 11 of 20</title></rect>
+<rect x="320.0" y="2134" width="75.0" height="16" fill="#59a14f"><title>2020s, open-source: 5 of 20</title></rect>
+<rect x="395.0" y="2134" width="15.0" height="16" fill="#bab0ac"><title>2020s, community: 1 of 20</title></rect>
+<text x="414" y="2146" fill="#777" font-size="10">20</text>
+<rect x="110.0" y="2158" width="11" height="11" fill="#9c755f"/><text x="125.0" y="2168">research</text>
+<rect x="180.0" y="2158" width="11" height="11" fill="#4e79a7"/><text x="195.0" y="2168">standard</text>
+<rect x="250.0" y="2158" width="11" height="11" fill="#e15759"/><text x="265.0" y="2168">vendor</text>
+<rect x="308.0" y="2158" width="11" height="11" fill="#59a14f"/><text x="323.0" y="2168">open-source</text>
+<rect x="110.0" y="2176" width="11" height="11" fill="#bab0ac"/><text x="125.0" y="2186">community</text>
+<text x="490" y="2004" font-weight="bold">Versioned with the code</text>
+<text x="484" y="2026" text-anchor="end" fill="#555">1960s</text>
+<rect x="490.0" y="2014" width="240.0" height="16" fill="#59a14f"><title>1960s, in-repo: 4 of 5</title></rect>
+<rect x="730.0" y="2014" width="60.0" height="16" fill="#e15759"><title>1960s, external: 1 of 5</title></rect>
+<text x="794" y="2026" fill="#777" font-size="10">5</text>
+<text x="484" y="2046" text-anchor="end" fill="#555">1970s</text>
+<rect x="490.0" y="2034" width="128.6" height="16" fill="#59a14f"><title>1970s, in-repo: 3 of 7</title></rect>
+<rect x="618.6" y="2034" width="171.4" height="16" fill="#e15759"><title>1970s, external: 4 of 7</title></rect>
+<text x="794" y="2046" fill="#777" font-size="10">7</text>
+<text x="484" y="2066" text-anchor="end" fill="#555">1980s</text>
+<rect x="490.0" y="2054" width="37.5" height="16" fill="#59a14f"><title>1980s, in-repo: 2 of 16</title></rect>
+<rect x="527.5" y="2054" width="37.5" height="16" fill="#edc948"><title>1980s, both: 2 of 16</title></rect>
+<rect x="565.0" y="2054" width="225.0" height="16" fill="#e15759"><title>1980s, external: 12 of 16</title></rect>
+<text x="794" y="2066" fill="#777" font-size="10">16</text>
+<text x="484" y="2086" text-anchor="end" fill="#555">1990s</text>
+<rect x="490.0" y="2074" width="91.3" height="16" fill="#59a14f"><title>1990s, in-repo: 7 of 23</title></rect>
+<rect x="581.3" y="2074" width="65.2" height="16" fill="#edc948"><title>1990s, both: 5 of 23</title></rect>
+<rect x="646.5" y="2074" width="143.5" height="16" fill="#e15759"><title>1990s, external: 11 of 23</title></rect>
+<text x="794" y="2086" fill="#777" font-size="10">23</text>
+<text x="484" y="2106" text-anchor="end" fill="#555">2000s</text>
+<rect x="490.0" y="2094" width="185.5" height="16" fill="#59a14f"><title>2000s, in-repo: 34 of 55</title></rect>
+<rect x="675.5" y="2094" width="32.7" height="16" fill="#edc948"><title>2000s, both: 6 of 55</title></rect>
+<rect x="708.2" y="2094" width="81.8" height="16" fill="#e15759"><title>2000s, external: 15 of 55</title></rect>
+<text x="794" y="2106" fill="#777" font-size="10">55</text>
+<text x="484" y="2126" text-anchor="end" fill="#555">2010s</text>
+<rect x="490.0" y="2114" width="197.7" height="16" fill="#59a14f"><title>2010s, in-repo: 58 of 88</title></rect>
+<rect x="687.7" y="2114" width="37.5" height="16" fill="#edc948"><title>2010s, both: 11 of 88</title></rect>
+<rect x="725.2" y="2114" width="64.8" height="16" fill="#e15759"><title>2010s, external: 19 of 88</title></rect>
+<text x="794" y="2126" fill="#777" font-size="10">88</text>
+<text x="484" y="2146" text-anchor="end" fill="#555">2020s</text>
+<rect x="490.0" y="2134" width="240.0" height="16" fill="#59a14f"><title>2020s, in-repo: 16 of 20</title></rect>
+<rect x="730.0" y="2134" width="60.0" height="16" fill="#edc948"><title>2020s, both: 4 of 20</title></rect>
+<text x="794" y="2146" fill="#777" font-size="10">20</text>
+<rect x="490.0" y="2158" width="11" height="11" fill="#59a14f"/><text x="505.0" y="2168">in-repo</text>
+<rect x="554.0" y="2158" width="11" height="11" fill="#edc948"/><text x="569.0" y="2168">both</text>
+<rect x="600.0" y="2158" width="11" height="11" fill="#e15759"/><text x="615.0" y="2168">external</text>
+<text x="870" y="2004" font-weight="bold">Change takes effect after</text>
+<text x="864" y="2026" text-anchor="end" fill="#555">1960s</text>
+<rect x="870.0" y="2014" width="240.0" height="16" fill="#08306b"><title>1960s, rebuild: 4 of 5</title></rect>
+<rect x="1110.0" y="2014" width="60.0" height="16" fill="#9ecae1"><title>1960s, restart: 1 of 5</title></rect>
+<text x="1174" y="2026" fill="#777" font-size="10">5</text>
+<text x="864" y="2046" text-anchor="end" fill="#555">1970s</text>
+<rect x="870.0" y="2034" width="128.6" height="16" fill="#08306b"><title>1970s, rebuild: 3 of 7</title></rect>
+<rect x="998.6" y="2034" width="42.9" height="16" fill="#6baed6"><title>1970s, new-session: 1 of 7</title></rect>
+<rect x="1041.4" y="2034" width="128.6" height="16" fill="#9ecae1"><title>1970s, restart: 3 of 7</title></rect>
+<text x="1174" y="2046" fill="#777" font-size="10">7</text>
+<text x="864" y="2066" text-anchor="end" fill="#555">1980s</text>
+<rect x="870.0" y="2054" width="37.5" height="16" fill="#08306b"><title>1980s, rebuild: 2 of 16</title></rect>
+<rect x="907.5" y="2054" width="75.0" height="16" fill="#4292c6"><title>1980s, reboot: 4 of 16</title></rect>
+<rect x="982.5" y="2054" width="37.5" height="16" fill="#6baed6"><title>1980s, new-session: 2 of 16</title></rect>
+<rect x="1020.0" y="2054" width="75.0" height="16" fill="#9ecae1"><title>1980s, restart: 4 of 16</title></rect>
+<rect x="1095.0" y="2054" width="37.5" height="16" fill="#c6dbef"><title>1980s, on-signal: 2 of 16</title></rect>
+<rect x="1132.5" y="2054" width="37.5" height="16" fill="#fd8d3c"><title>1980s, live: 2 of 16</title></rect>
+<text x="1174" y="2066" fill="#777" font-size="10">16</text>
+<text x="864" y="2086" text-anchor="end" fill="#555">1990s</text>
+<rect x="870.0" y="2074" width="13.0" height="16" fill="#d9d9d9"><title>1990s, n/a: 1 of 23</title></rect>
+<rect x="883.0" y="2074" width="52.2" height="16" fill="#08306b"><title>1990s, rebuild: 4 of 23</title></rect>
+<rect x="935.2" y="2074" width="26.1" height="16" fill="#2171b5"><title>1990s, redeploy: 2 of 23</title></rect>
+<rect x="961.3" y="2074" width="26.1" height="16" fill="#4292c6"><title>1990s, reboot: 2 of 23</title></rect>
+<rect x="987.4" y="2074" width="78.3" height="16" fill="#9ecae1"><title>1990s, restart: 6 of 23</title></rect>
+<rect x="1065.7" y="2074" width="13.0" height="16" fill="#c6dbef"><title>1990s, on-signal: 1 of 23</title></rect>
+<rect x="1078.7" y="2074" width="91.3" height="16" fill="#fd8d3c"><title>1990s, live: 7 of 23</title></rect>
+<text x="1174" y="2086" fill="#777" font-size="10">23</text>
+<text x="864" y="2106" text-anchor="end" fill="#555">2000s</text>
+<rect x="870.0" y="2094" width="16.4" height="16" fill="#d9d9d9"><title>2000s, n/a: 3 of 55</title></rect>
+<rect x="886.4" y="2094" width="81.8" height="16" fill="#08306b"><title>2000s, rebuild: 15 of 55</title></rect>
+<rect x="968.2" y="2094" width="32.7" height="16" fill="#08519c"><title>2000s, reinstall: 6 of 55</title></rect>
+<rect x="1000.9" y="2094" width="16.4" height="16" fill="#2171b5"><title>2000s, redeploy: 3 of 55</title></rect>
+<rect x="1017.3" y="2094" width="87.3" height="16" fill="#9ecae1"><title>2000s, restart: 16 of 55</title></rect>
+<rect x="1104.5" y="2094" width="10.9" height="16" fill="#c6dbef"><title>2000s, on-signal: 2 of 55</title></rect>
+<rect x="1115.5" y="2094" width="54.5" height="16" fill="#fd8d3c"><title>2000s, live: 10 of 55</title></rect>
+<text x="1174" y="2106" fill="#777" font-size="10">55</text>
+<text x="864" y="2126" text-anchor="end" fill="#555">2010s</text>
+<rect x="870.0" y="2114" width="30.7" height="16" fill="#d9d9d9"><title>2010s, n/a: 9 of 88</title></rect>
+<rect x="900.7" y="2114" width="81.8" height="16" fill="#08306b"><title>2010s, rebuild: 24 of 88</title></rect>
+<rect x="982.5" y="2114" width="13.6" height="16" fill="#08519c"><title>2010s, reinstall: 4 of 88</title></rect>
+<rect x="996.1" y="2114" width="61.4" height="16" fill="#2171b5"><title>2010s, redeploy: 18 of 88</title></rect>
+<rect x="1057.5" y="2114" width="3.4" height="16" fill="#6baed6"><title>2010s, new-session: 1 of 88</title></rect>
+<rect x="1060.9" y="2114" width="44.3" height="16" fill="#9ecae1"><title>2010s, restart: 13 of 88</title></rect>
+<rect x="1105.2" y="2114" width="3.4" height="16" fill="#c6dbef"><title>2010s, on-signal: 1 of 88</title></rect>
+<rect x="1108.6" y="2114" width="61.4" height="16" fill="#fd8d3c"><title>2010s, live: 18 of 88</title></rect>
+<text x="1174" y="2126" fill="#777" font-size="10">88</text>
+<text x="864" y="2146" text-anchor="end" fill="#555">2020s</text>
+<rect x="870.0" y="2134" width="15.0" height="16" fill="#d9d9d9"><title>2020s, n/a: 1 of 20</title></rect>
+<rect x="885.0" y="2134" width="15.0" height="16" fill="#08306b"><title>2020s, rebuild: 1 of 20</title></rect>
+<rect x="900.0" y="2134" width="15.0" height="16" fill="#08519c"><title>2020s, reinstall: 1 of 20</title></rect>
+<rect x="915.0" y="2134" width="45.0" height="16" fill="#2171b5"><title>2020s, redeploy: 3 of 20</title></rect>
+<rect x="960.0" y="2134" width="150.0" height="16" fill="#6baed6"><title>2020s, new-session: 10 of 20</title></rect>
+<rect x="1110.0" y="2134" width="15.0" height="16" fill="#9ecae1"><title>2020s, restart: 1 of 20</title></rect>
+<rect x="1125.0" y="2134" width="45.0" height="16" fill="#fd8d3c"><title>2020s, live: 3 of 20</title></rect>
+<text x="1174" y="2146" fill="#777" font-size="10">20</text>
+<rect x="870.0" y="2158" width="11" height="11" fill="#d9d9d9"/><text x="885.0" y="2168">n/a</text>
+<rect x="910.0" y="2158" width="11" height="11" fill="#08306b"/><text x="925.0" y="2168">rebuild</text>
+<rect x="974.0" y="2158" width="11" height="11" fill="#08519c"/><text x="989.0" y="2168">reinstall</text>
+<rect x="1050.0" y="2158" width="11" height="11" fill="#2171b5"/><text x="1065.0" y="2168">redeploy</text>
+<rect x="1120.0" y="2158" width="11" height="11" fill="#4292c6"/><text x="1135.0" y="2168">reboot</text>
+<rect x="870.0" y="2176" width="11" height="11" fill="#6baed6"/><text x="885.0" y="2186">new-session</text>
+<rect x="958.0" y="2176" width="11" height="11" fill="#9ecae1"/><text x="973.0" y="2186">restart</text>
+<rect x="1022.0" y="2176" width="11" height="11" fill="#c6dbef"/><text x="1037.0" y="2186">on-signal</text>
+<rect x="1098.0" y="2176" width="11" height="11" fill="#fd8d3c"/><text x="1113.0" y="2186">live</text>
+<text x="1250" y="2004" font-weight="bold">Override layers</text>
+<text x="1244" y="2026" text-anchor="end" fill="#555">1960s</text>
+<rect x="1250.0" y="2014" width="300.0" height="16" fill="#d9d9d9"><title>1960s, none: 5 of 5</title></rect>
+<text x="1554" y="2026" fill="#777" font-size="10">5</text>
+<text x="1244" y="2046" text-anchor="end" fill="#555">1970s</text>
+<rect x="1250.0" y="2034" width="214.3" height="16" fill="#d9d9d9"><title>1970s, none: 5 of 7</title></rect>
+<rect x="1464.3" y="2034" width="85.7" height="16" fill="#4e79a7"><title>1970s, levels: 2 of 7</title></rect>
+<text x="1554" y="2046" fill="#777" font-size="10">7</text>
+<text x="1244" y="2066" text-anchor="end" fill="#555">1980s</text>
+<rect x="1250.0" y="2054" width="225.0" height="16" fill="#d9d9d9"><title>1980s, none: 12 of 16</title></rect>
+<rect x="1475.0" y="2054" width="56.2" height="16" fill="#4e79a7"><title>1980s, levels: 3 of 16</title></rect>
+<rect x="1531.2" y="2054" width="18.8" height="16" fill="#f28e2b"><title>1980s, overlays: 1 of 16</title></rect>
+<text x="1554" y="2066" fill="#777" font-size="10">16</text>
+<text x="1244" y="2086" text-anchor="end" fill="#555">1990s</text>
+<rect x="1250.0" y="2074" width="208.7" height="16" fill="#d9d9d9"><title>1990s, none: 16 of 23</title></rect>
+<rect x="1458.7" y="2074" width="78.3" height="16" fill="#4e79a7"><title>1990s, levels: 6 of 23</title></rect>
+<rect x="1537.0" y="2074" width="13.0" height="16" fill="#f28e2b"><title>1990s, overlays: 1 of 23</title></rect>
+<text x="1554" y="2086" fill="#777" font-size="10">23</text>
+<text x="1244" y="2106" text-anchor="end" fill="#555">2000s</text>
+<rect x="1250.0" y="2094" width="207.3" height="16" fill="#d9d9d9"><title>2000s, none: 38 of 55</title></rect>
+<rect x="1457.3" y="2094" width="65.5" height="16" fill="#4e79a7"><title>2000s, levels: 12 of 55</title></rect>
+<rect x="1522.7" y="2094" width="27.3" height="16" fill="#f28e2b"><title>2000s, overlays: 5 of 55</title></rect>
+<text x="1554" y="2106" fill="#777" font-size="10">55</text>
+<text x="1244" y="2126" text-anchor="end" fill="#555">2010s</text>
+<rect x="1250.0" y="2114" width="228.4" height="16" fill="#d9d9d9"><title>2010s, none: 67 of 88</title></rect>
+<rect x="1478.4" y="2114" width="47.7" height="16" fill="#4e79a7"><title>2010s, levels: 14 of 88</title></rect>
+<rect x="1526.1" y="2114" width="23.9" height="16" fill="#f28e2b"><title>2010s, overlays: 7 of 88</title></rect>
+<text x="1554" y="2126" fill="#777" font-size="10">88</text>
+<text x="1244" y="2146" text-anchor="end" fill="#555">2020s</text>
+<rect x="1250.0" y="2134" width="180.0" height="16" fill="#d9d9d9"><title>2020s, none: 12 of 20</title></rect>
+<rect x="1430.0" y="2134" width="105.0" height="16" fill="#4e79a7"><title>2020s, levels: 7 of 20</title></rect>
+<rect x="1535.0" y="2134" width="15.0" height="16" fill="#f28e2b"><title>2020s, overlays: 1 of 20</title></rect>
+<text x="1554" y="2146" fill="#777" font-size="10">20</text>
+<rect x="1250.0" y="2158" width="11" height="11" fill="#d9d9d9"/><text x="1265.0" y="2168">none</text>
+<rect x="1296.0" y="2158" width="11" height="11" fill="#4e79a7"/><text x="1311.0" y="2168">levels</text>
+<rect x="1354.0" y="2158" width="11" height="11" fill="#f28e2b"/><text x="1369.0" y="2168">overlays</text>
+<text x="1630" y="2004" font-weight="bold">Effect</text>
+<text x="1624" y="2026" text-anchor="end" fill="#555">1960s</text>
+<rect x="1630.0" y="2014" width="300.0" height="16" fill="#d9d9d9"><title>1960s, deterministic: 5 of 5</title></rect>
+<text x="1934" y="2026" fill="#777" font-size="10">5</text>
+<text x="1624" y="2046" text-anchor="end" fill="#555">1970s</text>
+<rect x="1630.0" y="2034" width="300.0" height="16" fill="#d9d9d9"><title>1970s, deterministic: 7 of 7</title></rect>
+<text x="1934" y="2046" fill="#777" font-size="10">7</text>
+<text x="1624" y="2066" text-anchor="end" fill="#555">1980s</text>
+<rect x="1630.0" y="2054" width="300.0" height="16" fill="#d9d9d9"><title>1980s, deterministic: 16 of 16</title></rect>
+<text x="1934" y="2066" fill="#777" font-size="10">16</text>
+<text x="1624" y="2086" text-anchor="end" fill="#555">1990s</text>
+<rect x="1630.0" y="2074" width="287.0" height="16" fill="#d9d9d9"><title>1990s, deterministic: 22 of 23</title></rect>
+<rect x="1917.0" y="2074" width="13.0" height="16" fill="#edc948"><title>1990s, advisory: 1 of 23</title></rect>
+<text x="1934" y="2086" fill="#777" font-size="10">23</text>
+<text x="1624" y="2106" text-anchor="end" fill="#555">2000s</text>
+<rect x="1630.0" y="2094" width="300.0" height="16" fill="#d9d9d9"><title>2000s, deterministic: 55 of 55</title></rect>
+<text x="1934" y="2106" fill="#777" font-size="10">55</text>
+<text x="1624" y="2126" text-anchor="end" fill="#555">2010s</text>
+<rect x="1630.0" y="2114" width="286.4" height="16" fill="#d9d9d9"><title>2010s, deterministic: 84 of 88</title></rect>
+<rect x="1916.4" y="2114" width="13.6" height="16" fill="#f28e2b"><title>2010s, randomized: 4 of 88</title></rect>
+<text x="1934" y="2126" fill="#777" font-size="10">88</text>
+<text x="1624" y="2146" text-anchor="end" fill="#555">2020s</text>
+<rect x="1630.0" y="2134" width="135.0" height="16" fill="#d9d9d9"><title>2020s, deterministic: 9 of 20</title></rect>
+<rect x="1765.0" y="2134" width="15.0" height="16" fill="#f28e2b"><title>2020s, randomized: 1 of 20</title></rect>
+<rect x="1780.0" y="2134" width="150.0" height="16" fill="#7b3294"><title>2020s, interpreted: 10 of 20</title></rect>
+<text x="1934" y="2146" fill="#777" font-size="10">20</text>
+<rect x="1630.0" y="2158" width="11" height="11" fill="#d9d9d9"/><text x="1645.0" y="2168">deterministic</text>
+<rect x="1730.0" y="2158" width="11" height="11" fill="#f28e2b"/><text x="1745.0" y="2168">randomized</text>
+<rect x="1812.0" y="2158" width="11" height="11" fill="#edc948"/><text x="1827.0" y="2168">advisory</text>
+<rect x="1630.0" y="2176" width="11" height="11" fill="#7b3294"/><text x="1645.0" y="2186">interpreted</text>
+</svg>

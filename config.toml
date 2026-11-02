@@ -1,0 +1,10 @@
+# The URL the site will be built for
+base_url = "/configuration-ways/"
+
+compile_sass = false
+build_search_index = false
+
+[extra]
+title = "ways to configure software"
+description = "From 1960 to 2025"
+author = "Xhevahire Tërnava"
