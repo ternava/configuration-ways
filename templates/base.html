@@ -210,6 +210,15 @@
         }
         details.group[open] summary::before { content: "−"; }
         details.group .count { color: #64748b; font-size: 0.85rem; margin-left: 0.3rem; }
+        details.group table { table-layout: fixed; width: 100%; }
+        details.group th, details.group td { overflow-wrap: anywhere; word-break: break-word; vertical-align: top; font-size: 0.78rem; line-height: 1.4; padding: 0.3rem 0.45rem; }
+        details.group th { font-size: 0.8rem; }
+        details.group th:nth-child(1) { width: 26%; }
+        details.group th:nth-child(2) { width: 13%; }
+        details.group th:nth-child(3) { width: 23%; }
+        details.group th:nth-child(4) { width: 19%; }
+        details.group th:nth-child(5) { width: 19%; }
+        details.group code { white-space: normal; }
 
         .footer {
             border-top: 1px solid #e2e8f0;
