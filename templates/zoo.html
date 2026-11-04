@@ -38,7 +38,7 @@
   function render() {
     const [b, g] = decodeURIComponent(location.hash.slice(1)).split('/');
     const okB = BINDINGS.includes(b), okG = okB && LEVELS.includes(g);
-    gran.innerHTML = okB ? '<span class="label">Granularity</span><div class="links">' + LEVELS.map(l => [l, rows.filter(r => inB(r, b) && r.dataset.g === l).length])
+    gran.innerHTML = okB ? '<span class="label">Granularity <button type="button" class="info" popovertarget="gran-info" aria-label="What does granularity mean?">i</button></span><div class="links">' + LEVELS.map(l => [l, rows.filter(r => inB(r, b) && r.dataset.g === l).length])
       .filter(([, n]) => n).map(([l, n]) => link(`${b}/${l}`, l, n)).join('') + '</div>' : '';
     document.querySelectorAll('.tabs a').forEach(a => {
       const h = a.getAttribute('href').slice(1);
@@ -52,8 +52,8 @@
   window.addEventListener('hashchange', render);
   render();
 </script>
-<details class="legend">
-  <summary>What does granularity mean?</summary>
+<div id="gran-info" class="note" popover>
+  <button type="button" class="close" popovertarget="gran-info" popovertargetaction="hide" aria-label="Close">×</button>
   {{ page.content | safe }}
-</details>
+</div>
 {% endblock content %}

@@ -212,12 +212,26 @@
         .tabs.sub { margin-top: 0.5rem; border-bottom: none; font-size: 0.9rem; }
         .tabs.sub .links { gap: 0.3rem 1rem; }
         .tabs.sub:empty { display: none; }
-        .tabs.sub a { font-weight: 700; color: #0f766e; }
-        .tabs.sub a:hover { border-bottom-color: #99f6e4; }
-        .tabs.sub a.active { color: #134e4a; border-bottom-color: #0d9488; }
-        details.legend { margin-top: 2rem; font-size: 0.9rem; }
-        details.legend summary { cursor: pointer; color: #64748b; }
-        details.legend summary:hover { color: #4338ca; }
+        .tabs.sub a { font-weight: 700; color: #be123c; }
+        .tabs.sub a:hover { border-bottom-color: #fecdd3; }
+        .tabs.sub a.active { color: #881337; border-bottom-color: #e11d48; }
+        .info {
+            font: italic 600 0.7rem Georgia, serif; width: 1.05rem; height: 1.05rem; padding: 0; margin-left: 0.3rem;
+            border: 1px solid #94a3b8; border-radius: 50%; background: #fff; color: #64748b; cursor: pointer; vertical-align: 0.05rem;
+        }
+        .info:hover { border-color: #be123c; color: #be123c; }
+        .note {
+            max-width: 34rem; width: calc(100% - 2rem); padding: 1rem 1.3rem; border: 1px solid #e2e8f0;
+            border-radius: 8px; box-shadow: 0 10px 30px rgba(15, 23, 42, 0.18); color: #334155; font-size: 0.9rem;
+        }
+        .note::backdrop { background: rgba(15, 23, 42, 0.15); }
+        .note p:first-of-type { margin-top: 0; }
+        .note table { margin-bottom: 0; }
+        .note th, .note td { font-size: 0.82rem; padding: 0.3rem 0.5rem; }
+        .note .close {
+            float: right; border: none; background: none; font-size: 1.3rem; line-height: 1; color: #94a3b8; cursor: pointer; margin: -0.4rem -0.6rem 0 0;
+        }
+        .note .close:hover { color: #0f172a; }
         .group h3 { margin: 1.2rem 0 0.4rem; }
         .group table { table-layout: fixed; width: 100%; }
         .group th, .group td { overflow-wrap: anywhere; word-break: break-word; vertical-align: top; font-size: 0.78rem; line-height: 1.4; padding: 0.3rem 0.45rem; }
