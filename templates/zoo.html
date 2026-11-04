@@ -36,7 +36,7 @@
   bind.innerHTML = '<span class="label">Binding time</span><div class="links">' + BINDINGS.map(b => link(b, b, rows.filter(r => inB(r, b)).length)).join('') + '</div>';
 
   function render() {
-    const [b, g] = decodeURIComponent(location.hash.slice(1)).split('/');
+    const [b, g] = decodeURIComponent(location.hash.slice(1) || 'design/feature').split('/');
     const okB = BINDINGS.includes(b), okG = okB && LEVELS.includes(g);
     gran.innerHTML = okB ? '<span class="label">Granularity <button type="button" class="info" popovertarget="gran-info" aria-label="What does granularity mean?">i</button></span><div class="links">' + LEVELS.map(l => [l, rows.filter(r => inB(r, b) && r.dataset.g === l).length])
       .filter(([, n]) => n).map(([l, n]) => link(`${b}/${l}`, l, n)).join('') + '</div>' : '';
