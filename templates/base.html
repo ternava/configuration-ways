@@ -202,23 +202,31 @@
             color: #2563eb;
         }
         
-        details.group { border-bottom: 1px solid #e2e8f0; }
-        details.group summary { cursor: pointer; list-style: none; padding: 0.5rem 0; }
-        details.group summary::-webkit-details-marker { display: none; }
-        details.group summary::before {
-            content: "+"; display: inline-block; width: 1.2rem; font-weight: 700; color: #2563eb;
-        }
-        details.group[open] summary::before { content: "−"; }
-        details.group .count { color: #64748b; font-size: 0.85rem; margin-left: 0.3rem; }
-        details.group table { table-layout: fixed; width: 100%; }
-        details.group th, details.group td { overflow-wrap: anywhere; word-break: break-word; vertical-align: top; font-size: 0.78rem; line-height: 1.4; padding: 0.3rem 0.45rem; }
-        details.group th { font-size: 0.8rem; }
-        details.group th:nth-child(1) { width: 26%; }
-        details.group th:nth-child(2) { width: 13%; }
-        details.group th:nth-child(3) { width: 23%; }
-        details.group th:nth-child(4) { width: 19%; }
-        details.group th:nth-child(5) { width: 19%; }
-        details.group code { white-space: normal; }
+        .tabs { display: flex; align-items: baseline; gap: 1rem; margin: 1.2rem 0 0; padding-bottom: 0.5rem; border-bottom: 1px solid #e2e8f0; }
+        .tabs .links { display: flex; flex-wrap: wrap; gap: 0.3rem 1.2rem; }
+        .tabs a { color: #1d4ed8; text-decoration: none; font-weight: 700; padding-bottom: 0.15rem; border-bottom: 2px solid transparent; }
+        .tabs a:hover { border-bottom-color: #bfdbfe; }
+        .tabs a.active { color: #1e3a8a; border-bottom-color: #2563eb; }
+        .tabs .count { color: #94a3b8; font-size: 0.75rem; font-weight: 400; margin-left: 0.25rem; }
+        .tabs .label { color: #64748b; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; flex: 0 0 7.5rem; }
+        .tabs.sub { margin-top: 0.5rem; border-bottom: none; font-size: 0.9rem; }
+        .tabs.sub .links { gap: 0.3rem 1rem; }
+        .tabs.sub:empty { display: none; }
+        .tabs.sub a { font-weight: 700; color: #0f766e; }
+        .tabs.sub a:hover { border-bottom-color: #99f6e4; }
+        .tabs.sub a.active { color: #134e4a; border-bottom-color: #0d9488; }
+        details.legend { margin-top: 2rem; font-size: 0.9rem; }
+        details.legend summary { cursor: pointer; color: #64748b; }
+        details.legend summary:hover { color: #4338ca; }
+        .group h3 { margin: 1.2rem 0 0.4rem; }
+        .group table { table-layout: fixed; width: 100%; }
+        .group th, .group td { overflow-wrap: anywhere; word-break: break-word; vertical-align: top; font-size: 0.78rem; line-height: 1.4; padding: 0.3rem 0.45rem; }
+        .group th { font-size: 0.8rem; }
+        .group th:nth-child(1) { width: 30%; }
+        .group th:nth-child(2) { width: 25%; }
+        .group th:nth-child(3) { width: 22%; }
+        .group th:nth-child(4) { width: 23%; }
+        .group code { white-space: normal; }
 
         .footer {
             border-top: 1px solid #e2e8f0;

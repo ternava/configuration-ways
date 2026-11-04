@@ -4,28 +4,56 @@
 <p>{{ page.description | markdown(inline=true) | safe }}</p>
 {% set ways = load_data(path="data/ways.csv", format="csv") %}
 {% set ex = load_data(path="zoo/examples.csv", format="csv") %}
-{% for b in ["design", "authoring", "build", "install", "deploy", "boot", "session", "startup", "runtime", "request"] %}
-{% set_global n = 0 %}
-{% for w in ways.records %}{% set bs = w[4] | split(pat=";") %}{% if b in bs %}{% set_global n = n + 1 %}{% endif %}{% endfor %}
-<details class="group">
-  <summary><strong>{{ b }}</strong> <span class="count">{{ n }}</span></summary>
+<nav class="tabs" id="bind"></nav>
+<nav class="tabs sub" id="gran"></nav>
+<section class="group" id="zoo">
+  <h3 id="zoo-title">All ways</h3>
   <table>
-    <thead><tr><th>Way</th><th>Granularity</th><th>Example</th><th>Option</th><th>Note</th></tr></thead>
+    <thead><tr><th>Way</th><th>Example</th><th>Option</th><th>Note</th></tr></thead>
     <tbody>
-    {% for w in ways.records %}{% set bs = w[4] | split(pat=";") %}{% if b in bs %}
+    {% for w in ways.records %}
       {% for r in ex.records %}{% if r[0] == w[0] %}
-      <tr>
+      <tr data-b="{{ w[4] | replace(from=";", to=" ") }}" data-g="{{ w[22] }}">
         <td>{{ w[0] }}</td>
-        <td>{{ w[22] }}</td>
         <td>{% if r[3] %}<a href="{{ r[3] }}">{{ r[1] }}</a>{% else %}—{% endif %}</td>
         <td>{% if r[2] %}<code>{{ r[2] }}</code>{% endif %}</td>
         <td>{{ r[7] }}</td>
       </tr>
       {% endif %}{% endfor %}
-    {% endif %}{% endfor %}
+    {% endfor %}
     </tbody>
   </table>
+</section>
+<script>
+  // Without JS the full table stays visible.
+  const BINDINGS = ["design", "authoring", "build", "install", "deploy", "boot", "session", "startup", "runtime", "request"];
+  const LEVELS = ["line", "block", "file", "module", "component", "process", "user", "project", "machine", "cluster", "request", "feature"];
+  const rows = [...document.querySelectorAll('#zoo tbody tr')];
+  const zoo = document.getElementById('zoo'), bind = document.getElementById('bind'), gran = document.getElementById('gran'), title = document.getElementById('zoo-title');
+  const inB = (r, b) => r.dataset.b.split(' ').includes(b);
+  const link = (href, text, n) => `<a href="#${href}">${text}<span class="count">${n}</span></a>`;
+
+  bind.innerHTML = '<span class="label">Binding time</span><div class="links">' + BINDINGS.map(b => link(b, b, rows.filter(r => inB(r, b)).length)).join('') + '</div>';
+
+  function render() {
+    const [b, g] = decodeURIComponent(location.hash.slice(1)).split('/');
+    const okB = BINDINGS.includes(b), okG = okB && LEVELS.includes(g);
+    gran.innerHTML = okB ? '<span class="label">Granularity</span><div class="links">' + LEVELS.map(l => [l, rows.filter(r => inB(r, b) && r.dataset.g === l).length])
+      .filter(([, n]) => n).map(([l, n]) => link(`${b}/${l}`, l, n)).join('') + '</div>' : '';
+    document.querySelectorAll('.tabs a').forEach(a => {
+      const h = a.getAttribute('href').slice(1);
+      a.classList.toggle('active', h === b || h === `${b}/${g}`);
+    });
+    zoo.hidden = !okG;
+    if (!okG) return;
+    title.textContent = `${b} · ${g}`;
+    rows.forEach(r => r.hidden = !(inB(r, b) && r.dataset.g === g));
+  }
+  window.addEventListener('hashchange', render);
+  render();
+</script>
+<details class="legend">
+  <summary>What does granularity mean?</summary>
+  {{ page.content | safe }}
 </details>
-{% endfor %}
-{{ page.content | safe }}
 {% endblock content %}
