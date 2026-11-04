@@ -1,11 +1,14 @@
 <div class="viewer">
   <div class="tools">
+    <span class="views">
+      <button type="button" data-view="dots" aria-pressed="true">Dots</button><button type="button" data-view="history" aria-pressed="false">Timeline</button>
+    </span>
     <button type="button" data-zoom="in" title="Zoom in">+</button>
     <button type="button" data-zoom="out" title="Zoom out">&minus;</button>
     <button type="button" data-zoom="reset" title="Fit">Fit</button>
     <span class="hint">Scroll to zoom, drag, hover for details</span>
-    <a class="button" href="{{ get_url(path='history.svg') }}" download="configuration-ways-history.svg">Download</a>
-    <a class="button secondary" href="{{ get_url(path='history.svg') }}" target="_blank" rel="noopener">Full size</a>
+    <a class="button" id="dl" href="{{ get_url(path='dots.svg') }}" download="configuration-ways-dots.svg">Download</a>
+    <a class="button secondary" id="full" href="{{ get_url(path='dots.svg') }}" target="_blank" rel="noopener">Full size</a>
   </div>
   <div class="stage" id="stage" role="img" aria-label="Timeline of ways to configure software, by year and binding time">
     <div id="fig"></div>
@@ -24,13 +27,29 @@
     var n = Math.min(Math.max(s * f, fit), 6);
     x = cx - (cx - x) * n / s; y = cy - (cy - y) * n / s; s = n; apply();
   }
-  fetch('{{ get_url(path="history.svg") }}').then(function (r) { return r.text(); }).then(function (t) {
-    fig.innerHTML = t;
-    var svg = fig.querySelector('svg');
-    W = parseFloat(svg.getAttribute('width')); H = parseFloat(svg.getAttribute('height'));
-    fig.style.width = W + 'px'; fig.style.height = H + 'px';
-    reset();
+  var urls = { dots: '{{ get_url(path="dots.svg") }}', history: '{{ get_url(path="history.svg") }}' };
+  function load(view) {
+    document.querySelectorAll('[data-view]').forEach(function (b) { b.setAttribute('aria-pressed', b.dataset.view === view); });
+    document.getElementById('dl').href = document.getElementById('full').href = urls[view];
+    document.getElementById('dl').setAttribute('download', 'configuration-ways-' + view + '.svg');
+    fetch(urls[view]).then(function (r) { return r.text(); }).then(function (t) {
+      fig.innerHTML = t;
+      var svg = fig.querySelector('svg');
+      W = parseFloat(svg.getAttribute('width')); H = parseFloat(svg.getAttribute('height'));
+      fig.style.width = W + 'px'; fig.style.height = H + 'px';
+      reset();
+      // dots view: hovering a dot brings out its lineage links
+      svg.querySelectorAll('.dot').forEach(function (d) {
+        var links = svg.querySelectorAll('.lk[data-a="' + d.dataset.id + '"], .lk[data-b="' + d.dataset.id + '"]');
+        d.addEventListener('mouseenter', function () { links.forEach(function (l) { l.classList.add('on'); }); });
+        d.addEventListener('mouseleave', function () { links.forEach(function (l) { l.classList.remove('on'); }); });
+      });
+    });
+  }
+  document.querySelectorAll('[data-view]').forEach(function (b) {
+    b.addEventListener('click', function () { load(b.dataset.view); });
   });
+  load('dots');
   stage.addEventListener('wheel', function (e) {
     e.preventDefault(); var r = stage.getBoundingClientRect();
     zoom(e.deltaY < 0 ? 1.2 : 1 / 1.2, e.clientX - r.left, e.clientY - r.top);

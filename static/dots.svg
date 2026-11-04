@@ -1,0 +1,4206 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1277" height="510" font-family="Helvetica, Arial, sans-serif" font-size="12">
+<style>.lk{fill:none;opacity:.35}.lk.on{opacity:1;stroke-width:2}.dot{cursor:pointer}.dot:hover{stroke:#111;stroke-width:1.5}</style>
+<defs><marker id="a1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker><marker id="a2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#888"/></marker></defs>
+<rect width="1277" height="510" fill="white"/>
+<text x="40" y="24" font-size="15" font-weight="bold">266 ways to configure software</text>
+<text x="40" y="44" fill="#555">One dot per way, at the year it appeared. Colour is the binding time. Hover a dot for all its fields and links.</text>
+<circle cx="45" cy="63" r="5" fill="#9100dc"/><text x="54" y="67">design</text>
+<circle cx="108.0" cy="63" r="5" fill="#0000dc"/><text x="117.0" y="67">build</text>
+<circle cx="164.5" cy="63" r="5" fill="#00af3f"/><text x="173.5" y="67">deploy</text>
+<circle cx="227.5" cy="63" r="5" fill="#f08c00"/><text x="236.5" y="67">load (start-up)</text>
+<circle cx="349.0" cy="63" r="5" fill="#f01928"/><text x="358.0" y="67">run</text>
+<line x1="403.5" y1="63" x2="431.5" y2="63" stroke="#333" stroke-width="1.3" marker-end="url(#a1)"/><text x="437.5" y="67">replaces</text>
+<line x1="503.5" y1="63" x2="531.5" y2="63" stroke="#888" stroke-width="1.2" stroke-dasharray="3 2" marker-end="url(#a2)"/><text x="537.5" y="67">inspired by</text>
+<line x1="30" y1="470" x2="1155.0" y2="470" stroke="#aaa"/>
+<line x1="40.0" y1="470" x2="40.0" y2="475" stroke="#aaa"/><text x="40.0" y="489" text-anchor="middle" fill="#666">1960</text>
+<line x1="210.0" y1="470" x2="210.0" y2="475" stroke="#aaa"/><text x="210.0" y="489" text-anchor="middle" fill="#666">1970</text>
+<line x1="380.0" y1="470" x2="380.0" y2="475" stroke="#aaa"/><text x="380.0" y="489" text-anchor="middle" fill="#666">1980</text>
+<line x1="550.0" y1="470" x2="550.0" y2="475" stroke="#aaa"/><text x="550.0" y="489" text-anchor="middle" fill="#666">1990</text>
+<line x1="720.0" y1="470" x2="720.0" y2="475" stroke="#aaa"/><text x="720.0" y="489" text-anchor="middle" fill="#666">2000</text>
+<line x1="890.0" y1="470" x2="890.0" y2="475" stroke="#aaa"/><text x="890.0" y="489" text-anchor="middle" fill="#666">2010</text>
+<line x1="1060.0" y1="470" x2="1060.0" y2="475" stroke="#aaa"/><text x="1060.0" y="489" text-anchor="middle" fill="#666">2020</text>
+<text x="1204.5" y="489" text-anchor="middle" fill="#666">no year</text>
+<path class="lk" data-a="INIfiles" data-b="WindowsRegistry" d="M465.0,437.9 Q524.5,365.1 584.0,419.9" stroke="#333" stroke-width="1.3" marker-end="url(#a1)"/>
+<path class="lk" data-a="Inheritanceandsubclassing" data-b="AbstractFactorypattern" d="M159.0,455.9 Q388.5,298.1 618.0,437.9" stroke="#888" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#a2)"/>
+<path class="lk" data-a="Autoconf" data-b="Automake" d="M567.0,455.9 Q592.5,418.1 618.0,455.9" stroke="#888" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#a2)"/>
+<path class="lk" data-a="Inheritanceandsubclassing" data-b="Bridgepattern" d="M159.0,455.9 Q388.5,280.1 618.0,419.9" stroke="#888" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#a2)"/>
+<path class="lk" data-a="Inheritanceandsubclassing" data-b="Decoratorpattern" d="M159.0,455.9 Q388.5,262.1 618.0,401.8" stroke="#888" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#a2)"/>
+<path class="lk" data-a="Inheritanceandsubclassing" data-b="Strategypattern" d="M159.0,455.9 Q388.5,190.0 618.0,329.8" stroke="#888" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#a2)"/>
+<path class="lk" data-a="Inheritanceandsubclassing" data-b="TemplateMethodpattern" d="M159.0,455.9 Q388.5,226.0 618.0,365.8" stroke="#888" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#a2)"/>
+<path class="lk" data-a="LinuxmakeconfigCML1" data-b="CML2" d="M584.0,455.9 Q652.0,360.9 720.0,419.9" stroke="#333" stroke-width="1.3" marker-end="url(#a1)"/>
+<path class="lk" data-a="Cpreprocessor" data-b="Cconditionalcompilation" d="M261.0,455.9 Q507.5,307.6 754.0,455.9" stroke="#888" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#a2)"/>
+<path class="lk" data-a="LinuxmakeconfigCML1" data-b="Kconfig" d="M584.0,455.9 Q669.0,280.3 754.0,347.8" stroke="#333" stroke-width="1.3" marker-end="url(#a1)"/>
+<path class="lk" data-a="CML2" data-b="Kconfig" d="M720.0,419.9 Q737.0,314.3 754.0,347.8" stroke="#888" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#a2)"/>
+<path class="lk" data-a="FeaturemodelsFODA" data-b="FeatureIDE" d="M550.0,419.9 Q677.5,331.1 805.0,455.9" stroke="#888" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#a2)"/>
+<path class="lk" data-a="inetdconf" data-b="launchdplists" d="M482.0,455.9 Q643.5,151.9 805.0,257.7" stroke="#333" stroke-width="1.3" marker-end="url(#a1)"/>
+<path class="lk" data-a="FeaturemodelsFODA" data-b="Orthogonalvariabilitymodel" d="M550.0,419.9 Q677.5,331.1 805.0,419.9" stroke="#888" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#a2)"/>
+<path class="lk" data-a="CFEngine" data-b="Puppetmanifests" d="M601.0,455.9 Q703.0,235.7 805.0,311.7" stroke="#888" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#a2)"/>
+<path class="lk" data-a="XMLdeploymentdescriptors" data-b="Annotationbasedconfiguration" d="M703.0,437.9 Q762.5,383.1 822.0,455.9" stroke="#333" stroke-width="1.3" marker-end="url(#a1)"/>
+<path class="lk" data-a="SysVinittab" data-b="Upstartjobs" d="M431.0,419.9 Q626.5,279.1 822.0,401.8" stroke="#333" stroke-width="1.3" marker-end="url(#a1)"/>
+<path class="lk" data-a="Cpreprocessor" data-b="CIDEcoloredannotations" d="M261.0,455.9 Q558.5,282.1 856.0,455.9" stroke="#888" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#a2)"/>
+<path class="lk" data-a="Puppetmanifests" data-b="Chef" d="M805.0,311.7 Q839.0,269.7 873.0,437.9" stroke="#888" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#a2)"/>
+<path class="lk" data-a="AHEADfeaturemodules" data-b="FeatureHouse" d="M771.0,455.9 Q822.0,405.4 873.0,455.9" stroke="#888" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#a2)"/>
+<path class="lk" data-a="XMLSchemaXSD" data-b="JSONSchema" d="M737.0,383.8 Q805.0,324.8 873.0,383.8" stroke="#888" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#a2)"/>
+<path class="lk" data-a="FeaturemodelsFODA" data-b="Clafer" d="M550.0,419.9 Q720.0,309.9 890.0,455.9" stroke="#888" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#a2)"/>
+<path class="lk" data-a="AHEADfeaturemodules" data-b="Deltaorientedprogramming" d="M771.0,455.9 Q830.5,383.1 890.0,437.9" stroke="#888" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#a2)"/>
+<path class="lk" data-a="GConf" data-b="GSettingsdconf" d="M754.0,383.8 Q822.0,252.7 890.0,311.7" stroke="#333" stroke-width="1.3" marker-end="url(#a1)"/>
+<path class="lk" data-a="SysVinittab" data-b="systemdunits" d="M431.0,419.9 Q660.5,226.0 890.0,365.8" stroke="#333" stroke-width="1.3" marker-end="url(#a1)"/>
+<path class="lk" data-a="Upstartjobs" data-b="systemdunits" d="M822.0,401.8 Q856.0,323.8 890.0,365.8" stroke="#333" stroke-width="1.3" marker-end="url(#a1)"/>
+<path class="lk" data-a="inetdconf" data-b="systemdunits" d="M482.0,455.9 Q686.0,238.8 890.0,365.8" stroke="#333" stroke-width="1.3" marker-end="url(#a1)"/>
+<path class="lk" data-a="launchdplists" data-b="systemdunits" d="M805.0,257.7 Q847.5,211.4 890.0,365.8" stroke="#888" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#a2)"/>
+<path class="lk" data-a="Environmentvariables" data-b="Twelvefactorenvconfig" d="M363.0,401.8 Q635.0,222.8 907.0,383.8" stroke="#888" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#a2)"/>
+<path class="lk" data-a="FeaturemodelsFODA" data-b="CVL" d="M550.0,419.9 Q737.0,301.4 924.0,455.9" stroke="#888" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#a2)"/>
+<path class="lk" data-a="Orthogonalvariabilitymodel" data-b="CVL" d="M805.0,419.9 Q864.5,365.1 924.0,455.9" stroke="#888" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#a2)"/>
+<path class="lk" data-a="Nixexpressions" data-b="GNUGuix" d="M771.0,437.9 Q847.5,338.6 924.0,401.8" stroke="#888" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#a2)"/>
+<path class="lk" data-a="JSONconfig" data-b="HOCON" d="M822.0,419.9 Q873.0,243.2 924.0,293.7" stroke="#888" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#a2)"/>
+<path class="lk" data-a="JSONconfig" data-b="JSON5" d="M822.0,419.9 Q873.0,225.2 924.0,275.7" stroke="#888" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#a2)"/>
+<path class="lk" data-a="INIfiles" data-b="TOML" d="M465.0,437.9 Q703.0,221.8 941.0,365.8" stroke="#888" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#a2)"/>
+<path class="lk" data-a="Featuretoggles" data-b="Featureflagservices" d="M873.0,365.8 Q915.5,229.4 958.0,275.7" stroke="#888" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#a2)"/>
+<path class="lk" data-a="SpringConditional" data-b="SpringBootautoconfiguration" d="M941.0,347.8 Q949.5,282.5 958.0,311.7" stroke="#888" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#a2)"/>
+<path class="lk" data-a="Cpreprocessor" data-b="Swiftconditionalcompilation" d="M261.0,455.9 Q609.5,220.6 958.0,419.9" stroke="#888" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#a2)"/>
+<path class="lk" data-a="AWSCloudFormation" data-b="TerraformHCL" d="M907.0,437.9 Q932.5,310.0 958.0,347.8" stroke="#888" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#a2)"/>
+<path class="lk" data-a="CIbuildmatrix" data-b="GitLabCIpipelines" d="M907.0,455.9 Q941.0,305.8 975.0,347.8" stroke="#888" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#a2)"/>
+<path class="lk" data-a="Nixexpressions" data-b="Spackvariants" d="M771.0,437.9 Q873.0,217.7 975.0,293.7" stroke="#888" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#a2)"/>
+<path class="lk" data-a="Homebrewinstalloptions" data-b="Spackvariants" d="M873.0,401.8 Q924.0,243.2 975.0,293.7" stroke="#888" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#a2)"/>
+<path class="lk" data-a="Featureflagservices" data-b="Unleash" d="M958.0,275.7 Q966.5,102.3 975.0,131.5" stroke="#888" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#a2)"/>
+<path class="lk" data-a="NETappconfigwebconfig" data-b="appsettingsjson" d="M754.0,419.9 Q873.0,335.4 992.0,419.9" stroke="#333" stroke-width="1.3" marker-end="url(#a1)"/>
+<path class="lk" data-a="Featuretoggles" data-b="FirebaseRemoteConfig" d="M873.0,365.8 Q932.5,311.0 992.0,401.8" stroke="#888" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#a2)"/>
+<path class="lk" data-a="TOML" data-b="pyprojecttoml" d="M941.0,365.8 Q966.5,328.0 992.0,437.9" stroke="#888" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#a2)"/>
+<path class="lk" data-a="Jsonnet" data-b="ksonnet" d="M958.0,365.8 Q983.5,328.0 1009.0,365.8" stroke="#888" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#a2)"/>
+<path class="lk" data-a="TerraformHCL" data-b="Pulumi" d="M958.0,347.8 Q992.0,305.8 1026.0,437.9" stroke="#888" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#a2)"/>
+<path class="lk" data-a="AWSCloudFormation" data-b="AWSCDK" d="M907.0,437.9 Q975.0,342.8 1043.0,401.8" stroke="#888" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#a2)"/>
+<path class="lk" data-a="Jsonnet" data-b="CUE" d="M958.0,365.8 Q1000.5,319.5 1043.0,383.8" stroke="#888" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#a2)"/>
+<path class="lk" data-a="Vagrantfile" data-b="Devcontainers" d="M890.0,383.8 Q966.5,320.6 1043.0,455.9" stroke="#888" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#a2)"/>
+<path class="lk" data-a="CIbuildmatrix" data-b="GitHubActionsworkflows" d="M907.0,455.9 Q975.0,378.9 1043.0,437.9" stroke="#888" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#a2)"/>
+<path class="lk" data-a="ARMtemplates" data-b="Bicep" d="M958.0,401.8 Q1009.0,351.3 1060.0,437.9" stroke="#333" stroke-width="1.3" marker-end="url(#a1)"/>
+<path class="lk" data-a="Nixexpressions" data-b="Nixflakes" d="M771.0,437.9 Q924.0,336.4 1077.0,437.9" stroke="#888" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#a2)"/>
+<path class="lk" data-a="FeaturemodelsFODA" data-b="UVL" d="M550.0,419.9 Q813.5,263.1 1077.0,455.9" stroke="#888" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#a2)"/>
+<path class="lk" data-a="FeatureIDE" data-b="UVL" d="M805.0,455.9 Q941.0,362.9 1077.0,455.9" stroke="#888" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#a2)"/>
+<path class="lk" data-a="Featureflagservices" data-b="OpenFeature" d="M958.0,275.7 Q1026.0,216.7 1094.0,419.9" stroke="#888" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#a2)"/>
+<path class="lk" data-a="Nixexpressions" data-b="Nickel" d="M771.0,437.9 Q941.0,327.9 1111.0,455.9" stroke="#888" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#a2)"/>
+<path class="lk" data-a="cursorrules" data-b="clinerules" d="M1128.0,437.9 Q1128.0,412.9 1128.0,455.9" stroke="#888" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#a2)"/>
+<path class="lk" data-a="cursorrules" data-b="windsurfrules" d="M1128.0,437.9 Q1128.0,394.9 1128.0,419.9" stroke="#888" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#a2)"/>
+<path class="lk" data-a="robotstxt" data-b="llmstxt" d="M618.0,347.8 Q873.0,195.3 1128.0,347.8" stroke="#888" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#a2)"/>
+<path class="lk" data-a="cursorrules" data-b="AGENTSmd" d="M1128.0,437.9 Q1136.5,336.5 1145.0,365.8" stroke="#888" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#a2)"/>
+<path class="lk" data-a="CLAUDEmd" data-b="AGENTSmd" d="M1145.0,419.9 Q1145.0,340.8 1145.0,365.8" stroke="#888" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#a2)"/>
+<path class="lk" data-a="copilotinstructionsmd" data-b="Customagentsandpromptfiles" d="M1128.0,401.8 Q1136.5,372.6 1145.0,401.8" stroke="#888" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#a2)"/>
+<path class="lk" data-a="CLAUDEmd" data-b="GEMINImd" d="M1145.0,419.9 Q1145.0,358.8 1145.0,383.8" stroke="#888" stroke-width="1.1" stroke-dasharray="3 2" marker-end="url(#a2)"/>
+<line x1="227.0" y1="445.2" x2="227.0" y2="389.2" stroke="#999" stroke-width="0.8"/><text x="227.0" y="386.2" text-anchor="middle" fill="#1f2328">command-line options</text>
+<line x1="261.0" y1="445.2" x2="261.0" y2="427.5" stroke="#999" stroke-width="0.8"/><text x="254.2" y="424.5" text-anchor="start" fill="#1f2328">#ifdef</text>
+<line x1="363.0" y1="391.1" x2="363.0" y2="351.0" stroke="#999" stroke-width="0.8"/><text x="369.8" y="348.0" text-anchor="end" fill="#1f2328">environment variables</text>
+<line x1="465.0" y1="427.2" x2="465.0" y2="312.8" stroke="#999" stroke-width="0.8"/><text x="471.8" y="309.8" text-anchor="end" fill="#1f2328">config files</text>
+<line x1="516.0" y1="391.1" x2="516.0" y2="278.8" stroke="#999" stroke-width="0.8"/><text x="522.8" y="275.8" text-anchor="end" fill="#1f2328">plug-ins</text>
+<line x1="550.0" y1="409.1" x2="550.0" y2="244.8" stroke="#999" stroke-width="0.8"/><text x="556.8" y="241.8" text-anchor="end" fill="#1f2328">feature models</text>
+<line x1="618.0" y1="319.0" x2="618.0" y2="210.8" stroke="#999" stroke-width="0.8"/><text x="624.8" y="207.8" text-anchor="end" fill="#1f2328">design patterns</text>
+<line x1="737.0" y1="355.1" x2="737.0" y2="312.8" stroke="#999" stroke-width="0.8"/><text x="743.8" y="309.8" text-anchor="end" fill="#1f2328">aspects</text>
+<line x1="754.0" y1="337.1" x2="754.0" y2="176.8" stroke="#999" stroke-width="0.8"/><text x="760.8" y="173.8" text-anchor="end" fill="#1f2328">Linux Kconfig</text>
+<line x1="805.0" y1="210.9" x2="805.0" y2="142.8" stroke="#999" stroke-width="0.8"/><text x="811.8" y="139.8" text-anchor="end" fill="#1f2328">feature modules</text>
+<line x1="873.0" y1="355.1" x2="873.0" y2="108.8" stroke="#999" stroke-width="0.8"/><text x="879.8" y="105.8" text-anchor="end" fill="#1f2328" font-weight="bold">feature toggles</text>
+<line x1="992.0" y1="355.1" x2="992.0" y2="236.2" stroke="#999" stroke-width="0.8"/><text x="985.2" y="233.2" text-anchor="start" fill="#1f2328">Kubernetes</text>
+<line x1="1145.0" y1="355.1" x2="1145.0" y2="274.5" stroke="#999" stroke-width="0.8"/><text x="1151.8" y="271.5" text-anchor="end" fill="#1f2328">AGENTS.md</text>
+<circle class="dot" data-id="COBOLCONFIGURATIONSECTION" cx="40.0" cy="455.9" r="7.5" fill="#0000dc"><title>COBOL CONFIGURATION SECTION (1960, COBOL-60)
+binding: build
+binding_detail: compile
+carrier: code
+expressiveness: flat
+constraints: none
+set_by: dev
+effect: set-value
+status: active
+mechanism: parameters in code
+domain: build &amp; packaging
+origin_type: standard
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Conditionalassembly" cx="108.0" cy="455.9" r="7.5" fill="#0000dc"><title>Conditional assembly (1964, IBM System/360 assembler)
+binding: build
+binding_detail: preprocess
+carrier: code
+expressiveness: computed
+constraints: none
+set_by: dev
+effect: exclude-code
+status: active
+mechanism: conditional compilation
+domain: build &amp; packaging
+origin_type: vendor
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="JCLDDstatements" cx="108.0" cy="437.9" r="7.5" fill="#f08c00"><title>JCL DD statements (1964, IBM OS/360)
+binding: startup
+carrier: file
+expressiveness: flat
+constraints: none
+set_by: operator
+effect: wire-components
+status: active
+mechanism: command-line arguments
+domain: systems
+origin_type: vendor
+versioned: external
+reload: restart
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="OS360SYSGEN" cx="142.0" cy="455.9" r="7.5" fill="#0000dc"><title>OS/360 SYSGEN (1966, IBM OS/360)
+binding: build
+binding_detail: configure
+carrier: file
+expressiveness: flat
+constraints: none
+set_by: integrator
+effect: select-files
+status: legacy
+mechanism: build options
+domain: systems
+origin_type: vendor
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="PLIpreprocessor" cx="142.0" cy="437.9" r="7.5" fill="#0000dc"><title>PL/I preprocessor (1966, IBM PL/I)
+binding: build
+binding_detail: preprocess
+carrier: code
+expressiveness: program
+constraints: none
+set_by: dev
+effect: exclude-code
+status: active
+mechanism: conditional compilation
+domain: build &amp; packaging
+origin_type: vendor
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Inheritanceandsubclassing" cx="159.0" cy="455.9" r="7.5" fill="#0000dc"><title>Inheritance and subclassing (1967, Simula 67)
+binding: build;startup
+binding_detail: compile
+carrier: code
+expressiveness: program
+constraints: none
+set_by: dev
+effect: switch-path
+status: active
+mechanism: composition and plugins
+domain: app runtime
+origin_type: research
+versioned: in-repo
+reload: restart
+layering: levels
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="CLIoptions" cx="227.0" cy="455.9" r="7.5" fill="#f08c00"><title>CLI options (1971, Unix)
+binding: startup
+carrier: cli
+expressiveness: flat
+constraints: none
+set_by: user;operator
+effect: set-value
+status: active
+mechanism: command-line arguments
+domain: app runtime
+origin_type: research
+versioned: external
+reload: restart
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Cpreprocessor" cx="261.0" cy="455.9" r="7.5" fill="#0000dc"><title>C preprocessor (1973, Bell Labs C)
+binding: build
+binding_detail: preprocess
+carrier: code
+expressiveness: computed
+constraints: none
+set_by: dev
+effect: exclude-code
+status: active
+mechanism: conditional compilation
+domain: build &amp; packaging
+origin_type: research
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="makevariables" cx="312.0" cy="455.9" r="7.5" fill="#0000dc"><title>make variables (1976, Unix)
+binding: build
+carrier: build-script
+expressiveness: computed
+constraints: none
+set_by: integrator
+effect: select-files
+status: active
+mechanism: build options
+domain: build &amp; packaging
+origin_type: research
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="m4" cx="329.0" cy="455.9" r="7.5" fill="#0000dc"><title>m4 (1977, Bell Labs)
+binding: build
+binding_detail: preprocess
+carrier: file
+expressiveness: program
+constraints: none
+set_by: dev
+effect: exclude-code
+status: active
+mechanism: code generation and templates
+domain: build &amp; packaging
+origin_type: research
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="crontab" cx="363.0" cy="419.9" r="7.5" fill="#f01928"><title>crontab (1979, Unix V7)
+binding: runtime
+carrier: file
+expressiveness: flat
+constraints: none
+set_by: operator
+effect: set-value
+status: active
+mechanism: configuration files
+domain: systems
+origin_type: research
+versioned: external
+reload: live
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Environmentvariables" cx="363.0" cy="401.8" r="7.5" fill="#f08c00"><title>Environment variables (1979, Unix V7)
+binding: startup
+carrier: env
+expressiveness: flat
+constraints: none
+set_by: operator
+effect: set-value
+status: active
+mechanism: environment variables
+domain: app runtime
+origin_type: research
+versioned: external
+reload: restart
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Shellrcfiles" cx="363.0" cy="455.9" r="7.5" fill="#f08c00"><title>Shell rc files (1979, Bourne shell (Unix V7))
+binding: session
+carrier: file
+expressiveness: program
+constraints: none
+set_by: user
+effect: set-value
+status: active
+mechanism: configuration files
+domain: desktop &amp; user
+origin_type: research
+versioned: external
+reload: new-session
+layering: levels
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="viexrc" cx="363.0" cy="437.9" r="7.5" fill="#f08c00"><title>vi .exrc (1979, BSD vi)
+binding: startup
+carrier: file
+expressiveness: flat
+constraints: none
+set_by: user
+effect: set-value
+status: active
+mechanism: configuration files
+domain: desktop &amp; user
+origin_type: research
+versioned: external
+reload: restart
+layering: levels
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="BSDkernelconfig8" cx="380.0" cy="455.9" r="7.5" fill="#0000dc"><title>BSD kernel config(8) (1980, 4BSD)
+binding: build
+binding_detail: configure
+carrier: file
+expressiveness: flat
+constraints: none
+set_by: integrator
+effect: select-files
+status: active
+mechanism: build options
+domain: systems
+origin_type: research
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="AUTOEXECBAT" cx="397.0" cy="455.9" r="7.5" fill="#f08c00"><title>AUTOEXEC.BAT (1981-2001, MS-DOS 1.0)
+binding: boot
+carrier: file
+expressiveness: program
+constraints: none
+set_by: user
+effect: set-value
+status: legacy
+mechanism: configuration files
+domain: systems
+origin_type: vendor
+versioned: external
+reload: reboot
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="CONFIGSYS" cx="431.0" cy="455.9" r="7.5" fill="#f08c00"><title>CONFIG.SYS (1983-2001, MS-DOS 2.0)
+binding: boot
+binding_detail: load
+carrier: file
+expressiveness: flat
+constraints: none
+set_by: user
+effect: load-code
+status: legacy
+mechanism: configuration files
+domain: systems
+origin_type: vendor
+versioned: external
+reload: reboot
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="sendmailcf" cx="431.0" cy="437.9" r="7.5" fill="#f08c00"><title>sendmail.cf (1983, 4.1cBSD sendmail)
+binding: startup
+carrier: file
+expressiveness: program
+constraints: none
+set_by: operator
+effect: set-value
+status: active
+mechanism: configuration files
+domain: servers &amp; ops
+origin_type: research
+versioned: external
+reload: on-signal
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="SysVinittab" cx="431.0" cy="419.9" r="7.5" fill="#f08c00"><title>SysV inittab (1983-2015, UNIX System V)
+binding: boot
+carrier: file
+expressiveness: flat
+constraints: none
+set_by: operator
+effect: wire-components
+status: legacy
+mechanism: configuration files
+domain: systems
+origin_type: vendor
+versioned: external
+reload: reboot
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="BIOSsetupCMOS" cx="448.0" cy="455.9" r="7.5" fill="#f08c00"><title>BIOS setup (CMOS) (1984, IBM PC/AT)
+binding: boot
+carrier: store;ui
+expressiveness: flat
+constraints: none
+set_by: user
+effect: set-value
+status: active
+mechanism: settings stores and services
+domain: systems
+origin_type: vendor
+versioned: external
+reload: reboot
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="GNUEmacsinitfile" cx="465.0" cy="455.9" r="7.5" fill="#f08c00"><title>GNU Emacs init file (1985, GNU Emacs)
+binding: startup
+carrier: file
+expressiveness: program
+constraints: none
+set_by: user
+effect: load-code
+status: active
+mechanism: configuration files
+domain: desktop &amp; user
+origin_type: open-source
+versioned: external
+reload: restart
+layering: levels
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="INIfiles" cx="465.0" cy="437.9" r="7.5" fill="#f08c00"><title>INI files (1985, Windows 1.0)
+binding: startup
+carrier: file
+expressiveness: flat
+constraints: none
+set_by: user
+effect: set-value
+status: active
+mechanism: configuration files
+domain: formats &amp; languages
+origin_type: vendor
+versioned: both
+reload: restart
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="inetdconf" cx="482.0" cy="455.9" r="7.5" fill="#f08c00"><title>inetd.conf (1986, 4.3BSD)
+binding: startup
+carrier: file
+expressiveness: flat
+constraints: none
+set_by: operator
+effect: wire-components
+status: legacy
+mechanism: configuration files
+domain: systems
+origin_type: research
+versioned: external
+reload: on-signal
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Frametechnology" cx="499.0" cy="455.9" r="7.5" fill="#0000dc"><title>Frame technology (1987, Netron (Bassett))
+binding: build
+binding_detail: preprocess
+carrier: code
+expressiveness: computed
+constraints: none
+set_by: dev
+effect: patch
+status: legacy
+mechanism: code generation and templates
+domain: product lines
+origin_type: vendor
+versioned: in-repo
+reload: rebuild
+layering: overlays
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="VHDLgenerics" cx="499.0" cy="437.9" r="7.5" fill="#0000dc"><title>VHDL generics (1987, IEEE 1076-1987)
+binding: build
+binding_detail: compile
+carrier: code
+expressiveness: typed
+constraints: none
+set_by: dev
+effect: set-value
+status: active
+mechanism: parameters in code
+domain: systems
+origin_type: standard
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Xresources" cx="499.0" cy="419.9" r="7.5" fill="#f08c00"><title>X resources (1987, X11)
+binding: session
+carrier: file;store
+expressiveness: flat
+constraints: none
+set_by: user
+effect: set-value
+status: active
+mechanism: configuration files
+domain: desktop &amp; user
+origin_type: open-source
+versioned: external
+reload: new-session
+layering: levels
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Dynamicpluginsdlopen" cx="516.0" cy="401.8" r="7.5" fill="#f08c00"><title>Dynamic plugins (dlopen) (1988, SunOS 4.0)
+binding: startup;runtime
+binding_detail: load
+carrier: code
+expressiveness: flat
+constraints: none
+set_by: integrator
+effect: load-code
+status: active
+mechanism: composition and plugins
+domain: app runtime
+origin_type: vendor
+versioned: external
+reload: live
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="POSIXlocalevariables" cx="516.0" cy="455.9" r="7.5" fill="#f08c00"><title>POSIX locale variables (1988, POSIX.1)
+binding: session
+carrier: env
+expressiveness: flat
+constraints: none
+set_by: user
+effect: select-resources
+status: active
+mechanism: environment variables
+domain: desktop &amp; user
+origin_type: standard
+versioned: external
+reload: new-session
+layering: levels
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="SNMPSETandMIBs" cx="516.0" cy="419.9" r="7.5" fill="#f01928"><title>SNMP SET and MIBs (1988, RFC 1067)
+binding: runtime
+carrier: store
+expressiveness: nested
+constraints: schema
+set_by: operator
+effect: set-value
+status: active
+mechanism: settings stores and services
+domain: network &amp; web
+origin_type: standard
+versioned: external
+reload: live
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Tclasembeddedconfig" cx="516.0" cy="437.9" r="7.5" fill="#f08c00"><title>Tcl as embedded config (1988, UC Berkeley)
+binding: startup
+carrier: file
+expressiveness: program
+constraints: none
+set_by: user
+effect: set-value
+status: active
+mechanism: configuration files
+domain: app runtime
+origin_type: research
+versioned: both
+reload: restart
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Propertylists" cx="533.0" cy="455.9" r="7.5" fill="#f08c00"><title>Property lists (1989, NeXTSTEP)
+binding: startup
+carrier: file
+expressiveness: nested
+constraints: none
+set_by: user;dev
+effect: set-value
+status: active
+mechanism: settings stores and services
+domain: desktop &amp; user
+origin_type: vendor
+versioned: external
+reload: restart
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="FeaturemodelsFODA" cx="550.0" cy="419.9" r="7.5" fill="#9100dc"><title>Feature models (FODA) (1990, SEI)
+binding: design
+carrier: model
+expressiveness: nested
+constraints: dependencies
+set_by: dev
+effect: none
+status: research
+mechanism: variability models
+domain: product lines
+origin_type: research
+versioned: in-repo
+reload: n/a
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="FortranNAMELIST" cx="550.0" cy="437.9" r="7.5" fill="#f08c00"><title>Fortran NAMELIST (1990, Fortran 90 (IBM extension earlier))
+binding: startup
+carrier: file
+expressiveness: flat
+constraints: none
+set_by: user
+effect: set-value
+status: active
+mechanism: configuration files
+domain: app runtime
+origin_type: standard
+versioned: external
+reload: restart
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Haskelltypeclasses" cx="550.0" cy="455.9" r="7.5" fill="#0000dc"><title>Haskell type classes (1990, Haskell 1.0)
+binding: build
+binding_detail: compile
+carrier: code
+expressiveness: program
+constraints: none
+set_by: dev
+effect: wire-components
+status: active
+mechanism: composition and plugins
+domain: app runtime
+origin_type: research
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Autoconf" cx="567.0" cy="455.9" r="7.5" fill="#0000dc"><title>Autoconf (1991, GNU)
+binding: build
+binding_detail: configure
+carrier: build-script
+expressiveness: program
+constraints: none
+set_by: integrator
+effect: exclude-code
+status: active
+mechanism: build options
+domain: build &amp; packaging
+origin_type: open-source
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Ctemplates" cx="567.0" cy="437.9" r="7.5" fill="#0000dc"><title>C++ templates (1991, Cfront 3.0)
+binding: build
+binding_detail: compile
+carrier: code
+expressiveness: program
+constraints: none
+set_by: dev
+effect: set-value
+status: active
+mechanism: code generation and templates
+domain: build &amp; packaging
+origin_type: vendor
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Kernelcommandline" cx="584.0" cy="437.9" r="7.5" fill="#f08c00"><title>Kernel command line (1992, LILO / Linux)
+binding: boot
+carrier: cli
+expressiveness: flat
+constraints: none
+set_by: operator
+effect: set-value
+status: active
+mechanism: command-line arguments
+domain: systems
+origin_type: open-source
+versioned: external
+reload: reboot
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="LinuxmakeconfigCML1" cx="584.0" cy="455.9" r="7.5" fill="#0000dc"><title>Linux make config (CML1) (1992-2002, Linux)
+binding: build
+binding_detail: configure
+carrier: file
+expressiveness: flat
+constraints: dependencies
+set_by: user
+effect: exclude-code
+status: legacy
+mechanism: build options
+domain: systems
+origin_type: open-source
+versioned: both
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="WindowsRegistry" cx="584.0" cy="419.9" r="7.5" fill="#f08c00"><title>Windows Registry (1992, Windows 3.1)
+binding: startup;runtime
+carrier: store
+expressiveness: nested
+constraints: none
+set_by: user;system
+effect: set-value
+status: active
+mechanism: settings stores and services
+domain: desktop &amp; user
+origin_type: vendor
+versioned: external
+reload: live
+layering: levels
+determinism: deterministic
+replaces: INI files</title></circle>
+<circle class="dot" data-id="CFEngine" cx="601.0" cy="455.9" r="7.5" fill="#00af3f"><title>CFEngine (1993, Mark Burgess)
+binding: deploy
+carrier: file
+expressiveness: computed
+constraints: none
+set_by: operator
+effect: provision
+status: active
+mechanism: computing environment
+domain: servers &amp; ops
+origin_type: research
+versioned: in-repo
+reload: redeploy
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Luaasconfiglanguage" cx="601.0" cy="437.9" r="7.5" fill="#f08c00"><title>Lua as config language (1993, PUC-Rio)
+binding: startup
+carrier: file
+expressiveness: program
+constraints: none
+set_by: user
+effect: set-value
+status: active
+mechanism: configuration files
+domain: app runtime
+origin_type: research
+versioned: both
+reload: restart
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="sysctl" cx="601.0" cy="419.9" r="7.5" fill="#f01928"><title>sysctl (1993, 4.4BSD)
+binding: runtime
+carrier: store
+expressiveness: flat
+constraints: none
+set_by: operator
+effect: set-value
+status: active
+mechanism: settings stores and services
+domain: systems
+origin_type: research
+versioned: external
+reload: live
+layering: levels
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="AbstractFactorypattern" cx="618.0" cy="437.9" r="7.5" fill="#f08c00"><title>Abstract Factory pattern (1994, Gamma, Helm, Johnson, Vlissides)
+binding: startup;runtime
+carrier: code
+expressiveness: program
+constraints: none
+set_by: dev
+effect: wire-components
+status: active
+mechanism: composition and plugins
+domain: app runtime
+origin_type: research
+versioned: in-repo
+reload: live
+layering: none
+determinism: deterministic
+inspired by: Inheritance and subclassing</title></circle>
+<circle class="dot" data-id="Automake" cx="618.0" cy="455.9" r="7.5" fill="#0000dc"><title>Automake (1994, GNU)
+binding: build
+binding_detail: configure
+carrier: build-script
+expressiveness: computed
+constraints: none
+set_by: integrator
+effect: select-files
+status: active
+mechanism: build options
+domain: build &amp; packaging
+origin_type: open-source
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic
+inspired by: Autoconf</title></circle>
+<circle class="dot" data-id="Bridgepattern" cx="618.0" cy="419.9" r="7.5" fill="#f08c00"><title>Bridge pattern (1994, Gamma, Helm, Johnson, Vlissides)
+binding: startup;runtime
+carrier: code
+expressiveness: program
+constraints: none
+set_by: dev
+effect: wire-components
+status: active
+mechanism: composition and plugins
+domain: app runtime
+origin_type: research
+versioned: in-repo
+reload: live
+layering: none
+determinism: deterministic
+inspired by: Inheritance and subclassing</title></circle>
+<circle class="dot" data-id="Decoratorpattern" cx="618.0" cy="401.8" r="7.5" fill="#f08c00"><title>Decorator pattern (1994, Gamma, Helm, Johnson, Vlissides)
+binding: startup;runtime
+carrier: code
+expressiveness: program
+constraints: none
+set_by: dev
+effect: wire-components
+status: active
+mechanism: composition and plugins
+domain: app runtime
+origin_type: research
+versioned: in-repo
+reload: live
+layering: none
+determinism: deterministic
+inspired by: Inheritance and subclassing</title></circle>
+<circle class="dot" data-id="Devicetree" cx="618.0" cy="383.8" r="7.5" fill="#f08c00"><title>Device tree (1994, Open Firmware (IEEE 1275))
+binding: boot
+carrier: file
+expressiveness: nested
+constraints: schema
+set_by: integrator
+effect: wire-components
+status: active
+mechanism: configuration files
+domain: systems
+origin_type: standard
+versioned: in-repo
+reload: reboot
+layering: overlays
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="robotstxt" cx="618.0" cy="347.8" r="7.5" fill="#f01928"><title>robots.txt (1994, Martijn Koster)
+binding: request
+carrier: file
+expressiveness: flat
+constraints: none
+set_by: operator
+effect: steer-agent
+status: active
+mechanism: tool and agent instructions
+domain: network &amp; web
+origin_type: community
+versioned: in-repo
+reload: live
+layering: none
+determinism: advisory</title></circle>
+<circle class="dot" data-id="Strategypattern" cx="618.0" cy="329.8" r="7.5" fill="#f08c00"><title>Strategy pattern (1994, Gamma, Helm, Johnson, Vlissides)
+binding: startup;runtime
+carrier: code
+expressiveness: program
+constraints: none
+set_by: dev
+effect: wire-components
+status: active
+mechanism: composition and plugins
+domain: app runtime
+origin_type: research
+versioned: in-repo
+reload: live
+layering: none
+determinism: deterministic
+inspired by: Inheritance and subclassing</title></circle>
+<circle class="dot" data-id="TemplateMethodpattern" cx="618.0" cy="365.8" r="7.5" fill="#f08c00"><title>Template Method pattern (1994, Gamma, Helm, Johnson, Vlissides)
+binding: startup;runtime
+carrier: code
+expressiveness: program
+constraints: none
+set_by: dev
+effect: wire-components
+status: active
+mechanism: composition and plugins
+domain: app runtime
+origin_type: research
+versioned: in-repo
+reload: live
+layering: none
+determinism: deterministic
+inspired by: Inheritance and subclassing</title></circle>
+<circle class="dot" data-id="Apachehttpdconf" cx="635.0" cy="437.9" r="7.5" fill="#f08c00"><title>Apache httpd.conf (1995, Apache HTTP Server)
+binding: startup
+carrier: file
+expressiveness: nested
+constraints: none
+set_by: operator
+effect: set-value
+status: active
+mechanism: configuration files
+domain: servers &amp; ops
+origin_type: open-source
+versioned: external
+reload: on-signal
+layering: levels
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="gettextmessagecatalogs" cx="635.0" cy="419.9" r="7.5" fill="#f08c00"><title>gettext message catalogs (1995, GNU gettext)
+binding: startup
+carrier: file
+expressiveness: flat
+constraints: none
+set_by: user
+effect: select-resources
+status: active
+mechanism: configuration files
+domain: app runtime
+origin_type: open-source
+versioned: in-repo
+reload: restart
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="PAMconfiguration" cx="635.0" cy="401.8" r="7.5" fill="#f08c00"><title>PAM configuration (1995, Sun Microsystems)
+binding: startup
+carrier: file
+expressiveness: flat
+constraints: none
+set_by: operator
+effect: load-code
+status: active
+mechanism: configuration files
+domain: systems
+origin_type: vendor
+versioned: external
+reload: restart
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Rubyopenclasses" cx="635.0" cy="383.8" r="7.5" fill="#f08c00"><title>Ruby open classes (1995, Ruby)
+binding: startup;runtime
+carrier: code
+expressiveness: program
+constraints: none
+set_by: dev
+effect: patch
+status: active
+mechanism: composition and plugins
+domain: app runtime
+origin_type: open-source
+versioned: in-repo
+reload: live
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Verilogparametersandifdef" cx="635.0" cy="455.9" r="7.5" fill="#0000dc"><title>Verilog parameters and `ifdef (1995, IEEE 1364-1995)
+binding: build
+binding_detail: preprocess
+carrier: code
+expressiveness: computed
+constraints: none
+set_by: dev
+effect: exclude-code
+status: active
+mechanism: conditional compilation
+domain: systems
+origin_type: standard
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Databaseserverconfig" cx="652.0" cy="455.9" r="7.5" fill="#f08c00"><title>Database server config (1996, PostgreSQL / MySQL)
+binding: startup;runtime
+carrier: file
+expressiveness: flat
+constraints: none
+set_by: operator
+effect: set-value
+status: active
+mechanism: configuration files
+domain: servers &amp; ops
+origin_type: open-source
+versioned: external
+reload: live
+layering: levels
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="HTTPcontentnegotiation" cx="652.0" cy="383.8" r="7.5" fill="#f01928"><title>HTTP content negotiation (1996, HTTP/1.0)
+binding: request
+carrier: request
+expressiveness: flat
+constraints: none
+set_by: user
+effect: select-resources
+status: active
+mechanism: per-request selection
+domain: network &amp; web
+origin_type: standard
+versioned: external
+reload: live
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Javaproperties" cx="652.0" cy="437.9" r="7.5" fill="#f08c00"><title>Java .properties (1996, JDK 1.0)
+binding: startup
+carrier: file
+expressiveness: flat
+constraints: none
+set_by: operator
+effect: set-value
+status: active
+mechanism: configuration files
+domain: formats &amp; languages
+origin_type: vendor
+versioned: both
+reload: restart
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Javasystemproperties" cx="652.0" cy="419.9" r="7.5" fill="#f08c00"><title>Java system properties (1996, JDK 1.0)
+binding: startup
+carrier: cli
+expressiveness: flat
+constraints: none
+set_by: operator
+effect: set-value
+status: active
+mechanism: command-line arguments
+domain: app runtime
+origin_type: vendor
+versioned: external
+reload: restart
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Quakeconsolevariables" cx="652.0" cy="401.8" r="7.5" fill="#f08c00"><title>Quake console variables (1996, Quake)
+binding: startup;runtime
+carrier: file;cli
+expressiveness: flat
+constraints: none
+set_by: user
+effect: set-value
+status: active
+mechanism: configuration files
+domain: desktop &amp; user
+origin_type: vendor
+versioned: external
+reload: live
+layering: levels
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="JavaResourceBundle" cx="669.0" cy="455.9" r="7.5" fill="#f08c00"><title>Java ResourceBundle (1997, JDK 1.1)
+binding: startup
+carrier: file
+expressiveness: flat
+constraints: none
+set_by: user
+effect: select-resources
+status: active
+mechanism: configuration files
+domain: app runtime
+origin_type: vendor
+versioned: in-repo
+reload: restart
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="phpini" cx="686.0" cy="455.9" r="7.5" fill="#f08c00"><title>php.ini (1998, PHP 3)
+binding: startup;runtime
+carrier: file
+expressiveness: flat
+constraints: none
+set_by: operator
+effect: set-value
+status: active
+mechanism: configuration files
+domain: app runtime
+origin_type: open-source
+versioned: external
+reload: live
+layering: levels
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="XMLasconfigformat" cx="686.0" cy="437.9" r="7.5" fill="#f08c00"><title>XML as config format (1998, W3C XML 1.0)
+binding: startup
+carrier: file
+expressiveness: nested
+constraints: schema
+set_by: dev;operator
+effect: set-value
+status: active
+mechanism: configuration files
+domain: formats &amp; languages
+origin_type: standard
+versioned: both
+reload: restart
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="eCosCDL" cx="703.0" cy="455.9" r="7.5" fill="#0000dc"><title>eCos CDL (1999, Cygnus / Red Hat)
+binding: build
+binding_detail: configure
+carrier: file
+expressiveness: computed
+constraints: dependencies
+set_by: integrator
+effect: exclude-code
+status: active
+mechanism: build options
+domain: systems
+origin_type: open-source
+versioned: both
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="HotSpotXXflags" cx="703.0" cy="419.9" r="7.5" fill="#f08c00"><title>HotSpot -XX flags (1999, Java HotSpot)
+binding: startup
+carrier: cli
+expressiveness: flat
+constraints: none
+set_by: operator
+effect: set-value
+status: active
+mechanism: command-line arguments
+domain: app runtime
+origin_type: vendor
+versioned: external
+reload: restart
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="XMLdeploymentdescriptors" cx="703.0" cy="437.9" r="7.5" fill="#00af3f"><title>XML deployment descriptors (1999, Java Servlet 2.2)
+binding: deploy
+carrier: file
+expressiveness: nested
+constraints: schema
+set_by: integrator
+effect: wire-components
+status: legacy
+mechanism: configuration files
+domain: formats &amp; languages
+origin_type: vendor
+versioned: in-repo
+reload: redeploy
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="ApacheAntproperties" cx="720.0" cy="455.9" r="7.5" fill="#0000dc"><title>Apache Ant properties (2000, Apache Ant)
+binding: build
+carrier: build-script
+expressiveness: flat
+constraints: none
+set_by: dev
+effect: select-files
+status: active
+mechanism: build options
+domain: build &amp; packaging
+origin_type: open-source
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="CMakeoptions" cx="720.0" cy="437.9" r="7.5" fill="#0000dc"><title>CMake options (2000, Kitware)
+binding: build
+binding_detail: configure
+carrier: build-script
+expressiveness: computed
+constraints: none
+set_by: integrator
+effect: exclude-code
+status: active
+mechanism: build options
+domain: build &amp; packaging
+origin_type: open-source
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="CML2" cx="720.0" cy="419.9" r="7.5" fill="#0000dc"><title>CML2 (2000-2002, Eric S. Raymond)
+binding: build
+binding_detail: configure
+carrier: file
+expressiveness: computed
+constraints: constraints
+set_by: user
+effect: exclude-code
+status: dead
+mechanism: build options
+domain: systems
+origin_type: open-source
+versioned: both
+reload: rebuild
+layering: none
+determinism: deterministic
+replaces: Linux make config (CML1)</title></circle>
+<circle class="dot" data-id="debconf" cx="720.0" cy="401.8" r="7.5" fill="#00af3f"><title>debconf (2000, Debian)
+binding: install
+carrier: ui;store
+expressiveness: flat
+constraints: none
+set_by: user
+effect: set-value
+status: active
+mechanism: computing environment
+domain: build &amp; packaging
+origin_type: open-source
+versioned: external
+reload: reinstall
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="GroupPolicy" cx="720.0" cy="383.8" r="7.5" fill="#f08c00"><title>Group Policy (2000, Windows 2000)
+binding: session;runtime
+carrier: store
+expressiveness: nested
+constraints: schema
+set_by: operator
+effect: set-value
+status: active
+mechanism: settings stores and services
+domain: desktop &amp; user
+origin_type: vendor
+versioned: external
+reload: live
+layering: levels
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="JMXMBeans" cx="720.0" cy="329.8" r="7.5" fill="#f01928"><title>JMX MBeans (2000, JSR 3)
+binding: runtime
+carrier: store
+expressiveness: nested
+constraints: schema
+set_by: operator
+effect: set-value
+status: active
+mechanism: settings stores and services
+domain: app runtime
+origin_type: standard
+versioned: external
+reload: live
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="OSGibundles" cx="720.0" cy="365.8" r="7.5" fill="#f08c00"><title>OSGi bundles (2000, OSGi R1)
+binding: startup;runtime
+binding_detail: load
+carrier: code
+expressiveness: flat
+constraints: dependencies
+set_by: integrator
+effect: load-code
+status: active
+mechanism: composition and plugins
+domain: app runtime
+origin_type: standard
+versioned: in-repo
+reload: live
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="SELinuxpolicy" cx="720.0" cy="347.8" r="7.5" fill="#f08c00"><title>SELinux policy (2000, NSA)
+binding: boot;runtime
+carrier: file
+expressiveness: program
+constraints: constraints
+set_by: operator
+effect: validate
+status: active
+mechanism: configuration files
+domain: systems
+origin_type: standard
+versioned: external
+reload: live
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="AspectJ" cx="737.0" cy="365.8" r="7.5" fill="#0000dc"><title>AspectJ (2001, Xerox PARC)
+binding: build
+binding_detail: compile
+carrier: code
+expressiveness: program
+constraints: none
+set_by: dev
+effect: patch
+status: active
+mechanism: composition and plugins
+domain: product lines
+origin_type: research
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Eclipseextensionpoints" cx="737.0" cy="419.9" r="7.5" fill="#f08c00"><title>Eclipse extension points (2001, Eclipse 1.0)
+binding: startup
+binding_detail: load
+carrier: file
+expressiveness: nested
+constraints: schema
+set_by: dev
+effect: load-code
+status: active
+mechanism: composition and plugins
+domain: app runtime
+origin_type: open-source
+versioned: in-repo
+reload: restart
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="log4jconfiguration" cx="737.0" cy="401.8" r="7.5" fill="#f08c00"><title>log4j configuration (2001, Apache log4j)
+binding: startup;runtime
+carrier: file
+expressiveness: nested
+constraints: none
+set_by: operator
+effect: set-value
+status: active
+mechanism: configuration files
+domain: app runtime
+origin_type: open-source
+versioned: both
+reload: live
+layering: levels
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="SCons" cx="737.0" cy="455.9" r="7.5" fill="#0000dc"><title>SCons (2001, SCons)
+binding: build
+carrier: build-script
+expressiveness: program
+constraints: none
+set_by: integrator
+effect: select-files
+status: active
+mechanism: build options
+domain: build &amp; packaging
+origin_type: open-source
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="XMLSchemaXSD" cx="737.0" cy="383.8" r="7.5" fill="#f08c00"><title>XML Schema (XSD) (2001, W3C)
+binding: startup
+carrier: file
+expressiveness: nested
+constraints: schema
+set_by: dev
+effect: validate
+status: active
+mechanism: configuration files
+domain: formats &amp; languages
+origin_type: standard
+versioned: in-repo
+reload: restart
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="YAML" cx="737.0" cy="437.9" r="7.5" fill="#00af3f"><title>YAML (2001, yaml.org)
+binding: deploy;startup
+carrier: file
+expressiveness: nested
+constraints: schema
+set_by: operator
+effect: set-value
+status: active
+mechanism: configuration files
+domain: formats &amp; languages
+origin_type: community
+versioned: both
+reload: restart
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="NETappconfigwebconfig" cx="754.0" cy="419.9" r="7.5" fill="#f08c00"><title>.NET app.config / web.config (2002, .NET Framework 1.0)
+binding: startup
+carrier: file
+expressiveness: nested
+constraints: schema
+set_by: operator
+effect: set-value
+status: active
+mechanism: configuration files
+domain: formats &amp; languages
+origin_type: vendor
+versioned: in-repo
+reload: restart
+layering: levels
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Cconditionalcompilation" cx="754.0" cy="455.9" r="7.5" fill="#0000dc"><title>C# conditional compilation (2002, C# 1.0)
+binding: build
+binding_detail: preprocess
+carrier: code
+expressiveness: computed
+constraints: none
+set_by: dev
+effect: exclude-code
+status: active
+mechanism: conditional compilation
+domain: build &amp; packaging
+origin_type: vendor
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic
+inspired by: C preprocessor</title></circle>
+<circle class="dot" data-id="GConf" cx="754.0" cy="383.8" r="7.5" fill="#f01928"><title>GConf (2002-2011, GNOME 2)
+binding: runtime
+carrier: store
+expressiveness: nested
+constraints: schema
+set_by: user
+effect: set-value
+status: legacy
+mechanism: settings stores and services
+domain: desktop &amp; user
+origin_type: open-source
+versioned: external
+reload: live
+layering: levels
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="GentooUSEflags" cx="754.0" cy="437.9" r="7.5" fill="#00af3f"><title>Gentoo USE flags (2002, Gentoo 1.0)
+binding: install
+carrier: file
+expressiveness: flat
+constraints: dependencies
+set_by: user
+effect: select-deps
+status: active
+mechanism: computing environment
+domain: build &amp; packaging
+origin_type: open-source
+versioned: both
+reload: reinstall
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="JavaPreferencesAPI" cx="754.0" cy="365.8" r="7.5" fill="#f01928"><title>Java Preferences API (2002, JDK 1.4)
+binding: runtime
+carrier: store
+expressiveness: nested
+constraints: none
+set_by: user
+effect: set-value
+status: active
+mechanism: settings stores and services
+domain: desktop &amp; user
+origin_type: vendor
+versioned: external
+reload: live
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Kconfig" cx="754.0" cy="347.8" r="7.5" fill="#0000dc"><title>Kconfig (2002, Linux 2.5.45)
+binding: build
+binding_detail: configure
+carrier: file
+expressiveness: computed
+constraints: dependencies
+set_by: user;integrator
+effect: exclude-code
+status: active
+mechanism: build options
+domain: systems
+origin_type: open-source
+versioned: both
+reload: rebuild
+layering: overlays
+determinism: deterministic
+replaces: Linux make config (CML1)
+inspired by: CML2</title></circle>
+<circle class="dot" data-id="Mozillapreferencesaboutconfig" cx="754.0" cy="401.8" r="7.5" fill="#f08c00"><title>Mozilla preferences (about:config) (2002, Mozilla 1.0)
+binding: startup;runtime
+carrier: file;ui
+expressiveness: flat
+constraints: none
+set_by: user
+effect: set-value
+status: active
+mechanism: settings stores and services
+domain: desktop &amp; user
+origin_type: open-source
+versioned: external
+reload: live
+layering: levels
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="AHEADfeaturemodules" cx="771.0" cy="455.9" r="7.5" fill="#0000dc"><title>AHEAD feature modules (2003, UT Austin)
+binding: build
+binding_detail: preprocess
+carrier: code
+expressiveness: program
+constraints: none
+set_by: dev
+effect: patch
+status: research
+mechanism: composition and plugins
+domain: product lines
+origin_type: research
+versioned: in-repo
+reload: rebuild
+layering: overlays
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Nixexpressions" cx="771.0" cy="437.9" r="7.5" fill="#0000dc"><title>Nix expressions (2003, Utrecht University)
+binding: build;install
+carrier: file
+expressiveness: program
+constraints: none
+set_by: integrator
+effect: select-deps
+status: active
+mechanism: computing environment
+domain: build &amp; packaging
+origin_type: research
+versioned: in-repo
+reload: reinstall
+layering: overlays
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="udevrules" cx="771.0" cy="419.9" r="7.5" fill="#f08c00"><title>udev rules (2003, Linux)
+binding: boot;runtime
+carrier: file
+expressiveness: flat
+constraints: none
+set_by: operator
+effect: wire-components
+status: active
+mechanism: configuration files
+domain: systems
+origin_type: open-source
+versioned: external
+reload: live
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="XDGBaseDirectory" cx="771.0" cy="401.8" r="7.5" fill="#f08c00"><title>XDG Base Directory (2003, freedesktop.org)
+binding: startup
+carrier: env
+expressiveness: flat
+constraints: none
+set_by: user
+effect: set-value
+status: active
+mechanism: environment variables
+domain: desktop &amp; user
+origin_type: standard
+versioned: external
+reload: restart
+layering: levels
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="BitBakeOpenEmbedded" cx="788.0" cy="455.9" r="7.5" fill="#0000dc"><title>BitBake / OpenEmbedded (2004, OpenEmbedded)
+binding: build
+carrier: file
+expressiveness: computed
+constraints: dependencies
+set_by: integrator
+effect: select-deps
+status: active
+mechanism: computing environment
+domain: systems
+origin_type: open-source
+versioned: in-repo
+reload: rebuild
+layering: overlays
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Javagenerics" cx="788.0" cy="437.9" r="7.5" fill="#0000dc"><title>Java generics (2004, J2SE 5.0)
+binding: build
+binding_detail: compile
+carrier: code
+expressiveness: program
+constraints: none
+set_by: dev
+effect: set-value
+status: active
+mechanism: code generation and templates
+domain: app runtime
+origin_type: vendor
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="nginxconf" cx="788.0" cy="401.8" r="7.5" fill="#f08c00"><title>nginx.conf (2004, nginx)
+binding: startup
+carrier: file
+expressiveness: nested
+constraints: none
+set_by: operator
+effect: set-value
+status: active
+mechanism: configuration files
+domain: servers &amp; ops
+origin_type: open-source
+versioned: external
+reload: on-signal
+layering: levels
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Railsenvironments" cx="788.0" cy="383.8" r="7.5" fill="#f08c00"><title>Rails environments (2004, Ruby on Rails)
+binding: startup
+carrier: file;env
+expressiveness: program
+constraints: none
+set_by: operator
+effect: set-value
+status: active
+mechanism: configuration files
+domain: app runtime
+origin_type: open-source
+versioned: both
+reload: restart
+layering: levels
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Scalatraitsandmixins" cx="788.0" cy="419.9" r="7.5" fill="#0000dc"><title>Scala traits and mixins (2004, Scala)
+binding: build
+binding_detail: compile
+carrier: code
+expressiveness: program
+constraints: none
+set_by: dev
+effect: wire-components
+status: active
+mechanism: composition and plugins
+domain: app runtime
+origin_type: research
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="SpringDIcontainer" cx="788.0" cy="365.8" r="7.5" fill="#f08c00"><title>Spring DI container (2004, Spring 1.0)
+binding: startup
+carrier: file;code
+expressiveness: nested
+constraints: none
+set_by: dev
+effect: wire-components
+status: active
+mechanism: composition and plugins
+domain: app runtime
+origin_type: open-source
+versioned: in-repo
+reload: restart
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="AUTOSARECUconfiguration" cx="805.0" cy="401.8" r="7.5" fill="#0000dc"><title>AUTOSAR ECU configuration (2005, AUTOSAR R1)
+binding: build
+carrier: file
+expressiveness: nested
+constraints: schema
+set_by: integrator
+effect: set-value
+status: active
+mechanism: build options
+domain: systems
+origin_type: standard
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Djangosettingsmodule" cx="805.0" cy="275.7" r="7.5" fill="#f08c00"><title>Django settings module (2005, Django)
+binding: startup
+carrier: file
+expressiveness: program
+constraints: none
+set_by: dev
+effect: set-value
+status: active
+mechanism: configuration files
+domain: app runtime
+origin_type: open-source
+versioned: in-repo
+reload: restart
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="FeatureC" cx="805.0" cy="221.6" r="7.5" fill="#0000dc"><title>FeatureC++ (2005, Apel et al.)
+binding: build
+binding_detail: preprocess
+carrier: code
+expressiveness: program
+constraints: none
+set_by: dev
+effect: patch
+status: active
+mechanism: composition and plugins
+domain: product lines
+origin_type: research
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="FeatureIDE" cx="805.0" cy="455.9" r="7.5" fill="#9100dc"><title>FeatureIDE (2005, Univ. of Magdeburg)
+binding: design
+carrier: model
+expressiveness: nested
+constraints: constraints
+set_by: dev
+effect: select-files
+status: research
+mechanism: variability models
+domain: product lines
+origin_type: research
+versioned: in-repo
+reload: n/a
+layering: none
+determinism: deterministic
+inspired by: Feature models (FODA)</title></circle>
+<circle class="dot" data-id="gitconfig" cx="805.0" cy="437.9" r="7.5" fill="#9100dc"><title>git config (2005, Git)
+binding: authoring
+carrier: file
+expressiveness: flat
+constraints: none
+set_by: dev
+effect: steer-tool
+status: active
+mechanism: tool and agent instructions
+domain: dev tools
+origin_type: open-source
+versioned: external
+reload: n/a
+layering: levels
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="launchdplists" cx="805.0" cy="257.7" r="7.5" fill="#f08c00"><title>launchd plists (2005, Mac OS X 10.4)
+binding: startup
+carrier: file
+expressiveness: nested
+constraints: none
+set_by: operator
+effect: wire-components
+status: active
+mechanism: configuration files
+domain: systems
+origin_type: vendor
+versioned: external
+reload: on-signal
+layering: none
+determinism: deterministic
+replaces: inetd.conf</title></circle>
+<circle class="dot" data-id="Mavenprofiles" cx="805.0" cy="383.8" r="7.5" fill="#0000dc"><title>Maven profiles (2005, Maven 2)
+binding: build
+binding_detail: configure
+carrier: build-script
+expressiveness: nested
+constraints: none
+set_by: dev
+effect: select-deps
+status: active
+mechanism: build options
+domain: build &amp; packaging
+origin_type: open-source
+versioned: in-repo
+reload: rebuild
+layering: levels
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Mavensettingsxml" cx="805.0" cy="365.8" r="7.5" fill="#0000dc"><title>Maven settings.xml (2005, Maven 2)
+binding: build
+carrier: file
+expressiveness: nested
+constraints: schema
+set_by: dev
+effect: set-value
+status: active
+mechanism: build options
+domain: build &amp; packaging
+origin_type: open-source
+versioned: external
+reload: rebuild
+layering: levels
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="MSBuildconditions" cx="805.0" cy="347.8" r="7.5" fill="#0000dc"><title>MSBuild conditions (2005, Visual Studio 2005)
+binding: build
+carrier: build-script
+expressiveness: computed
+constraints: none
+set_by: dev
+effect: select-files
+status: active
+mechanism: build options
+domain: build &amp; packaging
+origin_type: vendor
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Orthogonalvariabilitymodel" cx="805.0" cy="419.9" r="7.5" fill="#9100dc"><title>Orthogonal variability model (2005, Pohl et al.)
+binding: design
+carrier: model
+expressiveness: nested
+constraints: dependencies
+set_by: dev
+effect: none
+status: research
+mechanism: variability models
+domain: product lines
+origin_type: research
+versioned: in-repo
+reload: n/a
+layering: none
+determinism: deterministic
+inspired by: Feature models (FODA)</title></circle>
+<circle class="dot" data-id="Puppetmanifests" cx="805.0" cy="311.7" r="7.5" fill="#00af3f"><title>Puppet manifests (2005, Puppet)
+binding: deploy
+carrier: file
+expressiveness: computed
+constraints: dependencies
+set_by: operator
+effect: provision
+status: active
+mechanism: computing environment
+domain: servers &amp; ops
+origin_type: open-source
+versioned: in-repo
+reload: redeploy
+layering: levels
+determinism: deterministic
+inspired by: CFEngine</title></circle>
+<circle class="dot" data-id="Pythonentrypoints" cx="805.0" cy="239.7" r="7.5" fill="#f08c00"><title>Python entry points (2005, setuptools)
+binding: startup
+binding_detail: load
+carrier: file
+expressiveness: flat
+constraints: none
+set_by: dev
+effect: load-code
+status: active
+mechanism: composition and plugins
+domain: app runtime
+origin_type: open-source
+versioned: in-repo
+reload: restart
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Pythonextras" cx="805.0" cy="293.7" r="7.5" fill="#00af3f"><title>Python extras (2005, setuptools)
+binding: install
+carrier: build-script
+expressiveness: flat
+constraints: dependencies
+set_by: user
+effect: select-deps
+status: active
+mechanism: computing environment
+domain: build &amp; packaging
+origin_type: open-source
+versioned: in-repo
+reload: reinstall
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Xcodebuildconfigurations" cx="805.0" cy="329.8" r="7.5" fill="#0000dc"><title>Xcode build configurations (2005, Xcode)
+binding: build
+carrier: build-script
+expressiveness: flat
+constraints: none
+set_by: dev
+effect: set-value
+status: active
+mechanism: build options
+domain: build &amp; packaging
+origin_type: vendor
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Annotationbasedconfiguration" cx="822.0" cy="455.9" r="7.5" fill="#0000dc"><title>Annotation-based configuration (2006, Java EE 5)
+binding: build;startup
+carrier: code
+expressiveness: nested
+constraints: none
+set_by: dev
+effect: wire-components
+status: active
+mechanism: composition and plugins
+domain: app runtime
+origin_type: vendor
+versioned: in-repo
+reload: restart
+layering: none
+determinism: deterministic
+replaces: XML deployment descriptors</title></circle>
+<circle class="dot" data-id="JavaServiceLoader" cx="822.0" cy="437.9" r="7.5" fill="#f08c00"><title>Java ServiceLoader (2006, Java 6)
+binding: startup
+binding_detail: load
+carrier: file
+expressiveness: flat
+constraints: none
+set_by: dev
+effect: load-code
+status: active
+mechanism: composition and plugins
+domain: app runtime
+origin_type: vendor
+versioned: in-repo
+reload: restart
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="JSONconfig" cx="822.0" cy="419.9" r="7.5" fill="#f08c00"><title>JSON config (2006, RFC 4627)
+binding: startup
+carrier: file
+expressiveness: nested
+constraints: schema
+set_by: dev;operator
+effect: set-value
+status: active
+mechanism: configuration files
+domain: formats &amp; languages
+origin_type: standard
+versioned: both
+reload: restart
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="NETCONFYANG" cx="822.0" cy="383.8" r="7.5" fill="#f01928"><title>NETCONF / YANG (2006, RFC 4741)
+binding: runtime
+carrier: store
+expressiveness: nested
+constraints: schema
+set_by: operator
+effect: set-value
+status: active
+mechanism: settings stores and services
+domain: network &amp; web
+origin_type: standard
+versioned: external
+reload: live
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Upstartjobs" cx="822.0" cy="401.8" r="7.5" fill="#f08c00"><title>Upstart jobs (2006-2015, Ubuntu)
+binding: startup
+carrier: file
+expressiveness: flat
+constraints: dependencies
+set_by: operator
+effect: wire-components
+status: legacy
+mechanism: configuration files
+domain: systems
+origin_type: vendor
+versioned: external
+reload: restart
+layering: none
+determinism: deterministic
+replaces: SysV inittab</title></circle>
+<circle class="dot" data-id="Guicemodules" cx="839.0" cy="455.9" r="7.5" fill="#f08c00"><title>Guice modules (2007, Google Guice)
+binding: startup
+carrier: code
+expressiveness: program
+constraints: none
+set_by: dev
+effect: wire-components
+status: active
+mechanism: composition and plugins
+domain: app runtime
+origin_type: vendor
+versioned: in-repo
+reload: restart
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Androidresourcequalifiers" cx="856.0" cy="365.8" r="7.5" fill="#f01928"><title>Android resource qualifiers (2008, Android 1.0)
+binding: request
+carrier: file
+expressiveness: flat
+constraints: none
+set_by: system
+effect: select-resources
+status: active
+mechanism: per-request selection
+domain: network &amp; web
+origin_type: vendor
+versioned: in-repo
+reload: live
+layering: levels
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Androidsystemproperties" cx="856.0" cy="383.8" r="7.5" fill="#f08c00"><title>Android system properties (2008, Android 1.0)
+binding: boot;runtime
+carrier: store
+expressiveness: flat
+constraints: none
+set_by: system
+effect: set-value
+status: active
+mechanism: settings stores and services
+domain: systems
+origin_type: vendor
+versioned: external
+reload: live
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="AppEngineappyaml" cx="856.0" cy="419.9" r="7.5" fill="#00af3f"><title>App Engine app.yaml (2008, Google)
+binding: deploy
+carrier: file
+expressiveness: nested
+constraints: schema
+set_by: dev
+effect: set-value
+status: active
+mechanism: configuration files
+domain: cloud &amp; containers
+origin_type: vendor
+versioned: in-repo
+reload: redeploy
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="AppmanifestsAndroidiOS" cx="856.0" cy="401.8" r="7.5" fill="#00af3f"><title>App manifests (Android / iOS) (2008, Android 1.0 / iPhone SDK)
+binding: install
+carrier: file
+expressiveness: nested
+constraints: schema
+set_by: dev
+effect: set-value
+status: active
+mechanism: configuration files
+domain: build &amp; packaging
+origin_type: vendor
+versioned: in-repo
+reload: reinstall
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="CIDEcoloredannotations" cx="856.0" cy="455.9" r="7.5" fill="#0000dc"><title>CIDE colored annotations (2008, Kästner et al.)
+binding: build
+binding_detail: preprocess
+carrier: code
+expressiveness: flat
+constraints: dependencies
+set_by: dev
+effect: exclude-code
+status: research
+mechanism: conditional compilation
+domain: product lines
+origin_type: research
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic
+inspired by: C preprocessor</title></circle>
+<circle class="dot" data-id="Jinja2templates" cx="856.0" cy="437.9" r="7.5" fill="#0000dc"><title>Jinja2 templates (2008, Pocoo)
+binding: build
+carrier: file
+expressiveness: computed
+constraints: none
+set_by: dev
+effect: set-value
+status: active
+mechanism: code generation and templates
+domain: build &amp; packaging
+origin_type: open-source
+versioned: in-repo
+reload: rebuild
+layering: levels
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="ZooKeeper" cx="856.0" cy="347.8" r="7.5" fill="#f01928"><title>ZooKeeper (2008, Yahoo!)
+binding: runtime
+carrier: store
+expressiveness: nested
+constraints: none
+set_by: operator
+effect: set-value
+status: active
+mechanism: settings stores and services
+domain: servers &amp; ops
+origin_type: vendor
+versioned: external
+reload: live
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Chef" cx="873.0" cy="437.9" r="7.5" fill="#00af3f"><title>Chef (2009, Opscode)
+binding: deploy
+carrier: file
+expressiveness: program
+constraints: dependencies
+set_by: operator
+effect: provision
+status: active
+mechanism: computing environment
+domain: servers &amp; ops
+origin_type: open-source
+versioned: in-repo
+reload: redeploy
+layering: levels
+determinism: deterministic
+inspired by: Puppet manifests</title></circle>
+<circle class="dot" data-id="cloudinit" cx="873.0" cy="419.9" r="7.5" fill="#00af3f"><title>cloud-init (2009, Canonical)
+binding: deploy;startup
+carrier: file
+expressiveness: nested
+constraints: schema
+set_by: operator
+effect: provision
+status: active
+mechanism: computing environment
+domain: servers &amp; ops
+origin_type: vendor
+versioned: external
+reload: restart
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Featuretoggles" cx="873.0" cy="365.8" r="7.5" fill="#f01928"><title>Feature toggles (2009, Flickr)
+binding: runtime
+carrier: code
+expressiveness: flat
+constraints: none
+set_by: dev
+effect: switch-path
+status: active
+mechanism: parameters in code
+domain: flags &amp; experiments
+origin_type: vendor
+versioned: in-repo
+reload: live
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="FeatureHouse" cx="873.0" cy="455.9" r="7.5" fill="#0000dc"><title>FeatureHouse (2009, Apel et al.)
+binding: build
+binding_detail: preprocess
+carrier: code
+expressiveness: program
+constraints: none
+set_by: dev
+effect: patch
+status: research
+mechanism: composition and plugins
+domain: product lines
+origin_type: research
+versioned: in-repo
+reload: rebuild
+layering: overlays
+determinism: deterministic
+inspired by: AHEAD feature modules</title></circle>
+<circle class="dot" data-id="Homebrewinstalloptions" cx="873.0" cy="401.8" r="7.5" fill="#00af3f"><title>Homebrew install options (2009-2019, Homebrew)
+binding: install
+carrier: cli
+expressiveness: flat
+constraints: none
+set_by: user
+effect: select-deps
+status: dead
+mechanism: computing environment
+domain: build &amp; packaging
+origin_type: open-source
+versioned: external
+reload: reinstall
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="JSONSchema" cx="873.0" cy="383.8" r="7.5" fill="#f08c00"><title>JSON Schema (2009, json-schema.org)
+binding: startup
+carrier: file
+expressiveness: nested
+constraints: schema
+set_by: dev
+effect: validate
+status: active
+mechanism: configuration files
+domain: formats &amp; languages
+origin_type: community
+versioned: in-repo
+reload: restart
+layering: none
+determinism: deterministic
+inspired by: XML Schema (XSD)</title></circle>
+<circle class="dot" data-id="ABtestingplatforms" cx="890.0" cy="347.8" r="7.5" fill="#f01928"><title>A/B testing platforms (2010, Optimizely)
+binding: request
+carrier: store
+expressiveness: nested
+constraints: none
+set_by: operator
+effect: switch-path
+status: active
+mechanism: settings stores and services
+domain: flags &amp; experiments
+origin_type: vendor
+versioned: external
+reload: live
+layering: none
+determinism: randomized</title></circle>
+<circle class="dot" data-id="Chromeflags" cx="890.0" cy="329.8" r="7.5" fill="#f01928"><title>Chrome flags (2010, Google Chrome)
+binding: runtime
+carrier: ui
+expressiveness: flat
+constraints: none
+set_by: user
+effect: switch-path
+status: active
+mechanism: settings stores and services
+domain: desktop &amp; user
+origin_type: vendor
+versioned: external
+reload: live
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Clafer" cx="890.0" cy="455.9" r="7.5" fill="#9100dc"><title>Clafer (2010, Univ. of Waterloo)
+binding: design
+carrier: model
+expressiveness: computed
+constraints: constraints
+set_by: dev
+effect: none
+status: research
+mechanism: variability models
+domain: product lines
+origin_type: research
+versioned: in-repo
+reload: n/a
+layering: none
+determinism: deterministic
+inspired by: Feature models (FODA)</title></circle>
+<circle class="dot" data-id="Deltaorientedprogramming" cx="890.0" cy="437.9" r="7.5" fill="#0000dc"><title>Delta-oriented programming (2010, Schaefer et al.)
+binding: build
+binding_detail: preprocess
+carrier: code
+expressiveness: program
+constraints: dependencies
+set_by: dev
+effect: patch
+status: research
+mechanism: composition and plugins
+domain: product lines
+origin_type: research
+versioned: in-repo
+reload: rebuild
+layering: overlays
+determinism: deterministic
+inspired by: AHEAD feature modules</title></circle>
+<circle class="dot" data-id="GSettingsdconf" cx="890.0" cy="311.7" r="7.5" fill="#f01928"><title>GSettings / dconf (2010, GNOME 3)
+binding: runtime
+carrier: store
+expressiveness: typed
+constraints: schema
+set_by: user
+effect: set-value
+status: active
+mechanism: settings stores and services
+domain: desktop &amp; user
+origin_type: open-source
+versioned: external
+reload: live
+layering: levels
+determinism: deterministic
+replaces: GConf</title></circle>
+<circle class="dot" data-id="packagejsonandnpmrc" cx="890.0" cy="419.9" r="7.5" fill="#0000dc"><title>package.json and .npmrc (2010, npm)
+binding: build;install
+carrier: file
+expressiveness: nested
+constraints: schema
+set_by: dev
+effect: select-deps
+status: active
+mechanism: computing environment
+domain: build &amp; packaging
+origin_type: open-source
+versioned: in-repo
+reload: reinstall
+layering: levels
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="systemdunits" cx="890.0" cy="365.8" r="7.5" fill="#f08c00"><title>systemd units (2010, systemd)
+binding: startup
+carrier: file
+expressiveness: flat
+constraints: dependencies
+set_by: operator
+effect: wire-components
+status: active
+mechanism: configuration files
+domain: systems
+origin_type: open-source
+versioned: external
+reload: on-signal
+layering: overlays
+determinism: deterministic
+replaces: SysV inittab, Upstart jobs, inetd.conf
+inspired by: launchd plists</title></circle>
+<circle class="dot" data-id="toxenvironments" cx="890.0" cy="401.8" r="7.5" fill="#0000dc"><title>tox environments (2010, tox)
+binding: build
+carrier: file
+expressiveness: nested
+constraints: none
+set_by: dev
+effect: build-variants
+status: active
+mechanism: build options
+domain: dev tools
+origin_type: open-source
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Vagrantfile" cx="890.0" cy="383.8" r="7.5" fill="#00af3f"><title>Vagrantfile (2010, Vagrant)
+binding: deploy
+carrier: file
+expressiveness: program
+constraints: none
+set_by: dev
+effect: provision
+status: active
+mechanism: computing environment
+domain: dev tools
+origin_type: open-source
+versioned: in-repo
+reload: redeploy
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="AWSCloudFormation" cx="907.0" cy="437.9" r="7.5" fill="#00af3f"><title>AWS CloudFormation (2011, Amazon)
+binding: deploy
+carrier: file
+expressiveness: computed
+constraints: dependencies
+set_by: operator
+effect: provision
+status: active
+mechanism: computing environment
+domain: servers &amp; ops
+origin_type: vendor
+versioned: in-repo
+reload: redeploy
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="CIbuildmatrix" cx="907.0" cy="455.9" r="7.5" fill="#0000dc"><title>CI build matrix (2011, Travis CI)
+binding: build
+carrier: file
+expressiveness: nested
+constraints: none
+set_by: dev
+effect: build-variants
+status: active
+mechanism: build options
+domain: build &amp; packaging
+origin_type: vendor
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Procfile" cx="907.0" cy="419.9" r="7.5" fill="#00af3f"><title>Procfile (2011, Heroku)
+binding: deploy
+carrier: file
+expressiveness: flat
+constraints: none
+set_by: dev
+effect: wire-components
+status: active
+mechanism: configuration files
+domain: cloud &amp; containers
+origin_type: vendor
+versioned: in-repo
+reload: redeploy
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Saltstates" cx="907.0" cy="401.8" r="7.5" fill="#00af3f"><title>Salt states (2011, SaltStack)
+binding: deploy
+carrier: file
+expressiveness: computed
+constraints: dependencies
+set_by: operator
+effect: provision
+status: active
+mechanism: computing environment
+domain: servers &amp; ops
+origin_type: open-source
+versioned: in-repo
+reload: redeploy
+layering: levels
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Springprofiles" cx="907.0" cy="365.8" r="7.5" fill="#f08c00"><title>Spring profiles (2011, Spring 3.1)
+binding: startup
+carrier: code;file;env
+expressiveness: nested
+constraints: none
+set_by: operator
+effect: wire-components
+status: active
+mechanism: configuration files
+domain: app runtime
+origin_type: open-source
+versioned: both
+reload: restart
+layering: levels
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Twelvefactorenvconfig" cx="907.0" cy="383.8" r="7.5" fill="#00af3f"><title>Twelve-factor env config (2011, Heroku)
+binding: deploy;startup
+carrier: env
+expressiveness: flat
+constraints: none
+set_by: operator
+effect: set-value
+status: active
+mechanism: environment variables
+domain: cloud &amp; containers
+origin_type: vendor
+versioned: external
+reload: restart
+layering: none
+determinism: deterministic
+inspired by: Environment variables</title></circle>
+<circle class="dot" data-id="Ansible" cx="924.0" cy="329.8" r="7.5" fill="#00af3f"><title>Ansible (2012, Ansible)
+binding: deploy
+carrier: file
+expressiveness: computed
+constraints: none
+set_by: operator
+effect: provision
+status: active
+mechanism: computing environment
+domain: servers &amp; ops
+origin_type: open-source
+versioned: in-repo
+reload: redeploy
+layering: levels
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Condaenvironments" cx="924.0" cy="311.7" r="7.5" fill="#00af3f"><title>Conda environments (2012, Continuum Analytics)
+binding: install
+carrier: file
+expressiveness: nested
+constraints: none
+set_by: dev
+effect: select-deps
+status: active
+mechanism: computing environment
+domain: build &amp; packaging
+origin_type: vendor
+versioned: in-repo
+reload: reinstall
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="CSSmediaqueries" cx="924.0" cy="257.7" r="7.5" fill="#f01928"><title>CSS media queries (2012, W3C)
+binding: request
+carrier: code
+expressiveness: computed
+constraints: none
+set_by: system
+effect: select-resources
+status: active
+mechanism: per-request selection
+domain: network &amp; web
+origin_type: standard
+versioned: in-repo
+reload: live
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="CVL" cx="924.0" cy="455.9" r="7.5" fill="#9100dc"><title>CVL (2012, OMG (proposed))
+binding: design
+carrier: model
+expressiveness: nested
+constraints: constraints
+set_by: dev
+effect: patch
+status: dead
+mechanism: variability models
+domain: product lines
+origin_type: standard
+versioned: in-repo
+reload: n/a
+layering: none
+determinism: deterministic
+inspired by: Feature models (FODA), Orthogonal variability model</title></circle>
+<circle class="dot" data-id="EditorConfig" cx="924.0" cy="437.9" r="7.5" fill="#9100dc"><title>EditorConfig (2012, EditorConfig)
+binding: authoring
+carrier: file
+expressiveness: flat
+constraints: none
+set_by: dev
+effect: steer-tool
+status: active
+mechanism: tool and agent instructions
+domain: dev tools
+origin_type: open-source
+versioned: in-repo
+reload: n/a
+layering: levels
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="GNUGuix" cx="924.0" cy="401.8" r="7.5" fill="#0000dc"><title>GNU Guix (2012, GNU)
+binding: build;install
+carrier: file
+expressiveness: program
+constraints: none
+set_by: integrator
+effect: select-deps
+status: active
+mechanism: computing environment
+domain: build &amp; packaging
+origin_type: open-source
+versioned: in-repo
+reload: reinstall
+layering: none
+determinism: deterministic
+inspired by: Nix expressions</title></circle>
+<circle class="dot" data-id="Gobuildconstraints" cx="924.0" cy="383.8" r="7.5" fill="#0000dc"><title>Go build constraints (2012, Go 1)
+binding: build
+binding_detail: compile
+carrier: code
+expressiveness: computed
+constraints: none
+set_by: dev
+effect: exclude-code
+status: active
+mechanism: conditional compilation
+domain: build &amp; packaging
+origin_type: vendor
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Gradlebuildscripts" cx="924.0" cy="365.8" r="7.5" fill="#0000dc"><title>Gradle build scripts (2012, Gradle 1.0)
+binding: build
+carrier: build-script
+expressiveness: program
+constraints: none
+set_by: dev
+effect: select-deps
+status: active
+mechanism: build options
+domain: build &amp; packaging
+origin_type: open-source
+versioned: in-repo
+reload: rebuild
+layering: levels
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="HOCON" cx="924.0" cy="293.7" r="7.5" fill="#f08c00"><title>HOCON (2012, Typesafe Config)
+binding: startup
+carrier: file
+expressiveness: computed
+constraints: none
+set_by: dev
+effect: set-value
+status: active
+mechanism: configuration files
+domain: formats &amp; languages
+origin_type: vendor
+versioned: both
+reload: restart
+layering: levels
+determinism: deterministic
+inspired by: JSON config</title></circle>
+<circle class="dot" data-id="JSON5" cx="924.0" cy="275.7" r="7.5" fill="#f08c00"><title>JSON5 (2012, JSON5)
+binding: startup
+carrier: file
+expressiveness: nested
+constraints: none
+set_by: dev
+effect: set-value
+status: active
+mechanism: configuration files
+domain: formats &amp; languages
+origin_type: community
+versioned: both
+reload: restart
+layering: none
+determinism: deterministic
+inspired by: JSON config</title></circle>
+<circle class="dot" data-id="NetflixArchaius" cx="924.0" cy="239.7" r="7.5" fill="#f01928"><title>Netflix Archaius (2012, Netflix)
+binding: runtime
+carrier: store
+expressiveness: flat
+constraints: none
+set_by: operator
+effect: set-value
+status: active
+mechanism: settings stores and services
+domain: servers &amp; ops
+origin_type: vendor
+versioned: external
+reload: live
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="webpackconfig" cx="924.0" cy="347.8" r="7.5" fill="#0000dc"><title>webpack config (2012, webpack)
+binding: build
+binding_detail: bundle
+carrier: build-script
+expressiveness: program
+constraints: none
+set_by: dev
+effect: select-files
+status: active
+mechanism: build options
+domain: build &amp; packaging
+origin_type: open-source
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Yeomangenerators" cx="924.0" cy="419.9" r="7.5" fill="#9100dc"><title>Yeoman generators (2012, Yeoman)
+binding: authoring
+carrier: cli
+expressiveness: flat
+constraints: none
+set_by: dev
+effect: select-files
+status: active
+mechanism: code generation and templates
+domain: dev tools
+origin_type: open-source
+versioned: external
+reload: n/a
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Cookiecuttertemplates" cx="941.0" cy="455.9" r="7.5" fill="#9100dc"><title>Cookiecutter templates (2013, Cookiecutter)
+binding: authoring
+carrier: file
+expressiveness: nested
+constraints: none
+set_by: dev
+effect: select-files
+status: active
+mechanism: code generation and templates
+domain: dev tools
+origin_type: open-source
+versioned: in-repo
+reload: n/a
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="DockerfileENVandARG" cx="941.0" cy="419.9" r="7.5" fill="#0000dc"><title>Dockerfile ENV and ARG (2013, Docker)
+binding: build;startup
+carrier: file
+expressiveness: flat
+constraints: none
+set_by: dev
+effect: set-value
+status: active
+mechanism: computing environment
+domain: build &amp; packaging
+origin_type: vendor
+versioned: in-repo
+reload: restart
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="ESLintconfig" cx="941.0" cy="437.9" r="7.5" fill="#9100dc"><title>ESLint config (2013, ESLint)
+binding: authoring;build
+carrier: file
+expressiveness: nested
+constraints: schema
+set_by: dev
+effect: steer-tool
+status: active
+mechanism: tool and agent instructions
+domain: dev tools
+origin_type: open-source
+versioned: in-repo
+reload: rebuild
+layering: levels
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="etcdConsulKV" cx="941.0" cy="329.8" r="7.5" fill="#f01928"><title>etcd / Consul KV (2013, CoreOS)
+binding: runtime
+carrier: store
+expressiveness: nested
+constraints: none
+set_by: operator;system
+effect: set-value
+status: active
+mechanism: settings stores and services
+domain: servers &amp; ops
+origin_type: open-source
+versioned: external
+reload: live
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Mesonoptions" cx="941.0" cy="401.8" r="7.5" fill="#0000dc"><title>Meson options (2013, Meson)
+binding: build
+binding_detail: configure
+carrier: build-script
+expressiveness: typed
+constraints: none
+set_by: integrator
+effect: exclude-code
+status: active
+mechanism: build options
+domain: build &amp; packaging
+origin_type: open-source
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="NODEENVdeadcodeelimination" cx="941.0" cy="383.8" r="7.5" fill="#0000dc"><title>NODE_ENV dead-code elimination (2013, React / Node ecosystem)
+binding: build
+binding_detail: bundle
+carrier: env
+expressiveness: flat
+constraints: none
+set_by: dev
+effect: exclude-code
+status: active
+mechanism: conditional compilation
+domain: build &amp; packaging
+origin_type: community
+versioned: external
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="SpringConditional" cx="941.0" cy="347.8" r="7.5" fill="#f08c00"><title>Spring @Conditional (2013, Spring 4.0)
+binding: startup
+carrier: code
+expressiveness: computed
+constraints: none
+set_by: dev
+effect: wire-components
+status: active
+mechanism: composition and plugins
+domain: app runtime
+origin_type: open-source
+versioned: in-repo
+reload: restart
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="TOML" cx="941.0" cy="365.8" r="7.5" fill="#0000dc"><title>TOML (2013, Tom Preston-Werner)
+binding: build;startup
+carrier: file
+expressiveness: typed
+constraints: none
+set_by: dev
+effect: set-value
+status: active
+mechanism: configuration files
+domain: formats &amp; languages
+origin_type: community
+versioned: both
+reload: restart
+layering: none
+determinism: deterministic
+inspired by: INI files</title></circle>
+<circle class="dot" data-id="Androidbuildvariants" cx="958.0" cy="437.9" r="7.5" fill="#0000dc"><title>Android build variants (2014, Android Gradle plugin)
+binding: build
+carrier: build-script
+expressiveness: computed
+constraints: none
+set_by: dev
+effect: build-variants
+status: active
+mechanism: build options
+domain: build &amp; packaging
+origin_type: vendor
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="ARMtemplates" cx="958.0" cy="401.8" r="7.5" fill="#00af3f"><title>ARM templates (2014, Microsoft Azure)
+binding: deploy
+carrier: file
+expressiveness: computed
+constraints: dependencies
+set_by: operator
+effect: provision
+status: active
+mechanism: computing environment
+domain: servers &amp; ops
+origin_type: vendor
+versioned: in-repo
+reload: redeploy
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="direnv" cx="958.0" cy="329.8" r="7.5" fill="#f08c00"><title>direnv (2014, direnv)
+binding: session
+carrier: file
+expressiveness: program
+constraints: none
+set_by: dev
+effect: set-value
+status: active
+mechanism: computing environment
+domain: dev tools
+origin_type: open-source
+versioned: in-repo
+reload: new-session
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="DockerCompose" cx="958.0" cy="383.8" r="7.5" fill="#00af3f"><title>Docker Compose (2014, Docker (Fig))
+binding: deploy
+carrier: file
+expressiveness: nested
+constraints: dependencies
+set_by: operator
+effect: wire-components
+status: active
+mechanism: computing environment
+domain: cloud &amp; containers
+origin_type: vendor
+versioned: in-repo
+reload: redeploy
+layering: overlays
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Featureflagservices" cx="958.0" cy="275.7" r="7.5" fill="#f01928"><title>Feature flag services (2014, LaunchDarkly)
+binding: runtime;request
+carrier: store
+expressiveness: nested
+constraints: none
+set_by: operator
+effect: switch-path
+status: active
+mechanism: settings stores and services
+domain: flags &amp; experiments
+origin_type: vendor
+versioned: external
+reload: live
+layering: none
+determinism: randomized
+inspired by: Feature toggles</title></circle>
+<circle class="dot" data-id="Jsonnet" cx="958.0" cy="365.8" r="7.5" fill="#00af3f"><title>Jsonnet (2014, Google)
+binding: deploy
+carrier: file
+expressiveness: program
+constraints: none
+set_by: operator
+effect: set-value
+status: active
+mechanism: code generation and templates
+domain: formats &amp; languages
+origin_type: vendor
+versioned: in-repo
+reload: redeploy
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="nftablesrules" cx="958.0" cy="257.7" r="7.5" fill="#f01928"><title>nftables rules (2014, Linux 3.13)
+binding: runtime
+carrier: file
+expressiveness: computed
+constraints: none
+set_by: operator
+effect: validate
+status: active
+mechanism: configuration files
+domain: systems
+origin_type: open-source
+versioned: external
+reload: live
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="precommitconfig" cx="958.0" cy="455.9" r="7.5" fill="#9100dc"><title>pre-commit config (2014, pre-commit)
+binding: authoring
+carrier: file
+expressiveness: nested
+constraints: none
+set_by: dev
+effect: steer-tool
+status: active
+mechanism: tool and agent instructions
+domain: dev tools
+origin_type: open-source
+versioned: in-repo
+reload: n/a
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="SpringBootautoconfiguration" cx="958.0" cy="311.7" r="7.5" fill="#f08c00"><title>Spring Boot auto-configuration (2014, Spring Boot 1.0)
+binding: startup
+carrier: code
+expressiveness: computed
+constraints: dependencies
+set_by: system
+effect: wire-components
+status: active
+mechanism: composition and plugins
+domain: app runtime
+origin_type: open-source
+versioned: in-repo
+reload: restart
+layering: none
+determinism: deterministic
+inspired by: Spring @Conditional</title></circle>
+<circle class="dot" data-id="SpringCloudConfig" cx="958.0" cy="293.7" r="7.5" fill="#f08c00"><title>Spring Cloud Config (2014, Pivotal)
+binding: startup;runtime
+carrier: store
+expressiveness: nested
+constraints: none
+set_by: operator
+effect: set-value
+status: active
+mechanism: settings stores and services
+domain: servers &amp; ops
+origin_type: vendor
+versioned: external
+reload: live
+layering: levels
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Swiftconditionalcompilation" cx="958.0" cy="419.9" r="7.5" fill="#0000dc"><title>Swift conditional compilation (2014, Swift 1.0)
+binding: build
+binding_detail: compile
+carrier: code
+expressiveness: computed
+constraints: none
+set_by: dev
+effect: exclude-code
+status: active
+mechanism: conditional compilation
+domain: build &amp; packaging
+origin_type: vendor
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic
+inspired by: C preprocessor</title></circle>
+<circle class="dot" data-id="TerraformHCL" cx="958.0" cy="347.8" r="7.5" fill="#00af3f"><title>Terraform (HCL) (2014, HashiCorp)
+binding: deploy
+carrier: file
+expressiveness: computed
+constraints: dependencies
+set_by: operator
+effect: provision
+status: active
+mechanism: computing environment
+domain: servers &amp; ops
+origin_type: vendor
+versioned: in-repo
+reload: redeploy
+layering: levels
+determinism: deterministic
+inspired by: AWS CloudFormation</title></circle>
+<circle class="dot" data-id="bazelrc" cx="975.0" cy="437.9" r="7.5" fill="#0000dc"><title>.bazelrc (2015, Bazel)
+binding: build
+binding_detail: configure
+carrier: file
+expressiveness: flat
+constraints: none
+set_by: dev
+effect: set-value
+status: active
+mechanism: build options
+domain: build &amp; packaging
+origin_type: vendor
+versioned: both
+reload: rebuild
+layering: levels
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Babelconfig" cx="975.0" cy="419.9" r="7.5" fill="#0000dc"><title>Babel config (2015, Babel)
+binding: build
+binding_detail: compile
+carrier: file
+expressiveness: nested
+constraints: none
+set_by: dev
+effect: steer-tool
+status: active
+mechanism: tool and agent instructions
+domain: dev tools
+origin_type: open-source
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Bazelselect" cx="975.0" cy="401.8" r="7.5" fill="#0000dc"><title>Bazel select() (2015, Bazel)
+binding: build
+binding_detail: configure
+carrier: build-script
+expressiveness: computed
+constraints: none
+set_by: integrator
+effect: select-files
+status: active
+mechanism: build options
+domain: build &amp; packaging
+origin_type: vendor
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="browserslist" cx="975.0" cy="383.8" r="7.5" fill="#0000dc"><title>browserslist (2015, browserslist)
+binding: build
+binding_detail: bundle
+carrier: file
+expressiveness: flat
+constraints: none
+set_by: dev
+effect: exclude-code
+status: active
+mechanism: build options
+domain: build &amp; packaging
+origin_type: open-source
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Cargofeatures" cx="975.0" cy="365.8" r="7.5" fill="#0000dc"><title>Cargo features (2015, Rust 1.0)
+binding: build
+binding_detail: compile
+carrier: build-script
+expressiveness: flat
+constraints: dependencies
+set_by: dev;integrator
+effect: exclude-code
+status: active
+mechanism: computing environment
+domain: build &amp; packaging
+origin_type: open-source
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="CSScustomproperties" cx="975.0" cy="167.6" r="7.5" fill="#f01928"><title>CSS custom properties (2015, W3C)
+binding: request
+carrier: code
+expressiveness: flat
+constraints: none
+set_by: user
+effect: set-value
+status: active
+mechanism: per-request selection
+domain: network &amp; web
+origin_type: standard
+versioned: in-repo
+reload: live
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="GitLabCIpipelines" cx="975.0" cy="347.8" r="7.5" fill="#0000dc"><title>GitLab CI pipelines (2015, GitLab 8.0)
+binding: build
+carrier: file
+expressiveness: nested
+constraints: none
+set_by: dev
+effect: build-variants
+status: active
+mechanism: build options
+domain: dev tools
+origin_type: vendor
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic
+inspired by: CI build matrix</title></circle>
+<circle class="dot" data-id="HashiCorpVault" cx="975.0" cy="149.6" r="7.5" fill="#f01928"><title>HashiCorp Vault (2015, HashiCorp)
+binding: runtime
+carrier: store
+expressiveness: nested
+constraints: none
+set_by: operator
+effect: set-value
+status: active
+mechanism: settings stores and services
+domain: servers &amp; ops
+origin_type: vendor
+versioned: external
+reload: live
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Helmvalues" cx="975.0" cy="239.7" r="7.5" fill="#00af3f"><title>Helm values (2015, Deis)
+binding: deploy
+carrier: file
+expressiveness: computed
+constraints: schema
+set_by: operator
+effect: set-value
+status: active
+mechanism: code generation and templates
+domain: cloud &amp; containers
+origin_type: vendor
+versioned: both
+reload: redeploy
+layering: overlays
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="KubernetesSecrets" cx="975.0" cy="221.6" r="7.5" fill="#00af3f"><title>Kubernetes Secrets (2015, Kubernetes 1.0)
+binding: deploy;runtime
+carrier: store
+expressiveness: flat
+constraints: none
+set_by: operator
+effect: set-value
+status: active
+mechanism: settings stores and services
+domain: cloud &amp; containers
+origin_type: open-source
+versioned: external
+reload: live
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Rustcfgattributes" cx="975.0" cy="329.8" r="7.5" fill="#0000dc"><title>Rust cfg attributes (2015, Rust 1.0)
+binding: build
+binding_detail: compile
+carrier: code
+expressiveness: computed
+constraints: none
+set_by: dev
+effect: exclude-code
+status: active
+mechanism: conditional compilation
+domain: build &amp; packaging
+origin_type: open-source
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Rusttraitsandgenerics" cx="975.0" cy="311.7" r="7.5" fill="#0000dc"><title>Rust traits and generics (2015, Rust 1.0)
+binding: build
+binding_detail: compile
+carrier: code
+expressiveness: program
+constraints: none
+set_by: dev
+effect: wire-components
+status: active
+mechanism: composition and plugins
+domain: app runtime
+origin_type: open-source
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="ServerlessFramework" cx="975.0" cy="203.6" r="7.5" fill="#00af3f"><title>Serverless Framework (2015, Serverless Inc.)
+binding: deploy
+carrier: file
+expressiveness: computed
+constraints: none
+set_by: dev
+effect: provision
+status: active
+mechanism: computing environment
+domain: cloud &amp; containers
+origin_type: vendor
+versioned: in-repo
+reload: redeploy
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="SOPS" cx="975.0" cy="185.6" r="7.5" fill="#00af3f"><title>SOPS (2015, Mozilla)
+binding: deploy
+carrier: file
+expressiveness: nested
+constraints: none
+set_by: operator
+effect: set-value
+status: active
+mechanism: settings stores and services
+domain: servers &amp; ops
+origin_type: open-source
+versioned: in-repo
+reload: redeploy
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Spackvariants" cx="975.0" cy="293.7" r="7.5" fill="#0000dc"><title>Spack variants (2015, LLNL)
+binding: build;install
+carrier: cli;file
+expressiveness: flat
+constraints: dependencies
+set_by: user
+effect: select-deps
+status: active
+mechanism: computing environment
+domain: build &amp; packaging
+origin_type: research
+versioned: both
+reload: reinstall
+layering: none
+determinism: deterministic
+inspired by: Nix expressions, Homebrew install options</title></circle>
+<circle class="dot" data-id="Starlark" cx="975.0" cy="275.7" r="7.5" fill="#0000dc"><title>Starlark (2015, Bazel (as Skylark))
+binding: build
+binding_detail: configure
+carrier: build-script
+expressiveness: program
+constraints: none
+set_by: dev
+effect: select-files
+status: active
+mechanism: configuration files
+domain: formats &amp; languages
+origin_type: vendor
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="tsconfigjson" cx="975.0" cy="257.7" r="7.5" fill="#0000dc"><title>tsconfig.json (2015, TypeScript 1.5)
+binding: build
+binding_detail: compile
+carrier: file
+expressiveness: nested
+constraints: schema
+set_by: dev
+effect: steer-tool
+status: active
+mechanism: build options
+domain: dev tools
+origin_type: vendor
+versioned: in-repo
+reload: rebuild
+layering: overlays
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Unleash" cx="975.0" cy="131.5" r="7.5" fill="#f01928"><title>Unleash (2015, FINN.no)
+binding: runtime;request
+carrier: store
+expressiveness: nested
+constraints: none
+set_by: operator
+effect: switch-path
+status: active
+mechanism: settings stores and services
+domain: flags &amp; experiments
+origin_type: open-source
+versioned: external
+reload: live
+layering: none
+determinism: randomized
+inspired by: Feature flag services</title></circle>
+<circle class="dot" data-id="VSCodesettings" cx="975.0" cy="455.9" r="7.5" fill="#9100dc"><title>VS Code settings (2015, Visual Studio Code)
+binding: authoring
+carrier: file
+expressiveness: nested
+constraints: schema
+set_by: dev
+effect: steer-tool
+status: active
+mechanism: tool and agent instructions
+domain: dev tools
+origin_type: vendor
+versioned: both
+reload: n/a
+layering: levels
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="appsettingsjson" cx="992.0" cy="419.9" r="7.5" fill="#f08c00"><title>appsettings.json (2016, .NET Core 1.0)
+binding: startup
+carrier: file;env
+expressiveness: nested
+constraints: none
+set_by: operator
+effect: set-value
+status: active
+mechanism: configuration files
+domain: formats &amp; languages
+origin_type: vendor
+versioned: both
+reload: restart
+layering: levels
+determinism: deterministic
+replaces: .NET app.config / web.config</title></circle>
+<circle class="dot" data-id="FirebaseRemoteConfig" cx="992.0" cy="401.8" r="7.5" fill="#f01928"><title>Firebase Remote Config (2016, Google Firebase)
+binding: runtime;request
+carrier: store
+expressiveness: nested
+constraints: none
+set_by: operator
+effect: switch-path
+status: active
+mechanism: settings stores and services
+domain: flags &amp; experiments
+origin_type: vendor
+versioned: external
+reload: live
+layering: none
+determinism: randomized
+inspired by: Feature toggles</title></circle>
+<circle class="dot" data-id="Jenkinsfile" cx="992.0" cy="455.9" r="7.5" fill="#0000dc"><title>Jenkinsfile (2016, Jenkins 2.0)
+binding: build
+carrier: file
+expressiveness: program
+constraints: none
+set_by: dev
+effect: build-variants
+status: active
+mechanism: build options
+domain: dev tools
+origin_type: open-source
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="KubernetesConfigMap" cx="992.0" cy="365.8" r="7.5" fill="#00af3f"><title>Kubernetes ConfigMap (2016, Kubernetes 1.2)
+binding: deploy;runtime
+carrier: store
+expressiveness: nested
+constraints: none
+set_by: operator
+effect: set-value
+status: active
+mechanism: settings stores and services
+domain: cloud &amp; containers
+origin_type: open-source
+versioned: both
+reload: live
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="OpenPolicyAgentRego" cx="992.0" cy="383.8" r="7.5" fill="#f01928"><title>Open Policy Agent (Rego) (2016, Styra)
+binding: runtime;request
+carrier: file
+expressiveness: program
+constraints: none
+set_by: operator
+effect: validate
+status: active
+mechanism: configuration files
+domain: servers &amp; ops
+origin_type: vendor
+versioned: in-repo
+reload: live
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="pyprojecttoml" cx="992.0" cy="437.9" r="7.5" fill="#0000dc"><title>pyproject.toml (2016, PEP 518)
+binding: build
+carrier: file
+expressiveness: typed
+constraints: schema
+set_by: dev
+effect: steer-tool
+status: active
+mechanism: tool and agent instructions
+domain: dev tools
+origin_type: standard
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic
+inspired by: TOML</title></circle>
+<circle class="dot" data-id="AWSSSMParameterStore" cx="1009.0" cy="329.8" r="7.5" fill="#f08c00"><title>AWS SSM Parameter Store (2017, Amazon)
+binding: startup;runtime
+carrier: store
+expressiveness: flat
+constraints: none
+set_by: operator
+effect: set-value
+status: active
+mechanism: settings stores and services
+domain: servers &amp; ops
+origin_type: vendor
+versioned: external
+reload: live
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Cifconstexpr" cx="1009.0" cy="437.9" r="7.5" fill="#0000dc"><title>C++ if constexpr (2017, C++17)
+binding: build
+binding_detail: compile
+carrier: code
+expressiveness: computed
+constraints: none
+set_by: dev
+effect: exclude-code
+status: active
+mechanism: conditional compilation
+domain: build &amp; packaging
+origin_type: standard
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Dhall" cx="1009.0" cy="383.8" r="7.5" fill="#00af3f"><title>Dhall (2017, Gabriella Gonzalez)
+binding: deploy
+carrier: file
+expressiveness: program
+constraints: schema
+set_by: operator
+effect: set-value
+status: active
+mechanism: configuration files
+domain: formats &amp; languages
+origin_type: open-source
+versioned: in-repo
+reload: redeploy
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Dockermultistagetargets" cx="1009.0" cy="419.9" r="7.5" fill="#0000dc"><title>Docker multi-stage targets (2017, Docker 17.05)
+binding: build
+carrier: file
+expressiveness: flat
+constraints: none
+set_by: dev
+effect: build-variants
+status: active
+mechanism: computing environment
+domain: build &amp; packaging
+origin_type: vendor
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="EnvoyxDS" cx="1009.0" cy="293.7" r="7.5" fill="#f01928"><title>Envoy xDS (2017, Envoy)
+binding: runtime
+carrier: store
+expressiveness: nested
+constraints: schema
+set_by: system
+effect: set-value
+status: active
+mechanism: settings stores and services
+domain: cloud &amp; containers
+origin_type: open-source
+versioned: external
+reload: live
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Kotlinexpectactual" cx="1009.0" cy="401.8" r="7.5" fill="#0000dc"><title>Kotlin expect/actual (2017, Kotlin 1.2)
+binding: build
+binding_detail: compile
+carrier: code
+expressiveness: flat
+constraints: none
+set_by: dev
+effect: select-files
+status: active
+mechanism: conditional compilation
+domain: build &amp; packaging
+origin_type: vendor
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="ksonnet" cx="1009.0" cy="365.8" r="7.5" fill="#00af3f"><title>ksonnet (2017-2019, Heptio)
+binding: deploy
+carrier: file
+expressiveness: program
+constraints: none
+set_by: operator
+effect: set-value
+status: dead
+mechanism: code generation and templates
+domain: cloud &amp; containers
+origin_type: vendor
+versioned: in-repo
+reload: redeploy
+layering: none
+determinism: deterministic
+inspired by: Jsonnet</title></circle>
+<circle class="dot" data-id="KubernetesCRDsandoperators" cx="1009.0" cy="347.8" r="7.5" fill="#00af3f"><title>Kubernetes CRDs and operators (2017, Kubernetes 1.7)
+binding: deploy;runtime
+carrier: store
+expressiveness: nested
+constraints: schema
+set_by: operator
+effect: provision
+status: active
+mechanism: settings stores and services
+domain: cloud &amp; containers
+origin_type: open-source
+versioned: external
+reload: live
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="MicroProfileConfig" cx="1009.0" cy="311.7" r="7.5" fill="#f08c00"><title>MicroProfile Config (2017, Eclipse MicroProfile)
+binding: startup
+carrier: env;file
+expressiveness: flat
+constraints: none
+set_by: operator
+effect: set-value
+status: active
+mechanism: configuration files
+domain: app runtime
+origin_type: standard
+versioned: both
+reload: restart
+layering: levels
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Prettierconfig" cx="1009.0" cy="455.9" r="7.5" fill="#9100dc"><title>Prettier config (2017, Prettier)
+binding: authoring
+carrier: file
+expressiveness: flat
+constraints: none
+set_by: dev
+effect: steer-tool
+status: active
+mechanism: tool and agent instructions
+domain: dev tools
+origin_type: open-source
+versioned: in-repo
+reload: n/a
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="ginconfig" cx="1026.0" cy="419.9" r="7.5" fill="#f08c00"><title>gin-config (2018, Google)
+binding: startup
+carrier: file
+expressiveness: computed
+constraints: none
+set_by: dev
+effect: wire-components
+status: active
+mechanism: configuration files
+domain: app runtime
+origin_type: vendor
+versioned: in-repo
+reload: restart
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Kustomize" cx="1026.0" cy="455.9" r="7.5" fill="#00af3f"><title>Kustomize (2018, Kubernetes SIG CLI)
+binding: deploy
+carrier: file
+expressiveness: nested
+constraints: none
+set_by: operator
+effect: patch
+status: active
+mechanism: configuration files
+domain: cloud &amp; containers
+origin_type: open-source
+versioned: in-repo
+reload: redeploy
+layering: overlays
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Pulumi" cx="1026.0" cy="437.9" r="7.5" fill="#00af3f"><title>Pulumi (2018, Pulumi)
+binding: deploy
+carrier: code
+expressiveness: program
+constraints: dependencies
+set_by: operator
+effect: provision
+status: active
+mechanism: computing environment
+domain: servers &amp; ops
+origin_type: vendor
+versioned: in-repo
+reload: redeploy
+layering: none
+determinism: deterministic
+inspired by: Terraform (HCL)</title></circle>
+<circle class="dot" data-id="AWSAppConfig" cx="1043.0" cy="347.8" r="7.5" fill="#f01928"><title>AWS AppConfig (2019, Amazon)
+binding: runtime
+carrier: store
+expressiveness: nested
+constraints: schema
+set_by: operator
+effect: set-value
+status: active
+mechanism: settings stores and services
+domain: servers &amp; ops
+origin_type: vendor
+versioned: external
+reload: live
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="AWSCDK" cx="1043.0" cy="401.8" r="7.5" fill="#00af3f"><title>AWS CDK (2019, Amazon)
+binding: deploy
+carrier: code
+expressiveness: program
+constraints: dependencies
+set_by: operator
+effect: provision
+status: active
+mechanism: computing environment
+domain: servers &amp; ops
+origin_type: vendor
+versioned: in-repo
+reload: redeploy
+layering: none
+determinism: deterministic
+inspired by: AWS CloudFormation</title></circle>
+<circle class="dot" data-id="CUE" cx="1043.0" cy="383.8" r="7.5" fill="#00af3f"><title>CUE (2019, Marcel van Lohuizen)
+binding: deploy
+carrier: file
+expressiveness: computed
+constraints: constraints
+set_by: operator
+effect: set-value
+status: active
+mechanism: configuration files
+domain: formats &amp; languages
+origin_type: open-source
+versioned: in-repo
+reload: redeploy
+layering: none
+determinism: deterministic
+inspired by: Jsonnet</title></circle>
+<circle class="dot" data-id="Devcontainers" cx="1043.0" cy="455.9" r="7.5" fill="#9100dc"><title>Dev containers (2019, VS Code)
+binding: authoring
+carrier: file
+expressiveness: nested
+constraints: schema
+set_by: dev
+effect: provision
+status: active
+mechanism: computing environment
+domain: dev tools
+origin_type: vendor
+versioned: in-repo
+reload: n/a
+layering: none
+determinism: deterministic
+inspired by: Vagrantfile</title></circle>
+<circle class="dot" data-id="GitHubActionsworkflows" cx="1043.0" cy="437.9" r="7.5" fill="#0000dc"><title>GitHub Actions workflows (2019, GitHub)
+binding: build
+carrier: file
+expressiveness: nested
+constraints: schema
+set_by: dev
+effect: build-variants
+status: active
+mechanism: build options
+domain: dev tools
+origin_type: vendor
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic
+inspired by: CI build matrix</title></circle>
+<circle class="dot" data-id="Hydra" cx="1043.0" cy="365.8" r="7.5" fill="#f08c00"><title>Hydra (2019, Facebook AI)
+binding: startup
+carrier: file;cli
+expressiveness: nested
+constraints: schema
+set_by: user
+effect: wire-components
+status: active
+mechanism: configuration files
+domain: app runtime
+origin_type: vendor
+versioned: both
+reload: restart
+layering: overlays
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Nodeconditionalexports" cx="1043.0" cy="419.9" r="7.5" fill="#0000dc"><title>Node conditional exports (2019, Node.js 12)
+binding: build;startup
+carrier: file
+expressiveness: nested
+constraints: none
+set_by: dev
+effect: select-files
+status: active
+mechanism: build options
+domain: build &amp; packaging
+origin_type: open-source
+versioned: in-repo
+reload: restart
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Bicep" cx="1060.0" cy="437.9" r="7.5" fill="#00af3f"><title>Bicep (2020, Microsoft Azure)
+binding: deploy
+carrier: file
+expressiveness: computed
+constraints: dependencies
+set_by: operator
+effect: provision
+status: active
+mechanism: computing environment
+domain: servers &amp; ops
+origin_type: vendor
+versioned: in-repo
+reload: redeploy
+layering: none
+determinism: deterministic
+replaces: ARM templates</title></circle>
+<circle class="dot" data-id="LLMsamplingparameters" cx="1060.0" cy="419.9" r="7.5" fill="#f01928"><title>LLM sampling parameters (2020, OpenAI API)
+binding: request
+carrier: request
+expressiveness: flat
+constraints: none
+set_by: dev
+effect: set-value
+status: active
+mechanism: per-request selection
+domain: agents
+origin_type: vendor
+versioned: in-repo
+reload: live
+layering: none
+determinism: randomized</title></circle>
+<circle class="dot" data-id="Viteconfig" cx="1060.0" cy="455.9" r="7.5" fill="#0000dc"><title>Vite config (2020, Vite)
+binding: build
+binding_detail: bundle
+carrier: build-script
+expressiveness: program
+constraints: none
+set_by: dev
+effect: select-files
+status: active
+mechanism: build options
+domain: build &amp; packaging
+origin_type: open-source
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Nixflakes" cx="1077.0" cy="437.9" r="7.5" fill="#0000dc"><title>Nix flakes (2021, Nix 2.4)
+binding: build;install
+carrier: file
+expressiveness: program
+constraints: none
+set_by: integrator
+effect: select-deps
+status: active
+mechanism: computing environment
+domain: build &amp; packaging
+origin_type: open-source
+versioned: in-repo
+reload: reinstall
+layering: overlays
+determinism: deterministic
+inspired by: Nix expressions</title></circle>
+<circle class="dot" data-id="UVL" cx="1077.0" cy="455.9" r="7.5" fill="#9100dc"><title>UVL (2021, MODEVAR initiative)
+binding: design
+carrier: model
+expressiveness: nested
+constraints: constraints
+set_by: dev
+effect: none
+status: research
+mechanism: variability models
+domain: product lines
+origin_type: research
+versioned: in-repo
+reload: n/a
+layering: none
+determinism: deterministic
+inspired by: Feature models (FODA), FeatureIDE</title></circle>
+<circle class="dot" data-id="KCL" cx="1094.0" cy="437.9" r="7.5" fill="#00af3f"><title>KCL (2022, Ant Group)
+binding: deploy
+carrier: file
+expressiveness: program
+constraints: schema
+set_by: operator
+effect: set-value
+status: active
+mechanism: configuration files
+domain: formats &amp; languages
+origin_type: open-source
+versioned: in-repo
+reload: redeploy
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="OpenFeature" cx="1094.0" cy="419.9" r="7.5" fill="#f01928"><title>OpenFeature (2022, CNCF)
+binding: runtime;request
+carrier: code
+expressiveness: flat
+constraints: none
+set_by: dev
+effect: switch-path
+status: active
+mechanism: settings stores and services
+domain: flags &amp; experiments
+origin_type: standard
+versioned: in-repo
+reload: live
+layering: none
+determinism: randomized
+inspired by: Feature flag services</title></circle>
+<circle class="dot" data-id="Prompttemplates" cx="1094.0" cy="455.9" r="7.5" fill="#0000dc"><title>Prompt templates (2022, LangChain)
+binding: build;request
+carrier: file;code
+expressiveness: computed
+constraints: none
+set_by: dev
+effect: steer-agent
+status: active
+mechanism: code generation and templates
+domain: agents
+origin_type: open-source
+versioned: in-repo
+reload: live
+layering: none
+determinism: interpreted</title></circle>
+<circle class="dot" data-id="LLMsystemprompts" cx="1111.0" cy="437.9" r="7.5" fill="#f01928"><title>LLM system prompts (2023, OpenAI chat API)
+binding: request
+carrier: request
+expressiveness: prose
+constraints: none
+set_by: dev
+effect: steer-agent
+status: active
+mechanism: tool and agent instructions
+domain: agents
+origin_type: vendor
+versioned: in-repo
+reload: live
+layering: none
+determinism: interpreted</title></circle>
+<circle class="dot" data-id="Nickel" cx="1111.0" cy="455.9" r="7.5" fill="#00af3f"><title>Nickel (2023, Tweag)
+binding: deploy
+carrier: file
+expressiveness: program
+constraints: schema
+set_by: operator
+effect: set-value
+status: active
+mechanism: configuration files
+domain: formats &amp; languages
+origin_type: open-source
+versioned: in-repo
+reload: redeploy
+layering: none
+determinism: deterministic
+inspired by: Nix expressions</title></circle>
+<circle class="dot" data-id="clinerules" cx="1128.0" cy="455.9" r="7.5" fill="#9100dc"><title>.clinerules (2024, Cline)
+binding: authoring;session
+carrier: file
+expressiveness: prose
+constraints: none
+set_by: dev
+effect: steer-agent
+status: active
+mechanism: tool and agent instructions
+domain: agents
+origin_type: open-source
+versioned: in-repo
+reload: new-session
+layering: none
+determinism: interpreted
+inspired by: .cursorrules</title></circle>
+<circle class="dot" data-id="cursorrules" cx="1128.0" cy="437.9" r="7.5" fill="#9100dc"><title>.cursorrules (2024-2025, Cursor)
+binding: authoring;session
+carrier: file
+expressiveness: prose
+constraints: none
+set_by: dev
+effect: steer-agent
+status: legacy
+mechanism: tool and agent instructions
+domain: agents
+origin_type: vendor
+versioned: in-repo
+reload: new-session
+layering: none
+determinism: interpreted</title></circle>
+<circle class="dot" data-id="windsurfrules" cx="1128.0" cy="419.9" r="7.5" fill="#9100dc"><title>.windsurfrules (2024, Windsurf)
+binding: authoring;session
+carrier: file
+expressiveness: prose
+constraints: none
+set_by: dev
+effect: steer-agent
+status: active
+mechanism: tool and agent instructions
+domain: agents
+origin_type: vendor
+versioned: in-repo
+reload: new-session
+layering: none
+determinism: interpreted
+inspired by: .cursorrules</title></circle>
+<circle class="dot" data-id="copilotinstructionsmd" cx="1128.0" cy="401.8" r="7.5" fill="#9100dc"><title>copilot-instructions.md (2024, GitHub Copilot)
+binding: authoring;session
+carrier: file
+expressiveness: prose
+constraints: none
+set_by: dev
+effect: steer-agent
+status: active
+mechanism: tool and agent instructions
+domain: agents
+origin_type: vendor
+versioned: in-repo
+reload: new-session
+layering: levels
+determinism: interpreted</title></circle>
+<circle class="dot" data-id="llmstxt" cx="1128.0" cy="347.8" r="7.5" fill="#f01928"><title>llms.txt (2024, Jeremy Howard)
+binding: request
+carrier: file
+expressiveness: prose
+constraints: none
+set_by: operator
+effect: steer-agent
+status: active
+mechanism: tool and agent instructions
+domain: agents
+origin_type: community
+versioned: in-repo
+reload: live
+layering: none
+determinism: interpreted
+inspired by: robots.txt</title></circle>
+<circle class="dot" data-id="MCPserverconfig" cx="1128.0" cy="383.8" r="7.5" fill="#9100dc"><title>MCP server config (2024, Model Context Protocol)
+binding: authoring;session
+carrier: file
+expressiveness: nested
+constraints: none
+set_by: dev
+effect: load-code
+status: active
+mechanism: tool and agent instructions
+domain: agents
+origin_type: standard
+versioned: both
+reload: new-session
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Pkl" cx="1128.0" cy="365.8" r="7.5" fill="#00af3f"><title>Pkl (2024, Apple)
+binding: deploy;startup
+carrier: file
+expressiveness: program
+constraints: schema
+set_by: dev;operator
+effect: set-value
+status: active
+mechanism: configuration files
+domain: formats &amp; languages
+origin_type: vendor
+versioned: in-repo
+reload: restart
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Agentsettingsandhooks" cx="1145.0" cy="455.9" r="7.5" fill="#9100dc"><title>Agent settings and hooks (2025, Claude Code)
+binding: authoring;session
+carrier: file
+expressiveness: nested
+constraints: none
+set_by: dev
+effect: steer-tool
+status: active
+mechanism: tool and agent instructions
+domain: agents
+origin_type: vendor
+versioned: both
+reload: new-session
+layering: levels
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="AgentskillsSKILLmd" cx="1145.0" cy="437.9" r="7.5" fill="#9100dc"><title>Agent skills (SKILL.md) (2025, Anthropic)
+binding: authoring;request
+carrier: file
+expressiveness: prose
+constraints: none
+set_by: dev
+effect: steer-agent
+status: active
+mechanism: tool and agent instructions
+domain: agents
+origin_type: vendor
+versioned: in-repo
+reload: live
+layering: levels
+determinism: interpreted</title></circle>
+<circle class="dot" data-id="AGENTSmd" cx="1145.0" cy="365.8" r="7.5" fill="#9100dc"><title>AGENTS.md (2025, OpenAI Codex)
+binding: authoring;session
+carrier: file
+expressiveness: prose
+constraints: none
+set_by: dev
+effect: steer-agent
+status: active
+mechanism: tool and agent instructions
+domain: agents
+origin_type: vendor
+versioned: in-repo
+reload: new-session
+layering: levels
+determinism: interpreted
+inspired by: .cursorrules, CLAUDE.md</title></circle>
+<circle class="dot" data-id="CLAUDEmd" cx="1145.0" cy="419.9" r="7.5" fill="#9100dc"><title>CLAUDE.md (2025, Claude Code)
+binding: authoring;session
+carrier: file
+expressiveness: prose
+constraints: none
+set_by: dev
+effect: steer-agent
+status: active
+mechanism: tool and agent instructions
+domain: agents
+origin_type: vendor
+versioned: both
+reload: new-session
+layering: levels
+determinism: interpreted</title></circle>
+<circle class="dot" data-id="Customagentsandpromptfiles" cx="1145.0" cy="401.8" r="7.5" fill="#9100dc"><title>Custom agents and prompt files (2025, VS Code / GitHub Copilot)
+binding: authoring;session
+carrier: file
+expressiveness: prose
+constraints: none
+set_by: dev
+effect: steer-agent
+status: active
+mechanism: tool and agent instructions
+domain: agents
+origin_type: vendor
+versioned: in-repo
+reload: new-session
+layering: levels
+determinism: interpreted
+inspired by: copilot-instructions.md</title></circle>
+<circle class="dot" data-id="GEMINImd" cx="1145.0" cy="383.8" r="7.5" fill="#9100dc"><title>GEMINI.md (2025, Gemini CLI)
+binding: authoring;session
+carrier: file
+expressiveness: prose
+constraints: none
+set_by: dev
+effect: steer-agent
+status: active
+mechanism: tool and agent instructions
+domain: agents
+origin_type: vendor
+versioned: both
+reload: new-session
+layering: levels
+determinism: interpreted
+inspired by: CLAUDE.md</title></circle>
+<circle class="dot" data-id="Appleconfigurationprofiles" cx="1230.0" cy="401.8" r="7.5" fill="#f01928"><title>Apple configuration profiles (no clear year, Apple)
+binding: runtime
+carrier: file
+expressiveness: nested
+constraints: schema
+set_by: operator
+effect: set-value
+status: active
+mechanism: settings stores and services
+domain: desktop &amp; user
+origin_type: vendor
+versioned: external
+reload: live
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Browserenterprisepolicies" cx="1213.0" cy="437.9" r="7.5" fill="#f08c00"><title>Browser enterprise policies (no clear year, Chrome / Firefox)
+binding: startup
+carrier: store;file
+expressiveness: nested
+constraints: schema
+set_by: operator
+effect: set-value
+status: active
+mechanism: settings stores and services
+domain: desktop &amp; user
+origin_type: vendor
+versioned: external
+reload: restart
+layering: levels
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Cloneandownvariants" cx="1179.0" cy="455.9" r="7.5" fill="#9100dc"><title>Clone-and-own variants (no clear year, industry practice)
+binding: authoring
+carrier: code
+expressiveness: program
+constraints: none
+set_by: dev
+effect: patch
+status: active
+mechanism: code generation and templates
+domain: product lines
+origin_type: community
+versioned: in-repo
+reload: n/a
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Gears" cx="1196.0" cy="455.9" r="7.5" fill="#9100dc"><title>Gears (no clear year, BigLever Software)
+binding: design;build
+carrier: model
+expressiveness: nested
+constraints: constraints
+set_by: dev
+effect: select-files
+status: active
+mechanism: variability models
+domain: product lines
+origin_type: vendor
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="GNbuildarguments" cx="1179.0" cy="437.9" r="7.5" fill="#0000dc"><title>GN build arguments (no clear year, Chromium)
+binding: build
+binding_detail: configure
+carrier: cli;file
+expressiveness: typed
+constraints: none
+set_by: dev
+effect: exclude-code
+status: active
+mechanism: build options
+domain: build &amp; packaging
+origin_type: open-source
+versioned: external
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="GRUBconfiguration" cx="1230.0" cy="437.9" r="7.5" fill="#f08c00"><title>GRUB configuration (no clear year, GNU GRUB)
+binding: boot
+carrier: file
+expressiveness: computed
+constraints: none
+set_by: operator
+effect: set-value
+status: active
+mechanism: configuration files
+domain: systems
+origin_type: open-source
+versioned: external
+reload: reboot
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Javastaticfinalflags" cx="1196.0" cy="437.9" r="7.5" fill="#0000dc"><title>Java static final flags (no clear year, Java)
+binding: build
+binding_detail: compile
+carrier: code
+expressiveness: flat
+constraints: none
+set_by: dev
+effect: exclude-code
+status: active
+mechanism: parameters in code
+domain: app runtime
+origin_type: vendor
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Linuxkernelmoduleparameters" cx="1179.0" cy="419.9" r="7.5" fill="#f08c00"><title>Linux kernel module parameters (no clear year, Linux)
+binding: boot;runtime
+binding_detail: load
+carrier: cli;file
+expressiveness: flat
+constraints: none
+set_by: operator
+effect: set-value
+status: active
+mechanism: command-line arguments
+domain: systems
+origin_type: open-source
+versioned: external
+reload: live
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Networkdevicerunningstartupconfig" cx="1196.0" cy="419.9" r="7.5" fill="#f08c00"><title>Network device running/startup config (no clear year, Cisco IOS and others)
+binding: boot;runtime
+carrier: store;cli
+expressiveness: flat
+constraints: none
+set_by: operator
+effect: set-value
+status: active
+mechanism: settings stores and services
+domain: network &amp; web
+origin_type: vendor
+versioned: external
+reload: live
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="papermillnotebookparameters" cx="1196.0" cy="401.8" r="7.5" fill="#f08c00"><title>papermill notebook parameters (no clear year, nteract)
+binding: startup
+carrier: cli
+expressiveness: flat
+constraints: none
+set_by: user
+effect: set-value
+status: active
+mechanism: command-line arguments
+domain: app runtime
+origin_type: open-source
+versioned: external
+reload: restart
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Preferencesdialogs" cx="1179.0" cy="383.8" r="7.5" fill="#f01928"><title>Preferences dialogs (no clear year, desktop apps)
+binding: runtime
+carrier: ui
+expressiveness: flat
+constraints: none
+set_by: user
+effect: set-value
+status: active
+mechanism: settings stores and services
+domain: desktop &amp; user
+origin_type: community
+versioned: external
+reload: live
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Programparametersvariablesandconstants" cx="1213.0" cy="455.9" r="7.5" fill="#9100dc"><title>Program parameters (variables and constants) (no clear year, programming practice)
+binding: authoring;startup
+carrier: code
+expressiveness: program
+constraints: none
+set_by: dev
+effect: set-value
+status: active
+mechanism: parameters in code
+domain: app runtime
+origin_type: community
+versioned: in-repo
+reload: restart
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="purevariants" cx="1230.0" cy="455.9" r="7.5" fill="#9100dc"><title>pure::variants (no clear year, pure-systems)
+binding: design;build
+carrier: model
+expressiveness: nested
+constraints: constraints
+set_by: dev
+effect: select-files
+status: active
+mechanism: variability models
+domain: product lines
+origin_type: vendor
+versioned: in-repo
+reload: rebuild
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="PythonoptimizeflagOdebug" cx="1213.0" cy="419.9" r="7.5" fill="#f08c00"><title>Python optimize flag (-O, __debug__) (no clear year, Python)
+binding: startup
+carrier: cli
+expressiveness: flat
+constraints: none
+set_by: operator
+effect: exclude-code
+status: active
+mechanism: parameters in code
+domain: app runtime
+origin_type: open-source
+versioned: external
+reload: restart
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="ReloadonSIGHUP" cx="1196.0" cy="383.8" r="7.5" fill="#f01928"><title>Reload on SIGHUP (no clear year, Unix daemons)
+binding: runtime
+carrier: file
+expressiveness: flat
+constraints: none
+set_by: operator
+effect: set-value
+status: active
+mechanism: configuration files
+domain: servers &amp; ops
+origin_type: community
+versioned: external
+reload: on-signal
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Requestparametersandcookies" cx="1213.0" cy="383.8" r="7.5" fill="#f01928"><title>Request parameters and cookies (no clear year, web)
+binding: request
+carrier: request
+expressiveness: flat
+constraints: none
+set_by: user
+effect: switch-path
+status: active
+mechanism: per-request selection
+domain: network &amp; web
+origin_type: community
+versioned: external
+reload: live
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Settingsstoredinanappdatabase" cx="1230.0" cy="383.8" r="7.5" fill="#f01928"><title>Settings stored in an app database (no clear year, web apps)
+binding: runtime
+carrier: store;ui
+expressiveness: flat
+constraints: none
+set_by: user
+effect: set-value
+status: active
+mechanism: settings stores and services
+domain: app runtime
+origin_type: community
+versioned: external
+reload: live
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="Snakemakeconfig" cx="1230.0" cy="419.9" r="7.5" fill="#f08c00"><title>Snakemake config (no clear year, Snakemake)
+binding: startup
+carrier: file;cli
+expressiveness: nested
+constraints: schema
+set_by: user
+effect: set-value
+status: active
+mechanism: configuration files
+domain: app runtime
+origin_type: research
+versioned: in-repo
+reload: restart
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="syslogconf" cx="1213.0" cy="401.8" r="7.5" fill="#f08c00"><title>syslog.conf (no clear year, BSD)
+binding: startup
+carrier: file
+expressiveness: flat
+constraints: none
+set_by: operator
+effect: set-value
+status: active
+mechanism: configuration files
+domain: systems
+origin_type: research
+versioned: external
+reload: restart
+layering: none
+determinism: deterministic</title></circle>
+<circle class="dot" data-id="UBootenvironment" cx="1179.0" cy="401.8" r="7.5" fill="#f08c00"><title>U-Boot environment (no clear year, Das U-Boot)
+binding: boot
+carrier: store
+expressiveness: flat
+constraints: none
+set_by: integrator
+effect: set-value
+status: active
+mechanism: settings stores and services
+domain: systems
+origin_type: open-source
+versioned: external
+reload: reboot
+layering: none
+determinism: deterministic</title></circle>
+</svg>

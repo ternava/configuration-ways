@@ -258,6 +258,11 @@
             background: #fff; color: #1e293b; border: 1px solid #cbd5e1; border-radius: 6px; cursor: pointer;
         }
         .tools button:hover { background: #f8fafc; border-color: #94a3b8; }
+        .tools .views { display: inline-flex; margin-right: 0.4rem; }
+        .tools .views button { border-radius: 0; font-weight: 500; }
+        .tools .views button:first-child { border-radius: 6px 0 0 6px; }
+        .tools .views button:last-child { border-radius: 0 6px 6px 0; margin-left: -1px; }
+        .tools .views button[aria-pressed="true"] { background: #1e293b; border-color: #1e293b; color: #fff; }
         .tools { flex-wrap: nowrap; }
         .tools .button { font-size: 0.85rem; padding: 0.3rem 0.7rem; margin: 0; white-space: nowrap; }
         .tools button { font-size: 0.85rem; min-width: 1.9rem; padding: 0.25rem 0.55rem; }
