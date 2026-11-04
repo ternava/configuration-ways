@@ -1,0 +1,221 @@
+way,family,year,origin,binding,binding_detail,carrier,expressiveness,constraints,set_by,effect,detect,status,domain,origin_type,versioned,reload,layering,determinism,ended,replaces,inspired_by,granularity
+COBOL CONFIGURATION SECTION,source configuration,1960,COBOL-60,build,compile,code,flat,none,dev,set-value,ENVIRONMENT DIVISION in *.cbl,active,build & packaging,standard,in-repo,rebuild,none,deterministic,,,,module
+Conditional assembly,conditional compilation,1964,IBM System/360 assembler,build,preprocess,code,computed,none,dev,exclude-code,AIF/AGO in *.asm,active,build & packaging,vendor,in-repo,rebuild,none,deterministic,,,,line
+JCL DD statements,job control,1964,IBM OS/360,startup,,file,flat,none,operator,wire-components,*.jcl,active,systems,vendor,external,restart,none,deterministic,,,,file
+OS/360 SYSGEN,system generation,1966,IBM OS/360,build,configure,file,flat,none,integrator,select-files,SYSGEN macros,legacy,systems,vendor,in-repo,rebuild,none,deterministic,,,,module
+PL/I preprocessor,conditional compilation,1966,IBM PL/I,build,preprocess,code,program,none,dev,exclude-code,%IF and %INCLUDE in *.pli,active,build & packaging,vendor,in-repo,rebuild,none,deterministic,,,,line
+CLI options,command line,1971,Unix,startup,,cli,flat,none,user;operator,set-value,"getopt, argparse, clap, picocli",active,app runtime,research,external,restart,none,deterministic,,,,process
+C preprocessor,conditional compilation,1973,Bell Labs C,build,preprocess,code,computed,none,dev,exclude-code,#if/#ifdef in *.c *.h,active,build & packaging,research,in-repo,rebuild,none,deterministic,,,,line
+make variables,build system,1976,Unix,build,,build-script,computed,none,integrator,select-files,"Makefile, *.mk",active,build & packaging,research,in-repo,rebuild,none,deterministic,,,,file
+m4,macro processor,1977,Bell Labs,build,preprocess,file,program,none,dev,exclude-code,*.m4,active,build & packaging,research,in-repo,rebuild,none,deterministic,,,,line
+Environment variables,process environment,1979,Unix V7,startup,,env,flat,none,operator,set-value,"getenv, os.environ, process.env, System.getenv",active,app runtime,research,external,restart,none,deterministic,,,,process
+Shell rc files,dotfiles,1979,Bourne shell (Unix V7),session,,file,program,none,user,set-value,".profile, .bashrc, .zshrc",active,desktop & user,research,external,new-session,levels,deterministic,,,,user
+vi .exrc,dotfiles,1979,BSD vi,startup,,file,flat,none,user,set-value,".exrc, .vimrc",active,desktop & user,research,external,restart,levels,deterministic,,,,user
+BSD kernel config(8),kernel configuration,1980,4BSD,build,configure,file,flat,none,integrator,select-files,sys/conf/GENERIC,active,systems,research,in-repo,rebuild,none,deterministic,,,,file
+AUTOEXEC.BAT,boot scripts,1981,MS-DOS 1.0,boot,,file,program,none,user,set-value,AUTOEXEC.BAT,legacy,systems,vendor,external,reboot,none,deterministic,2001,,,machine
+CONFIG.SYS,boot config,1983,MS-DOS 2.0,boot,load,file,flat,none,user,load-code,CONFIG.SYS,legacy,systems,vendor,external,reboot,none,deterministic,2001,,,machine
+sendmail.cf,server config,1983,4.1cBSD sendmail,startup,,file,program,none,operator,set-value,sendmail.cf,active,servers & ops,research,external,on-signal,none,deterministic,,,,process
+SysV inittab,init system,1983,UNIX System V,boot,,file,flat,none,operator,wire-components,/etc/inittab,legacy,systems,vendor,external,reboot,none,deterministic,2015,,,machine
+BIOS setup (CMOS),firmware settings,1984,IBM PC/AT,boot,,store;ui,flat,none,user,set-value,,active,systems,vendor,external,reboot,none,deterministic,,,,machine
+GNU Emacs init file,dotfiles,1985,GNU Emacs,startup,,file,program,none,user,load-code,".emacs, init.el",active,desktop & user,open-source,external,restart,levels,deterministic,,,,user
+INI files,config file,1985,Windows 1.0,startup,,file,flat,none,user,set-value,*.ini,active,formats & languages,vendor,both,restart,none,deterministic,,,,process
+inetd.conf,service config,1986,4.3BSD,startup,,file,flat,none,operator,wire-components,/etc/inetd.conf,legacy,systems,research,external,on-signal,none,deterministic,,,,component
+Frame technology,variability mechanism,1987,Netron (Bassett),build,preprocess,code,computed,none,dev,patch,*.xvcl,legacy,product lines,vendor,in-repo,rebuild,overlays,deterministic,,,,block
+X resources,desktop settings,1987,X11,session,,file;store,flat,none,user,set-value,".Xresources, .Xdefaults",active,desktop & user,open-source,external,new-session,levels,deterministic,,,,user
+Dynamic plugins (dlopen),plugin system,1988,SunOS 4.0,startup;runtime,load,code,flat,none,integrator,load-code,"dlopen, LoadLibrary",active,app runtime,vendor,external,live,none,deterministic,,,,module
+POSIX locale variables,locale,1988,POSIX.1,session,,env,flat,none,user,select-resources,"LANG, LC_ALL, setlocale",active,desktop & user,standard,external,new-session,levels,deterministic,,,,user
+SNMP SET and MIBs,network management,1988,RFC 1067,runtime,,store,nested,schema,operator,set-value,*.mib,active,network & web,standard,external,live,none,deterministic,,,,machine
+Tcl as embedded config,embedded language,1988,UC Berkeley,startup,,file,program,none,user,set-value,*.tcl,active,app runtime,research,both,restart,none,deterministic,,,,process
+Property lists,settings store,1989,NeXTSTEP,startup,,file,nested,none,user;dev,set-value,"*.plist, defaults write",active,desktop & user,vendor,external,restart,none,deterministic,,,,user
+Feature models (FODA),variability model,1990,SEI,design,,model,nested,dependencies,dev,none,"*.uvl, FeatureIDE model.xml",research,product lines,research,in-repo,n/a,none,deterministic,,,,feature
+Fortran NAMELIST,input parameters,1990,Fortran 90 (IBM extension earlier),startup,,file,flat,none,user,set-value,"NAMELIST, *.nml",active,app runtime,standard,external,restart,none,deterministic,,,,process
+Autoconf,build system,1991,GNU,build,configure,build-script,program,none,integrator,exclude-code,"configure.ac, config.h.in",active,build & packaging,open-source,in-repo,rebuild,none,deterministic,,,,line
+Kernel command line,boot parameters,1992,LILO / Linux,boot,,cli,flat,none,operator,set-value,"/proc/cmdline, GRUB_CMDLINE_LINUX",active,systems,open-source,external,reboot,none,deterministic,,,,machine
+Linux make config (CML1),kernel configuration,1992,Linux,build,configure,file,flat,dependencies,user,exclude-code,Config.in,legacy,systems,open-source,both,rebuild,none,deterministic,2002,,,line
+Windows Registry,settings store,1992,Windows 3.1,startup;runtime,,store,nested,none,user;system,set-value,"RegOpenKeyEx, winreg",active,desktop & user,vendor,external,live,levels,deterministic,,INI files,,machine
+CFEngine,infrastructure as code,1993,Mark Burgess,deploy,,file,computed,none,operator,provision,*.cf,active,servers & ops,research,in-repo,redeploy,none,deterministic,,,,machine
+Lua as config language,embedded language,1993,PUC-Rio,startup,,file,program,none,user,set-value,*.lua,active,app runtime,research,both,restart,none,deterministic,,,,process
+sysctl,kernel tunables,1993,4.4BSD,runtime,,store,flat,none,operator,set-value,"/etc/sysctl.conf, /proc/sys",active,systems,research,external,live,levels,deterministic,,,,machine
+Automake,build system,1994,GNU,build,configure,build-script,computed,none,integrator,select-files,Makefile.am,active,build & packaging,open-source,in-repo,rebuild,none,deterministic,,,Autoconf,file
+Device tree,hardware description,1994,Open Firmware (IEEE 1275),boot,,file,nested,schema,integrator,wire-components,"*.dts, *.dtsi",active,systems,standard,in-repo,reboot,overlays,deterministic,,,,machine
+robots.txt,crawler instructions,1994,Martijn Koster,request,,file,flat,none,operator,steer-agent,robots.txt,active,network & web,community,in-repo,live,none,advisory,,,,request
+Apache httpd.conf,server config,1995,Apache HTTP Server,startup,,file,nested,none,operator,set-value,"httpd.conf, .htaccess",active,servers & ops,open-source,external,on-signal,levels,deterministic,,,,process
+Database server config,server config,1996,PostgreSQL / MySQL,startup;runtime,,file,flat,none,operator,set-value,"postgresql.conf, my.cnf",active,servers & ops,open-source,external,live,levels,deterministic,,,,process
+HTTP content negotiation,request variants,1996,HTTP/1.0,request,,request,flat,none,user,select-resources,"Accept, Accept-Language",active,network & web,standard,external,live,none,deterministic,,,,request
+Java .properties,config file,1996,JDK 1.0,startup,,file,flat,none,operator,set-value,*.properties,active,formats & languages,vendor,both,restart,none,deterministic,,,,process
+Java system properties,process properties,1996,JDK 1.0,startup,,cli,flat,none,operator,set-value,"-D flags, System.getProperty",active,app runtime,vendor,external,restart,none,deterministic,,,,process
+Quake console variables,game settings,1996,Quake,startup;runtime,,file;cli,flat,none,user,set-value,"config.cfg, autoexec.cfg",active,desktop & user,vendor,external,live,levels,deterministic,,,,user
+php.ini,runtime config,1998,PHP 3,startup;runtime,,file,flat,none,operator,set-value,"php.ini, ini_set(",active,app runtime,open-source,external,live,levels,deterministic,,,,process
+XML as config format,config file,1998,W3C XML 1.0,startup,,file,nested,schema,dev;operator,set-value,*.xml,active,formats & languages,standard,both,restart,none,deterministic,,,,process
+eCos CDL,variability language,1999,Cygnus / Red Hat,build,configure,file,computed,dependencies,integrator,exclude-code,*.cdl,active,systems,open-source,both,rebuild,none,deterministic,,,,line
+HotSpot -XX flags,VM tuning,1999,Java HotSpot,startup,,cli,flat,none,operator,set-value,"-XX: options, JAVA_OPTS",active,app runtime,vendor,external,restart,none,deterministic,,,,process
+XML deployment descriptors,config file,1999,Java Servlet 2.2,deploy,,file,nested,schema,integrator,wire-components,"web.xml, applicationContext.xml",legacy,formats & languages,vendor,in-repo,redeploy,none,deterministic,,,,component
+Apache Ant properties,build system,2000,Apache Ant,build,,build-script,flat,none,dev,select-files,"build.xml, build.properties",active,build & packaging,open-source,in-repo,rebuild,none,deterministic,,,,file
+CMake options,build system,2000,Kitware,build,configure,build-script,computed,none,integrator,exclude-code,option( in CMakeLists.txt,active,build & packaging,open-source,in-repo,rebuild,none,deterministic,,,,line
+CML2,kernel configuration,2000,Eric S. Raymond,build,configure,file,computed,constraints,user,exclude-code,*.cml,dead,systems,open-source,both,rebuild,none,deterministic,2002,Linux make config (CML1),,line
+debconf,package options,2000,Debian,install,,ui;store,flat,none,user,set-value,"debconf-set-selections, *.templates",active,build & packaging,open-source,external,reinstall,none,deterministic,,,,machine
+Group Policy,settings store,2000,Windows 2000,session;runtime,,store,nested,schema,operator,set-value,"*.admx, gpedit",active,desktop & user,vendor,external,live,levels,deterministic,,,,machine
+JMX MBeans,management API,2000,JSR 3,runtime,,store,nested,schema,operator,set-value,"MBeanServer, @ManagedAttribute",active,app runtime,standard,external,live,none,deterministic,,,,process
+OSGi bundles,plugin system,2000,OSGi R1,startup;runtime,load,code,flat,dependencies,integrator,load-code,MANIFEST.MF Bundle-*,active,app runtime,standard,in-repo,live,none,deterministic,,,,module
+AspectJ,variability mechanism,2001,Xerox PARC,build,compile,code,program,none,dev,patch,"*.aj, @Aspect",active,product lines,research,in-repo,rebuild,none,deterministic,,,,block
+Eclipse extension points,plugin system,2001,Eclipse 1.0,startup,load,file,nested,schema,dev,load-code,plugin.xml,active,app runtime,open-source,in-repo,restart,none,deterministic,,,,module
+SCons,build system,2001,SCons,build,,build-script,program,none,integrator,select-files,SConstruct,active,build & packaging,open-source,in-repo,rebuild,none,deterministic,,,,file
+XML Schema (XSD),schema,2001,W3C,startup,,file,nested,schema,dev,validate,*.xsd,active,formats & languages,standard,in-repo,restart,none,deterministic,,,,file
+YAML,config file,2001,yaml.org,deploy;startup,,file,nested,schema,operator,set-value,"*.yml, *.yaml",active,formats & languages,community,both,restart,none,deterministic,,,,process
+.NET app.config / web.config,config file,2002,.NET Framework 1.0,startup,,file,nested,schema,operator,set-value,"app.config, web.config",active,formats & languages,vendor,in-repo,restart,levels,deterministic,,,,process
+C# conditional compilation,conditional compilation,2002,C# 1.0,build,preprocess,code,computed,none,dev,exclude-code,"#if in *.cs, DefineConstants",active,build & packaging,vendor,in-repo,rebuild,none,deterministic,,,C preprocessor,line
+GConf,settings store,2002,GNOME 2,runtime,,store,nested,schema,user,set-value,"gconftool, *.schemas",legacy,desktop & user,open-source,external,live,levels,deterministic,2011,,,user
+Gentoo USE flags,package options,2002,Gentoo 1.0,install,,file,flat,dependencies,user,select-deps,"make.conf USE=, IUSE in *.ebuild",active,build & packaging,open-source,both,reinstall,none,deterministic,,,,machine
+Java Preferences API,settings store,2002,JDK 1.4,runtime,,store,nested,none,user,set-value,java.util.prefs,active,desktop & user,vendor,external,live,none,deterministic,,,,user
+Kconfig,variability language,2002,Linux 2.5.45,build,configure,file,computed,dependencies,user;integrator,exclude-code,"Kconfig, .config, defconfig",active,systems,open-source,both,rebuild,overlays,deterministic,,Linux make config (CML1),CML2,line
+Mozilla preferences (about:config),settings store,2002,Mozilla 1.0,startup;runtime,,file;ui,flat,none,user,set-value,"prefs.js, user.js",active,desktop & user,open-source,external,live,levels,deterministic,,,,user
+AHEAD feature modules,variability mechanism,2003,UT Austin,build,preprocess,code,program,none,dev,patch,*.jak,research,product lines,research,in-repo,rebuild,overlays,deterministic,,,,block
+Nix expressions,package expressions,2003,Utrecht University,build;install,,file,program,none,integrator,select-deps,*.nix,active,build & packaging,research,in-repo,reinstall,overlays,deterministic,,,,module
+XDG Base Directory,location convention,2003,freedesktop.org,startup,,env,flat,none,user,set-value,"XDG_CONFIG_HOME, ~/.config",active,desktop & user,standard,external,restart,levels,deterministic,,,,user
+BitBake / OpenEmbedded,embedded distro build,2004,OpenEmbedded,build,,file,computed,dependencies,integrator,select-deps,"*.bb, local.conf, DISTRO_FEATURES",active,systems,open-source,in-repo,rebuild,overlays,deterministic,,,,module
+nginx.conf,server config,2004,nginx,startup,,file,nested,none,operator,set-value,nginx.conf,active,servers & ops,open-source,external,on-signal,levels,deterministic,,,,process
+Rails environments,profile switch,2004,Ruby on Rails,startup,,file;env,program,none,operator,set-value,"config/environments/*.rb, RAILS_ENV",active,app runtime,open-source,both,restart,levels,deterministic,,,,process
+Spring DI container,dependency injection,2004,Spring 1.0,startup,,file;code,nested,none,dev,wire-components,"<beans>, @Bean",active,app runtime,open-source,in-repo,restart,none,deterministic,,,,component
+AUTOSAR ECU configuration,embedded configuration,2005,AUTOSAR R1,build,,file,nested,schema,integrator,set-value,*.arxml,active,systems,standard,in-repo,rebuild,none,deterministic,,,,module
+Django settings module,settings as code,2005,Django,startup,,file,program,none,dev,set-value,"settings.py, DJANGO_SETTINGS_MODULE",active,app runtime,open-source,in-repo,restart,none,deterministic,,,,process
+FeatureIDE,variability model,2005,Univ. of Magdeburg,design,,model,nested,constraints,dev,select-files,model.xml,research,product lines,research,in-repo,n/a,none,deterministic,,,Feature models (FODA),file
+git config,tool config,2005,Git,authoring,,file,flat,none,dev,steer-tool,".gitconfig, .git/config",active,dev tools,open-source,external,n/a,levels,deterministic,,,,project
+launchd plists,init system,2005,Mac OS X 10.4,startup,,file,nested,none,operator,wire-components,LaunchAgents/*.plist,active,systems,vendor,external,on-signal,none,deterministic,,inetd.conf,,component
+Maven profiles,build system,2005,Maven 2,build,configure,build-script,nested,none,dev,select-deps,<profiles> in pom.xml,active,build & packaging,open-source,in-repo,rebuild,levels,deterministic,,,,module
+MSBuild conditions,build system,2005,Visual Studio 2005,build,,build-script,computed,none,dev,select-files,*.csproj Condition=,active,build & packaging,vendor,in-repo,rebuild,none,deterministic,,,,file
+Orthogonal variability model,variability model,2005,Pohl et al.,design,,model,nested,dependencies,dev,none,,research,product lines,research,in-repo,n/a,none,deterministic,,,Feature models (FODA),feature
+Puppet manifests,infrastructure as code,2005,Puppet,deploy,,file,computed,dependencies,operator,provision,*.pp,active,servers & ops,open-source,in-repo,redeploy,levels,deterministic,,,CFEngine,machine
+Python entry points,plugin system,2005,setuptools,startup,load,file,flat,none,dev,load-code,entry_points,active,app runtime,open-source,in-repo,restart,none,deterministic,,,,module
+Python extras,package options,2005,setuptools,install,,build-script,flat,dependencies,user,select-deps,"extras_require, optional-dependencies",active,build & packaging,open-source,in-repo,reinstall,none,deterministic,,,,module
+Xcode build configurations,build system,2005,Xcode,build,,build-script,flat,none,dev,set-value,"*.xcconfig, project.pbxproj",active,build & packaging,vendor,in-repo,rebuild,none,deterministic,,,,project
+Annotation-based configuration,annotations,2006,Java EE 5,build;startup,,code,nested,none,dev,wire-components,"@Resource, @EJB",active,app runtime,vendor,in-repo,restart,none,deterministic,,XML deployment descriptors,,component
+Java ServiceLoader,plugin system,2006,Java 6,startup,load,file,flat,none,dev,load-code,META-INF/services/,active,app runtime,vendor,in-repo,restart,none,deterministic,,,,module
+JSON config,config file,2006,RFC 4627,startup,,file,nested,schema,dev;operator,set-value,*.json,active,formats & languages,standard,both,restart,none,deterministic,,,,process
+NETCONF / YANG,network config,2006,RFC 4741,runtime,,store,nested,schema,operator,set-value,*.yang,active,network & web,standard,external,live,none,deterministic,,,,machine
+Upstart jobs,init system,2006,Ubuntu,startup,,file,flat,dependencies,operator,wire-components,/etc/init/*.conf,legacy,systems,vendor,external,restart,none,deterministic,2015,SysV inittab,,component
+Guice modules,dependency injection,2007,Google Guice,startup,,code,program,none,dev,wire-components,AbstractModule,active,app runtime,vendor,in-repo,restart,none,deterministic,,,,component
+Android resource qualifiers,resource selection,2008,Android 1.0,request,,file,flat,none,system,select-resources,"res/values-*/, layout-land/",active,network & web,vendor,in-repo,live,levels,deterministic,,,,file
+App Engine app.yaml,platform config,2008,Google,deploy,,file,nested,schema,dev,set-value,app.yaml,active,cloud & containers,vendor,in-repo,redeploy,none,deterministic,,,,cluster
+App manifests (Android / iOS),app manifest,2008,Android 1.0 / iPhone SDK,install,,file,nested,schema,dev,set-value,"AndroidManifest.xml, Info.plist",active,build & packaging,vendor,in-repo,reinstall,none,deterministic,,,,process
+CIDE colored annotations,variability mechanism,2008,Kästner et al.,build,preprocess,code,flat,dependencies,dev,exclude-code,,research,product lines,research,in-repo,rebuild,none,deterministic,,,C preprocessor,line
+ZooKeeper,coordination store,2008,Yahoo!,runtime,,store,nested,none,operator,set-value,zookeeper client,active,servers & ops,vendor,external,live,none,deterministic,,,,cluster
+Chef,infrastructure as code,2009,Opscode,deploy,,file,program,dependencies,operator,provision,recipes/*.rb,active,servers & ops,open-source,in-repo,redeploy,levels,deterministic,,,Puppet manifests,machine
+cloud-init,instance bootstrap,2009,Canonical,deploy;startup,,file,nested,schema,operator,provision,"#cloud-config, user-data",active,servers & ops,vendor,external,restart,none,deterministic,,,,machine
+Feature toggles,runtime flags,2009,Flickr,runtime,,code,flat,none,dev,switch-path,"isEnabled(, feature flag helpers",active,flags & experiments,vendor,in-repo,live,none,deterministic,,,,block
+FeatureHouse,variability mechanism,2009,Apel et al.,build,preprocess,code,program,none,dev,patch,,research,product lines,research,in-repo,rebuild,overlays,deterministic,,,AHEAD feature modules,block
+Homebrew install options,package options,2009,Homebrew,install,,cli,flat,none,user,select-deps,brew install --with-*,dead,build & packaging,open-source,external,reinstall,none,deterministic,2019,,,machine
+JSON Schema,schema,2009,json-schema.org,startup,,file,nested,schema,dev,validate,"$schema, *.schema.json",active,formats & languages,community,in-repo,restart,none,deterministic,,,XML Schema (XSD),file
+A/B testing platforms,experimentation,2010,Optimizely,request,,store,nested,none,operator,switch-path,experiment SDKs,active,flags & experiments,vendor,external,live,none,randomized,,,,request
+Chrome flags,experimental flags,2010,Google Chrome,runtime,,ui,flat,none,user,switch-path,chrome://flags,active,desktop & user,vendor,external,live,none,deterministic,,,,process
+Clafer,variability model,2010,Univ. of Waterloo,design,,model,computed,constraints,dev,none,*.cfr,research,product lines,research,in-repo,n/a,none,deterministic,,,Feature models (FODA),feature
+Delta-oriented programming,variability mechanism,2010,Schaefer et al.,build,preprocess,code,program,dependencies,dev,patch,,research,product lines,research,in-repo,rebuild,overlays,deterministic,,,AHEAD feature modules,block
+GSettings / dconf,settings store,2010,GNOME 3,runtime,,store,typed,schema,user,set-value,"*.gschema.xml, gsettings",active,desktop & user,open-source,external,live,levels,deterministic,,GConf,,user
+package.json and .npmrc,package manifest,2010,npm,build;install,,file,nested,schema,dev,select-deps,"package.json, .npmrc",active,build & packaging,open-source,in-repo,reinstall,levels,deterministic,,,,module
+systemd units,service config,2010,systemd,startup,,file,flat,dependencies,operator,wire-components,"*.service, *.socket",active,systems,open-source,external,on-signal,overlays,deterministic,,SysV inittab;Upstart jobs;inetd.conf,launchd plists,component
+tox environments,test matrix,2010,tox,build,,file,nested,none,dev,build-variants,tox.ini,active,dev tools,open-source,in-repo,rebuild,none,deterministic,,,,project
+Vagrantfile,dev environment,2010,Vagrant,deploy,,file,program,none,dev,provision,Vagrantfile,active,dev tools,open-source,in-repo,redeploy,none,deterministic,,,,machine
+AWS CloudFormation,infrastructure as code,2011,Amazon,deploy,,file,computed,dependencies,operator,provision,AWSTemplateFormatVersion,active,servers & ops,vendor,in-repo,redeploy,none,deterministic,,,,cluster
+CI build matrix,build variants,2011,Travis CI,build,,file,nested,none,dev,build-variants,matrix: in .travis.yml or .github/workflows/*.yml,active,build & packaging,vendor,in-repo,rebuild,none,deterministic,,,,project
+Procfile,process declaration,2011,Heroku,deploy,,file,flat,none,dev,wire-components,Procfile,active,cloud & containers,vendor,in-repo,redeploy,none,deterministic,,,,component
+Salt states,infrastructure as code,2011,SaltStack,deploy,,file,computed,dependencies,operator,provision,*.sls,active,servers & ops,open-source,in-repo,redeploy,levels,deterministic,,,,machine
+Spring profiles,profile switch,2011,Spring 3.1,startup,,code;file;env,nested,none,operator,wire-components,"@Profile, application-*.yml",active,app runtime,open-source,both,restart,levels,deterministic,,,,component
+Twelve-factor env config,deployment convention,2011,Heroku,deploy;startup,,env,flat,none,operator,set-value,".env, dotenv",active,cloud & containers,vendor,external,restart,none,deterministic,,,Environment variables,process
+Ansible,infrastructure as code,2012,Ansible,deploy,,file,computed,none,operator,provision,"playbooks, roles/*/tasks/*.yml",active,servers & ops,open-source,in-repo,redeploy,levels,deterministic,,,,machine
+Conda environments,package environment,2012,Continuum Analytics,install,,file,nested,none,dev,select-deps,environment.yml,active,build & packaging,vendor,in-repo,reinstall,none,deterministic,,,,module
+CSS media queries,resource selection,2012,W3C,request,,code,computed,none,system,select-resources,@media,active,network & web,standard,in-repo,live,none,deterministic,,,,block
+CVL,variability model,2012,OMG (proposed),design,,model,nested,constraints,dev,patch,,dead,product lines,standard,in-repo,n/a,none,deterministic,,,Feature models (FODA);Orthogonal variability model,block
+EditorConfig,tool config,2012,EditorConfig,authoring,,file,flat,none,dev,steer-tool,.editorconfig,active,dev tools,open-source,in-repo,n/a,levels,deterministic,,,,file
+GNU Guix,package expressions,2012,GNU,build;install,,file,program,none,integrator,select-deps,*.scm manifests,active,build & packaging,open-source,in-repo,reinstall,none,deterministic,,,Nix expressions,module
+Go build constraints,conditional compilation,2012,Go 1,build,compile,code,computed,none,dev,exclude-code,"//go:build, // +build, *_linux.go",active,build & packaging,vendor,in-repo,rebuild,none,deterministic,,,,file
+Gradle build scripts,build system,2012,Gradle 1.0,build,,build-script,program,none,dev,select-deps,"build.gradle, build.gradle.kts",active,build & packaging,open-source,in-repo,rebuild,levels,deterministic,,,,module
+HOCON,config file,2012,Typesafe Config,startup,,file,computed,none,dev,set-value,"*.conf, application.conf",active,formats & languages,vendor,both,restart,levels,deterministic,,,JSON config,process
+JSON5,config file,2012,JSON5,startup,,file,nested,none,dev,set-value,*.json5,active,formats & languages,community,both,restart,none,deterministic,,,JSON config,process
+Netflix Archaius,dynamic properties,2012,Netflix,runtime,,store,flat,none,operator,set-value,archaius,active,servers & ops,vendor,external,live,none,deterministic,,,,cluster
+webpack config,bundler config,2012,webpack,build,bundle,build-script,program,none,dev,select-files,webpack.config.js,active,build & packaging,open-source,in-repo,rebuild,none,deterministic,,,,file
+Yeoman generators,project generation,2012,Yeoman,authoring,,cli,flat,none,dev,select-files,generator-*,active,dev tools,open-source,external,n/a,none,deterministic,,,,file
+Cookiecutter templates,project generation,2013,Cookiecutter,authoring,,file,nested,none,dev,select-files,cookiecutter.json,active,dev tools,open-source,in-repo,n/a,none,deterministic,,,,file
+Dockerfile ENV and ARG,container build,2013,Docker,build;startup,,file,flat,none,dev,set-value,"ENV, ARG in Dockerfile",active,build & packaging,vendor,in-repo,restart,none,deterministic,,,,process
+ESLint config,tool config,2013,ESLint,authoring;build,,file,nested,schema,dev,steer-tool,"eslint.config.js, .eslintrc*",active,dev tools,open-source,in-repo,rebuild,levels,deterministic,,,,project
+etcd / Consul KV,settings store,2013,CoreOS,runtime,,store,nested,none,operator;system,set-value,etcd / consul client imports,active,servers & ops,open-source,external,live,none,deterministic,,,,cluster
+Meson options,build system,2013,Meson,build,configure,build-script,typed,none,integrator,exclude-code,"meson_options.txt, meson.options",active,build & packaging,open-source,in-repo,rebuild,none,deterministic,,,,line
+NODE_ENV dead-code elimination,build-time constant,2013,React / Node ecosystem,build,bundle,env,flat,none,dev,exclude-code,process.env.NODE_ENV,active,build & packaging,community,external,rebuild,none,deterministic,,,,line
+Spring @Conditional,conditional wiring,2013,Spring 4.0,startup,,code,computed,none,dev,wire-components,@Conditional,active,app runtime,open-source,in-repo,restart,none,deterministic,,,,component
+TOML,config file,2013,Tom Preston-Werner,build;startup,,file,typed,none,dev,set-value,*.toml,active,formats & languages,community,both,restart,none,deterministic,,,INI files,process
+Android build variants,build variants,2014,Android Gradle plugin,build,,build-script,computed,none,dev,build-variants,"productFlavors, buildTypes in build.gradle",active,build & packaging,vendor,in-repo,rebuild,none,deterministic,,,,project
+ARM templates,infrastructure as code,2014,Microsoft Azure,deploy,,file,computed,dependencies,operator,provision,azuredeploy.json,active,servers & ops,vendor,in-repo,redeploy,none,deterministic,,,,cluster
+direnv,dev environment,2014,direnv,session,,file,program,none,dev,set-value,.envrc,active,dev tools,open-source,in-repo,new-session,none,deterministic,,,,process
+Docker Compose,container deploy,2014,Docker (Fig),deploy,,file,nested,dependencies,operator,wire-components,"docker-compose.yml, compose.yaml",active,cloud & containers,vendor,in-repo,redeploy,overlays,deterministic,,,,cluster
+Feature flag services,runtime flags,2014,LaunchDarkly,runtime;request,,store,nested,none,operator,switch-path,LaunchDarkly / Unleash / Flagsmith SDK imports,active,flags & experiments,vendor,external,live,none,randomized,,,Feature toggles,request
+Jsonnet,config language,2014,Google,deploy,,file,program,none,operator,set-value,"*.jsonnet, *.libsonnet",active,formats & languages,vendor,in-repo,redeploy,none,deterministic,,,,cluster
+pre-commit config,tool config,2014,pre-commit,authoring,,file,nested,none,dev,steer-tool,.pre-commit-config.yaml,active,dev tools,open-source,in-repo,n/a,none,deterministic,,,,project
+Spring Boot auto-configuration,convention,2014,Spring Boot 1.0,startup,,code,computed,dependencies,system,wire-components,@ConditionalOn*,active,app runtime,open-source,in-repo,restart,none,deterministic,,,Spring @Conditional,component
+Spring Cloud Config,config server,2014,Pivotal,startup;runtime,,store,nested,none,operator,set-value,spring-cloud-config,active,servers & ops,vendor,external,live,levels,deterministic,,,,cluster
+Swift conditional compilation,conditional compilation,2014,Swift 1.0,build,compile,code,computed,none,dev,exclude-code,#if os(,active,build & packaging,vendor,in-repo,rebuild,none,deterministic,,,C preprocessor,line
+Terraform (HCL),infrastructure as code,2014,HashiCorp,deploy,,file,computed,dependencies,operator,provision,*.tf,active,servers & ops,vendor,in-repo,redeploy,levels,deterministic,,,AWS CloudFormation,cluster
+Babel config,tool config,2015,Babel,build,compile,file,nested,none,dev,steer-tool,".babelrc, babel.config.js",active,dev tools,open-source,in-repo,rebuild,none,deterministic,,,,project
+Bazel select(),conditional build,2015,Bazel,build,configure,build-script,computed,none,integrator,select-files,select( and config_setting in BUILD,active,build & packaging,vendor,in-repo,rebuild,none,deterministic,,,,file
+browserslist,target selection,2015,browserslist,build,bundle,file,flat,none,dev,exclude-code,.browserslistrc,active,build & packaging,open-source,in-repo,rebuild,none,deterministic,,,,line
+Cargo features,package options,2015,Rust 1.0,build,compile,build-script,flat,dependencies,dev;integrator,exclude-code,"[features] in Cargo.toml, #[cfg(feature",active,build & packaging,open-source,in-repo,rebuild,none,deterministic,,,,line
+GitLab CI pipelines,CI config,2015,GitLab 8.0,build,,file,nested,none,dev,build-variants,.gitlab-ci.yml,active,dev tools,vendor,in-repo,rebuild,none,deterministic,,,CI build matrix,project
+HashiCorp Vault,secrets,2015,HashiCorp,runtime,,store,nested,none,operator,set-value,vault client,active,servers & ops,vendor,external,live,none,deterministic,,,,cluster
+Helm values,templated deploy,2015,Deis,deploy,,file,computed,schema,operator,set-value,"Chart.yaml, values.yaml",active,cloud & containers,vendor,both,redeploy,overlays,deterministic,,,,cluster
+Kubernetes Secrets,secrets,2015,Kubernetes 1.0,deploy;runtime,,store,flat,none,operator,set-value,kind: Secret,active,cloud & containers,open-source,external,live,none,deterministic,,,,cluster
+Rust cfg attributes,conditional compilation,2015,Rust 1.0,build,compile,code,computed,none,dev,exclude-code,#[cfg(,active,build & packaging,open-source,in-repo,rebuild,none,deterministic,,,,line
+Serverless Framework,serverless deploy,2015,Serverless Inc.,deploy,,file,computed,none,dev,provision,serverless.yml,active,cloud & containers,vendor,in-repo,redeploy,none,deterministic,,,,cluster
+SOPS,secrets,2015,Mozilla,deploy,,file,nested,none,operator,set-value,.sops.yaml,active,servers & ops,open-source,in-repo,redeploy,none,deterministic,,,,cluster
+Spack variants,package options,2015,LLNL,build;install,,cli;file,flat,dependencies,user,select-deps,"variant( in package.py, pkg+mpi",active,build & packaging,research,both,reinstall,none,deterministic,,,Nix expressions;Homebrew install options,module
+Starlark,config language,2015,Bazel (as Skylark),build,configure,build-script,program,none,dev,select-files,"BUILD, *.bzl",active,formats & languages,vendor,in-repo,rebuild,none,deterministic,,,,file
+tsconfig.json,compiler config,2015,TypeScript 1.5,build,compile,file,nested,schema,dev,steer-tool,tsconfig.json,active,dev tools,vendor,in-repo,rebuild,overlays,deterministic,,,,project
+Unleash,runtime flags,2015,FINN.no,runtime;request,,store,nested,none,operator,switch-path,unleash client,active,flags & experiments,open-source,external,live,none,randomized,,,Feature flag services,request
+VS Code settings,tool config,2015,Visual Studio Code,authoring,,file,nested,schema,dev,steer-tool,.vscode/settings.json,active,dev tools,vendor,both,n/a,levels,deterministic,,,,project
+appsettings.json,config file,2016,.NET Core 1.0,startup,,file;env,nested,none,operator,set-value,appsettings.*.json,active,formats & languages,vendor,both,restart,levels,deterministic,,.NET app.config / web.config,,process
+Firebase Remote Config,runtime flags,2016,Google Firebase,runtime;request,,store,nested,none,operator,switch-path,firebase remote config,active,flags & experiments,vendor,external,live,none,randomized,,,Feature toggles,request
+Jenkinsfile,CI config,2016,Jenkins 2.0,build,,file,program,none,dev,build-variants,Jenkinsfile,active,dev tools,open-source,in-repo,rebuild,none,deterministic,,,,project
+Kubernetes ConfigMap,settings store,2016,Kubernetes 1.2,deploy;runtime,,store,nested,none,operator,set-value,kind: ConfigMap,active,cloud & containers,open-source,both,live,none,deterministic,,,,cluster
+Open Policy Agent (Rego),policy as code,2016,Styra,runtime;request,,file,program,none,operator,validate,*.rego,active,servers & ops,vendor,in-repo,live,none,deterministic,,,,request
+pyproject.toml,tool config,2016,PEP 518,build,,file,typed,schema,dev,steer-tool,pyproject.toml,active,dev tools,standard,in-repo,rebuild,none,deterministic,,,TOML,project
+AWS SSM Parameter Store,config store,2017,Amazon,startup;runtime,,store,flat,none,operator,set-value,ssm get-parameter,active,servers & ops,vendor,external,live,none,deterministic,,,,cluster
+Dhall,config language,2017,Gabriella Gonzalez,deploy,,file,program,schema,operator,set-value,*.dhall,active,formats & languages,open-source,in-repo,redeploy,none,deterministic,,,,cluster
+Docker multi-stage targets,container build,2017,Docker 17.05,build,,file,flat,none,dev,build-variants,"FROM ... AS, --target",active,build & packaging,vendor,in-repo,rebuild,none,deterministic,,,,project
+Envoy xDS,dynamic config API,2017,Envoy,runtime,,store,nested,schema,system,set-value,"envoy.yaml, xDS",active,cloud & containers,open-source,external,live,none,deterministic,,,,cluster
+Kotlin expect/actual,multiplatform,2017,Kotlin 1.2,build,compile,code,flat,none,dev,select-files,expect/actual,active,build & packaging,vendor,in-repo,rebuild,none,deterministic,,,,file
+ksonnet,templated deploy,2017,Heptio,deploy,,file,program,none,operator,set-value,app.yaml (ks),dead,cloud & containers,vendor,in-repo,redeploy,none,deterministic,2019,,Jsonnet,cluster
+Kubernetes CRDs and operators,platform extension,2017,Kubernetes 1.7,deploy;runtime,,store,nested,schema,operator,provision,kind: CustomResourceDefinition,active,cloud & containers,open-source,external,live,none,deterministic,,,,cluster
+MicroProfile Config,config API,2017,Eclipse MicroProfile,startup,,env;file,flat,none,operator,set-value,@ConfigProperty,active,app runtime,standard,both,restart,levels,deterministic,,,,process
+Prettier config,tool config,2017,Prettier,authoring,,file,flat,none,dev,steer-tool,.prettierrc,active,dev tools,open-source,in-repo,n/a,none,deterministic,,,,project
+gin-config,ML experiment config,2018,Google,startup,,file,computed,none,dev,wire-components,*.gin,active,app runtime,vendor,in-repo,restart,none,deterministic,,,,component
+Kustomize,overlay,2018,Kubernetes SIG CLI,deploy,,file,nested,none,operator,patch,kustomization.yaml,active,cloud & containers,open-source,in-repo,redeploy,overlays,deterministic,,,,component
+Pulumi,infrastructure as code,2018,Pulumi,deploy,,code,program,dependencies,operator,provision,Pulumi.yaml,active,servers & ops,vendor,in-repo,redeploy,none,deterministic,,,Terraform (HCL),cluster
+AWS AppConfig,config store,2019,Amazon,runtime,,store,nested,schema,operator,set-value,appconfig,active,servers & ops,vendor,external,live,none,deterministic,,,,cluster
+AWS CDK,infrastructure as code,2019,Amazon,deploy,,code,program,dependencies,operator,provision,cdk.json,active,servers & ops,vendor,in-repo,redeploy,none,deterministic,,,AWS CloudFormation,cluster
+CUE,config language,2019,Marcel van Lohuizen,deploy,,file,computed,constraints,operator,set-value,*.cue,active,formats & languages,open-source,in-repo,redeploy,none,deterministic,,,Jsonnet,cluster
+Dev containers,dev environment,2019,VS Code,authoring,,file,nested,schema,dev,provision,devcontainer.json,active,dev tools,vendor,in-repo,n/a,none,deterministic,,,Vagrantfile,machine
+GitHub Actions workflows,CI config,2019,GitHub,build,,file,nested,schema,dev,build-variants,.github/workflows/*.yml,active,dev tools,vendor,in-repo,rebuild,none,deterministic,,,CI build matrix,project
+Hydra,ML experiment config,2019,Facebook AI,startup,,file;cli,nested,schema,user,wire-components,"@hydra.main, conf/*.yaml",active,app runtime,vendor,both,restart,overlays,deterministic,,,,component
+Node conditional exports,package options,2019,Node.js 12,build;startup,,file,nested,none,dev,select-files,exports in package.json,active,build & packaging,open-source,in-repo,restart,none,deterministic,,,,file
+Bicep,infrastructure as code,2020,Microsoft Azure,deploy,,file,computed,dependencies,operator,provision,*.bicep,active,servers & ops,vendor,in-repo,redeploy,none,deterministic,,ARM templates,,cluster
+Vite config,bundler config,2020,Vite,build,bundle,build-script,program,none,dev,select-files,vite.config.*,active,build & packaging,open-source,in-repo,rebuild,none,deterministic,,,,file
+Nix flakes,package expressions,2021,Nix 2.4,build;install,,file,program,none,integrator,select-deps,flake.nix,active,build & packaging,open-source,in-repo,reinstall,overlays,deterministic,,,Nix expressions,module
+UVL,variability model,2021,MODEVAR initiative,design,,model,nested,constraints,dev,none,*.uvl,research,product lines,research,in-repo,n/a,none,deterministic,,,Feature models (FODA);FeatureIDE,feature
+KCL,config language,2022,Ant Group,deploy,,file,program,schema,operator,set-value,*.k,active,formats & languages,open-source,in-repo,redeploy,none,deterministic,,,,cluster
+OpenFeature,runtime flags,2022,CNCF,runtime;request,,code,flat,none,dev,switch-path,openfeature SDK,active,flags & experiments,standard,in-repo,live,none,randomized,,,Feature flag services,request
+Nickel,config language,2023,Tweag,deploy,,file,program,schema,operator,set-value,*.ncl,active,formats & languages,open-source,in-repo,redeploy,none,deterministic,,,Nix expressions,cluster
+.clinerules,agent instructions,2024,Cline,authoring;session,,file,prose,none,dev,steer-agent,.clinerules,active,agents,open-source,in-repo,new-session,none,interpreted,,,.cursorrules,project
+.cursorrules,agent instructions,2024,Cursor,authoring;session,,file,prose,none,dev,steer-agent,".cursorrules, .cursor/rules/*.mdc",legacy,agents,vendor,in-repo,new-session,none,interpreted,2025,,,project
+.windsurfrules,agent instructions,2024,Windsurf,authoring;session,,file,prose,none,dev,steer-agent,.windsurfrules,active,agents,vendor,in-repo,new-session,none,interpreted,,,.cursorrules,project
+copilot-instructions.md,agent instructions,2024,GitHub Copilot,authoring;session,,file,prose,none,dev,steer-agent,".github/copilot-instructions.md, *.instructions.md",active,agents,vendor,in-repo,new-session,levels,interpreted,,,,project
+llms.txt,agent instructions,2024,Jeremy Howard,request,,file,prose,none,operator,steer-agent,/llms.txt,active,agents,community,in-repo,live,none,interpreted,,,robots.txt,project
+MCP server config,agent tooling,2024,Model Context Protocol,authoring;session,,file,nested,none,dev,load-code,"mcp.json, .vscode/mcp.json",active,agents,standard,both,new-session,none,deterministic,,,,module
+Pkl,config language,2024,Apple,deploy;startup,,file,program,schema,dev;operator,set-value,*.pkl,active,formats & languages,vendor,in-repo,restart,none,deterministic,,,,cluster
+Agent settings and hooks,agent tooling,2025,Claude Code,authoring;session,,file,nested,none,dev,steer-tool,.claude/settings.json,active,agents,vendor,both,new-session,levels,deterministic,,,,project
+Agent skills (SKILL.md),agent instructions,2025,Anthropic,authoring;request,,file,prose,none,dev,steer-agent,SKILL.md,active,agents,vendor,in-repo,live,levels,interpreted,,,,project
+AGENTS.md,agent instructions,2025,OpenAI Codex,authoring;session,,file,prose,none,dev,steer-agent,AGENTS.md,active,agents,vendor,in-repo,new-session,levels,interpreted,,,.cursorrules;CLAUDE.md,project
+CLAUDE.md,agent instructions,2025,Claude Code,authoring;session,,file,prose,none,dev,steer-agent,"CLAUDE.md, ~/.claude/CLAUDE.md",active,agents,vendor,both,new-session,levels,interpreted,,,,project
+Custom agents and prompt files,agent instructions,2025,VS Code / GitHub Copilot,authoring;session,,file,prose,none,dev,steer-agent,"*.agent.md, *.prompt.md",active,agents,vendor,in-repo,new-session,levels,interpreted,,,copilot-instructions.md,project
+GEMINI.md,agent instructions,2025,Gemini CLI,authoring;session,,file,prose,none,dev,steer-agent,GEMINI.md,active,agents,vendor,both,new-session,levels,interpreted,,,CLAUDE.md,project
+Clone-and-own variants,variability practice,,industry practice,authoring,,code,program,none,dev,patch,"forks, variant branches",active,product lines,community,in-repo,n/a,none,deterministic,,,,project
+Network device running/startup config,network config,,Cisco IOS and others,boot;runtime,,store;cli,flat,none,operator,set-value,show running-config,active,network & web,vendor,external,live,none,deterministic,,,,machine
+Preferences dialogs,settings UI,,desktop apps,runtime,,ui,flat,none,user,set-value,,active,desktop & user,community,external,live,none,deterministic,,,,user
+Reload on SIGHUP,reload convention,,Unix daemons,runtime,,file,flat,none,operator,set-value,signal(SIGHUP,active,servers & ops,community,external,on-signal,none,deterministic,,,,process
+Request parameters and cookies,request variants,,web,request,,request,flat,none,user,switch-path,"?debug=1, cookies",active,network & web,community,external,live,none,deterministic,,,,request
+Settings stored in an app database,settings store,,web apps,runtime,,store;ui,flat,none,user,set-value,"settings/options tables, admin pages",active,app runtime,community,external,live,none,deterministic,,,,user

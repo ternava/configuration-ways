@@ -202,6 +202,15 @@
             color: #2563eb;
         }
         
+        details.group { border-bottom: 1px solid #e2e8f0; }
+        details.group summary { cursor: pointer; list-style: none; padding: 0.5rem 0; }
+        details.group summary::-webkit-details-marker { display: none; }
+        details.group summary::before {
+            content: "+"; display: inline-block; width: 1.2rem; font-weight: 700; color: #2563eb;
+        }
+        details.group[open] summary::before { content: "−"; }
+        details.group .count { color: #64748b; font-size: 0.85rem; margin-left: 0.3rem; }
+
         .footer {
             border-top: 1px solid #e2e8f0;
             margin-top: 3rem;
@@ -256,6 +265,10 @@
           <p>{{ config.extra.description }}</p>
           {% endif %}
       </div>
+      <nav class="nav">
+          <a href="{{ get_url(path="") }}"{% if current_path == "/" %} class="active"{% endif %}>History</a>
+          <a href="{{ get_url(path="@/zoo.md") }}"{% if current_path == "/zoo/" %} class="active"{% endif %}>Zoo</a>
+      </nav>
     </header>
 
     <main>

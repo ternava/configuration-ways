@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block content %}
+<p>{{ page.description | markdown(inline=true) | safe }}</p>
+{% set ways = load_data(path="data/ways.csv", format="csv") %}
+{% set ex = load_data(path="zoo/examples.csv", format="csv") %}
+{% for b in ["design", "authoring", "build", "install", "deploy", "boot", "session", "startup", "runtime", "request"] %}
+{% set_global n = 0 %}
+{% for w in ways.records %}{% set bs = w[4] | split(pat=";") %}{% if b in bs %}{% set_global n = n + 1 %}{% endif %}{% endfor %}
+<details class="group">
+  <summary><strong>{{ b }}</strong> <span class="count">{{ n }}</span></summary>
+  <table>
+    <thead><tr><th>Way</th><th>Granularity</th><th>Example</th><th>Option</th><th>Note</th></tr></thead>
+    <tbody>
+    {% for w in ways.records %}{% set bs = w[4] | split(pat=";") %}{% if b in bs %}
+      {% for r in ex.records %}{% if r[0] == w[0] %}
+      <tr>
+        <td>{{ w[0] }}</td>
+        <td>{{ w[22] }}</td>
+        <td>{% if r[3] %}<a href="{{ r[3] }}">{{ r[1] }}</a>{% else %}—{% endif %}</td>
+        <td>{% if r[2] %}<code>{{ r[2] }}</code>{% endif %}</td>
+        <td>{{ r[7] }}</td>
+      </tr>
+      {% endif %}{% endfor %}
+    {% endif %}{% endfor %}
+    </tbody>
+  </table>
+</details>
+{% endfor %}
+{{ page.content | safe }}
+{% endblock content %}
