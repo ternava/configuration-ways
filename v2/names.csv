@@ -1,0 +1,267 @@
+way,term,also
+COBOL CONFIGURATION SECTION,clause,switch
+Conditional assembly,symbol,SET symbol
+JCL DD statements,statement,dataset
+OS/360 SYSGEN,macro,operand
+PL/I preprocessor,variable,preprocessor variable
+Inheritance and subclassing,subclass,hook method
+CLI options,option,"flag, switch, argument"
+C preprocessor,macro,"symbol, define"
+make variables,variable,
+m4,macro,
+crontab,entry,job
+Environment variables,variable,
+Shell rc files,variable,"alias, option"
+vi .exrc,option,
+BSD kernel config(8),option,device
+AUTOEXEC.BAT,variable,command
+CONFIG.SYS,directive,command
+sendmail.cf,option,"macro, rule"
+SysV inittab,entry,runlevel
+BIOS setup (CMOS),setting,option
+GNU Emacs init file,variable,user option
+INI files,key,"section, entry"
+inetd.conf,entry,service
+Frame technology,frame,break
+VHDL generics,generic,
+X resources,resource,
+Dynamic plugins (dlopen),plug-in,"shared library, module"
+POSIX locale variables,variable,locale category
+SNMP SET and MIBs,object,OID
+Tcl as embedded config,variable,command
+Property lists,key,
+Feature models (FODA),feature,
+Fortran NAMELIST,variable,namelist group
+Haskell type classes,instance,type class
+Autoconf,option,"--enable feature, --with package"
+C++ templates,template parameter,
+Kernel command line,parameter,boot parameter
+Linux make config (CML1),symbol,config option
+Windows Registry,value,key
+CFEngine,promise,class
+Lua as config language,variable,global
+sysctl,parameter,kernel tunable
+Abstract Factory pattern,factory,product family
+Automake,conditional,
+Bridge pattern,implementor,
+Decorator pattern,decorator,
+Device tree,property,node
+robots.txt,directive,rule
+Strategy pattern,strategy,
+Template Method pattern,hook method,
+Apache httpd.conf,directive,
+gettext message catalogs,message,locale
+PAM configuration,module,control flag
+Ruby open classes,monkey patch,refinement
+Verilog parameters and `ifdef,parameter,macro
+Database server config,parameter,system variable
+HTTP content negotiation,header,preference
+Java .properties,property,key
+Java system properties,property,
+Quake console variables,variable,"console variable, cvar"
+Java ResourceBundle,key,locale
+php.ini,directive,
+XML as config format,element,attribute
+eCos CDL,option,"component, package"
+HotSpot -XX flags,flag,VM option
+XML deployment descriptors,element,context parameter
+Apache Ant properties,property,
+CMake options,option,cache variable
+CML2,symbol,
+debconf,question,template
+Group Policy,policy,setting
+JMX MBeans,attribute,
+OSGi bundles,bundle,service
+SELinux policy,boolean,rule
+AspectJ,aspect,"advice, pointcut"
+Eclipse extension points,extension point,extension
+log4j configuration,logger,"level, appender"
+SCons,variable,option
+XML Schema (XSD),element,attribute
+YAML,key,mapping
+.NET app.config / web.config,setting,appSetting key
+C# conditional compilation,symbol,conditional compilation symbol
+GConf,key,
+Gentoo USE flags,flag,USE flag
+Java Preferences API,preference,key
+Kconfig,symbol,config option
+Mozilla preferences (about:config),preference,pref
+AHEAD feature modules,feature,"feature module, refinement"
+Nix expressions,argument,"option, override"
+udev rules,rule,key
+XDG Base Directory,variable,
+BitBake / OpenEmbedded,variable,"distro feature, layer"
+Java generics,type parameter,
+nginx.conf,directive,
+Rails environments,environment,
+Scala traits and mixins,trait,mixin
+Spring DI container,bean,
+AUTOSAR ECU configuration,parameter,"configuration parameter, container"
+Django settings module,setting,
+FeatureC++,feature,feature module
+FeatureIDE,feature,configuration
+git config,variable,key
+launchd plists,key,
+Maven profiles,profile,property
+Maven settings.xml,setting,property
+MSBuild conditions,property,condition
+Orthogonal variability model,variation point,variant
+Puppet manifests,parameter,fact
+Python entry points,entry point,plug-in
+Python extras,extra,optional dependency
+Xcode build configurations,build setting,
+Annotation-based configuration,annotation,
+Java ServiceLoader,service provider,
+JSON config,key,member
+NETCONF / YANG,leaf,node
+Upstart jobs,stanza,
+Guice modules,binding,module
+Android resource qualifiers,qualifier,
+Android system properties,property,
+App Engine app.yaml,element,setting
+App manifests (Android / iOS),key,"permission, attribute"
+CIDE colored annotations,feature,color
+Jinja2 templates,variable,
+ZooKeeper,znode,
+Chef,attribute,
+cloud-init,module,key
+Feature toggles,toggle,"flag, feature flag"
+FeatureHouse,feature,feature structure tree
+Homebrew install options,option,
+JSON Schema,property,keyword
+A/B testing platforms,experiment,"variant, variation"
+Chrome flags,flag,
+Clafer,clafer,feature
+Delta-oriented programming,delta,delta module
+GSettings / dconf,key,schema
+package.json and .npmrc,dependency,config key
+systemd units,directive,"option, setting"
+tox environments,environment,factor
+Vagrantfile,setting,
+AWS CloudFormation,parameter,
+CI build matrix,matrix axis,job variant
+Procfile,process type,
+Salt states,pillar,grain
+Spring profiles,profile,
+Twelve-factor env config,variable,config var
+Ansible,variable,fact
+Conda environments,dependency,channel
+CSS media queries,media feature,query
+CVL,variation point,VSpec
+EditorConfig,property,
+GNU Guix,package,input
+Go build constraints,build tag,constraint
+Gradle build scripts,property,build type
+HOCON,key,path
+JSON5,key,
+Netflix Archaius,property,dynamic property
+webpack config,option,mode
+Yeoman generators,prompt,option
+Cookiecutter templates,variable,prompt
+Dockerfile ENV and ARG,build argument,environment variable
+ESLint config,rule,
+etcd / Consul KV,key,
+Meson options,option,
+NODE_ENV dead-code elimination,variable,mode
+Spring @Conditional,condition,
+TOML,key,table
+Android build variants,build variant,"product flavor, build type"
+ARM templates,parameter,
+direnv,variable,
+Docker Compose,variable,"service, profile"
+Feature flag services,flag,"feature flag, variation"
+Jsonnet,parameter,"external variable, top-level argument"
+nftables rules,rule,
+pre-commit config,hook,
+Spring Boot auto-configuration,condition,"auto-configuration, property"
+Spring Cloud Config,property,
+Swift conditional compilation,compilation condition,
+Terraform (HCL),variable,input variable
+.bazelrc,flag,config
+Babel config,plugin,preset
+Bazel select(),config setting,select condition
+browserslist,query,target
+Cargo features,feature,
+CSS custom properties,custom property,variable
+GitLab CI pipelines,variable,rule
+HashiCorp Vault,secret,
+Helm values,value,
+Kubernetes Secrets,secret,
+Rust cfg attributes,cfg option,attribute
+Rust traits and generics,trait,impl
+Serverless Framework,variable,stage
+SOPS,secret,
+Spack variants,variant,
+Starlark,argument,attribute
+tsconfig.json,compiler option,
+Unleash,toggle,"strategy, variant"
+VS Code settings,setting,
+appsettings.json,key,section
+Firebase Remote Config,parameter,condition
+Jenkinsfile,parameter,
+Kubernetes ConfigMap,key,
+Open Policy Agent (Rego),rule,policy
+pyproject.toml,key,table
+AWS SSM Parameter Store,parameter,
+C++ if constexpr,condition,constant expression
+Dhall,field,record
+Docker multi-stage targets,target,stage
+Envoy xDS,resource,
+Kotlin expect/actual,expect declaration,actual
+ksonnet,parameter,component
+Kubernetes CRDs and operators,field,spec
+MicroProfile Config,config property,
+Prettier config,option,
+gin-config,binding,configurable
+Kustomize,patch,overlay
+Pulumi,config value,stack setting
+AWS AppConfig,flag,configuration profile
+AWS CDK,context value,prop
+CUE,field,constraint
+Dev containers,feature,property
+GitHub Actions workflows,input,"matrix, variable"
+Hydra,config group,override
+Node conditional exports,condition,export condition
+Bicep,parameter,
+LLM sampling parameters,parameter,temperature
+Vite config,option,mode
+Nix flakes,input,output
+UVL,feature,constraint
+KCL,attribute,schema
+OpenFeature,flag,variant
+Prompt templates,variable,placeholder
+LLM system prompts,instruction,system prompt
+Nickel,field,contract
+.clinerules,rule,
+.cursorrules,rule,
+.windsurfrules,rule,
+copilot-instructions.md,instruction,
+llms.txt,link,section
+MCP server config,server,tool
+Pkl,property,
+Agent settings and hooks,setting,"hook, permission"
+Agent skills (SKILL.md),skill,
+AGENTS.md,instruction,
+CLAUDE.md,instruction,memory
+Custom agents and prompt files,prompt,"agent, instruction"
+GEMINI.md,instruction,context
+Apple configuration profiles,payload,key
+Browser enterprise policies,policy,
+Clone-and-own variants,variant,"clone, fork"
+Gears,feature,variation point
+GN build arguments,build argument,arg
+GRUB configuration,variable,menu entry
+Java static final flags,constant,flag
+Linux kernel module parameters,parameter,
+Network device running/startup config,command,
+papermill notebook parameters,parameter,
+Preferences dialogs,preference,setting
+Program parameters (variables and constants),parameter,"variable, constant"
+pure::variants,feature,"variation point, family model"
+"Python optimize flag (-O, __debug__)",flag,
+Reload on SIGHUP,directive,signal
+Request parameters and cookies,parameter,cookie
+Settings stored in an app database,setting,option
+Snakemake config,key,
+syslog.conf,rule,selector
+U-Boot environment,variable,

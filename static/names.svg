@@ -1,0 +1,1094 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1250" height="763" font-family="Helvetica, Arial, sans-serif" font-size="12">
+<style>.dot{cursor:pointer}.dot:hover{stroke:#111;stroke-width:1.5}.term{cursor:default}</style>
+<rect width="1250" height="763" fill="white"/>
+<text x="20" y="26" font-size="15" font-weight="bold">103 names for a unit of variability</text>
+<text x="20" y="46" fill="#555">What each of the 266 ways calls the thing you can vary. One dot per way, grouped by that name, coloured by binding time. Hover a dot or a name.</text>
+<circle cx="25" cy="66" r="5" fill="#9100dc"/><text x="34" y="70">design</text>
+<circle cx="88.0" cy="66" r="5" fill="#0000dc"/><text x="97.0" y="70">build</text>
+<circle cx="144.5" cy="66" r="5" fill="#00af3f"/><text x="153.5" y="70">deploy</text>
+<circle cx="207.5" cy="66" r="5" fill="#f08c00"/><text x="216.5" y="70">load (start-up)</text>
+<circle cx="329.0" cy="66" r="5" fill="#f01928"/><text x="338.0" y="70">run</text>
+<circle class="dot" cx="630.1" cy="401.8" r="4.6" fill="#9100dc"><title>git config
+called: variable
+also: key</title></circle>
+<circle class="dot" cx="618.5" cy="407.7" r="4.6" fill="#9100dc"><title>Cookiecutter templates
+called: variable
+also: prompt</title></circle>
+<circle class="dot" cx="626.0" cy="390.4" r="4.6" fill="#0000dc"><title>PL/I preprocessor
+called: variable
+also: preprocessor variable</title></circle>
+<circle class="dot" cx="633.2" cy="412.5" r="4.6" fill="#0000dc"><title>make variables
+called: variable</title></circle>
+<circle class="dot" cx="610.0" cy="399.1" r="4.6" fill="#0000dc"><title>SCons
+called: variable
+also: option</title></circle>
+<circle class="dot" cx="639.2" cy="392.7" r="4.6" fill="#0000dc"><title>BitBake / OpenEmbedded
+called: variable
+also: distro feature, layer</title></circle>
+<circle class="dot" cx="620.2" cy="419.5" r="4.6" fill="#0000dc"><title>Jinja2 templates
+called: variable</title></circle>
+<circle class="dot" cx="615.9" cy="384.3" r="4.6" fill="#0000dc"><title>NODE_ENV dead-code elimination
+called: variable
+also: mode</title></circle>
+<circle class="dot" cx="644.7" cy="409.0" r="4.6" fill="#0000dc"><title>GitLab CI pipelines
+called: variable
+also: rule</title></circle>
+<circle class="dot" cx="604.5" cy="410.2" r="4.6" fill="#0000dc"><title>Prompt templates
+called: variable
+also: placeholder</title></circle>
+<circle class="dot" cx="634.9" cy="380.6" r="4.6" fill="#00af3f"><title>Twelve-factor env config
+called: variable
+also: config var</title></circle>
+<circle class="dot" cx="632.3" cy="425.1" r="4.6" fill="#00af3f"><title>Ansible
+called: variable
+also: fact</title></circle>
+<circle class="dot" cx="603.0" cy="389.0" r="4.6" fill="#00af3f"><title>Docker Compose
+called: variable
+also: service, profile</title></circle>
+<circle class="dot" cx="650.8" cy="396.1" r="4.6" fill="#00af3f"><title>Terraform (HCL)
+called: variable
+also: input variable</title></circle>
+<circle class="dot" cx="609.2" cy="424.2" r="4.6" fill="#00af3f"><title>Serverless Framework
+called: variable
+also: stage</title></circle>
+<circle class="dot" cx="621.4" cy="373.6" r="4.6" fill="#f08c00"><title>Environment variables
+called: variable</title></circle>
+<circle class="dot" cx="647.4" cy="420.6" r="4.6" fill="#f08c00"><title>Shell rc files
+called: variable
+also: alias, option</title></circle>
+<circle class="dot" cx="594.9" cy="403.0" r="4.6" fill="#f08c00"><title>AUTOEXEC.BAT
+called: variable
+also: command</title></circle>
+<circle class="dot" cx="647.0" cy="379.9" r="4.6" fill="#f08c00"><title>GNU Emacs init file
+called: variable
+also: user option</title></circle>
+<circle class="dot" cx="623.5" cy="433.5" r="4.6" fill="#f08c00"><title>POSIX locale variables
+called: variable
+also: locale category</title></circle>
+<circle class="dot" cx="604.1" cy="376.7" r="4.6" fill="#f08c00"><title>Tcl as embedded config
+called: variable
+also: command</title></circle>
+<circle class="dot" cx="658.1" cy="406.2" r="4.6" fill="#f08c00"><title>Fortran NAMELIST
+called: variable
+also: namelist group</title></circle>
+<circle class="dot" cx="597.0" cy="421.3" r="4.6" fill="#f08c00"><title>Lua as config language
+called: variable
+also: global</title></circle>
+<circle class="dot" cx="632.7" cy="367.7" r="4.6" fill="#f08c00"><title>Quake console variables
+called: variable
+also: console variable, cvar</title></circle>
+<circle class="dot" cx="642.7" cy="432.7" r="4.6" fill="#f08c00"><title>XDG Base Directory
+called: variable</title></circle>
+<circle class="dot" cx="590.4" cy="390.7" r="4.6" fill="#f08c00"><title>direnv
+called: variable</title></circle>
+<circle class="dot" cx="658.6" cy="386.2" r="4.6" fill="#f08c00"><title>GRUB configuration
+called: variable
+also: menu entry</title></circle>
+<circle class="dot" cx="610.4" cy="436.6" r="4.6" fill="#f08c00"><title>U-Boot environment
+called: variable</title></circle>
+<text class="term" x="625.0" y="466.5" text-anchor="middle" font-size="20.0" fill="#1f2328">variable <tspan fill="#888" font-size="15.0">28</tspan><title>variable: 28 ways
+git config
+Cookiecutter templates
+PL/I preprocessor
+make variables
+SCons
+BitBake / OpenEmbedded
+Jinja2 templates
+NODE_ENV dead-code elimination
+GitLab CI pipelines
+Prompt templates
+Twelve-factor env config
+Ansible
+Docker Compose
+Terraform (HCL)
+Serverless Framework
+Environment variables
+Shell rc files
+AUTOEXEC.BAT
+GNU Emacs init file
+POSIX locale variables
+Tcl as embedded config
+Fortran NAMELIST
+Lua as config language
+Quake console variables
+XDG Base Directory
+direnv
+GRUB configuration
+U-Boot environment</title></text>
+<circle class="dot" cx="527.4" cy="421.9" r="4.6" fill="#9100dc"><title>Program parameters (variables and constants)
+called: parameter
+also: variable, constant</title></circle>
+<circle class="dot" cx="515.8" cy="427.8" r="4.6" fill="#0000dc"><title>Verilog parameters and `ifdef
+called: parameter
+also: macro</title></circle>
+<circle class="dot" cx="523.3" cy="410.5" r="4.6" fill="#0000dc"><title>AUTOSAR ECU configuration
+called: parameter
+also: configuration parameter, container</title></circle>
+<circle class="dot" cx="530.5" cy="432.6" r="4.6" fill="#0000dc"><title>Jenkinsfile
+called: parameter</title></circle>
+<circle class="dot" cx="507.2" cy="419.2" r="4.6" fill="#00af3f"><title>Puppet manifests
+called: parameter
+also: fact</title></circle>
+<circle class="dot" cx="536.5" cy="412.8" r="4.6" fill="#00af3f"><title>AWS CloudFormation
+called: parameter</title></circle>
+<circle class="dot" cx="517.5" cy="439.6" r="4.6" fill="#00af3f"><title>ARM templates
+called: parameter</title></circle>
+<circle class="dot" cx="513.2" cy="404.4" r="4.6" fill="#00af3f"><title>Jsonnet
+called: parameter
+also: external variable, top-level argument</title></circle>
+<circle class="dot" cx="542.0" cy="429.1" r="4.6" fill="#00af3f"><title>ksonnet
+called: parameter
+also: component</title></circle>
+<circle class="dot" cx="501.8" cy="430.3" r="4.6" fill="#00af3f"><title>Bicep
+called: parameter</title></circle>
+<circle class="dot" cx="532.2" cy="400.7" r="4.6" fill="#f08c00"><title>Kernel command line
+called: parameter
+also: boot parameter</title></circle>
+<circle class="dot" cx="529.6" cy="445.2" r="4.6" fill="#f08c00"><title>Database server config
+called: parameter
+also: system variable</title></circle>
+<circle class="dot" cx="500.2" cy="409.1" r="4.6" fill="#f08c00"><title>AWS SSM Parameter Store
+called: parameter</title></circle>
+<circle class="dot" cx="548.1" cy="416.2" r="4.6" fill="#f08c00"><title>Linux kernel module parameters
+called: parameter</title></circle>
+<circle class="dot" cx="506.5" cy="444.3" r="4.6" fill="#f08c00"><title>papermill notebook parameters
+called: parameter</title></circle>
+<circle class="dot" cx="518.6" cy="393.8" r="4.6" fill="#f01928"><title>sysctl
+called: parameter
+also: kernel tunable</title></circle>
+<circle class="dot" cx="544.6" cy="440.7" r="4.6" fill="#f01928"><title>Firebase Remote Config
+called: parameter
+also: condition</title></circle>
+<circle class="dot" cx="492.2" cy="423.1" r="4.6" fill="#f01928"><title>LLM sampling parameters
+called: parameter
+also: temperature</title></circle>
+<circle class="dot" cx="544.2" cy="400.0" r="4.6" fill="#f01928"><title>Request parameters and cookies
+called: parameter
+also: cookie</title></circle>
+<text class="term" x="522.3" y="477.0" text-anchor="middle" font-size="17.1" fill="#1f2328">parameter <tspan fill="#888" font-size="12.8">19</tspan><title>parameter: 19 ways
+Program parameters (variables and constants)
+Verilog parameters and `ifdef
+AUTOSAR ECU configuration
+Jenkinsfile
+Puppet manifests
+AWS CloudFormation
+ARM templates
+Jsonnet
+ksonnet
+Bicep
+Kernel command line
+Database server config
+AWS SSM Parameter Store
+Linux kernel module parameters
+papermill notebook parameters
+sysctl
+Firebase Remote Config
+LLM sampling parameters
+Request parameters and cookies</title></text>
+<circle class="dot" cx="727.3" cy="356.8" r="4.6" fill="#0000dc"><title>TOML
+called: key
+also: table</title></circle>
+<circle class="dot" cx="715.7" cy="362.7" r="4.6" fill="#0000dc"><title>pyproject.toml
+called: key
+also: table</title></circle>
+<circle class="dot" cx="723.2" cy="345.4" r="4.6" fill="#00af3f"><title>YAML
+called: key
+also: mapping</title></circle>
+<circle class="dot" cx="730.4" cy="367.5" r="4.6" fill="#00af3f"><title>App manifests (Android / iOS)
+called: key
+also: permission, attribute</title></circle>
+<circle class="dot" cx="707.2" cy="354.1" r="4.6" fill="#00af3f"><title>Kubernetes ConfigMap
+called: key</title></circle>
+<circle class="dot" cx="736.5" cy="347.7" r="4.6" fill="#f08c00"><title>INI files
+called: key
+also: section, entry</title></circle>
+<circle class="dot" cx="717.4" cy="374.5" r="4.6" fill="#f08c00"><title>Property lists
+called: key</title></circle>
+<circle class="dot" cx="713.1" cy="339.3" r="4.6" fill="#f08c00"><title>Java ResourceBundle
+called: key
+also: locale</title></circle>
+<circle class="dot" cx="741.9" cy="364.0" r="4.6" fill="#f08c00"><title>launchd plists
+called: key</title></circle>
+<circle class="dot" cx="701.7" cy="365.3" r="4.6" fill="#f08c00"><title>JSON config
+called: key
+also: member</title></circle>
+<circle class="dot" cx="732.1" cy="335.7" r="4.6" fill="#f08c00"><title>HOCON
+called: key
+also: path</title></circle>
+<circle class="dot" cx="729.5" cy="380.1" r="4.6" fill="#f08c00"><title>JSON5
+called: key</title></circle>
+<circle class="dot" cx="700.2" cy="344.0" r="4.6" fill="#f08c00"><title>appsettings.json
+called: key
+also: section</title></circle>
+<circle class="dot" cx="748.0" cy="351.1" r="4.6" fill="#f08c00"><title>Snakemake config
+called: key</title></circle>
+<circle class="dot" cx="706.4" cy="379.2" r="4.6" fill="#f01928"><title>GConf
+called: key</title></circle>
+<circle class="dot" cx="718.6" cy="328.7" r="4.6" fill="#f01928"><title>GSettings / dconf
+called: key
+also: schema</title></circle>
+<circle class="dot" cx="744.6" cy="375.6" r="4.6" fill="#f01928"><title>etcd / Consul KV
+called: key</title></circle>
+<text class="term" x="722.2" y="409.5" text-anchor="middle" font-size="16.5" fill="#1f2328">key <tspan fill="#888" font-size="12.3">17</tspan><title>key: 17 ways
+TOML
+pyproject.toml
+YAML
+App manifests (Android / iOS)
+Kubernetes ConfigMap
+INI files
+Property lists
+Java ResourceBundle
+launchd plists
+JSON config
+HOCON
+JSON5
+appsettings.json
+Snakemake config
+GConf
+GSettings / dconf
+etcd / Consul KV</title></text>
+<circle class="dot" cx="738.7" cy="451.6" r="4.6" fill="#9100dc"><title>Prettier config
+called: option</title></circle>
+<circle class="dot" cx="727.1" cy="457.5" r="4.6" fill="#0000dc"><title>BSD kernel config(8)
+called: option
+also: device</title></circle>
+<circle class="dot" cx="734.6" cy="440.2" r="4.6" fill="#0000dc"><title>Autoconf
+called: option
+also: --enable feature, --with package</title></circle>
+<circle class="dot" cx="741.8" cy="462.3" r="4.6" fill="#0000dc"><title>eCos CDL
+called: option
+also: component, package</title></circle>
+<circle class="dot" cx="718.6" cy="448.9" r="4.6" fill="#0000dc"><title>CMake options
+called: option
+also: cache variable</title></circle>
+<circle class="dot" cx="747.9" cy="442.5" r="4.6" fill="#0000dc"><title>webpack config
+called: option
+also: mode</title></circle>
+<circle class="dot" cx="728.9" cy="469.3" r="4.6" fill="#0000dc"><title>Meson options
+called: option</title></circle>
+<circle class="dot" cx="724.5" cy="434.1" r="4.6" fill="#0000dc"><title>Vite config
+called: option
+also: mode</title></circle>
+<circle class="dot" cx="753.3" cy="458.8" r="4.6" fill="#00af3f"><title>Homebrew install options
+called: option</title></circle>
+<circle class="dot" cx="713.1" cy="460.0" r="4.6" fill="#f08c00"><title>CLI options
+called: option
+also: flag, switch, argument</title></circle>
+<circle class="dot" cx="743.5" cy="430.4" r="4.6" fill="#f08c00"><title>vi .exrc
+called: option</title></circle>
+<circle class="dot" cx="740.9" cy="474.9" r="4.6" fill="#f08c00"><title>sendmail.cf
+called: option
+also: macro, rule</title></circle>
+<text class="term" x="733.6" y="498.0" text-anchor="middle" font-size="14.9" fill="#1f2328">option <tspan fill="#888" font-size="11.1">12</tspan><title>option: 12 ways
+Prettier config
+BSD kernel config(8)
+Autoconf
+eCos CDL
+CMake options
+webpack config
+Meson options
+Vite config
+Homebrew install options
+CLI options
+vi .exrc
+sendmail.cf</title></text>
+<circle class="dot" cx="658.5" cy="509.3" r="4.6" fill="#9100dc"><title>EditorConfig
+called: property</title></circle>
+<circle class="dot" cx="646.9" cy="515.2" r="4.6" fill="#0000dc"><title>Apache Ant properties
+called: property</title></circle>
+<circle class="dot" cx="654.4" cy="497.9" r="4.6" fill="#0000dc"><title>MSBuild conditions
+called: property
+also: condition</title></circle>
+<circle class="dot" cx="661.6" cy="520.0" r="4.6" fill="#0000dc"><title>Gradle build scripts
+called: property
+also: build type</title></circle>
+<circle class="dot" cx="638.4" cy="506.6" r="4.6" fill="#00af3f"><title>Pkl
+called: property</title></circle>
+<circle class="dot" cx="667.7" cy="500.2" r="4.6" fill="#f08c00"><title>Device tree
+called: property
+also: node</title></circle>
+<circle class="dot" cx="648.7" cy="527.0" r="4.6" fill="#f08c00"><title>Java .properties
+called: property
+also: key</title></circle>
+<circle class="dot" cx="644.3" cy="491.8" r="4.6" fill="#f08c00"><title>Java system properties
+called: property</title></circle>
+<circle class="dot" cx="673.1" cy="516.5" r="4.6" fill="#f08c00"><title>Android system properties
+called: property</title></circle>
+<circle class="dot" cx="632.9" cy="517.8" r="4.6" fill="#f08c00"><title>JSON Schema
+called: property
+also: keyword</title></circle>
+<circle class="dot" cx="663.3" cy="488.2" r="4.6" fill="#f08c00"><title>Spring Cloud Config
+called: property</title></circle>
+<circle class="dot" cx="660.7" cy="532.6" r="4.6" fill="#f01928"><title>Netflix Archaius
+called: property
+also: dynamic property</title></circle>
+<text class="term" x="653.4" y="555.7" text-anchor="middle" font-size="14.9" fill="#1f2328">property <tspan fill="#888" font-size="11.1">12</tspan><title>property: 12 ways
+EditorConfig
+Apache Ant properties
+MSBuild conditions
+Gradle build scripts
+Pkl
+Device tree
+Java .properties
+Java system properties
+Android system properties
+JSON Schema
+Spring Cloud Config
+Netflix Archaius</title></text>
+<circle class="dot" cx="441.4" cy="434.8" r="4.6" fill="#9100dc"><title>Feature models (FODA)
+called: feature</title></circle>
+<circle class="dot" cx="429.8" cy="440.8" r="4.6" fill="#9100dc"><title>FeatureIDE
+called: feature
+also: configuration</title></circle>
+<circle class="dot" cx="437.3" cy="423.5" r="4.6" fill="#9100dc"><title>Dev containers
+called: feature
+also: property</title></circle>
+<circle class="dot" cx="444.5" cy="445.5" r="4.6" fill="#9100dc"><title>UVL
+called: feature
+also: constraint</title></circle>
+<circle class="dot" cx="421.3" cy="432.2" r="4.6" fill="#9100dc"><title>Gears
+called: feature
+also: variation point</title></circle>
+<circle class="dot" cx="450.6" cy="425.8" r="4.6" fill="#9100dc"><title>pure::variants
+called: feature
+also: variation point, family model</title></circle>
+<circle class="dot" cx="431.6" cy="452.6" r="4.6" fill="#0000dc"><title>AHEAD feature modules
+called: feature
+also: feature module, refinement</title></circle>
+<circle class="dot" cx="427.2" cy="417.3" r="4.6" fill="#0000dc"><title>FeatureC++
+called: feature
+also: feature module</title></circle>
+<circle class="dot" cx="456.0" cy="442.0" r="4.6" fill="#0000dc"><title>CIDE colored annotations
+called: feature
+also: color</title></circle>
+<circle class="dot" cx="415.8" cy="443.3" r="4.6" fill="#0000dc"><title>FeatureHouse
+called: feature
+also: feature structure tree</title></circle>
+<circle class="dot" cx="446.2" cy="413.7" r="4.6" fill="#0000dc"><title>Cargo features
+called: feature</title></circle>
+<text class="term" x="436.3" y="479.8" text-anchor="middle" font-size="14.5" fill="#1f2328">feature <tspan fill="#888" font-size="10.9">11</tspan><title>feature: 11 ways
+Feature models (FODA)
+FeatureIDE
+Dev containers
+UVL
+Gears
+pure::variants
+AHEAD feature modules
+FeatureC++
+CIDE colored annotations
+FeatureHouse
+Cargo features</title></text>
+<circle class="dot" cx="531.6" cy="332.7" r="4.6" fill="#0000dc"><title>.bazelrc
+called: flag
+also: config</title></circle>
+<circle class="dot" cx="520.0" cy="338.7" r="4.6" fill="#00af3f"><title>Gentoo USE flags
+called: flag
+also: USE flag</title></circle>
+<circle class="dot" cx="527.5" cy="321.4" r="4.6" fill="#f08c00"><title>HotSpot -XX flags
+called: flag
+also: VM option</title></circle>
+<circle class="dot" cx="534.7" cy="343.4" r="4.6" fill="#f08c00"><title>Python optimize flag (-O, __debug__)
+called: flag</title></circle>
+<circle class="dot" cx="511.4" cy="330.1" r="4.6" fill="#f01928"><title>Chrome flags
+called: flag</title></circle>
+<circle class="dot" cx="540.7" cy="323.7" r="4.6" fill="#f01928"><title>Feature flag services
+called: flag
+also: feature flag, variation</title></circle>
+<circle class="dot" cx="521.7" cy="350.4" r="4.6" fill="#f01928"><title>AWS AppConfig
+called: flag
+also: configuration profile</title></circle>
+<circle class="dot" cx="517.4" cy="315.2" r="4.6" fill="#f01928"><title>OpenFeature
+called: flag
+also: variant</title></circle>
+<text class="term" x="526.5" y="373.3" text-anchor="middle" font-size="13.6" fill="#1f2328">flag <tspan fill="#888" font-size="10.2">8</tspan><title>flag: 8 ways
+.bazelrc
+Gentoo USE flags
+HotSpot -XX flags
+Python optimize flag (-O, __debug__)
+Chrome flags
+Feature flag services
+AWS AppConfig
+OpenFeature</title></text>
+<circle class="dot" cx="600.0" cy="287.4" r="4.6" fill="#9100dc"><title>ESLint config
+called: rule</title></circle>
+<circle class="dot" cx="588.4" cy="293.4" r="4.6" fill="#9100dc"><title>.clinerules
+called: rule</title></circle>
+<circle class="dot" cx="595.9" cy="276.1" r="4.6" fill="#9100dc"><title>.cursorrules
+called: rule</title></circle>
+<circle class="dot" cx="603.1" cy="298.1" r="4.6" fill="#9100dc"><title>.windsurfrules
+called: rule</title></circle>
+<circle class="dot" cx="579.9" cy="284.8" r="4.6" fill="#f08c00"><title>udev rules
+called: rule
+also: key</title></circle>
+<circle class="dot" cx="609.2" cy="278.4" r="4.6" fill="#f08c00"><title>syslog.conf
+called: rule
+also: selector</title></circle>
+<circle class="dot" cx="590.2" cy="305.2" r="4.6" fill="#f01928"><title>nftables rules
+called: rule</title></circle>
+<circle class="dot" cx="585.8" cy="269.9" r="4.6" fill="#f01928"><title>Open Policy Agent (Rego)
+called: rule
+also: policy</title></circle>
+<text class="term" x="594.9" y="328.0" text-anchor="middle" font-size="13.6" fill="#1f2328">rule <tspan fill="#888" font-size="10.2">8</tspan><title>rule: 8 ways
+ESLint config
+.clinerules
+.cursorrules
+.windsurfrules
+udev rules
+syslog.conf
+nftables rules
+Open Policy Agent (Rego)</title></text>
+<circle class="dot" cx="806.1" cy="333.8" r="4.6" fill="#9100dc"><title>VS Code settings
+called: setting</title></circle>
+<circle class="dot" cx="794.5" cy="339.8" r="4.6" fill="#9100dc"><title>Agent settings and hooks
+called: setting
+also: hook, permission</title></circle>
+<circle class="dot" cx="802.0" cy="322.5" r="4.6" fill="#0000dc"><title>Maven settings.xml
+called: setting
+also: property</title></circle>
+<circle class="dot" cx="809.2" cy="344.5" r="4.6" fill="#00af3f"><title>Vagrantfile
+called: setting</title></circle>
+<circle class="dot" cx="785.9" cy="331.1" r="4.6" fill="#f08c00"><title>BIOS setup (CMOS)
+called: setting
+also: option</title></circle>
+<circle class="dot" cx="815.2" cy="324.7" r="4.6" fill="#f08c00"><title>.NET app.config / web.config
+called: setting
+also: appSetting key</title></circle>
+<circle class="dot" cx="796.2" cy="351.5" r="4.6" fill="#f08c00"><title>Django settings module
+called: setting</title></circle>
+<circle class="dot" cx="791.9" cy="316.3" r="4.6" fill="#f01928"><title>Settings stored in an app database
+called: setting
+also: option</title></circle>
+<text class="term" x="801.0" y="374.3" text-anchor="middle" font-size="13.6" fill="#1f2328">setting <tspan fill="#888" font-size="10.2">8</tspan><title>setting: 8 ways
+VS Code settings
+Agent settings and hooks
+Maven settings.xml
+Vagrantfile
+BIOS setup (CMOS)
+.NET app.config / web.config
+Django settings module
+Settings stored in an app database</title></text>
+<circle class="dot" cx="849.8" cy="415.7" r="4.6" fill="#f08c00"><title>CONFIG.SYS
+called: directive
+also: command</title></circle>
+<circle class="dot" cx="838.2" cy="421.7" r="4.6" fill="#f08c00"><title>Apache httpd.conf
+called: directive</title></circle>
+<circle class="dot" cx="845.7" cy="404.4" r="4.6" fill="#f08c00"><title>php.ini
+called: directive</title></circle>
+<circle class="dot" cx="852.9" cy="426.4" r="4.6" fill="#f08c00"><title>nginx.conf
+called: directive</title></circle>
+<circle class="dot" cx="829.7" cy="413.1" r="4.6" fill="#f08c00"><title>systemd units
+called: directive
+also: option, setting</title></circle>
+<circle class="dot" cx="859.0" cy="406.7" r="4.6" fill="#f01928"><title>robots.txt
+called: directive
+also: rule</title></circle>
+<circle class="dot" cx="840.0" cy="433.4" r="4.6" fill="#f01928"><title>Reload on SIGHUP
+called: directive
+also: signal</title></circle>
+<text class="term" x="844.7" y="454.6" text-anchor="middle" font-size="13.2" fill="#1f2328">directive <tspan fill="#888" font-size="9.9">7</tspan><title>directive: 7 ways
+CONFIG.SYS
+Apache httpd.conf
+php.ini
+nginx.conf
+systemd units
+robots.txt
+Reload on SIGHUP</title></text>
+<circle class="dot" cx="569.5" cy="533.9" r="4.6" fill="#9100dc"><title>copilot-instructions.md
+called: instruction</title></circle>
+<circle class="dot" cx="557.9" cy="539.8" r="4.6" fill="#9100dc"><title>AGENTS.md
+called: instruction</title></circle>
+<circle class="dot" cx="565.4" cy="522.5" r="4.6" fill="#9100dc"><title>CLAUDE.md
+called: instruction
+also: memory</title></circle>
+<circle class="dot" cx="572.6" cy="544.6" r="4.6" fill="#9100dc"><title>GEMINI.md
+called: instruction
+also: context</title></circle>
+<circle class="dot" cx="549.4" cy="531.2" r="4.6" fill="#f01928"><title>LLM system prompts
+called: instruction
+also: system prompt</title></circle>
+<text class="term" x="564.4" y="569.2" text-anchor="middle" font-size="12.6" fill="#1f2328">instruction <tspan fill="#888" font-size="9.5">5</tspan><title>instruction: 5 ways
+copilot-instructions.md
+AGENTS.md
+CLAUDE.md
+GEMINI.md
+LLM system prompts</title></text>
+<circle class="dot" cx="447.1" cy="358.1" r="4.6" fill="#0000dc"><title>Conditional assembly
+called: symbol
+also: SET symbol</title></circle>
+<circle class="dot" cx="435.5" cy="364.0" r="4.6" fill="#0000dc"><title>Linux make config (CML1)
+called: symbol
+also: config option</title></circle>
+<circle class="dot" cx="443.0" cy="346.7" r="4.6" fill="#0000dc"><title>CML2
+called: symbol</title></circle>
+<circle class="dot" cx="450.2" cy="368.7" r="4.6" fill="#0000dc"><title>C# conditional compilation
+called: symbol
+also: conditional compilation symbol</title></circle>
+<circle class="dot" cx="427.0" cy="355.4" r="4.6" fill="#0000dc"><title>Kconfig
+called: symbol
+also: config option</title></circle>
+<text class="term" x="442.0" y="393.4" text-anchor="middle" font-size="12.6" fill="#1f2328">symbol <tspan fill="#888" font-size="9.5">5</tspan><title>symbol: 5 ways
+Conditional assembly
+Linux make config (CML1)
+CML2
+C# conditional compilation
+Kconfig</title></text>
+<circle class="dot" cx="485.1" cy="511.7" r="4.6" fill="#0000dc"><title>C++ if constexpr
+called: condition
+also: constant expression</title></circle>
+<circle class="dot" cx="473.5" cy="517.6" r="4.6" fill="#0000dc"><title>Node conditional exports
+called: condition
+also: export condition</title></circle>
+<circle class="dot" cx="481.0" cy="500.3" r="4.6" fill="#f08c00"><title>Spring @Conditional
+called: condition</title></circle>
+<circle class="dot" cx="488.2" cy="522.4" r="4.6" fill="#f08c00"><title>Spring Boot auto-configuration
+called: condition
+also: auto-configuration, property</title></circle>
+<text class="term" x="480.0" y="545.0" text-anchor="middle" font-size="12.3" fill="#1f2328">condition <tspan fill="#888" font-size="9.2">4</tspan><title>condition: 4 ways
+C++ if constexpr
+Node conditional exports
+Spring @Conditional
+Spring Boot auto-configuration</title></text>
+<circle class="dot" cx="673.5" cy="262.6" r="4.6" fill="#00af3f"><title>XML deployment descriptors
+called: element
+also: context parameter</title></circle>
+<circle class="dot" cx="661.9" cy="268.5" r="4.6" fill="#00af3f"><title>App Engine app.yaml
+called: element
+also: setting</title></circle>
+<circle class="dot" cx="669.4" cy="251.2" r="4.6" fill="#f08c00"><title>XML as config format
+called: element
+also: attribute</title></circle>
+<circle class="dot" cx="676.6" cy="273.2" r="4.6" fill="#f08c00"><title>XML Schema (XSD)
+called: element
+also: attribute</title></circle>
+<text class="term" x="668.4" y="295.8" text-anchor="middle" font-size="12.3" fill="#1f2328">element <tspan fill="#888" font-size="9.2">4</tspan><title>element: 4 ways
+XML deployment descriptors
+App Engine app.yaml
+XML as config format
+XML Schema (XSD)</title></text>
+<circle class="dot" cx="804.2" cy="486.8" r="4.6" fill="#00af3f"><title>Dhall
+called: field
+also: record</title></circle>
+<circle class="dot" cx="792.6" cy="492.7" r="4.6" fill="#00af3f"><title>Kubernetes CRDs and operators
+called: field
+also: spec</title></circle>
+<circle class="dot" cx="800.1" cy="475.4" r="4.6" fill="#00af3f"><title>CUE
+called: field
+also: constraint</title></circle>
+<circle class="dot" cx="807.3" cy="497.5" r="4.6" fill="#00af3f"><title>Nickel
+called: field
+also: contract</title></circle>
+<text class="term" x="799.1" y="520.0" text-anchor="middle" font-size="12.3" fill="#1f2328">field <tspan fill="#888" font-size="9.2">4</tspan><title>field: 4 ways
+Dhall
+Kubernetes CRDs and operators
+CUE
+Nickel</title></text>
+<circle class="dot" cx="741.0" cy="547.7" r="4.6" fill="#00af3f"><title>Chef
+called: attribute</title></circle>
+<circle class="dot" cx="729.4" cy="553.6" r="4.6" fill="#00af3f"><title>KCL
+called: attribute
+also: schema</title></circle>
+<circle class="dot" cx="736.9" cy="536.3" r="4.6" fill="#f01928"><title>JMX MBeans
+called: attribute</title></circle>
+<text class="term" x="735.9" y="578.7" text-anchor="middle" font-size="12.0" fill="#1f2328">attribute <tspan fill="#888" font-size="9.0">3</tspan><title>attribute: 3 ways
+Chef
+KCL
+JMX MBeans</title></text>
+<circle class="dot" cx="734.8" cy="272.4" r="4.6" fill="#f08c00"><title>SysV inittab
+called: entry
+also: runlevel</title></circle>
+<circle class="dot" cx="723.2" cy="278.3" r="4.6" fill="#f08c00"><title>inetd.conf
+called: entry
+also: service</title></circle>
+<circle class="dot" cx="730.7" cy="261.0" r="4.6" fill="#f01928"><title>crontab
+called: entry
+also: job</title></circle>
+<text class="term" x="729.7" y="303.4" text-anchor="middle" font-size="12.0" fill="#1f2328">entry <tspan fill="#888" font-size="9.0">3</tspan><title>entry: 3 ways
+SysV inittab
+inetd.conf
+crontab</title></text>
+<circle class="dot" cx="865.0" cy="341.1" r="4.6" fill="#0000dc"><title>OS/360 SYSGEN
+called: macro
+also: operand</title></circle>
+<circle class="dot" cx="853.4" cy="347.0" r="4.6" fill="#0000dc"><title>C preprocessor
+called: macro
+also: symbol, define</title></circle>
+<circle class="dot" cx="860.9" cy="329.7" r="4.6" fill="#0000dc"><title>m4
+called: macro</title></circle>
+<text class="term" x="859.9" y="372.1" text-anchor="middle" font-size="12.0" fill="#1f2328">macro <tspan fill="#888" font-size="9.0">3</tspan><title>macro: 3 ways
+OS/360 SYSGEN
+C preprocessor
+m4</title></text>
+<circle class="dot" cx="362.9" cy="459.9" r="4.6" fill="#f08c00"><title>Mozilla preferences (about:config)
+called: preference
+also: pref</title></circle>
+<circle class="dot" cx="351.3" cy="465.9" r="4.6" fill="#f01928"><title>Java Preferences API
+called: preference
+also: key</title></circle>
+<circle class="dot" cx="358.8" cy="448.6" r="4.6" fill="#f01928"><title>Preferences dialogs
+called: preference
+also: setting</title></circle>
+<text class="term" x="357.8" y="490.9" text-anchor="middle" font-size="12.0" fill="#1f2328">preference <tspan fill="#888" font-size="9.0">3</tspan><title>preference: 3 ways
+Mozilla preferences (about:config)
+Java Preferences API
+Preferences dialogs</title></text>
+<circle class="dot" cx="858.2" cy="485.9" r="4.6" fill="#00af3f"><title>Kubernetes Secrets
+called: secret</title></circle>
+<circle class="dot" cx="846.6" cy="491.8" r="4.6" fill="#00af3f"><title>SOPS
+called: secret</title></circle>
+<circle class="dot" cx="854.1" cy="474.5" r="4.6" fill="#f01928"><title>HashiCorp Vault
+called: secret</title></circle>
+<text class="term" x="853.1" y="516.9" text-anchor="middle" font-size="12.0" fill="#1f2328">secret <tspan fill="#888" font-size="9.0">3</tspan><title>secret: 3 ways
+Kubernetes Secrets
+SOPS
+HashiCorp Vault</title></text>
+<circle class="dot" cx="344.3" cy="396.2" r="4.6" fill="#0000dc"><title>Nix expressions
+called: argument
+also: option, override</title></circle>
+<circle class="dot" cx="332.7" cy="402.2" r="4.6" fill="#0000dc"><title>Starlark
+called: argument
+also: attribute</title></circle>
+<text class="term" x="339.2" y="424.7" text-anchor="middle" font-size="11.6" fill="#1f2328">argument <tspan fill="#888" font-size="8.7">2</tspan><title>argument: 2 ways
+Nix expressions
+Starlark</title></text>
+<circle class="dot" cx="365.2" cy="340.3" r="4.6" fill="#f08c00"><title>Guice modules
+called: binding
+also: module</title></circle>
+<circle class="dot" cx="353.6" cy="346.2" r="4.6" fill="#f08c00"><title>gin-config
+called: binding
+also: configurable</title></circle>
+<text class="term" x="360.1" y="368.7" text-anchor="middle" font-size="11.6" fill="#1f2328">binding <tspan fill="#888" font-size="8.7">2</tspan><title>binding: 2 ways
+Guice modules
+gin-config</title></text>
+<circle class="dot" cx="439.5" cy="279.6" r="4.6" fill="#0000dc"><title>Dockerfile ENV and ARG
+called: build argument
+also: environment variable</title></circle>
+<circle class="dot" cx="427.9" cy="285.6" r="4.6" fill="#0000dc"><title>GN build arguments
+called: build argument
+also: arg</title></circle>
+<text class="term" x="434.4" y="308.0" text-anchor="middle" font-size="11.6" fill="#1f2328">build argument <tspan fill="#888" font-size="8.7">2</tspan><title>build argument: 2 ways
+Dockerfile ENV and ARG
+GN build arguments</title></text>
+<circle class="dot" cx="809.7" cy="267.7" r="4.6" fill="#0000dc"><title>package.json and .npmrc
+called: dependency
+also: config key</title></circle>
+<circle class="dot" cx="798.1" cy="273.6" r="4.6" fill="#00af3f"><title>Conda environments
+called: dependency
+also: channel</title></circle>
+<text class="term" x="804.6" y="296.1" text-anchor="middle" font-size="11.6" fill="#1f2328">dependency <tspan fill="#888" font-size="8.7">2</tspan><title>dependency: 2 ways
+package.json and .npmrc
+Conda environments</title></text>
+<circle class="dot" cx="934.4" cy="382.8" r="4.6" fill="#0000dc"><title>tox environments
+called: environment
+also: factor</title></circle>
+<circle class="dot" cx="922.8" cy="388.8" r="4.6" fill="#f08c00"><title>Rails environments
+called: environment</title></circle>
+<text class="term" x="929.3" y="411.2" text-anchor="middle" font-size="11.6" fill="#1f2328">environment <tspan fill="#888" font-size="8.7">2</tspan><title>environment: 2 ways
+tox environments
+Rails environments</title></text>
+<circle class="dot" cx="526.0" cy="248.6" r="4.6" fill="#0000dc"><title>GitHub Actions workflows
+called: input
+also: matrix, variable</title></circle>
+<circle class="dot" cx="514.4" cy="254.6" r="4.6" fill="#0000dc"><title>Nix flakes
+called: input
+also: output</title></circle>
+<text class="term" x="520.9" y="277.0" text-anchor="middle" font-size="11.6" fill="#1f2328">input <tspan fill="#888" font-size="8.7">2</tspan><title>input: 2 ways
+GitHub Actions workflows
+Nix flakes</title></text>
+<circle class="dot" cx="932.2" cy="444.1" r="4.6" fill="#00af3f"><title>cloud-init
+called: module
+also: key</title></circle>
+<circle class="dot" cx="920.6" cy="450.1" r="4.6" fill="#f08c00"><title>PAM configuration
+called: module
+also: control flag</title></circle>
+<text class="term" x="927.1" y="472.6" text-anchor="middle" font-size="11.6" fill="#1f2328">module <tspan fill="#888" font-size="8.7">2</tspan><title>module: 2 ways
+cloud-init
+PAM configuration</title></text>
+<circle class="dot" cx="821.1" cy="548.6" r="4.6" fill="#f08c00"><title>Group Policy
+called: policy
+also: setting</title></circle>
+<circle class="dot" cx="809.5" cy="554.5" r="4.6" fill="#f08c00"><title>Browser enterprise policies
+called: policy</title></circle>
+<text class="term" x="816.0" y="577.0" text-anchor="middle" font-size="11.6" fill="#1f2328">policy <tspan fill="#888" font-size="8.7">2</tspan><title>policy: 2 ways
+Group Policy
+Browser enterprise policies</title></text>
+<circle class="dot" cx="662.8" cy="586.8" r="4.6" fill="#0000dc"><title>Maven profiles
+called: profile
+also: property</title></circle>
+<circle class="dot" cx="651.2" cy="592.7" r="4.6" fill="#f08c00"><title>Spring profiles
+called: profile</title></circle>
+<text class="term" x="657.7" y="615.2" text-anchor="middle" font-size="11.6" fill="#1f2328">profile <tspan fill="#888" font-size="8.7">2</tspan><title>profile: 2 ways
+Maven profiles
+Spring profiles</title></text>
+<circle class="dot" cx="490.9" cy="571.9" r="4.6" fill="#9100dc"><title>Yeoman generators
+called: prompt
+also: option</title></circle>
+<circle class="dot" cx="479.3" cy="577.8" r="4.6" fill="#9100dc"><title>Custom agents and prompt files
+called: prompt
+also: agent, instruction</title></circle>
+<text class="term" x="485.8" y="600.3" text-anchor="middle" font-size="11.6" fill="#1f2328">prompt <tspan fill="#888" font-size="8.7">2</tspan><title>prompt: 2 ways
+Yeoman generators
+Custom agents and prompt files</title></text>
+<circle class="dot" cx="409.9" cy="541.8" r="4.6" fill="#f08c00"><title>X resources
+called: resource</title></circle>
+<circle class="dot" cx="398.3" cy="547.8" r="4.6" fill="#f01928"><title>Envoy xDS
+called: resource</title></circle>
+<text class="term" x="404.8" y="570.3" text-anchor="middle" font-size="11.6" fill="#1f2328">resource <tspan fill="#888" font-size="8.7">2</tspan><title>resource: 2 ways
+X resources
+Envoy xDS</title></text>
+<circle class="dot" cx="581.1" cy="213.8" r="4.6" fill="#f01928"><title>Feature toggles
+called: toggle
+also: flag, feature flag</title></circle>
+<circle class="dot" cx="569.5" cy="219.7" r="4.6" fill="#f01928"><title>Unleash
+called: toggle
+also: strategy, variant</title></circle>
+<text class="term" x="576.0" y="242.2" text-anchor="middle" font-size="11.6" fill="#1f2328">toggle <tspan fill="#888" font-size="8.7">2</tspan><title>toggle: 2 ways
+Feature toggles
+Unleash</title></text>
+<circle class="dot" cx="879.9" cy="268.7" r="4.6" fill="#0000dc"><title>Scala traits and mixins
+called: trait
+also: mixin</title></circle>
+<circle class="dot" cx="868.3" cy="274.7" r="4.6" fill="#0000dc"><title>Rust traits and generics
+called: trait
+also: impl</title></circle>
+<text class="term" x="874.8" y="297.2" text-anchor="middle" font-size="11.6" fill="#1f2328">trait <tspan fill="#888" font-size="8.7">2</tspan><title>trait: 2 ways
+Scala traits and mixins
+Rust traits and generics</title></text>
+<circle class="dot" cx="933.1" cy="307.8" r="4.6" fill="#00af3f"><title>Helm values
+called: value</title></circle>
+<circle class="dot" cx="921.5" cy="313.8" r="4.6" fill="#f08c00"><title>Windows Registry
+called: value
+also: key</title></circle>
+<text class="term" x="928.0" y="336.3" text-anchor="middle" font-size="11.6" fill="#1f2328">value <tspan fill="#888" font-size="8.7">2</tspan><title>value: 2 ways
+Helm values
+Windows Registry</title></text>
+<circle class="dot" cx="944.5" cy="500.5" r="4.6" fill="#9100dc"><title>Clone-and-own variants
+called: variant
+also: clone, fork</title></circle>
+<circle class="dot" cx="932.9" cy="506.4" r="4.6" fill="#0000dc"><title>Spack variants
+called: variant</title></circle>
+<text class="term" x="939.4" y="528.9" text-anchor="middle" font-size="11.6" fill="#1f2328">variant <tspan fill="#888" font-size="8.7">2</tspan><title>variant: 2 ways
+Clone-and-own variants
+Spack variants</title></text>
+<circle class="dot" cx="275.7" cy="333.6" r="4.6" fill="#9100dc"><title>Orthogonal variability model
+called: variation point
+also: variant</title></circle>
+<circle class="dot" cx="264.2" cy="339.6" r="4.6" fill="#9100dc"><title>CVL
+called: variation point
+also: VSpec</title></circle>
+<text class="term" x="270.7" y="362.1" text-anchor="middle" font-size="11.6" fill="#1f2328">variation point <tspan fill="#888" font-size="8.7">2</tspan><title>variation point: 2 ways
+Orthogonal variability model
+CVL</title></text>
+<circle class="dot" cx="726.9" cy="603.9" r="4.6" fill="#0000dc"><title>Annotation-based configuration
+called: annotation</title></circle>
+<text class="term" x="726.9" y="629.0" text-anchor="middle" font-size="11.3" fill="#1f2328">annotation<title>annotation: 1 way
+Annotation-based configuration</title></text>
+<circle class="dot" cx="877.9" cy="550.4" r="4.6" fill="#0000dc"><title>AspectJ
+called: aspect
+also: advice, pointcut</title></circle>
+<text class="term" x="877.9" y="575.5" text-anchor="middle" font-size="11.3" fill="#1f2328">aspect<title>aspect: 1 way
+AspectJ</title></text>
+<circle class="dot" cx="601.9" cy="613.3" r="4.6" fill="#f08c00"><title>Spring DI container
+called: bean</title></circle>
+<text class="term" x="601.9" y="638.4" text-anchor="middle" font-size="11.3" fill="#1f2328">bean<title>bean: 1 way
+Spring DI container</title></text>
+<circle class="dot" cx="547.7" cy="609.6" r="4.6" fill="#f08c00"><title>SELinux policy
+called: boolean
+also: rule</title></circle>
+<text class="term" x="547.7" y="634.7" text-anchor="middle" font-size="11.3" fill="#1f2328">boolean<title>boolean: 1 way
+SELinux policy</title></text>
+<circle class="dot" cx="321.4" cy="526.6" r="4.6" fill="#0000dc"><title>Xcode build configurations
+called: build setting</title></circle>
+<text class="term" x="321.4" y="551.7" text-anchor="middle" font-size="11.3" fill="#1f2328">build setting<title>build setting: 1 way
+Xcode build configurations</title></text>
+<circle class="dot" cx="270.7" cy="470.3" r="4.6" fill="#0000dc"><title>Go build constraints
+called: build tag
+also: constraint</title></circle>
+<text class="term" x="270.7" y="495.4" text-anchor="middle" font-size="11.3" fill="#1f2328">build tag<title>build tag: 1 way
+Go build constraints</title></text>
+<circle class="dot" cx="252.2" cy="418.3" r="4.6" fill="#0000dc"><title>Android build variants
+called: build variant
+also: product flavor, build type</title></circle>
+<text class="term" x="252.2" y="443.4" text-anchor="middle" font-size="11.3" fill="#1f2328">build variant<title>build variant: 1 way
+Android build variants</title></text>
+<circle class="dot" cx="322.2" cy="276.5" r="4.6" fill="#f08c00"><title>OSGi bundles
+called: bundle
+also: service</title></circle>
+<text class="term" x="322.2" y="301.6" text-anchor="middle" font-size="11.3" fill="#1f2328">bundle<title>bundle: 1 way
+OSGi bundles</title></text>
+<circle class="dot" cx="417.0" cy="223.8" r="4.6" fill="#0000dc"><title>Rust cfg attributes
+called: cfg option
+also: attribute</title></circle>
+<text class="term" x="417.0" y="249.0" text-anchor="middle" font-size="11.3" fill="#1f2328">cfg option<title>cfg option: 1 way
+Rust cfg attributes</title></text>
+<circle class="dot" cx="520.0" cy="195.7" r="4.6" fill="#9100dc"><title>Clafer
+called: clafer
+also: feature</title></circle>
+<text class="term" x="520.0" y="220.8" text-anchor="middle" font-size="11.3" fill="#1f2328">clafer<title>clafer: 1 way
+Clafer</title></text>
+<circle class="dot" cx="633.5" cy="186.2" r="4.6" fill="#0000dc"><title>COBOL CONFIGURATION SECTION
+called: clause
+also: switch</title></circle>
+<text class="term" x="633.5" y="211.3" text-anchor="middle" font-size="11.3" fill="#1f2328">clause<title>clause: 1 way
+COBOL CONFIGURATION SECTION</title></text>
+<circle class="dot" cx="691.1" cy="188.8" r="4.6" fill="#f08c00"><title>Network device running/startup config
+called: command</title></circle>
+<text class="term" x="691.1" y="213.9" text-anchor="middle" font-size="11.3" fill="#1f2328">command<title>command: 1 way
+Network device running/startup config</title></text>
+<circle class="dot" cx="801.5" cy="208.6" r="4.6" fill="#0000dc"><title>Swift conditional compilation
+called: compilation condition</title></circle>
+<text class="term" x="801.5" y="233.7" text-anchor="middle" font-size="11.3" fill="#1f2328">compilation condition<title>compilation condition: 1 way
+Swift conditional compilation</title></text>
+<circle class="dot" cx="1017.4" cy="440.3" r="4.6" fill="#0000dc"><title>tsconfig.json
+called: compiler option</title></circle>
+<text class="term" x="1017.4" y="465.4" text-anchor="middle" font-size="11.3" fill="#1f2328">compiler option<title>compiler option: 1 way
+tsconfig.json</title></text>
+<circle class="dot" cx="994.7" cy="329.3" r="4.6" fill="#0000dc"><title>Automake
+called: conditional</title></circle>
+<text class="term" x="994.7" y="354.4" text-anchor="middle" font-size="11.3" fill="#1f2328">conditional<title>conditional: 1 way
+Automake</title></text>
+<circle class="dot" cx="1018.2" cy="383.9" r="4.6" fill="#f08c00"><title>Hydra
+called: config group
+also: override</title></circle>
+<text class="term" x="1018.2" y="409.0" text-anchor="middle" font-size="11.3" fill="#1f2328">config group<title>config group: 1 way
+Hydra</title></text>
+<circle class="dot" cx="825.2" cy="606.1" r="4.6" fill="#f08c00"><title>MicroProfile Config
+called: config property</title></circle>
+<text class="term" x="825.2" y="631.2" text-anchor="middle" font-size="11.3" fill="#1f2328">config property<title>config property: 1 way
+MicroProfile Config</title></text>
+<circle class="dot" cx="399.6" cy="602.4" r="4.6" fill="#0000dc"><title>Bazel select()
+called: config setting
+also: select condition</title></circle>
+<text class="term" x="399.6" y="627.6" text-anchor="middle" font-size="11.3" fill="#1f2328">config setting<title>config setting: 1 way
+Bazel select()</title></text>
+<circle class="dot" cx="948.4" cy="240.1" r="4.6" fill="#00af3f"><title>Pulumi
+called: config value
+also: stack setting</title></circle>
+<text class="term" x="948.4" y="265.2" text-anchor="middle" font-size="11.3" fill="#1f2328">config value<title>config value: 1 way
+Pulumi</title></text>
+<circle class="dot" cx="1037.8" cy="497.1" r="4.6" fill="#0000dc"><title>Java static final flags
+called: constant
+also: flag</title></circle>
+<text class="term" x="1037.8" y="522.2" text-anchor="middle" font-size="11.3" fill="#1f2328">constant<title>constant: 1 way
+Java static final flags</title></text>
+<circle class="dot" cx="987.0" cy="553.2" r="4.6" fill="#00af3f"><title>AWS CDK
+called: context value
+also: prop</title></circle>
+<text class="term" x="987.0" y="578.3" text-anchor="middle" font-size="11.3" fill="#1f2328">context value<title>context value: 1 way
+AWS CDK</title></text>
+<circle class="dot" cx="715.4" cy="657.6" r="4.6" fill="#f01928"><title>CSS custom properties
+called: custom property
+also: variable</title></circle>
+<text class="term" x="715.4" y="682.8" text-anchor="middle" font-size="11.3" fill="#1f2328">custom property<title>custom property: 1 way
+CSS custom properties</title></text>
+<circle class="dot" cx="603.6" cy="663.6" r="4.6" fill="#f08c00"><title>Decorator pattern
+called: decorator</title></circle>
+<text class="term" x="603.6" y="688.7" text-anchor="middle" font-size="11.3" fill="#1f2328">decorator<title>decorator: 1 way
+Decorator pattern</title></text>
+<circle class="dot" cx="492.2" cy="627.2" r="4.6" fill="#0000dc"><title>Delta-oriented programming
+called: delta
+also: delta module</title></circle>
+<text class="term" x="492.2" y="652.4" text-anchor="middle" font-size="11.3" fill="#1f2328">delta<title>delta: 1 way
+Delta-oriented programming</title></text>
+<circle class="dot" cx="298.4" cy="588.3" r="4.6" fill="#f08c00"><title>Python entry points
+called: entry point
+also: plug-in</title></circle>
+<text class="term" x="298.4" y="613.4" text-anchor="middle" font-size="11.3" fill="#1f2328">entry point<title>entry point: 1 way
+Python entry points</title></text>
+<circle class="dot" cx="222.6" cy="272.4" r="4.6" fill="#0000dc"><title>Kotlin expect/actual
+called: expect declaration
+also: actual</title></circle>
+<text class="term" x="222.6" y="297.5" text-anchor="middle" font-size="11.3" fill="#1f2328">expect declaration<title>expect declaration: 1 way
+Kotlin expect/actual</title></text>
+<circle class="dot" cx="228.2" cy="537.0" r="4.6" fill="#f01928"><title>A/B testing platforms
+called: experiment
+also: variant, variation</title></circle>
+<text class="term" x="228.2" y="562.1" text-anchor="middle" font-size="11.3" fill="#1f2328">experiment<title>experiment: 1 way
+A/B testing platforms</title></text>
+<circle class="dot" cx="291.7" cy="219.0" r="4.6" fill="#f08c00"><title>Eclipse extension points
+called: extension point
+also: extension</title></circle>
+<text class="term" x="291.7" y="244.1" text-anchor="middle" font-size="11.3" fill="#1f2328">extension point<title>extension point: 1 way
+Eclipse extension points</title></text>
+<circle class="dot" cx="913.2" cy="600.5" r="4.6" fill="#00af3f"><title>Python extras
+called: extra
+also: optional dependency</title></circle>
+<text class="term" x="913.2" y="625.7" text-anchor="middle" font-size="11.3" fill="#1f2328">extra<title>extra: 1 way
+Python extras</title></text>
+<circle class="dot" cx="182.2" cy="477.1" r="4.6" fill="#f08c00"><title>Abstract Factory pattern
+called: factory
+also: product family</title></circle>
+<text class="term" x="182.2" y="502.2" text-anchor="middle" font-size="11.3" fill="#1f2328">factory<title>factory: 1 way
+Abstract Factory pattern</title></text>
+<circle class="dot" cx="164.9" cy="425.4" r="4.6" fill="#0000dc"><title>Frame technology
+called: frame
+also: break</title></circle>
+<text class="term" x="164.9" y="450.6" text-anchor="middle" font-size="11.3" fill="#1f2328">frame<title>frame: 1 way
+Frame technology</title></text>
+<circle class="dot" cx="166.0" cy="372.7" r="4.6" fill="#0000dc"><title>VHDL generics
+called: generic</title></circle>
+<text class="term" x="166.0" y="397.8" text-anchor="middle" font-size="11.3" fill="#1f2328">generic<title>generic: 1 way
+VHDL generics</title></text>
+<circle class="dot" cx="402.4" cy="170.0" r="4.6" fill="#f01928"><title>HTTP content negotiation
+called: header
+also: preference</title></circle>
+<text class="term" x="402.4" y="195.1" text-anchor="middle" font-size="11.3" fill="#1f2328">header<title>header: 1 way
+HTTP content negotiation</title></text>
+<circle class="dot" cx="536.3" cy="659.5" r="4.6" fill="#9100dc"><title>pre-commit config
+called: hook</title></circle>
+<text class="term" x="536.3" y="684.6" text-anchor="middle" font-size="11.3" fill="#1f2328">hook<title>hook: 1 way
+pre-commit config</title></text>
+<circle class="dot" cx="511.1" cy="144.9" r="4.6" fill="#f08c00"><title>Template Method pattern
+called: hook method</title></circle>
+<text class="term" x="511.1" y="170.0" text-anchor="middle" font-size="11.3" fill="#1f2328">hook method<title>hook method: 1 way
+Template Method pattern</title></text>
+<circle class="dot" cx="604.1" cy="136.4" r="4.6" fill="#f08c00"><title>Bridge pattern
+called: implementor</title></circle>
+<text class="term" x="604.1" y="161.5" text-anchor="middle" font-size="11.3" fill="#1f2328">implementor<title>implementor: 1 way
+Bridge pattern</title></text>
+<circle class="dot" cx="698.5" cy="138.6" r="4.6" fill="#0000dc"><title>Haskell type classes
+called: instance
+also: type class</title></circle>
+<text class="term" x="698.5" y="163.7" text-anchor="middle" font-size="11.3" fill="#1f2328">instance<title>instance: 1 way
+Haskell type classes</title></text>
+<circle class="dot" cx="768.0" cy="147.3" r="4.6" fill="#f01928"><title>NETCONF / YANG
+called: leaf
+also: node</title></circle>
+<text class="term" x="768.0" y="172.4" text-anchor="middle" font-size="11.3" fill="#1f2328">leaf<title>leaf: 1 way
+NETCONF / YANG</title></text>
+<circle class="dot" cx="812.7" cy="156.4" r="4.6" fill="#f01928"><title>llms.txt
+called: link
+also: section</title></circle>
+<text class="term" x="812.7" y="181.5" text-anchor="middle" font-size="11.3" fill="#1f2328">link<title>link: 1 way
+llms.txt</title></text>
+<circle class="dot" cx="916.1" cy="189.9" r="4.6" fill="#f08c00"><title>log4j configuration
+called: logger
+also: level, appender</title></circle>
+<text class="term" x="916.1" y="215.0" text-anchor="middle" font-size="11.3" fill="#1f2328">logger<title>logger: 1 way
+log4j configuration</title></text>
+<circle class="dot" cx="1042.9" cy="270.9" r="4.6" fill="#0000dc"><title>CI build matrix
+called: matrix axis
+also: job variant</title></circle>
+<text class="term" x="1042.9" y="296.1" text-anchor="middle" font-size="11.3" fill="#1f2328">matrix axis<title>matrix axis: 1 way
+CI build matrix</title></text>
+<circle class="dot" cx="1090.1" cy="334.0" r="4.6" fill="#f01928"><title>CSS media queries
+called: media feature
+also: query</title></circle>
+<text class="term" x="1090.1" y="359.1" text-anchor="middle" font-size="11.3" fill="#1f2328">media feature<title>media feature: 1 way
+CSS media queries</title></text>
+<circle class="dot" cx="1107.3" cy="388.1" r="4.6" fill="#f08c00"><title>gettext message catalogs
+called: message
+also: locale</title></circle>
+<text class="term" x="1107.3" y="413.3" text-anchor="middle" font-size="11.3" fill="#1f2328">message<title>message: 1 way
+gettext message catalogs</title></text>
+<circle class="dot" cx="832.6" cy="660.8" r="4.6" fill="#f08c00"><title>Ruby open classes
+called: monkey patch
+also: refinement</title></circle>
+<text class="term" x="832.6" y="686.0" text-anchor="middle" font-size="11.3" fill="#1f2328">monkey patch<title>monkey patch: 1 way
+Ruby open classes</title></text>
+<circle class="dot" cx="1105.3" cy="443.4" r="4.6" fill="#f01928"><title>SNMP SET and MIBs
+called: object
+also: OID</title></circle>
+<text class="term" x="1105.3" y="468.5" text-anchor="middle" font-size="11.3" fill="#1f2328">object<title>object: 1 way
+SNMP SET and MIBs</title></text>
+<circle class="dot" cx="971.1" cy="603.7" r="4.6" fill="#0000dc"><title>GNU Guix
+called: package
+also: input</title></circle>
+<text class="term" x="971.1" y="628.8" text-anchor="middle" font-size="11.3" fill="#1f2328">package<title>package: 1 way
+GNU Guix</title></text>
+<circle class="dot" cx="471.4" cy="676.2" r="4.6" fill="#00af3f"><title>Kustomize
+called: patch
+also: overlay</title></circle>
+<text class="term" x="471.4" y="701.3" text-anchor="middle" font-size="11.3" fill="#1f2328">patch<title>patch: 1 way
+Kustomize</title></text>
+<circle class="dot" cx="402.0" cy="660.6" r="4.6" fill="#f01928"><title>Apple configuration profiles
+called: payload
+also: key</title></circle>
+<text class="term" x="402.0" y="685.7" text-anchor="middle" font-size="11.3" fill="#1f2328">payload<title>payload: 1 way
+Apple configuration profiles</title></text>
+<circle class="dot" cx="138.8" cy="322.2" r="4.6" fill="#00af3f"><title>Salt states
+called: pillar
+also: grain</title></circle>
+<text class="term" x="138.8" y="347.3" text-anchor="middle" font-size="11.3" fill="#1f2328">pillar<title>pillar: 1 way
+Salt states</title></text>
+<circle class="dot" cx="324.2" cy="169.1" r="4.6" fill="#f08c00"><title>Dynamic plugins (dlopen)
+called: plug-in
+also: shared library, module</title></circle>
+<text class="term" x="324.2" y="194.2" text-anchor="middle" font-size="11.3" fill="#1f2328">plug-in<title>plug-in: 1 way
+Dynamic plugins (dlopen)</title></text>
+<circle class="dot" cx="861.7" cy="141.5" r="4.6" fill="#0000dc"><title>Babel config
+called: plugin
+also: preset</title></circle>
+<text class="term" x="861.7" y="166.6" text-anchor="middle" font-size="11.3" fill="#1f2328">plugin<title>plugin: 1 way
+Babel config</title></text>
+<circle class="dot" cx="1131.0" cy="496.1" r="4.6" fill="#00af3f"><title>Procfile
+called: process type</title></circle>
+<text class="term" x="1131.0" y="521.2" text-anchor="middle" font-size="11.3" fill="#1f2328">process type<title>process type: 1 way
+Procfile</title></text>
+<circle class="dot" cx="1025.5" cy="214.0" r="4.6" fill="#00af3f"><title>CFEngine
+called: promise
+also: class</title></circle>
+<text class="term" x="1025.5" y="239.1" text-anchor="middle" font-size="11.3" fill="#1f2328">promise<title>promise: 1 way
+CFEngine</title></text>
+<circle class="dot" cx="1090.8" cy="552.1" r="4.6" fill="#f01928"><title>Android resource qualifiers
+called: qualifier</title></circle>
+<text class="term" x="1090.8" y="577.2" text-anchor="middle" font-size="11.3" fill="#1f2328">qualifier<title>qualifier: 1 way
+Android resource qualifiers</title></text>
+<circle class="dot" cx="970.1" cy="182.4" r="4.6" fill="#0000dc"><title>browserslist
+called: query
+also: target</title></circle>
+<text class="term" x="970.1" y="207.5" text-anchor="middle" font-size="11.3" fill="#1f2328">query<title>query: 1 way
+browserslist</title></text>
+<circle class="dot" cx="935.1" cy="654.8" r="4.6" fill="#00af3f"><title>debconf
+called: question
+also: template</title></circle>
+<text class="term" x="935.1" y="680.0" text-anchor="middle" font-size="11.3" fill="#1f2328">question<title>question: 1 way
+debconf</title></text>
+<circle class="dot" cx="1031.8" cy="602.6" r="4.6" fill="#9100dc"><title>MCP server config
+called: server
+also: tool</title></circle>
+<text class="term" x="1031.8" y="627.7" text-anchor="middle" font-size="11.3" fill="#1f2328">server<title>server: 1 way
+MCP server config</title></text>
+<circle class="dot" cx="715.4" cy="708.9" r="4.6" fill="#f08c00"><title>Java ServiceLoader
+called: service provider</title></circle>
+<text class="term" x="715.4" y="734.0" text-anchor="middle" font-size="11.3" fill="#1f2328">service provider<title>service provider: 1 way
+Java ServiceLoader</title></text>
+<circle class="dot" cx="608.3" cy="714.0" r="4.6" fill="#9100dc"><title>Agent skills (SKILL.md)
+called: skill</title></circle>
+<text class="term" x="608.3" y="739.1" text-anchor="middle" font-size="11.3" fill="#1f2328">skill<title>skill: 1 way
+Agent skills (SKILL.md)</title></text>
+<circle class="dot" cx="527.8" cy="709.7" r="4.6" fill="#f08c00"><title>Upstart jobs
+called: stanza</title></circle>
+<text class="term" x="527.8" y="734.8" text-anchor="middle" font-size="11.3" fill="#1f2328">stanza<title>stanza: 1 way
+Upstart jobs</title></text>
+<circle class="dot" cx="327.1" cy="665.4" r="4.6" fill="#f08c00"><title>JCL DD statements
+called: statement
+also: dataset</title></circle>
+<text class="term" x="327.1" y="690.5" text-anchor="middle" font-size="11.3" fill="#1f2328">statement<title>statement: 1 way
+JCL DD statements</title></text>
+<circle class="dot" cx="222.8" cy="615.9" r="4.6" fill="#f08c00"><title>Strategy pattern
+called: strategy</title></circle>
+<text class="term" x="222.8" y="641.0" text-anchor="middle" font-size="11.3" fill="#1f2328">strategy<title>strategy: 1 way
+Strategy pattern</title></text>
+<circle class="dot" cx="156.6" cy="566.5" r="4.6" fill="#0000dc"><title>Inheritance and subclassing
+called: subclass
+also: hook method</title></circle>
+<text class="term" x="156.6" y="591.6" text-anchor="middle" font-size="11.3" fill="#1f2328">subclass<title>subclass: 1 way
+Inheritance and subclassing</title></text>
+<circle class="dot" cx="108.9" cy="510.4" r="4.6" fill="#0000dc"><title>Docker multi-stage targets
+called: target
+also: stage</title></circle>
+<text class="term" x="108.9" y="535.5" text-anchor="middle" font-size="11.3" fill="#1f2328">target<title>target: 1 way
+Docker multi-stage targets</title></text>
+<circle class="dot" cx="402.3" cy="113.8" r="4.6" fill="#0000dc"><title>C++ templates
+called: template parameter</title></circle>
+<text class="term" x="402.3" y="138.9" text-anchor="middle" font-size="11.3" fill="#1f2328">template parameter<title>template parameter: 1 way
+C++ templates</title></text>
+<circle class="dot" cx="81.6" cy="449.8" r="4.6" fill="#0000dc"><title>Java generics
+called: type parameter</title></circle>
+<text class="term" x="81.6" y="474.9" text-anchor="middle" font-size="11.3" fill="#1f2328">type parameter<title>type parameter: 1 way
+Java generics</title></text>
+<circle class="dot" cx="75.8" cy="387.2" r="4.6" fill="#f01928"><title>ZooKeeper
+called: znode</title></circle>
+<text class="term" x="75.8" y="412.3" text-anchor="middle" font-size="11.3" fill="#1f2328">znode<title>znode: 1 way
+ZooKeeper</title></text>
+</svg>

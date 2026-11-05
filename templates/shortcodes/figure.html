@@ -1,7 +1,7 @@
 <div class="viewer">
   <div class="tools">
     <span class="views">
-      <button type="button" data-view="dots" aria-pressed="true">Dots</button><button type="button" data-view="history" aria-pressed="false">Timeline</button>
+      <button type="button" data-view="dots" aria-pressed="true">Dots</button><button type="button" data-view="names" aria-pressed="false">Names</button><button type="button" data-view="history" aria-pressed="false">Timeline</button>
     </span>
     <button type="button" data-zoom="in" title="Zoom in">+</button>
     <button type="button" data-zoom="out" title="Zoom out">&minus;</button>
@@ -27,7 +27,7 @@
     var n = Math.min(Math.max(s * f, fit), 6);
     x = cx - (cx - x) * n / s; y = cy - (cy - y) * n / s; s = n; apply();
   }
-  var urls = { dots: '{{ get_url(path="dots.svg") }}', history: '{{ get_url(path="history.svg") }}' };
+  var urls = { dots: '{{ get_url(path="dots.svg") }}', names: '{{ get_url(path="names.svg") }}', history: '{{ get_url(path="history.svg") }}' };
   function load(view) {
     document.querySelectorAll('[data-view]').forEach(function (b) { b.setAttribute('aria-pressed', b.dataset.view === view); });
     document.getElementById('dl').href = document.getElementById('full').href = urls[view];
